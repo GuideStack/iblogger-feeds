@@ -11,8 +11,9 @@
 ## 📌 មាតិកា (Table of Contents)
 - [១. បញ្ហាស្នូល (The Core Problem)](#១-បញ្ហាស្នូល-the-core-problem)
 - [២. ការទាញហេតុផលពីគោលការណ៍គ្រឹះ (First Principles Derivation)](#២-ការទាញហេតុផលពីគោលការណ៍គ្រឹះ-first-principles-derivation)
-- [៣. ដ្យាក្រាមលំហូរ (Visual Derivation)](#៣-ដ្យាក្រាមលំហូរ-visual-derivation)
-- [៤. Related Posts](#៤-related-posts)
+- [៣. ស្ថាបត្យកម្មកូដគំរូ (Code Architecture)](#៣-ស្ថាបត្យកម្មកូដគំរូ-code-architecture)
+- [៤. ដ្យាក្រាមលំហូរ (Visual Derivation)](#៤-ដ្យាក្រាមលំហូរ-visual-derivation)
+- [៥. Related Posts](#៥-related-posts)
 
 ---
 
@@ -47,7 +48,55 @@ Let's find the fix by asking what the calling code *actually* needs — and what
 
 ---
 
-## ៣. ដ្យាក្រាមលំហូរ (Visual Derivation)
+## ៣. ស្ថាបត្យកម្មកូដគំរូ (Code Architecture)
+
+The caller speaks only to the `Notifier` interface and to an abstract `Dispatcher` whose `createNotifier()` is the Factory Method. Each subclass chooses its own concrete product; adding a new channel means adding a new subclass — never editing the caller.
+
+កូនកូដនិយាយតែជាមួយ interface `Notifier` និង `Dispatcher` អរូបី ដែលមាន Factory Method គឺ `createNotifier()`។ Subclass នីមួយៗ ជ្រើសរើសផលិតផលជាក់លាក់របស់ខ្លួន; ការបន្ថែម channel ថ្មី គឺគ្រាន់តែបន្ថែម subclass ថ្មី — មិនចាំបាច់កែកូនកូដឡើយ។
+
+```java
+// 1. The abstract product the caller depends on
+public interface Notifier {
+    void send(String message);
+}
+
+// 2. The creator declares the Factory Method
+public abstract class Dispatcher {
+
+    // The caller uses this — it never names a concrete class
+    public void notifyUser(String message) {
+        Notifier notifier = createNotifier();   // factory method
+        notifier.send(message);
+    }
+
+    // Subclasses decide WHICH concrete product to build
+    protected abstract Notifier createNotifier();
+}
+
+// 3. Each subclass picks its own product — caller stays untouched
+public class EmailDispatcher extends Dispatcher {
+    @Override
+    protected Notifier createNotifier() {
+        return new EmailNotifier();
+    }
+}
+
+public class SmsDispatcher extends Dispatcher {
+    @Override
+    protected Notifier createNotifier() {
+        return new SmsNotifier();
+    }
+}
+
+// Adding push notifications later = ONE new subclass, zero edits to the caller:
+// public class PushDispatcher extends Dispatcher {
+//     protected Notifier createNotifier() { return new PushNotifier(); }
+// }
+```
+
+---
+
+## ៤. ដ្យាក្រាមលំហូរ (Visual Derivation)
 
 ```mermaid
 flowchart TD
@@ -63,7 +112,7 @@ flowchart TD
 
 ---
 
-## ៤. Related Posts
+## ៥. Related Posts
 
 ### 🔗 Explore All Viewpoints:
 * 📖 **Read the Parable:** [The CEO and the Regional Managers (នាយកប្រតិបត្តិ និងអ្នកគ្រប់គ្រងតំបន់)](../../parables/77-the-ceo-and-regional-managers.md) — The emotional core of delegating local decisions.

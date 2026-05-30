@@ -11,8 +11,9 @@
 ## 📌 មាតិកា (Table of Contents)
 - [១. បញ្ហាស្នូល (The Core Problem)](#១-បញ្ហាស្នូល-the-core-problem)
 - [២. ការទាញហេតុផលពីគោលការណ៍គ្រឹះ (First Principles Derivation)](#២-ការទាញហេតុផលពីគោលការណ៍គ្រឹះ-first-principles-derivation)
-- [៣. ដ្យាក្រាមលំហូរ (Visual Derivation)](#៣-ដ្យាក្រាមលំហូរ-visual-derivation)
-- [៤. Related Posts](#៤-related-posts)
+- [៣. ស្ថាបត្យកម្មកូដគំរូ (Code Architecture)](#៣-ស្ថាបត្យកម្មកូដគំរូ-code-architecture)
+- [៤. ដ្យាក្រាមលំហូរ (Visual Derivation)](#៤-ដ្យាក្រាមលំហូរ-visual-derivation)
+- [៥. Related Posts](#៥-related-posts)
 
 ---
 
@@ -47,7 +48,53 @@ We already know how to make *one* creation decision safe. The trick now is to ma
 
 ---
 
-## ៣. ដ្យាក្រាមលំហូរ (Visual Derivation)
+## ៣. ស្ថាបត្យកម្មកូដគំរូ (Code Architecture)
+
+One interface produces the whole family; each concrete factory can only ever return matching parts. The client picks the family once at startup, then holds an `AbstractFactory` and can no longer mix worlds — a mismatch becomes impossible to express.
+
+Interface មួយ បង្កើតក្រុមទាំងមូល; concrete factory នីមួយៗ អាចប្រគល់តែសមាសធាតុដែលត្រូវគ្នាប៉ុណ្ណោះ។ Client ជ្រើសរើសក្រុមតែម្តងនៅពេលចាប់ផ្តើម រួចកាន់ `AbstractFactory` ហើយលែងអាចលាយឡំពិភពពីរបាន — ការមិនត្រូវគ្នាក្លាយជារឿងដែលមិនអាចបង្ហាញចេញបាន។
+
+```java
+// 1. Members of the family
+public interface Button   { void render(); }
+public interface Checkbox { void render(); }
+
+// 2. One factory that can build EVERY member of a family
+public interface GUIFactory {
+    Button createButton();
+    Checkbox createCheckbox();
+}
+
+// 3. Each concrete factory produces only matching parts
+public class WindowsFactory implements GUIFactory {
+    public Button   createButton()   { return new WindowsButton(); }
+    public Checkbox createCheckbox() { return new WindowsCheckbox(); }
+}
+
+public class MacFactory implements GUIFactory {
+    public Button   createButton()   { return new MacButton(); }
+    public Checkbox createCheckbox() { return new MacCheckbox(); }
+}
+
+// 4. Decide the family ONCE at the edge; the client never mixes worlds
+public class Application {
+    private final Button button;
+    private final Checkbox checkbox;
+
+    public Application(GUIFactory factory) {   // hand it the right factory at startup
+        this.button   = factory.createButton();
+        this.checkbox = factory.createCheckbox();
+    }
+}
+
+// At startup:
+// GUIFactory factory = isWindows() ? new WindowsFactory() : new MacFactory();
+// Application app = new Application(factory);
+```
+
+---
+
+## ៤. ដ្យាក្រាមលំហូរ (Visual Derivation)
 
 ```mermaid
 flowchart TD
@@ -63,7 +110,7 @@ flowchart TD
 
 ---
 
-## ៤. Related Posts
+## ៥. Related Posts
 
 * 📖 **Read the Parable:** [The Mismatched Furniture Store (ហាងលក់គ្រឿងសង្ហារឹមចម្រុះ)](../../parables/78-the-mismatched-furniture-store.md)
 * 🛠️ **Read the Code Implementation:** [Creational Patterns: The Art of Instantiation](../../../clean-code/design-patterns/01-creational-patterns.md#the-abstract-factory)

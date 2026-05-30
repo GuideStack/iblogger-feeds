@@ -11,8 +11,9 @@
 ## 📌 មាតិកា (Table of Contents)
 - [១. បញ្ហាស្នូល (The Core Problem)](#១-បញ្ហាស្នូល-the-core-problem)
 - [២. ការទាញហេតុផលពីគោលការណ៍គ្រឹះ (First Principles Derivation)](#២-ការទាញហេតុផលពីគោលការណ៍គ្រឹះ-first-principles-derivation)
-- [៣. ដ្យាក្រាមលំហូរ (Visual Derivation)](#៣-ដ្យាក្រាមលំហូរ-visual-derivation)
-- [៤. Related Posts](#៤-related-posts)
+- [៣. ស្ថាបត្យកម្មកូដគំរូ (Code Architecture)](#៣-ស្ថាបត្យកម្មកូដគំរូ-code-architecture)
+- [៤. ដ្យាក្រាមលំហូរ (Visual Derivation)](#៤-ដ្យាក្រាមលំហូរ-visual-derivation)
+- [៥. Related Posts](#៥-related-posts)
 
 ---
 
@@ -42,7 +43,55 @@
 
 ---
 
-## ៣. ដ្យាក្រាមលំហូរ (Visual Derivation)
+## ៣. ស្ថាបត្យកម្មកូដគំរូ (Code Architecture)
+
+ខាងក្រោមនេះ គឺជាការទាញហេតុផលរបស់យើង បកប្រែទៅជា Java៖ ចាក់សោ Constructor រួចបើកច្រក `getInstance()` តែមួយ ដែលមានសុវត្ថិភាពចំពោះ thread។ យើងប្រើ **double-checked locking** ជាមួយ `volatile` ដើម្បីឱ្យ thread ច្រើនមិនបង្កើត instance ច្រើនក្នុងពេលតែមួយ៖
+
+```java
+public final class ConnectionPool {
+
+    // volatile ធានាថា thread ទាំងអស់ឃើញ instance ដូចគ្នា (មិនមាន cache ខូស)
+    private static volatile ConnectionPool instance;
+
+    // ចាក់សោទ្វារ៖ គ្មាននរណាអាចហៅ new ConnectionPool() ពីខាងក្រៅបានឡើយ
+    private ConnectionPool() {
+        if (instance != null) {
+            throw new IllegalStateException("ប្រើ getInstance() ជំនួសវិញ");
+        }
+        // ... initialize the pool ...
+    }
+
+    // ច្រកទ្វារតែមួយគត់ ដែលគ្រប់គ្រងបាន
+    public static ConnectionPool getInstance() {
+        if (instance == null) {                 // ការត្រួតពិនិត្យលើកទី ១ (មិនចាក់សោ — លឿន)
+            synchronized (ConnectionPool.class) {
+                if (instance == null) {         // ការត្រួតពិនិត្យលើកទី ២ (ចាក់សោ — សុវត្ថិភាព)
+                    instance = new ConnectionPool();
+                }
+            }
+        }
+        return instance;
+    }
+}
+```
+
+**កំណត់សម្គាល់ — វិធីសាមញ្ញ និងល្អបំផុតក្នុង Java៖** តាមការណែនាំក្នុងសៀវភៅ *Effective Java* វិធីដ៏រឹងមាំបំផុតគឺប្រើ `enum` ដែលមានធាតុតែមួយ។ JVM ធានាសុវត្ថិភាព thread ការបង្កើតតែម្តង និងការការពារ reflection/serialization ដោយស្វ័យប្រវត្តិ៖
+
+```java
+public enum ConnectionPool {
+    INSTANCE;
+
+    public void query(String sql) {
+        // ... ប្រើ ConnectionPool.INSTANCE.query(...) ...
+    }
+}
+```
+
+`enum` ខ្លីជាង សុវត្ថិភាពជាង ហើយលុបបំបាត់រាល់ការលំបាកនៃ double-checked locking។ ប្រើ DCL តែនៅពេលដែលអ្នកត្រូវការការ initialize ដ៏ស្មុគស្មាញ ដែល enum មិនអាចបង្ហាញបានស្រួល។
+
+---
+
+## ៤. ដ្យាក្រាមលំហូរ (Visual Derivation)
 
 ```mermaid
 flowchart TD
@@ -58,7 +107,7 @@ flowchart TD
 
 ---
 
-## ៤. Related Posts
+## ៥. Related Posts
 
 ### 🔗 Explore All Viewpoints:
 * 📖 **Read the Parable:** [The Bank's Only Vault (ទូដែកតែមួយគត់របស់ធនាគារ)](../../parables/75-the-banks-only-vault.md) — Explains the emotional core of shared truth.
