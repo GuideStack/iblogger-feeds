@@ -184,7 +184,7 @@ Side statuses (off the forward flow):
 
 **Gate 5 — Ready For Test → Done or Fails (QA).** QA executes the test cases against the deployed build and verifies the acceptance criteria. If everything passes with no open Sev-1/Sev-2 defects, the ticket goes to Done. If anything fails, QA reports the failure by setting the ticket to Fails — QA reports, it does not decide what happens next.
 
-**Deploy — Done → Deployed (PM).** The PM confirms a release window, a rollback plan, and stakeholder notification, then releases the increment to production and runs a post-deploy smoke check.
+**Deploy — Done → Deployed (PM).** Once a ticket is Done, it is eligible to be bundled into a release and promoted to production. That release process — Staging → UAT → Production, with PO + PM dual sign-off and the rollback rule — is governed by the separate Deployment Sign-Off Procedure (`signoff-deployment-procedure.md`).
 
 ---
 
