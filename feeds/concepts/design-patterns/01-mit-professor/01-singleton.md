@@ -28,24 +28,17 @@
 
 ## ២. ការទាញហេតុផលពីគោលការណ៍គ្រឹះ (First Principles Derivation)
 
-### English
+យើងកុំទន្ទេញដំណោះស្រាយឡើយ។ ចូរយើង *ទាញវាចេញ* ដោយចាប់ផ្តើមពីរបៀបដែលម៉ាស៊ីនពិតជាដំណើរការ ហើយមើលថា តើ pattern នេះត្រូវបានបង្ខំឱ្យកើតឡើងលើយើងឬអត់។
 
-Let's not memorize a solution. Let's *derive* it, starting from how the machine actually behaves, and see if the pattern is forced on us.
+**ចាប់ផ្តើមពីការពិតមួយអំពីម៉ាស៊ីន។** រាល់ពេលដែលអ្នកសរសេរ `new` កុំព្យូទ័រកាត់យកប្លុកមេម៉ូរីថ្មីមួយ ដែលដាច់ដោយឡែកពីគ្នាទាំងស្រុង។ នេះមិនមែនជាជម្រើសរចនាបថឡើយ — វាជា *អត្ថន័យ* របស់ពាក្យ `new`។ ដូច្នេះ ប្រសិនបើតម្រូវការរបស់យើងគឺ «ត្រូវមានវត្ថុនេះ តែមួយគត់» នោះរាល់ការប្រើ `new` ដោយរសាត់ គឺជាការគំរាមកំហែងផ្ទាល់ដល់តម្រូវការនោះ។ គ្រោះថ្នាក់នេះមិនមែនជារឿងស្មាននោះទេ — វាបានកប់ខ្លួននៅក្នុងពាក្យគន្លឹះនេះតែម្តង។
 
-**Start with one fact about the machine.** Every time you write `new`, the computer carves out a fresh, separate block of memory. That is not a style choice — it is what `new` *means*. So if our requirement is "exactly one of these must ever exist," then every stray `new` is a direct threat to that requirement. The danger isn't hypothetical; it's built into the keyword.
+**ឥឡូវនេះ សូមសួរសំណួរដែលធ្វើឱ្យយើងមិនស្រួលក្នុងចិត្ត។** តើមានអ្វីបច្ចុប្បន្ននេះ ដែលរារាំង developer ណាម្នាក់ នៅកន្លែងណាមួយក្នុង codebase មិនឱ្យវាយ `new ConnectionPool()` ជាលើកទីពីរ? និយាយឱ្យត្រង់ទៅ — ចម្លើយគឺ *គ្មានអ្វីទាល់តែសោះ*។ Constructor គឺ public ដូច្នេះទ្វារនៅបើកចំហ។ ដរាបណាទ្វារនោះនៅបើកចំហ គ្មានវិន័យ ឬឯកសារណាមួយអាចសង្គ្រោះយើងបានឡើយ — នឹងមាននរណាម្នាក់ នៅថ្ងៃណាមួយ ដើរចូលតាមទ្វារនោះជាមិនខាន។
 
-**Now ask the uncomfortable question.** What is currently stopping any developer, anywhere in the codebase, from typing `new ConnectionPool()` a second time? Be honest — the answer is *nothing*. The constructor is public, so the door is wide open. As long as that door stays open, no amount of discipline or documentation will save us; someone, someday, will walk through it.
+**ដូច្នេះ តម្រូវការនេះក៏សរសេរខ្លួនវាឡើងវិញដោយស្ងាត់ៗ។** «ធានាឱ្យមាន instance តែមួយ» តាមពិតមានន័យថា «ដកចេញពីអ្នកដទៃទាំងអស់នូវ *អំណាច* ក្នុងការបង្កើត instance»។ យើងមិនសុំឱ្យគេកុំហៅ `new` ឡើយ — យើងធ្វើឱ្យវាមិនអាចទៅរួច។ យើងចាក់សោ Constructor៖ ប្តូរវាទៅជា `private`។
 
-**So the requirement quietly rewrites itself.** "Guarantee one instance" really means "remove from everyone else the *power* to create instances." We don't ask people not to call `new` — we make it impossible. We lock the constructor: make it `private`.
+**ប៉ុន្តែឥឡូវនេះ យើងបានបង្កើតបញ្ហាថ្មីមួយ មែនទេ?** បើទ្វារត្រូវបានចាក់សោ តើនរណាអាចទាញយក Object នោះមកប្រើបាន? យើងបានការពារធនធាននេះយ៉ាងជិតស្និទ្ធ រហូតដល់គ្មាននរណាម្នាក់អាចចូលដល់វាបាន។ ដំណោះស្រាយនេះហើយ ជាគន្លឹះទាំងស្រុង៖ ប្រសិនបើ Class នោះ ជាអ្នកតែមួយគត់ដែលត្រូវបានអនុញ្ញាតឱ្យបង្កើតខ្លួនឯង នោះ *Class នោះផ្ទាល់* ត្រូវតែជាអ្នកប្រគល់ instance ចេញ។ យើងបន្ថែមច្រកទ្វារដែលគ្រប់គ្រងបានមួយ — គឺមុខងារ `public static` ឈ្មោះ `getInstance()` — ដែលធ្វើការងារកត់ត្រា ដែលគ្មាននរណាផ្សេងអាចទុកចិត្តបាន៖ ពេលហៅលើកដំបូង វាបង្កើត instance តែមួយនោះ; រាល់ពេលក្រោយៗមក វាប្រគល់ instance ដដែលនោះត្រឡប់ទៅវិញ។
 
-**But now we've created a new problem, haven't we?** If the door is locked, how does anyone get the object at all? We've protected the resource so well that nobody can reach it. The resolution is the whole insight: if the class is the only one allowed to construct itself, then *the class itself* must hand out the instance. We add one controlled doorway — a `public static` method, `getInstance()` — that does the bookkeeping nobody else can be trusted with: the first time it's called, it creates the single instance; every time after, it returns that very same one.
-
-And that is the pattern, derived rather than memorized: lock creation, then expose one gate that guarantees sameness. Notice we never *chose* Singleton — the machine's behavior plus our requirement left us no other door.
-
-### Khmer
-* **គោលការណ៍គ្រឹះ ១៖** គិតអំពីដំណើរការរបស់កុំព្យូទ័រជាទូទៅ។ រាល់ពេលដែលអ្នកប្រើប្រាស់ពាក្យគន្លឹះ `new` កុំព្យូទ័រនឹងកាត់យកទំហំមេម៉ូរីថ្មីមួយ ដែលដាច់ដោយឡែកពីគ្នាទាំងស្រុង។
-* **គោលការណ៍គ្រឹះ ២៖** ប្រសិនបើគោលដៅរបស់យើងគឺធានាឱ្យបាននូវការពិត "តែមួយគត់" នៅក្នុងប្រព័ន្ធទាំងមូល យើងចាំបាច់ត្រូវដកសិទ្ធិអ្នកដទៃក្នុងការបង្កើត Object ថ្មី។ យើងត្រូវតែលាក់និងការពារយន្តការនៃការបង្កើតនេះ។
-* **ការទាញហេតុផល៖** តើយើងត្រូវធ្វើដូចម្តេច? ជាដំបូង យើងត្រូវប្តូរ Constructor របស់ Class នោះឱ្យទៅជា `private` ដែលប្រៀបដូចជាការចាក់សោទ្វារខាងមុខមិនឱ្យអ្នកណាចូលតាមចិត្ត។ ប៉ុន្តែបើទ្វារត្រូវបានចាក់សោរ តើគេអាចទាញយក Object នោះមកប្រើដោយរបៀបណា? ដំណោះស្រាយគឺ យើងត្រូវបង្កើតច្រកទ្វារសុវត្ថិភាពមួយ — តាមរយៈមុខងារ `public static` (ដូចជា `getInstance()`)។ ច្រកទ្វារនេះនឹងរង់ចាំត្រួតពិនិត្យ៖ ប្រសិនបើ Object មិនទាន់មានទេ វានឹងបង្កើតវាយ៉ាងប្រុងប្រយ័ត្ន។ ប៉ុន្តែបើមានហើយ វានឹងប្រគល់ Object ដដែលនោះត្រឡប់ទៅវិញ ដែលជួយធានាថាគ្រប់គ្នាសុទ្ធតែបានប្រើប្រាស់ប្រភពនៃការពិតតែមួយដូចៗគ្នា។
+ហើយនេះហើយ គឺជា pattern ដែលត្រូវបាន *ទាញចេញ* មិនមែនទន្ទេញ៖ ចាក់សោការបង្កើត រួចបើកច្រកទ្វារតែមួយ ដែលធានាភាពដូចគ្នា។ សូមកត់សម្គាល់ថា យើងមិនដែល *ជ្រើសរើស* Singleton ឡើយ — អាកប្បកិរិយារបស់ម៉ាស៊ីន បូកនឹងតម្រូវការរបស់យើង បានទុកឱ្យយើងគ្មានទ្វារផ្សេងណាមួយឡើយ។
 
 ---
 
