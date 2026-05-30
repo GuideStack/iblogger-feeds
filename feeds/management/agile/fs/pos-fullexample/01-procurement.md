@@ -20,6 +20,16 @@ The Buyer sources products from Chinese marketplaces and places purchase orders 
 
 Buyer/Sourcer (primary), Owner (approves large POs), Inventory staff (receives against the PO).
 
+## User Stories
+
+- As a **Buyer**, I want to record a supplier with their platform link and lead time, so that I can reorder from them quickly and predict when goods arrive. *(→ PR-1)*
+- As a **Buyer**, I want to create a purchase order with CNY line costs, so that I capture exactly what we ordered and what it cost at source. *(→ PR-2, PR-4)*
+- As a **Buyer**, I want to move a PO through Ordered → Shipped → Received, so that everyone can see where our incoming goods are. *(→ PR-3)*
+- As an **Owner**, I want to approve POs above a value threshold before they're placed, so that large spend isn't committed without my sign-off. *(→ PR-5)*
+- As a **Inventory staff**, I want to receive against a PO and record actual quantities, so that shortages are caught instead of silently lost. *(→ PR-6, PR-7)*
+- As a **Buyer**, I want to see a supplier's history and discrepancy rate, so that I stop reordering from unreliable suppliers. *(→ PR-8)*
+
+---
 ## Functional Requirements
 
 - **PR-1:** The Buyer can create a **Supplier** record (name, platform, store link, contact, default lead time, notes).

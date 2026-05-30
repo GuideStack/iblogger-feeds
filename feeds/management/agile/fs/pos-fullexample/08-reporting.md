@@ -20,6 +20,15 @@ The whole point of tracking landed cost, channel, discounts, and returns is to a
 
 Owner (primary), Finance, PM.
 
+## User Stories
+
+- As an **Owner**, I want to see real profit/loss net of returns over a date range, so that I know if we actually made money, not just revenue. *(→ RP-1, RP-7)*
+- As an **Owner**, I want to see margin per product, so that I double down on winners and drop losers. *(→ RP-2)*
+- As an **Owner**, I want to compare TikTok vs Facebook performance, so that I put effort where it pays. *(→ RP-3)*
+- As an **Owner**, I want to see current stock value and COD float, so that I know how much capital is tied up and in the wild. *(→ RP-4, RP-5)*
+- As a **Finance**, I want to export reports to CSV, so that our accountant can work from clean data. *(→ RP-8)*
+
+---
 ## Functional Requirements
 
 - **RP-1:** A **Profit/Loss** view over a date range: gross revenue, total landed cost of goods sold, fees (shipping, courier, payment), returns/refunds, and **net profit**.

@@ -20,6 +20,16 @@ This is where sales happen. Orders arrive from **TikTok Shop** (more structured,
 
 Sales/Chat agent (primary), Fulfillment, Finance, Owner.
 
+## User Stories
+
+- As a **Sales agent**, I want to capture an order from a Facebook chat or comment, so that no sale is lost between the message and the system. *(→ OR-1, OR-3)*
+- As a **Sales agent**, I want to have TikTok orders import without re-typing, so that I save time and avoid transcription errors. *(→ OR-2)*
+- As a **Sales agent**, I want to see the customer's history when I open an order, so that I can personalize service and spot returning buyers. *(→ OR-1)*
+- As a **Sales agent**, I want to reserve stock the moment an order is confirmed, so that two customers can't be sold the same last unit. *(→ OR-5, OR-6)*
+- As a **Sales agent**, I want to apply a negotiated discount per line, so that I can close social deals while margin is still tracked. *(→ OR-7)*
+- As an **Owner**, I want to search and track every order by status and channel, so that nothing falls through the cracks. *(→ OR-8, OR-9)*
+
+---
 ## Functional Requirements
 
 - **OR-1:** An **Order** records: customer (name, phone, social handle, delivery address), channel (TikTok / Facebook / manual), line items (product variant + qty + agreed price), payment method, and notes.

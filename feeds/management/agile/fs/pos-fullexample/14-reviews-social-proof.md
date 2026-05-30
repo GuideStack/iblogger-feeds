@@ -20,6 +20,15 @@ On TikTok and Facebook, buyers trust other buyers more than the seller. Reviews,
 
 Marketing/Owner (use proof), Service/Sales (handle negatives), customers (leave reviews).
 
+## User Stories
+
+- As a **Marketing**, I want to request a review after delivery, so that we steadily gather fresh social proof. *(→ RV-1)*
+- As a **Customer**, I want to leave a rating, comment and photo, so that my feedback helps other buyers and the seller. *(→ RV-2)*
+- As a **Marketing**, I want to collect positive reviews into a shareable library, so that I can reuse real proof in posts and lives. *(→ RV-3, RV-5)*
+- As a **Service agent**, I want to be alerted to a negative review, so that I resolve it privately before it becomes a public complaint. *(→ RV-4)*
+- As an **Owner**, I want to see review rate and rating trend, so that I track trust as a measurable lever. *(→ RV-7)*
+
+---
 ## Functional Requirements
 
 - **RV-1:** After an order is **Delivered** ([Module 5](05-fulfillment.md)), the system can trigger a **review request** to the customer via their channel (with consent from [Module 12](12-customers-loyalty.md)).

@@ -20,6 +20,15 @@ Money arrives in different ways and at different times. **Prepaid** (card/wallet
 
 Finance (primary), Sales (records intended method), Owner (reads cash position).
 
+## User Stories
+
+- As a **Finance**, I want to record one or more payments per order, so that split payments (deposit + COD) reconcile to a single sale. *(→ PM-1, PM-2)*
+- As a **Finance**, I want to confirm a bank/ABA transfer against proof, so that an order isn't fulfilled on an unconfirmed payment. *(→ PM-4)*
+- As a **Finance**, I want to reconcile a courier's COD remittance against shipped orders, so that I know exactly which orders' cash arrived. *(→ PM-5, PM-6)*
+- As an **Owner**, I want to see total COD float per courier, so that I can chase cash that's overdue. *(→ PM-6)*
+- As an **Owner**, I want to have payment status derived from confirmed payments, so that the order never lies about whether it's paid. *(→ PM-8, PM-9)*
+
+---
 ## Functional Requirements
 
 - **PM-1:** Each order has one or more **payments**, each with method (**COD / Bank-ABA / Wallet / Prepaid link**), amount, and status (**Pending / Confirmed / Failed**).

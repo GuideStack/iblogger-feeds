@@ -20,6 +20,14 @@ A resell business runs on trust but survives on accountability. Staff should see
 
 Owner/Admin (manages users), all roles (subject to permissions).
 
+## User Stories
+
+- As an **Owner**, I want to assign roles that gate sensitive actions, so that staff can only do what their job needs. *(→ UR-1, UR-2)*
+- As an **Owner**, I want to keep cost and margin hidden from sales staff, so that our buying economics stay confidential. *(→ UR-6)*
+- As an **Owner**, I want to review an append-only audit log of money/stock changes, so that every change is traceable to a person and time. *(→ UR-3, UR-4, UR-7)*
+- As an **Owner**, I want to deactivate a staff member who leaves, so that they lose access but their history stays intact. *(→ UR-5)*
+
+---
 ## Functional Requirements
 
 - **UR-1:** Users have one or more **roles** (Owner/Admin, Buyer, Inventory, Sales, Fulfillment, Finance) — roles are permission sets, and one person may hold several.

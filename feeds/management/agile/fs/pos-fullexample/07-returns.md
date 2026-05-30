@@ -20,6 +20,15 @@ Customers cancel, items arrive damaged, COD parcels get rejected at the door. Ea
 
 Sales/Finance (process returns), Inventory (restock), Owner (approves exceptions).
 
+## User Stories
+
+- As a **Sales agent**, I want to cancel an order before it ships, so that reserved stock is released and pending payment voided. *(→ RT-1)*
+- As a **Inventory staff**, I want to restock a good return at its original cost, so that stock value stays accurate after a return. *(→ RT-3)*
+- As a **Finance**, I want to process a refund that reverses the matching payment, so that money out is tied to the original money in. *(→ RT-4)*
+- As a **Finance**, I want to close a COD parcel rejected at the door with no refund, so that stock is released and the courier fee is booked correctly. *(→ RT-5)*
+- As a **Sales agent**, I want to return just one line of a multi-item order, so that the customer keeps what they want and is refunded only for the rest. *(→ RT-7)*
+
+---
 ## Functional Requirements
 
 - **RT-1:** A **Cancellation** before shipping releases any **reserved stock** back to inventory and voids/locks any pending payment.

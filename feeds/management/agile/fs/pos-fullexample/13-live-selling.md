@@ -20,6 +20,15 @@ Live selling (TikTok Live, Facebook Live) drives a huge share of social-commerce
 
 Sales/Host (during live), Fulfillment (after), Marketing.
 
+## User Stories
+
+- As a **Host**, I want to set up a live with item codes and allocated stock, so that viewers can claim by code and I won't oversell. *(→ LV-1, LV-3)*
+- As a **Sales agent**, I want to capture a claim in one fast action, so that I keep up with a flood of comments without losing sales. *(→ LV-2)*
+- As a **Host**, I want to have the last unit go to the first claimer, so that races are resolved fairly, not silently dropped. *(→ LV-4)*
+- As a **Sales agent**, I want to turn live claims into orders + a payment list at the end, so that follow-up is organized, not chaos. *(→ LV-5)*
+- As an **Owner**, I want to auto-release unpaid claims after a window, so that non-payers don't tie up my stock. *(→ LV-7)*
+
+---
 ## Functional Requirements
 
 - **LV-1:** A **live session** is set up before going live: featured products with **item codes** (e.g. "A1", "A2") and the stock allocated to the live.

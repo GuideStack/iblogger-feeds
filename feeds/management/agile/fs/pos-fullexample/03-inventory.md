@@ -20,6 +20,15 @@ Every product has a catalog record with its selling info and a **fulfillment typ
 
 Owner (pricing, product setup), Inventory staff (stock counts), Sales (reads availability).
 
+## User Stories
+
+- As an **Owner**, I want to set a product as Stocked or Dropship, so that the right fulfillment path is automatic, not remembered by staff. *(→ IN-1, IN-3)*
+- As a **Inventory staff**, I want to see live available quantity per variant, so that I know what we can actually sell right now. *(→ IN-2, IN-3)*
+- As a **Inventory staff**, I want to post a stock adjustment with a reason, so that damage and loss are accounted for, never silent. *(→ IN-5)*
+- As a **Buyer**, I want to be warned when a product is low on stock, so that I reorder before we run out and miss sales. *(→ IN-6)*
+- As an **Owner**, I want to have each unit carry its landed cost, so that stock value and margin are always real. *(→ IN-7)*
+
+---
 ## Functional Requirements
 
 - **IN-1:** A **Product** has: name, SKU, photos, variants (size/color), selling price, fulfillment type (**Stocked** / **Dropship**), and links to supplier(s).

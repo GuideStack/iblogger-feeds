@@ -20,6 +20,15 @@ A product's real cost is not the supplier price. It's the supplier price **plus*
 
 Buyer (enters shipment costs), Finance (verifies fees & FX), Owner (sets FX policy, reads margin).
 
+## User Stories
+
+- As an **Owner**, I want to set an FX rate per shipment that won't change later, so that historical costs stay accurate when the rate moves. *(→ LC-1)*
+- As a **Buyer**, I want to record freight, duty and handling for a shipment, so that the real import cost is captured, not just the supplier price. *(→ LC-2)*
+- As an **Owner**, I want to have shipment costs allocated across units automatically, so that I get a true per-unit landed cost without hand math. *(→ LC-3, LC-4)*
+- As a **Finance**, I want to post a late cost adjustment when a customs invoice arrives, so that valuation corrects itself and the change is logged. *(→ LC-6)*
+- As an **Owner**, I want to see the full cost breakdown for any unit, so that I can trust the margin numbers I make decisions on. *(→ LC-5, LC-7)*
+
+---
 ## Functional Requirements
 
 - **LC-1:** The system stores a configurable **FX rate** (CNY → base currency), with the rate and effective date recorded on each shipment so historical costs don't change when the rate moves.

@@ -20,6 +20,15 @@ Once an order is confirmed, it must be fulfilled. **Stocked** orders are packed 
 
 Fulfillment/Dispatch (primary), Buyer (for dropship purchasing), Inventory staff.
 
+## User Stories
+
+- As a **Fulfillment staff**, I want to pick, pack and mark a stocked order ready, so that it enters the dispatch queue cleanly. *(→ FF-1)*
+- As a **Buyer**, I want to have a dropship order raise a linked PO automatically, so that I buy from the supplier only after the sale, with no stock risk. *(→ FF-2)*
+- As a **Fulfillment staff**, I want to ship a mixed order partially, so that the customer gets in-stock items now instead of waiting for everything. *(→ FF-3)*
+- As a **Fulfillment staff**, I want to record courier and tracking number, so that the customer and team can follow the parcel. *(→ FF-4, FF-5)*
+- As a **Finance**, I want to see COD owed-back the moment an order ships, so that I know how much cash the courier is carrying for us. *(→ FF-6)*
+
+---
 ## Functional Requirements
 
 - **FF-1:** For a **stocked** order, Fulfillment can **pick & pack**, marking the order **Ready to Ship**; stock was already reserved at confirm time.

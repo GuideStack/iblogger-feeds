@@ -20,6 +20,15 @@ Acquiring a new customer costs ad money; selling again to an existing one is nea
 
 Owner/Marketing (retention strategy), Sales (sees customer history at order time).
 
+## User Stories
+
+- As a **Sales agent**, I want to see a customer's full history across channels, so that I treat returning buyers well and personalize service. *(→ CU-1, CU-2)*
+- As an **Owner**, I want to award and redeem loyalty points, so that customers have a reason to buy again. *(→ CU-3)*
+- As a **Finance**, I want to hold store credit on a customer, so that refunds can become future sales instead of cash out. *(→ CU-4)*
+- As a **Marketing**, I want to build a segment of lapsed customers, so that I can re-engage them with a targeted offer. *(→ CU-5, CU-6)*
+- As an **Owner**, I want to see what share of revenue is repeat business, so that I know if we're building a base or churning. *(→ CU-7)*
+
+---
 ## Functional Requirements
 
 - **CU-1:** A **customer** record consolidates orders across channels by phone/social handle: total orders, total spend, last order date, preferred products.

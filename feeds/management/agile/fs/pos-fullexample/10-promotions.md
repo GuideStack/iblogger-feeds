@@ -20,6 +20,15 @@ Social commerce runs on offers: flash sales, bundle deals, free shipping over a 
 
 Owner (sets promos & margin floor), Sales (applies promos at order), Marketing.
 
+## User Stories
+
+- As an **Owner**, I want to create a voucher or auto-applied promotion with limits, so that I can run offers that drive sales without runaway use. *(→ PRO-1, PRO-2, PRO-3)*
+- As an **Owner**, I want to be blocked from a promo that sells below cost, so that discounts never quietly lose money. *(→ PRO-4)*
+- As an **Owner**, I want to bundle products at a combined price, so that I lift average order value while keeping per-line margin correct. *(→ PRO-6)*
+- As an **Owner**, I want to schedule a promotion for a planned live, so that it activates and expires on its own. *(→ PRO-8)*
+- As an **Owner**, I want to see each promotion's revenue and margin impact, so that I keep the offers that paid off and kill the ones that didn't. *(→ PRO-5, PRO-7)*
+
+---
 ## Functional Requirements
 
 - **PRO-1:** The Owner can create a **promotion**: type (percent off, fixed amount off, bundle price, free shipping, buy-X-get-Y), scope (product / category / whole order), and validity window.

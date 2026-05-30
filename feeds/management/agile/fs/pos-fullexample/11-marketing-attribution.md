@@ -20,6 +20,15 @@ The fastest way to grow revenue is to **stop wasting ad spend and double down on
 
 Marketing/Owner (primary), Finance (spend data), Sales (capture source).
 
+## User Stories
+
+- As a **Marketing**, I want to record a campaign with its ad spend, so that every marketing effort has its cost captured. *(→ MK-1, MK-5)*
+- As a **Sales agent**, I want to tag an order with its source, so that we know which ad/post/live produced the sale. *(→ MK-2)*
+- As an **Owner**, I want to see ROAS and cost-per-order per campaign, so that I move spend toward what actually makes money. *(→ MK-3, MK-6)*
+- As a **Marketing**, I want to attribute orders from a live session, so that I can measure a live's viewer-to-order conversion. *(→ MK-4)*
+- As an **Owner**, I want to see unattributed orders honestly bucketed, so that my marketing numbers aren't fiction. *(→ MK-7)*
+
+---
 ## Functional Requirements
 
 - **MK-1:** A **campaign** record holds: channel (TikTok ad / Facebook ad / boosted post / live session / organic), name, dates, and **spend**.

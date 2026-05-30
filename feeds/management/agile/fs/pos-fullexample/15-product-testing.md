@@ -22,6 +22,15 @@ This is "test before you invest." It turns procurement from a gamble into a data
 
 Owner/Marketing (run tests, read results), Buyer (acts on the decision), Sales.
 
+## User Stories
+
+- As an **Owner**, I want to set up a demand test on social before buying, so that I validate interest instead of gambling on stock. *(→ PT-1, PT-2)*
+- As a **Sales agent**, I want to sell a tested product as pre-order only, so that we take orders with zero inventory risk during the test. *(→ PT-4)*
+- As an **Owner**, I want to get a Stock/Dropship/Drop recommendation from the result, so that the buy decision is data-backed, not a hunch. *(→ PT-3, PT-5)*
+- As a **Buyer**, I want to receive a suggested first PO quantity on a Stock result, so that I order the right amount, not too much. *(→ PT-6)*
+- As an **Owner**, I want to keep a record of every test, so that future buying decisions learn from past ones. *(→ PT-7, PT-8)*
+
+---
 ## Functional Requirements
 
 - **PT-1:** A **test** is created for a candidate product (not yet stocked): hypothesis, channel(s), test type (organic post / small paid ad / live feature), budget cap, and the **test window** (e.g. 3 days).
