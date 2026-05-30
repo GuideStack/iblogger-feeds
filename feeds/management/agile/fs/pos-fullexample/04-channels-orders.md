@@ -1,6 +1,8 @@
 # FS Module 4: Sales Channels & Orders
 
 > Part of the [Cross-Border Social Resell POS](00-overview.md). Capturing orders from TikTok Shop & Facebook, and the order lifecycle.
+>
+> 📐 **Build-ready detail:** see [04a — Detailed Spec](04a-channels-orders-detailed.md) for full use cases, a screen mock-up, and field-level specifications (the depth a module reaches when it enters a build sprint).
 
 
 ## Document Control
