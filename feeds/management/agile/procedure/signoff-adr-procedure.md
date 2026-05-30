@@ -64,13 +64,15 @@ If unsure, ask the Tech Lead. It is better to have a short ADR than an undocumen
 
 ## 2. The Approval Chain
 
-An ADR is approved through three steps. Each step is a sign-off.
+ADRs are authored in **IcePanel**. An ADR is approved through three steps; each step is a sign-off, and the CTO's sign-off is cast as a **vote inside IcePanel**.
 
-1. **Dev — proposes.** A developer writes the ADR (Status: Proposed) capturing the context, the decision, the alternatives considered, and the consequences. The Dev owns the ADR while it is Proposed.
-2. **Tech Lead — reviews and recommends.** The Tech Lead checks the decision is sound, the alternatives are fair, and the consequences are honest. They may request changes (the ADR stays Proposed) or recommend it for acceptance.
-3. **CTO — accepts.** The CTO gives the final sign-off, moving the ADR to Accepted. Only the CTO can mark an ADR Accepted.
+1. **Dev — proposes.** A developer writes the ADR in IcePanel (Status: Proposed) capturing the context, the decision, the alternatives considered, and the consequences. The Dev owns the ADR while it is Proposed.
+2. **Tech Lead — reviews and recommends.** The Tech Lead checks the decision is sound, the alternatives are fair, and the consequences are honest. They may request changes (the ADR stays Proposed) or recommend it for acceptance, then email the CTO to request the vote (see the email templates below).
+3. **CTO — accepts (votes in IcePanel).** The CTO reviews the ADR and casts their vote in IcePanel. Only the CTO can move an ADR to Accepted.
 
 A decision is not "real" until the CTO accepts it. Work may begin on a Proposed ADR at the team's risk, but the record is not authoritative until accepted.
+
+The notification at each handoff uses the standard [ADR email templates](adr/email-templates.md): the Tech Lead recommendation, the request for the CTO's vote, an optional reminder, and the decision-outcome announcement.
 
 ---
 
@@ -157,10 +159,11 @@ The CTO is the single accountable approver for acceptance; the Tech Lead is acco
 
 ## 6. Where ADRs Are Stored
 
-- ADRs live in the `adr/` folder next to this procedure.
+- ADRs are authored and voted on in **IcePanel**, which is the source of truth for the decision and its status.
+- A copy of each ADR is kept in the `adr/` folder next to this procedure, so the decision is versioned alongside the code base.
 - File naming: `adr-NNNN-short-title.md` (e.g. `adr-0001-use-postgres.md`).
-- Use the [ADR template](adr/adr-template.md) for every new ADR.
-- An index (the first lines of the `adr/` README, or a table at the top of the folder) lists each ADR, its title, and its status, maintained by the Tech Lead.
+- Use the [ADR template](adr/adr-template.md) for every new ADR, and the [email templates](adr/email-templates.md) for the approval notifications.
+- An index lists each ADR, its title, status, and IcePanel link, maintained by the Tech Lead (see the `adr/` README).
 
 ---
 
