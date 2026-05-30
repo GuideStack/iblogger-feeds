@@ -22,7 +22,7 @@ This document defines how a Jira ticket moves from the PO's Functional Spec (FS)
 
 The procedure covers eight forward-flow statuses, five side statuses (Fails, Paused, On Hold, To Discuss, Redo), the Pending Fix status, and the FS document as the starting input — fifteen states in total. It defines the ownership of each, plus the rules for failures, holds, and rework. The signature block at the end records the team's agreement to follow it.
 
-**Where sign-offs are recorded.** Each gate sign-off is recorded in Jira: the owner makes the status transition and adds a brief comment confirming the gate was met (for example, "QA passed: 12/12 cases, no open bugs"). Teams that want a fuller per-ticket record can attach the companion Ticket Sign-Off Template, which provides a checklist and a name + date line for every gate.
+**Where sign-offs are recorded.** Each gate sign-off is recorded in Jira: the owner makes the status transition and adds a brief comment confirming the gate was met (for example, "QA passed: 12/12 cases, no open bugs"). The owner's name and the date come from the Jira transition history.
 
 ---
 
