@@ -1,4 +1,4 @@
-# MIT Professor: Builder (គោលការណ៍គ្រឹះដំបូងនៃ Builder)
+# MIT Professor: Builder (គោល​ការ​ណ៍គ្រឹះដំបូង​នៃ Builder)
 
 **Author:** ichamrong  
 **Date:** 2026-05-18  
@@ -9,43 +9,45 @@
 ---
 
 ## 📌 មាតិកា (Table of Contents)
-- [១. គោលការណ៍គ្រឹះដំបូង (Axiomatic Foundations)](#១-គោលការណ៍គ្រឹះដំបូង-axiomatic-foundations)
-- [២. ការទាញរកលក្ខណៈបច្ចេកទេស (The Derivation)](#២-ការទាញរកលក្ខណៈបច្ចេកទេស-the-derivation)
-- [៣. ស្ថាបត្យកម្មកូដគំរូ (Mathematical & Code Architecture)](#៣-ស្ថាបត្យកម្មកូដគំរូ-mathematical-code-architecture)
+- [១. គោល​ការ​ណ៍គ្រឹះដំបូង (Axiomatic Foundations)](#១-គោលការណ៍គ្រឹះដំបូង-axiomatic-foundations)
+- [២. ការ​ទាញរក​លក្ខណៈ​បច្ចេកទេស (The Derivation)](#២-ការទាញរកលក្ខណៈបច្ចេកទេស-the-derivation)
+- [៣. ស្ថាបត្យកម្​មក​ូដគំរូ (Mathematical & Code Architecture)](#៣-ស្ថាបត្យកម្មកូដគំរូ-mathematical-code-architecture)
 - [៤. ដ្យាក្រាមលំហូរ (Visual Flowchart)](#៤-ដ្យាក្រាមលំហូរ-visual-flowchart)
 - [៥. Related Posts](#៥-related-posts)
 
 ---
 
-## ១. គោលការណ៍គ្រឹះដំបូង (Axiomatic Foundations)
+## ១. គោល​ការ​ណ៍គ្រឹះដំបូង (Axiomatic Foundations)
 
-Before we look at any solution, let me put three facts on the table — not opinions, but things that are simply *true* about how code runs. Everything about the Builder pattern falls out of these. If you accept the three, you'll find you've already invented Builder by the end.
+មុន​នឹងយើងពិនិត្យមើល​ដំណោះស្រាយ​ណាមួយ ខ្ញុំសូមដាក់ចេញនូវ​ការ​ពិត​ទាំងបី​នេះ​ជា​មុន​សិន — វា​មិន​មែន​ជា​មតិយោបល់​នោះ​ទេ ប៉ុន្តែ​វា​ជា​រឿង​ដែល *ពិតប្រាកដ​ដាច់ខាត* អំ​ពី​របៀប​ដែល​កូដ​ដំណើរ​ការ​នៅក្នុង​កុំ​ព្យូទ័រ។ អ្វី ៗ គ្រប់​យ៉ាង​អំ​ពី Builder Pattern គឺ​កើតចេញ​ពី​ការ​ពិត​ទាំងបី​នេះ។ ប្រសិនបើ​អ្នក​យល់ព្រមទទួលយក​ការ​ពិត​ទាំងបី​នេះ អ្នក​នឹងឃើញថា​អ្នក​ខ្លួនឯងក៏អាច​បង្កើត Builder Pattern បាន​ដែរនៅទីបញ្ចប់។
 
-1. **Positional arguments are blind.** When you call `new Document("Report", "Sokha", true, false, 3, ...)`, the language matches those values to parameters purely by *position*. It has no idea what you *meant*. Swap two booleans — `isDraft` and `isArchived` — and the compiler says nothing, the program runs, and the bug ships. The more parameters of the same type you have, the more certain this silent error becomes. This isn't carelessness; it's the calling convention itself working against you.
-2. **An object should be born valid.** From the very instant an object exists in memory, it ought to be whole and obeying its own rules — a `Document` with no title is not a "mostly fine Document," it's a contradiction that shouldn't be allowed to exist, even for a millisecond. If we let objects come into the world incomplete, every piece of code that touches them afterward has to wonder, "is this one actually finished?"
-3. **The simplest way to be thread-safe is to never change.** When many threads read the same object at once, coordinating them with locks is slow and easy to get wrong. But notice: if an object *cannot be modified after creation*, there is nothing to coordinate — every thread sees the same frozen truth. Immutability isn't just tidy; it's the cheapest concurrency guarantee there is.
+1. **ការ​បញ្ជូនប៉ារ៉ាម៉ែត្រ​តាម​ទីតាំង​គឺជា​ភាពងងឹតភ្នែក (Positional arguments are blind)៖** នៅ​ពេល​ដែល​អ្នក​ហៅ `new Document("Report", "Sokha", true, false, 3, ...)` ភាសា​សរសេរ​កម្មវិធី​គ្រាន់​តែ​ផ្គូផ្គងតម្លៃទាំង​នោះ​ទៅ​នឹងប៉ារ៉ាម៉ែត្រ ដោយ​ផ្អែក​លើ *ទីតាំង* របស់​វា​តែ​ប៉ុណ្ណោះ។ កុំ​ព្យូទ័រ​មិន​ដឹងទាល់​តែ​សោះថា​អ្នក *ចង់​មាន​ន័យ* យ៉ាង​ម៉េច។ សាកល្បងឆ្លាស់ទីតាំងតម្លៃ boolean ពី​រ — ឧទាហរណ៍​រវាង `isDraft` និង `isArchived` — Compiler នឹង​មិន​និយាយអ្វី​ទាំងអស់ កម្មវិធី​នឹងនៅ​តែ​ដើរ ហើយកំហុស (Bug) នឹង​ត្រូវ​បញ្ជូន​ទៅកាន់ Production។ នៅ​ពេល​ដែល​អ្នក​មាន​ប៉ារ៉ាម៉ែត្រ​ដែល​មាន​ប្រភេទ (Type) ដូចគ្នាកាន់​តែ​ច្រើន ភាពប្រាកដប្រ​ជា​នៃ​កំហុសដ៏ស្ងាត់ស្ងៀម​នេះ​នឹងកាន់​តែ​ខ្ពស់។ នេះ​មិន​មែន​ជា​ការ​ធ្វេសប្រហែសទេ នេះ​គឺជា​វិធី​ដែល​ការ​ហៅ​កូដ​ធម្មតា (Calling Convention) ធ្វើ​ការ​ប្រឆាំងនឹង​អ្នក​តែ​ម្តង។
+2. **Object ត្រូវតែ​កើត​មក​ពេញលេញភ្លាម ៗ (An object should be born valid)៖** ចាប់តាំង​ពី​វិនាទីដំបូង​ដែល Object មួយ​មាន​វត្ត​មាន​នៅក្នុង​អង្គចងចាំ វាគួរ​តែ​មាន​ភាពពេញលេញ និង​គោរព​តាម​ច្បាប់ផ្ទាល់ខ្លួន​របស់​វា​ជា​និច្ច — ឯកសារ (Document) មួយ​ដែល​គ្មាន​ចំណងជើង មិន​មែន​ជា "ឯកសារ​ដែល​ស្ទើរ​តែ​ល្អ" នោះ​ទេ វា​គឺជា​ភាពផ្ទុយគ្នា​ដែល​មិន​គួរ​ត្រូវ​បាន​អនុញ្ញាតឱ្យ​មាន​វត្ត​មាន សូម្បី​តែ​ក្នុង​មួយមីលីវិនាទីក៏​ដោយ។ ប្រសិនបើយើងបណ្តោយឱ្យ Object ណាមួយកើត​មក​ដោយ​មិន​ពេញលេញ រាល់​កូដ​ផ្សេង ៗ ទៀត​ដែល​ទាក់ទងនឹងវា នឹង​ត្រូវ​បង្ខំចិត្តសង្ស័យ​ជា​និច្ចថា "តើ Object មួយ​នេះ​បាន​បញ្ចប់​ការ​រៀបចំហើយ​ឬ​នៅ?"។
+3. **វិធី​សាមញ្ញ​បំផុត​ដើម្បី​ឱ្យ​មាន​សុវត្ថិភាព Thread គឺ​កុំ​ឱ្យប្រែប្រួល (The simplest way to be thread-safe is to never change)៖** នៅ​ពេល​ដែល Thread ជា​ច្រើន​អាន Object តែ​មួយ​ក្នុង​ពេល​តែ​មួយ ការ​ព្យាយាម​សម្របសម្រួល​ពួកវា​ដោយ​ប្រើសោ (Locks) គឺ​មាន​ភាព​យឺត​យ៉ាវ និង​ងាយនឹងបង្កកំហុសបំផុត។ ប៉ុន្តែ​សូ​មក​ត់សម្គាល់៖ ប្រសិនបើ Object មួយ *មិន​អាច​ត្រូវ​បាន​កែប្រែ​ទៀត​ឡើយ បន្ទាប់​ពី​វា​ត្រូវ​បាន​បង្កើត​រួច* នោះ​យើង​មិន​ចាំបាច់​មាន​អ្វី​ដែល​ត្រូវ​សម្របសម្រួល​ទាល់​តែ​សោះ — Thread ទាំងអស់​នឹងឃើញ​តែ​ការ​ពិត​ដ៏កកស្ងប់ស្ងាត់​តែ​មួយគត់ដូចគ្នា។ ភាព​មិន​ប្រែប្រួល (Immutability) មិន​ត្រឹម​តែ​ធ្វើ​ឱ្យ​មាន​ភាពរៀបរយទេ វា​គឺជា​ការ​ធានាសុវត្ថិភាព​ក្នុង​ពេល​ដំណាលគ្នា (Concurrency Guarantee) ដែល​ថោក និង​មាន​ប្រសិទ្ធភាពបំផុត។
 
-1. **គោលការណ៍នៃកំហុសមនុស្ស៖** នៅពេលដែលយើងហៅ Constructor ដែលមានប៉ារ៉ាម៉ែត្រវែងអន្លាយ ពួកវានឹងត្រូវបានបញ្ជូនទៅក្នុងអង្គចងចាំតាមលំដាប់លំដោយយ៉ាងតឹងរ៉ឹង។ ប្រសិនបើយើងមានប៉ារ៉ាម៉ែត្រប្រភេទដូចគ្នាច្រើន (ដូចជាលេខ ឬ true/false បន្តបន្ទាប់គ្នា) កម្មវិធីបម្លែងកូដ (Compiler) នឹងងងឹតភ្នែកទាំងស្រុង ហើយមិនអាចដឹងថាយើងបានច្រឡំផ្លាស់ប្តូរទីតាំងពួកវាឬអត់នោះទេ។ នេះគឺជាអន្ទាក់ដ៏ស្ងាត់ស្ងៀមនិងគ្រោះថ្នាក់បំផុតសម្រាប់កំហុសរបស់មនុស្ស។
-2. **គោលការណ៍នៃស្ថានភាពមាស (Golden State)៖** ចាប់ពីវិនាទីដែល Object មួយត្រូវបានផ្តល់ជីវិតនៅក្នុងអង្គចងចាំ វាត្រូវតែពេញលេញ ត្រឹមត្រូវ និងត្រៀមខ្លួនរួចជាស្រេចដើម្បីការពារច្បាប់ផ្ទាល់ខ្លួនរបស់វាភ្លាមៗ។ យើងមិនអាចបណ្តោយឱ្យ Object ណាមួយស្ថិតក្នុងស្ថានភាព "ពាក់កណ្តាលទី" ឬមិនទាន់ត្រឹមត្រូវឡើយ សូម្បីតែមួយមីលីវិនាទីក៏ដោយ។
-3. **គោលការណ៍នៃសន្តិភាពមិនប្រែប្រួល (Immutable Peace)៖** នៅក្នុងពិភពលោកដែល Thread ជាច្រើនតែងតែប្រណាំងប្រជែង និងអានទិន្នន័យក្នុងពេលតែមួយ ការព្យាយាមសម្របសម្រួលពួកវាដោយប្រើសោ (Locks) គឺជារឿងដែលហត់នឿយ និងយឺតយ៉ាវបំផុត។ វិធីដ៏ស្រស់ស្អាតបំផុតដើម្បីធានាបាននូវសន្តិភាព និងសុវត្ថិភាពដាច់ខាត គឺការធ្វើឱ្យ Object នោះ "មិនអាចកែប្រែបាន" (Immutable) នៅពេលដែលវាបានកើតមក។
+1. **គោល​ការ​ណ៍​នៃ​កំហុសមនុស្ស៖** នៅ​ពេល​ដែល​យើងហៅ Constructor ដែល​មាន​ប៉ារ៉ាម៉ែត្រវែងអន្លាយ ពួកវានឹង​ត្រូវ​បាន​បញ្ជូន​ទៅ​ក្នុង​អង្គចងចាំ​តាម​លំដាប់លំ​ដោយ​យ៉ាង​តឹងរ៉ឹង។ ប្រសិនបើយើង​មាន​ប៉ារ៉ាម៉ែត្រ​ប្រភេទ​ដូចគ្នាច្រើន (ដូចជា​លេខ ឬ true/false បន្តបន្ទាប់គ្នា) កម្មវិធី​បម្លែង​កូដ (Compiler) នឹងងងឹតភ្នែកទាំងស្រុង ហើយ​មិន​អាចដឹងថាយើង​បាន​ច្រឡំផ្លាស់ប្តូរទីតាំងពួកវា​ឬ​អត់​នោះ​ទេ។ នេះ​គឺជា​អន្ទាក់​ដ៏ស្ងាត់ស្ងៀម​និង​គ្រោះថ្នាក់បំផុត​សម្រាប់​កំហុស​របស់​មនុស្ស។
+2. **គោល​ការ​ណ៍​នៃ​ស្ថានភាពមាស (Golden State)៖** ចាប់​ពី​វិនាទី​ដែល Object មួយ​ត្រូវ​បាន​ផ្តល់ជីវិត​នៅក្នុង​អង្គចងចាំ វា​ត្រូវតែ​ពេញលេញ ត្រឹម​ត្រូវ និង​ត្រៀមខ្លួនរួច​ជា​ស្រេច​ដើម្បី​ការ​ពារច្បាប់ផ្ទាល់ខ្លួន​របស់​វាភ្លាម ៗ ។ យើង​មិន​អាចបណ្តោយឱ្យ Object ណាមួយស្ថិត​ក្នុង​ស្ថានភាព "ពាក់កណ្តាលទី" ឬ​មិន​ទាន់ត្រឹម​ត្រូវ​ឡើយ សូម្បី​តែ​មួយមីលីវិនាទីក៏​ដោយ។
+3. **គោល​ការ​ណ៍​នៃ​សន្តិភាព​មិន​ប្រែប្រួល (Immutable Peace)៖** នៅក្នុង​ពិភពលោក​ដែល Thread ជា​ច្រើន​តែ​ង​តែ​ប្រណាំងប្រជែង និង​អាន​ទិន្នន័យ​ក្នុង​ពេល​តែ​មួយ ការ​ព្យាយាម​សម្របសម្រួល​ពួកវា​ដោយ​ប្រើសោ (Locks) គឺជា​រឿង​ដែល​ហត់នឿយ និង​យឺត​យ៉ាវបំផុត។ វិធីដ៏ស្រស់ស្អាតបំផុត​ដើម្បី​ធានា​បាន​នូវសន្តិភាព និង​សុវត្ថិភាពដាច់ខាត គឺ​ការ​ធ្វើ​ឱ្យ Object នោះ "មិន​អាច​កែប្រែ​បាន" (Immutable) នៅ​ពេល​ដែល​វា​បាន​កើត​មក។
 
 ---
 
-## ២. ការទាញរកលក្ខណៈបច្ចេកទេស (The Derivation)
+## ២. ការ​ទាញរក​លក្ខណៈ​បច្ចេកទេស (The Derivation)
 
-### The Problem: two tempting answers, both wrong
+### បញ្ហា៖ ចម្​លើ​យ​ដែល​ទាក់ទាញទាំង​ពី​រ សុទ្ធ​តែ​ខុស
 
-Take a `Document` with a dozen properties — two required (title, author), the rest optional. Watch our three facts collide with the two "obvious" solutions, and watch both fail.
+សាកល្បងស្រមៃ​ពី​ការ​បង្កើត Class `Document` មួយ​ដែល​មាន​លក្ខណៈ​សម្បត្តិរាប់សិប — ពី​រ​គឺ​ចាំបាច់ (ចំណងជើង, អ្នកនិពន្ធ) ចំណែកឯកសល់សុទ្ធ​តែ​ជា​ជម្រើស។ សូមសង្កេតមើល​ពី​របៀប​ដែល​ការ​ពិត​ទាំងបី​របស់​យើងប៉ះទង្គិចគ្នា​ជា​មួយនឹង​ដំណោះស្រាយ "ជាក់ស្តែង" ពី​រ​យ៉ាង ហើយមើលថាពួកវាទាំង​ពី​រ​នេះ​បរាជ័យ​ដោយ​របៀបណា។
 
-**Tempting answer #1: just add more constructors.** One for title+author, one that also takes content, one that also takes a version… You end up with a tower of near-identical constructors covering every combination — the *telescoping constructor*. It's unreadable, and it walks straight into Fact #1: a caller staring at `new Document(a, b, c, true, false, 2)` cannot tell which boolean is which, and neither can the compiler. We've multiplied the surface area for silent, positional mistakes.
+**ចម្​លើ​យ​ដែល​ទាក់ទាញទី ១ (Telescoping Constructor) គ្រាន់​តែ​បន្ថែម Constructor ឱ្យច្រើន៖** មួយ​សម្រាប់ (ចំណងជើង+អ្នកនិពន្ធ), មួយទៀត​ដែល​ទទួលយកទាំង មាតិកា, មួយទៀតទទួលយកទាំង កំណែ (Version)... ជា​ចុងក្រោយ អ្នក​នឹងទទួល​បាន​ប៉ម Constructor ដ៏រញ៉េរញ៉ៃ​ដែល​ស្ទើរ​តែ​ដូច ៗ គ្នា គ្របដណ្តប់​លើ​គ្រប់​ការ​ផ្សំ​ទាំងអស់ — យើងហៅថា *Telescoping Constructor*។ វា​មិន​អាច​អាន​យល់​បាន​ឡើយ ហើយវាដើរចូលត្រង់​ទៅ​ក្នុង​គោល​ការ​ណ៍គ្រឹះទី ១៖ អ្នក​សរសេរ​កូដ​ដែល​កំពុងសំឡឹងមើល `new Document(a, b, c, true, false, 2)` មិន​អាចប្រាប់​បាន​ទេថា Boolean មួយណា​ជា​អ្វី ហើយ Compiler ក៏​មិន​ដឹងដែរ។ យើងទើប​តែ​បាន​ពង្រីកផ្ទៃ​នៃ​កំហុសទីតាំងដ៏ស្ងាត់ស្ងៀម។
 
-**Tempting answer #2: build it empty, then use setters.** `Document d = new Document(); d.setTitle(...); d.setAuthor(...);`. Cleaner to read — and it violates *two* of our facts at once. It breaks Fact #2, because between line one and line three the document exists with no title: a half-built, invalid object that other code might grab. And it breaks Fact #3, because an object you fill in with setters is an object that can be *changed* forever after — mutable, and unsafe the moment a second thread reads it mid-assembly.
+**ចម្​លើ​យ​ដែល​ទាក់ទាញទី ២ គឺ​បង្កើត​វាឱ្យទទេ រួចប្រើ Setters បំពេញបន្ថែម៖** ឧទាហរណ៍ `Document d = new Document(); d.setTitle(...); d.setAuthor(...);`។ វា​មាន​ភាពងាយស្រួល​ក្នុង​ការ​អាន — ប៉ុន្តែ​វា​បាន​បំពាន​លើ​គោល​ការ​ណ៍​របស់​យើងដល់​ទៅ *ពី​រ* ក្នុង​ពេល​តែ​មួយ។ វាបំពានគោល​ការ​ណ៍ទី ២ ពី​ព្រោះ​នៅចន្លោះបន្ទាត់ទី ១ ដល់ទី ៣ ឯកសារ​នេះ​បាន​មាន​វត្ត​មាន​ដោយ​គ្មាន​ចំណងជើង ដែល​វា​ជា​ការ​បង្កើត Object ពាក់កណ្តាលទី មិន​ត្រឹម​ត្រូវ ដែល​អាច​ត្រូវ​បាន​កូដ​ផ្សេងទៀតចាប់យក​ទៅ​ប្រើ​បាន។ ហើយវាបំពានគោល​ការ​ណ៍ទី ៣ ព្រោះ Object ដែល​អ្នក​អាចបំពេញបន្ថែម​ដោយ​ប្រើ Setters គឺជា Object ដែល​អាច *ផ្លាស់ប្តូរ (Mutable)* បាន​រហូត — វា​គ្មាន​សុវត្ថិភាពទេនៅ​ពេល​ដែល Thread ទី​ពី​រ​អាន​វា​ក្នុង​ពេល​ដែល​វាកំពុង​តែ​រៀបចំ​មិន​ទាន់រួច​រាល់។
 
-So we're cornered. We need the readable, name-each-field assembly that setters gave us, but we also need the object to spring into existence *all at once, complete and frozen*. Assembly is gradual; validity must be instant. Those two demands seem contradictory — until you realize the way out is to **separate the gathering of parts from the birth of the object**. Let one helper collect the ingredients over several friendly, named steps; then, in a single final act, validate everything and construct one immutable object. That helper is the Builder — and the solution below shows exactly how it keeps all three facts satisfied.
+ដូច្​នេះ យើង​ត្រូវ​បាន​រុញ​ទៅ​ជា​ប់ជញ្​ជា​ំងហើយ។ យើង​ត្រូវ​ការ​ការ​រៀបចំ​ដែល​អាច​អាន​បាន ដែល​អាចបញ្​ជា​ក់ឈ្មោះ Field នីមួយ ៗ បាន ដូច​ដែល Setters បាន​ផ្តល់ឱ្យយើង ប៉ុន្តែ​យើងក៏​ត្រូវ​ការ​ឱ្យ Object នេះ​មាន​ជីវិតឡើង​មក *ពេញលេញ និង​ត្រឹម​ត្រូវ​ក្នុង​ពេល​តែ​មួយគត់*។ ការ​ប្រមូលផ្តុំ​គឺ​ត្រូវ​ការ​ពេល​បន្តិចម្តង ៗ ចំណែកឯសុពលភាព​គឺ​ត្រូវតែ​កើតឡើងភ្លាម ៗ មួយរំពេច។ តម្រូវ​ការ​ទាំង​ពី​រ​នេះ​ហាក់​ដូចជា​ផ្ទុយគ្នាស្រឡះ — រហូតទាល់​តែ​អ្នក​យល់ថាផ្លូវចេញ​គឺ​ត្រូវ **បំបែក​ការ​ប្រមូលផ្តុំវត្ថុធាតុដើម ចេញ​ពី​ការ​ផ្តល់កំណើតឱ្យ Object តែ​ម្តង**។ 
 
-### ដំណោះស្រាយ៖ ជម្រកសុវត្ថិភាពរបស់ Builder
+សូមឱ្យជំនួយ​ការ​ម្នាក់​ជា​អ្នក​ប្រមូលគ្រឿងផ្សំ​តាមរយៈ​ជំហាននីមួយ ៗ ដែល​ងាយស្រួល​អាន​មាន​ឈ្មោះច្បាស់លាស់ រួចហើយ នៅដំណាក់កាល​ចុងក្រោយ​បង្អស់ ត្រូវ​ត្រួតពិនិត្យ​សុពលភាព​រាល់​អ្វី ៗ ទាំងអស់ រួចសាងសង់ Object តែ​មួយគត់​ដែល​មិន​អាច​កែប្រែ​បាន។ ជំនួយ​ការ​ម្នាក់​នោះ​ហើយ​គឺជា Builder Pattern។ រីឯ​ដំណោះស្រាយ​ខាងក្រោម បង្ហាញ​យ៉ាង​ច្បាស់​ពី​របៀប​ដែល​វាគោរព​តាម​ការ​ពិត​ទាំងបី​ដោយ​ឥតខ្ចោះ។
 
-ដើម្បីគោរពតាមគោលការណ៍គ្រឹះទាំងបីរបស់យើង យើងត្រូវយល់ថា *ការប្រមូលផ្តុំសម្ភារៈ* គឺជាដំណើរការដែលខុសគ្នាស្រឡះពី *ការបង្កើតស្នាដៃចុងក្រោយ*។ យើងត្រូវតែបំបែកវាចេញពីគ្នា។
+### ដំណោះស្រាយ៖ ជម្រកសុវត្ថិភាព​របស់ Builder
+
+ដើម្បី​គោរព​តាម​គោល​ការ​ណ៍គ្រឹះទាំងបី​របស់​យើង យើង​ត្រូវ​យល់ថា *ការ​ប្រមូលផ្តុំសម្ភារៈ* គឺជា​ដំណើរ​ការ​ដែល​ខុសគ្នាស្រឡះ​ពី *ការ​បង្កើត​ស្នាដៃ​ចុងក្រោយ*។ យើង​ត្រូវតែ​បំបែកវាចេញ​ពី​គ្នា។
 
 ```
 1. យើងណែនាំនូវជំនួយការបណ្តោះអាសន្នដ៏អត់ធ្មត់ម្នាក់ — គឺ Class `Builder` — ដែលផ្ទុកនូវលក្ខណៈសម្បត្តិដូចគ្នាទាំងអស់។
@@ -57,9 +59,9 @@ So we're cornered. We need the readable, name-each-field assembly that setters g
 
 ---
 
-## ៣. ស្ថាបត្យកម្មកូដគំរូ (Mathematical & Code Architecture)
+## ៣. ស្ថាបត្យកម្​មក​ូដគំរូ (Mathematical & Code Architecture)
 
-Here is the mathematical derivation mapped to safe Java memory structures:
+ខាងក្រោម​នេះ គឺជា​ការ​ទាញហេតុផល​ខាងលើ ដែល​ត្រូវ​បាន​បកប្រែ​ទៅ​ជា​រចនាសម្ព័ន្ធមេម៉ូរី​កូដ Java ប្រកប​ដោយ​សុវត្ថិភាពបំផុត៖
 
 ```java
 public final class ImmutableDocument {
@@ -140,14 +142,14 @@ flowchart TD
 ## ៥. Related Posts
 
 ### 🔗 Explore All Viewpoints:
-* 📖 **Read the Parable:** [The 47-Question Waiter (អ្នករត់តុសួរ ៤៧ សំណួរ)](../../parables/76-the-overwhelmed-sandwich-shop.md) — The emotional story of a chaotic customer experience.
-* 🧠 **Read the First Principles Derivation:** [MIT Professor Strategy: Builder (គោលការណ៍គ្រឹះដំបូងនៃ Builder)](../01-mit-professor/04-builder.md) — Derives the pattern from stack frame layouts and thread safety laws.
-* 👶 **Read the Feynman Simplification:** [Feynman Technique: Builder (ការពន្យល់ពី Builder ដោយគ្មានពាក្យបច្ចេកទេស)](../02-feynman-technique/05-builder.md) — Breaks it down using a simple cafe menu checklist.
-* 👦 **Read the ELI5 Metaphor:** [ELI5: Builder (ការពន្យល់ពី Builder ដូចក្មេងអាយុ ៥ ឆ្នាំ)](../03-eli5/05-builder.md) — Teaches a five-year-old using Lego spaceship construction books.
-* 🌉 **Read the Analogy Bridge:** [Analogy Bridge: Builder (ស្ពានប្រៀបធៀបនៃ Builder)](../04-analogy-bridge/05-builder.md) — Maps real sandwich ticks to fluent Java methods, outlining physical limitations.
-* 🧐 **Read the Socratic Discovery:** [Socratic Method: Builder (ការបង្កើត Object ស្មុគស្មាញតាមវិធីសាស្ត្រសូក្រាត)](../05-socratic-method/05-builder.md) — Probes yourself via a mentor-student constructor debate.
-* 📰 **Read the Journalist Summary:** [Journalist: Builder (ការបង្កើត Object ស្មុគស្មាញជាជំហានៗ)](../06-journalist-inverted-pyramid/05-builder.md) — Quick news lede, telescoping prevention, and step-by-step assembly validation.
-* 🎭 **Read the Storyteller Narrative:** [Storyteller: Builder (វីរបុរស Builder និងសង្គ្រាមប៉ារ៉ាម៉ែត្ររញ៉េរញ៉ៃ)](../07-storyteller-narrative-arc/05-builder.md) — Sopheap's battle against a production parameter bomb catastrophe on Black Friday.
-* ⚙️ **Read the Engineer Spec:** [Engineer: Builder (ការបង្កើត Object ស្មុគស្មាញជាជំហានៗ)](../08-engineer-requirements-constraints-solution/01-builder.md) — Read the formal engineering requirements and candidate evaluation table.
-* 📊 **Read the Pros & Cons:** [Pros & Cons Compared: Builder (ការប្រៀបធៀបគុណសម្បត្តិ និងគុណវិបត្តិនៃ Builder)](../09-pros-and-cons-compared/02-builder.md) — Full trade-off analysis and decision matrix.
+* 📖 **Read the Parable:** [The 47-Question Waiter (អ្នក​រត់តុសួរ ៤៧ សំណួរ)](../../parables/76-the-overwhelmed-sandwich-shop.md) — The emotional story of a chaotic customer experience.
+* 🧠 **Read the First Principles Derivation:** [MIT Professor Strategy: Builder (គោល​ការ​ណ៍គ្រឹះដំបូង​នៃ Builder)](../01-mit-professor/04-builder.md) — Derives the pattern from stack frame layouts and thread safety laws.
+* 👶 **Read the Feynman Simplification:** [Feynman Technique: Builder (ការ​ពន្យល់​ពី Builder ដោយ​គ្មាន​ពាក្យបច្ចេកទេស)](../02-feynman-technique/05-builder.md) — Breaks it down using a simple cafe menu checklist.
+* 👦 **Read the ELI5 Metaphor:** [ELI5: Builder (ការ​ពន្យល់​ពី Builder ដូចក្មេងអាយុ ៥ ឆ្នាំ)](../03-eli5/05-builder.md) — Teaches a five-year-old using Lego spaceship construction books.
+* 🌉 **Read the Analogy Bridge:** [Analogy Bridge: Builder (ស្ពានប្រៀបធៀប​នៃ Builder)](../04-analogy-bridge/05-builder.md) — Maps real sandwich ticks to fluent Java methods, outlining physical limitations.
+* 🧐 **Read the Socratic Discovery:** [Socratic Method: Builder (ការ​បង្កើត Object ស្មុគស្មាញ​តាម​វិធីសាស្ត្រសូក្រាត)](../05-socratic-method/05-builder.md) — Probes yourself via a mentor-student constructor debate.
+* 📰 **Read the Journalist Summary:** [Journalist: Builder (ការ​បង្កើត Object ស្មុគស្មាញ​ជា​ជំហាន ៗ )](../06-journalist-inverted-pyramid/05-builder.md) — Quick news lede, telescoping prevention, and step-by-step assembly validation.
+* 🎭 **Read the Storyteller Narrative:** [Storyteller: Builder (វីរបុរស Builder និង​សង្គ្រាមប៉ារ៉ាម៉ែត្ររញ៉េរញ៉ៃ)](../07-storyteller-narrative-arc/05-builder.md) — Sopheap's battle against a production parameter bomb catastrophe on Black Friday.
+* ⚙️ **Read the Engineer Spec:** [Engineer: Builder (ការ​បង្កើត Object ស្មុគស្មាញ​ជា​ជំហាន ៗ )](../08-engineer-requirements-constraints-solution/01-builder.md) — Read the formal engineering requirements and candidate evaluation table.
+* 📊 **Read the Pros & Cons:** [Pros & Cons Compared: Builder (ការ​ប្រៀបធៀបគុណសម្បត្តិ និង​គុណវិបត្តិ​នៃ Builder)](../09-pros-and-cons-compared/02-builder.md) — Full trade-off analysis and decision matrix.
 * 🛠️ **Read the Code Implementation:** [Creational Patterns: The Art of Instantiation](../../../clean-code/design-patterns/01-creational-patterns.md#the-builder) — Production-grade Java with fluent chaining and immutable object construction.

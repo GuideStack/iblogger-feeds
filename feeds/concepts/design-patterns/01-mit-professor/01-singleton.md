@@ -1,4 +1,4 @@
-# MIT Professor: Singleton (គោលការណ៍គ្រឹះដំបូងនៃ Singleton)
+# MIT Professor: Singleton (គោល​ការ​ណ៍គ្រឹះដំបូង​នៃ Singleton)
 
 **Author:** ichamrong  
 **Date:** 2026-05-18  
@@ -9,63 +9,64 @@
 ---
 
 ## 📌 មាតិកា (Table of Contents)
-- [១. បញ្ហាស្នូល (The Core Problem)](#១-បញ្ហាស្នូល-the-core-problem)
-- [២. ការទាញហេតុផលពីគោលការណ៍គ្រឹះ (First Principles Derivation)](#២-ការទាញហេតុផលពីគោលការណ៍គ្រឹះ-first-principles-derivation)
-- [៣. ស្ថាបត្យកម្មកូដគំរូ (Code Architecture)](#៣-ស្ថាបត្យកម្មកូដគំរូ-code-architecture)
+- [១. បញ្ហា​ស្នូល (The Core Problem)](#១-បញ្ហាស្នូល-the-core-problem)
+- [២. ការ​ទាញហេតុផល​ពី​គោល​ការ​ណ៍គ្រឹះ (First Principles Derivation)](#២-ការទាញហេតុផលពីគោលការណ៍គ្រឹះ-first-principles-derivation)
+- [៣. ស្ថាបត្យកម្​មក​ូដគំរូ (Code Architecture)](#៣-ស្ថាបត្យកម្មកូដគំរូ-code-architecture)
 - [៤. ដ្យាក្រាមលំហូរ (Visual Derivation)](#៤-ដ្យាក្រាមលំហូរ-visual-derivation)
 - [៥. Related Posts](#៥-related-posts)
 
 ---
 
-## ១. បញ្ហាស្នូល (The Core Problem)
+## ១. បញ្ហា​ស្នូល (The Core Problem)
 
-ខ្ញុំសូមចាប់ផ្តើមដោយសំណួរមួយ។ ស្រមៃថាកម្មវិធីរបស់អ្នកមាន printer តែមួយ មាន database connection pool តែមួយ ឬមានឯកសារ config ដែលផ្ទុកក្នុងមេម៉ូរីតែមួយ។ ផ្នែកមួយនៃប្រព័ន្ធស្នើសុំវា ហើយមួយភ្លែតក្រោយមក — នៅកន្លែងផ្សេងទៀតទាំងស្រុង — ផ្នែកមួយទៀតក៏ស្នើសុំវាដែរ។ តើអ្នកធានាដោយរបៀបណាថា ផ្នែកទាំងពីរនេះកំពុងនិយាយអំពីវត្ថុ *ដូចគ្នា* មិនមែនច្បាប់ចម្លងពីរ ដែលបានញែកចេញពីគ្នាដោយស្ងាត់ៗ?
+ខ្ញុំសូមចាប់ផ្​តើ​ម​ដោយ​សំណួរមួយ។ ស្រមៃថា​កម្មវិធី​របស់​អ្នក​មាន Printer Spooler តែ​មួយ មាន Database Connection Pool តែ​មួយ ឬ​មាន​ឯកសារ Configuration ដែល​ផ្ទុក​ក្នុង​អង្គចងចាំ​តែ​មួយ។ ផ្នែកមួយ​នៃ​ប្រព័ន្ធ​ស្នើសុំវា ហើយមួយភ្លែត​ក្រោយ​មក — នៅកន្លែងផ្សេងទៀតទាំងស្រុង — ផ្នែកមួយទៀតក៏ស្នើសុំវាដែរ។ តើ​អ្នក​ធានា​ដោយ​របៀបណាថា ផ្នែកទាំង​ពី​រ​នេះ​កំពុងនិយាយអំ​ពី​វត្ថុ (Object) *ដូចគ្នា* មិន​មែនច្បាប់ចម្លង​ពី​រផ្សេងគ្នា ដែល​ត្រូវ​បាន​បង្កើត​ឡើង​ដោយ​ស្ងាត់ ៗ នោះ​ទេ?
 
-សូមចងចាំសំណួរនេះទុក ព្រោះបញ្ហានេះមានភាពលាក់កំបាំង។ នៅពេលដែលកូដពីរផ្នែកបង្កើតច្បាប់ចម្លងផ្ទាល់ខ្លួនរបស់ «the» connection pool នោះ គ្មានអ្វីខូចភ្លាមៗឡើយ។ កម្មវិធីដំណើរការ។ Test ក៏ជាប់។ ប៉ុន្តែបន្ទាប់មកនៅក្នុង production ក្រោមបន្ទុកធ្ងន់ អ្នកនឹងជួបនូវ bug ដែលធ្វើឱ្យសប្តាហ៍របស់អ្នកវឹកវរ៖ មេម៉ូរីហូរហៀរ (Memory Exhaustion) port hardware ជាប់គាំង ឬ cache ពីរដែលផ្ទុយគ្នាអំពីការពិត។ គ្មាននរណាសរសេរ bug នេះទេ។ bug នេះគឺជា bug *រចនាសម្ព័ន្ធ (structural)* — វាកើតចេញពីការពិតដែលថា ភាសាសរសេរកម្មវិធីបានអនុញ្ញាតឱ្យច្បាប់ចម្លងពីរអាចមានវត្តមានតាំងពីដំបូង។
+សូមចងចាំសំណួរ​នេះ​ទុក ព្រោះ​បញ្ហា​នេះ​មាន​ភាពលាក់កំបាំង និង​គ្រោះថ្នាក់បំផុត។ នៅ​ពេល​ដែល​កូដ​ពី​រផ្នែក​បង្កើត​ច្បាប់ចម្លងផ្ទាល់ខ្លួន​របស់ «the» connection pool នោះ គ្មាន​អ្វីខូចភ្លាម ៗ ឡើយ។ កម្មវិធី​ដំណើរ​ការ។ Unit Test ក៏​ជា​ប់ (Pass)។ ប៉ុន្តែ​បន្ទាប់​មក​នៅក្នុង​បរិស្ថាន Production ក្រោម​បន្ទុកប្រតិបត្តិ​ការ (Load) ធ្ងន់ អ្នក​នឹងជួបនូវកំហុស (Bug) ដែល​ធ្វើ​ឱ្យសប្តាហ៍​របស់​អ្នក​វឹកវរ៖ មេម៉ូរីហូរហៀរ (Memory Exhaustion), Port Hardware ជា​ប់គាំង (Deadlock), ឬ Cache ពី​រ​ដែល​ផ្ទុយគ្នាអំ​ពី​ការ​ពិត។ គ្មាន​នរណាម្នាក់​សរសេរ​កំហុស​នេះ​ដោយ​ផ្ទាល់​ឡើយ។ កំហុស​នេះ​គឺជា​បញ្ហា *រចនាសម្ព័ន្ធ (Structural Bug)* — វាកើតចេញ​ពី​ការ​ពិត​ដែល​ថា ភាសា​សរសេរ​កម្មវិធី​បាន​អនុញ្ញាតឱ្យ​ការ​បង្កើត​ច្បាប់ចម្លងអាច​មាន​វត្ត​មាន​តាំង​ពី​ដំបូង។
 
-ដូច្នេះ យើងចង់គ្រប់គ្រងធនធានរួមគ្នា (ដូចជា Database Connection Pool ឬ Hardware Port) ដែលការបង្កើត Object ច្រើននឹងបណ្តាលឱ្យហូរហៀរមេម៉ូរី (Memory Exhaustion) ការជាប់គាំងខ្សែស្រឡាយដំណើរការ (Thread Lockups) ឬស្ថានភាពទិន្នន័យមិនស៊ីសង្វាក់គ្នា (Inconsistent State)។
-
----
-
-## ២. ការទាញហេតុផលពីគោលការណ៍គ្រឹះ (First Principles Derivation)
-
-យើងកុំទន្ទេញដំណោះស្រាយឡើយ។ ចូរយើង *ទាញវាចេញ* ដោយចាប់ផ្តើមពីរបៀបដែលម៉ាស៊ីនពិតជាដំណើរការ ហើយមើលថា តើ pattern នេះត្រូវបានបង្ខំឱ្យកើតឡើងលើយើងឬអត់។
-
-**ចាប់ផ្តើមពីការពិតមួយអំពីម៉ាស៊ីន។** រាល់ពេលដែលអ្នកសរសេរ `new` កុំព្យូទ័រកាត់យកប្លុកមេម៉ូរីថ្មីមួយ ដែលដាច់ដោយឡែកពីគ្នាទាំងស្រុង។ នេះមិនមែនជាជម្រើសរចនាបថឡើយ — វាជា *អត្ថន័យ* របស់ពាក្យ `new`។ ដូច្នេះ ប្រសិនបើតម្រូវការរបស់យើងគឺ «ត្រូវមានវត្ថុនេះ តែមួយគត់» នោះរាល់ការប្រើ `new` ដោយរសាត់ គឺជាការគំរាមកំហែងផ្ទាល់ដល់តម្រូវការនោះ។ គ្រោះថ្នាក់នេះមិនមែនជារឿងស្មាននោះទេ — វាបានកប់ខ្លួននៅក្នុងពាក្យគន្លឹះនេះតែម្តង។
-
-**ឥឡូវនេះ សូមសួរសំណួរដែលធ្វើឱ្យយើងមិនស្រួលក្នុងចិត្ត។** តើមានអ្វីបច្ចុប្បន្ននេះ ដែលរារាំង developer ណាម្នាក់ នៅកន្លែងណាមួយក្នុង codebase មិនឱ្យវាយ `new ConnectionPool()` ជាលើកទីពីរ? និយាយឱ្យត្រង់ទៅ — ចម្លើយគឺ *គ្មានអ្វីទាល់តែសោះ*។ Constructor គឺ public ដូច្នេះទ្វារនៅបើកចំហ។ ដរាបណាទ្វារនោះនៅបើកចំហ គ្មានវិន័យ ឬឯកសារណាមួយអាចសង្គ្រោះយើងបានឡើយ — នឹងមាននរណាម្នាក់ នៅថ្ងៃណាមួយ ដើរចូលតាមទ្វារនោះជាមិនខាន។
-
-**ដូច្នេះ តម្រូវការនេះក៏សរសេរខ្លួនវាឡើងវិញដោយស្ងាត់ៗ។** «ធានាឱ្យមាន instance តែមួយ» តាមពិតមានន័យថា «ដកចេញពីអ្នកដទៃទាំងអស់នូវ *អំណាច* ក្នុងការបង្កើត instance»។ យើងមិនសុំឱ្យគេកុំហៅ `new` ឡើយ — យើងធ្វើឱ្យវាមិនអាចទៅរួច។ យើងចាក់សោ Constructor៖ ប្តូរវាទៅជា `private`។
-
-**ប៉ុន្តែឥឡូវនេះ យើងបានបង្កើតបញ្ហាថ្មីមួយ មែនទេ?** បើទ្វារត្រូវបានចាក់សោ តើនរណាអាចទាញយក Object នោះមកប្រើបាន? យើងបានការពារធនធាននេះយ៉ាងជិតស្និទ្ធ រហូតដល់គ្មាននរណាម្នាក់អាចចូលដល់វាបាន។ ដំណោះស្រាយនេះហើយ ជាគន្លឹះទាំងស្រុង៖ ប្រសិនបើ Class នោះ ជាអ្នកតែមួយគត់ដែលត្រូវបានអនុញ្ញាតឱ្យបង្កើតខ្លួនឯង នោះ *Class នោះផ្ទាល់* ត្រូវតែជាអ្នកប្រគល់ instance ចេញ។ យើងបន្ថែមច្រកទ្វារដែលគ្រប់គ្រងបានមួយ — គឺមុខងារ `public static` ឈ្មោះ `getInstance()` — ដែលធ្វើការងារកត់ត្រា ដែលគ្មាននរណាផ្សេងអាចទុកចិត្តបាន៖ ពេលហៅលើកដំបូង វាបង្កើត instance តែមួយនោះ; រាល់ពេលក្រោយៗមក វាប្រគល់ instance ដដែលនោះត្រឡប់ទៅវិញ។
-
-ហើយនេះហើយ គឺជា pattern ដែលត្រូវបាន *ទាញចេញ* មិនមែនទន្ទេញ៖ ចាក់សោការបង្កើត រួចបើកច្រកទ្វារតែមួយ ដែលធានាភាពដូចគ្នា។ សូមកត់សម្គាល់ថា យើងមិនដែល *ជ្រើសរើស* Singleton ឡើយ — អាកប្បកិរិយារបស់ម៉ាស៊ីន បូកនឹងតម្រូវការរបស់យើង បានទុកឱ្យយើងគ្មានទ្វារផ្សេងណាមួយឡើយ។
+ដូច្​នេះ យើង​ចង់​គ្រប់​គ្រងធនធានរួមគ្នា (Shared Resources) (ដូចជា Database Connection Pool ឬ Hardware Port) ដែល​ការ​បង្កើត Object ច្រើននឹងបណ្តាលឱ្យខ្ជះខ្​ជា​យធនធាន ការ​ជា​ប់គាំងខ្សែស្រឡាយដំណើរ​ការ (Thread Lockups) ឬ​ស្ថានភាព​ទិន្នន័យ​មិន​ស៊ីសង្វាក់គ្នា (Inconsistent State)។ យើង​ត្រូវ​ការ "ប្រភព​នៃ​ការ​ពិត​តែ​មួយគត់" (Single Source of Truth)។
 
 ---
 
-## ៣. ស្ថាបត្យកម្មកូដគំរូ (Code Architecture)
+## ២. ការ​ទាញហេតុផល​ពី​គោល​ការ​ណ៍គ្រឹះ (First Principles Derivation)
 
-ខាងក្រោមនេះ គឺជាការទាញហេតុផលរបស់យើង បកប្រែទៅជា Java៖ ចាក់សោ Constructor រួចបើកច្រក `getInstance()` តែមួយ ដែលមានសុវត្ថិភាពចំពោះ thread។ យើងប្រើ **double-checked locking** ជាមួយ `volatile` ដើម្បីឱ្យ thread ច្រើនមិនបង្កើត instance ច្រើនក្នុងពេលតែមួយ៖
+យើង​កុំ​ទន្ទេញ​ដំណោះស្រាយ​ឡើយ។ ចូរយើង *ទាញវាចេញ* ដោយ​ចាប់ផ្​តើ​ម​ពី​របៀប​ដែល​ម៉ាស៊ីន​ពិត​ជា​ដំណើរ​ការ ហើយមើលថា តើ​ទម្រង់​នេះ (Pattern) ត្រូវ​បាន​បង្ខំឱ្យកើតឡើង​លើ​យើង​ឬ​អត់។
+
+**ចាប់ផ្​តើ​ម​ពី​ការ​ពិត​មួយអំ​ពី​ម៉ាស៊ីន (The Axiom of Instantiation)៖** រាល់​ពេល​ដែល​អ្នក​សរសេរ​ពាក្យគន្លឹះ `new` កុំ​ព្យូទ័រកាត់យកប្លុកមេម៉ូរី​ថ្មី​មួយ ដែល​ដាច់ដោយឡែក​ពី​គ្នាទាំងស្រុងនៅ​លើ Heap Memory។ នេះ​មិន​មែន​ជា​ជម្រើសរចនាបថ​ឡើយ — វា​ជា *អត្ថន័យដាច់ខាត* របស់​ពាក្យ `new`។ ដូច្​នេះ ប្រសិនបើតម្រូវ​ការ​របស់​យើង​គឺ «ត្រូវ​មាន​វត្ថុ​នេះ​តែ​មួយគត់» នោះ​រាល់​ការ​ហៅ `new` ដោយ​សេរី គឺជា​ការ​គំរា​មក​ំហែងផ្ទាល់ដល់តម្រូវ​ការ​នោះ។ គ្រោះថ្នាក់​នេះ​មិន​មែន​ជា​រឿងស្​មាន​នោះ​ទេ — វា​បាន​កប់ខ្លួន​យ៉ាង​ជ្រៅ​នៅក្នុង​ពាក្យគន្លឹះ​នេះ​តែ​ម្តង។
+
+**ឥឡូវ​នេះ សូមសួរសំណួរ​ដែល​ធ្វើ​ឱ្យយើង​មិន​ស្រួល​ក្នុង​ចិត្ត៖** តើ​មាន​អ្វីបច្ចុប្បន្ន​នេះ ដែល​រារាំង Developer ណាម្នាក់ នៅកន្លែងណាមួយ​ក្នុង​កូដ (Codebase) មិន​ឱ្យវាយ `new ConnectionPool()` ជា​លើ​កទី​ពី​រ? និយាយឱ្យត្រង់​ទៅ — ចម្​លើ​យ​គឺ *គ្មាន​អ្វីទាល់​តែ​សោះ*។ Constructor គឺ `public` ដូច្​នេះ​ទ្វារនៅបើកចំហរ​ជា​និច្ច។ ដរាបណាទ្វារ​នោះ​នៅបើកចំហ គ្មាន​វិន័យ (Discipline) ឬ​ឯកសារណែនាំ (Documentation) ណាមួយអាចសង្គ្រោះយើង​បាន​ឡើយ — នឹង​មាន​នរណាម្នាក់ នៅថ្ងៃណាមួយ ដើរចូល​តាម​ទ្វារ​នោះ​ជា​មិន​ខាន។
+
+**ដូច្​នេះ តម្រូវ​ការ​នេះ​ក៏​សរសេរ​ខ្លួនវាឡើងវិញ​ដោយ​ស្ងាត់ ៗ ៖** «ធានាឱ្យ​មាន Instance តែ​មួយ» តាម​ពិត​មាន​ន័យថា «ដកចេញ​ពី​អ្នក​ដទៃ​ទាំងអស់​នូវ *អំណាច* ក្នុង​ការ​បង្កើត Instance»។ យើង​មិន​សុំអង្វរឱ្យគេ​កុំ​ហៅ `new` ឡើយ — យើង​ធ្វើ​ឱ្យវា​មិន​អាច​ទៅ​រួច​តែ​ម្តង។ យើង​ត្រូវ​ចាក់សោ Constructor៖ ផ្លាស់ប្តូរវា​ទៅ​ជា `private`។
+
+**ប៉ុន្តែ​ឥឡូវ​នេះ យើង​បាន​បង្កើត​បញ្ហា​ថ្មី​មួយ មែនទេ?** បើទ្វារ​ត្រូវ​បាន​ចាក់សោរ តើ​នរណាអាចទាញយក Object នោះ​មក​ប្រើ​បាន? យើង​បាន​ការ​ពារធនធាន​នេះ​យ៉ាង​ជិតស្និទ្ធ រហូតដល់​គ្មាន​នរណាម្នាក់អាចចូលដល់វា​បាន។ ដំណោះស្រាយ​នេះ​ហើយ ជា​គន្លឹះ​ទាំងស្រុង៖ ប្រសិនបើ Class នោះ ជា​អ្នក​តែ​មួយគត់​ដែល​ត្រូវ​បាន​អនុញ្ញាតឱ្យ​បង្កើត​ខ្លួនឯង នោះ *Class នោះ​ផ្ទាល់* ត្រូវតែ​ជា​អ្នក​ប្រគល់ Instance ចេញ​មក​ក្រៅ។ យើងបន្ថែមច្រកទ្វារ​ដែល​គ្រប់​គ្រង​បាន​មួយ — គឺ​មុខងារ `public static` (ជា​ទូ​ទៅ​ដាក់ឈ្មោះថា `getInstance()`) — ដែល​ធ្វើ​ការ​ងារកត់ត្រា ដែល​គ្មាន​នរណាផ្សេងអាចទុកចិត្ត​បាន៖ ពេល​ហៅ​លើ​កដំបូង វា​បង្កើត Instance តែ​មួយ​នោះ រួចរក្សាទុក​ក្នុង Static Variable; រាល់​ពេល​ក្រោយ ៗ មក វាប្រគល់ Instance ដ​ដែល​នោះ​ត្រឡប់​ទៅ​វិញ។
+
+នេះ​ហើយ គឺជា Pattern ដែល​ត្រូវ​បាន *ទាញចេញ (Derived)* មិន​មែនទន្ទេញ៖ ចាក់សោរ​ការ​បង្កើត​កុំ​ឱ្យសេរី រួចបើកច្រកទ្វារ​តែ​មួយគត់ ដែល​ធានាភាពដូចគ្នា។ សូ​មក​ត់សម្គាល់ថា យើង​មិន​ដែល *ជ្រើសរើស* Singleton ឡើយ — អាកប្បកិរិយា​របស់​កុំ​ព្យូទ័រ បូកនឹងតម្រូវ​ការ​របស់​យើង បាន​បិទផ្លូវរហូតយើង​គ្មាន​ជម្រើសអ្វីផ្សេងទៀត​ឡើយ។
+
+---
+
+## ៣. ស្ថាបត្យកម្​មក​ូដគំរូ (Code Architecture)
+
+ខាងក្រោម​នេះ គឺជា​ការ​ទាញហេតុផល​របស់​យើង ដែល​ត្រូវ​បាន​បកប្រែ​ទៅ​ជា​ភាសា Java៖ ចាក់សោ Constructor រួចបើកច្រក `getInstance()` តែ​មួយ ដែល​មាន​សុវត្ថិភាពចំពោះ Thread (Thread-Safe)។ យើងប្រើបច្ចេកទេស **Double-Checked Locking (DCL)** ជា​មួយ `volatile` ដើម្បី​ឱ្យ Thread ច្រើន​មិន​បង្កើត Instance ច្រើន​ក្នុង​ពេល​តែ​មួយ ខណៈ​ពេល​ដែល​នៅ​តែ​រក្សា​បាន​នូវល្បឿន​លឿន (Performance)។
 
 ```java
 public final class ConnectionPool {
 
-    // volatile ធានាថា thread ទាំងអស់ឃើញ instance ដូចគ្នា (មិនមាន cache ខូស)
+    // volatile ធានាថា thread ទាំងអស់ឃើញ instance ដូចគ្នាភ្លាមៗ (ទប់ស្កាត់បញ្ហា CPU Cache ទិន្នន័យចាស់)
     private static volatile ConnectionPool instance;
 
     // ចាក់សោទ្វារ៖ គ្មាននរណាអាចហៅ new ConnectionPool() ពីខាងក្រៅបានឡើយ
     private ConnectionPool() {
+        // ការពារការប្រើប្រាស់ Reflection API ដើម្បីបំបែកសោ
         if (instance != null) {
             throw new IllegalStateException("ប្រើ getInstance() ជំនួសវិញ");
         }
-        // ... initialize the pool ...
+        // ... ការរៀបចំ (Initialization) ដ៏ស្មុគស្មាញរបស់ Connection Pool ...
     }
 
     // ច្រកទ្វារតែមួយគត់ ដែលគ្រប់គ្រងបាន
     public static ConnectionPool getInstance() {
         if (instance == null) {                 // ការត្រួតពិនិត្យលើកទី ១ (មិនចាក់សោ — លឿន)
-            synchronized (ConnectionPool.class) {
-                if (instance == null) {         // ការត្រួតពិនិត្យលើកទី ២ (ចាក់សោ — សុវត្ថិភាព)
+            synchronized (ConnectionPool.class) { // ចាក់សោ Thread (Thread-Safe)
+                if (instance == null) {         // ការត្រួតពិនិត្យលើកទី ២ (នៅក្នុងបន្ទប់ចាក់សោ)
                     instance = new ConnectionPool();
                 }
             }
@@ -75,7 +76,9 @@ public final class ConnectionPool {
 }
 ```
 
-**កំណត់សម្គាល់ — វិធីសាមញ្ញ និងល្អបំផុតក្នុង Java៖** តាមការណែនាំក្នុងសៀវភៅ *Effective Java* វិធីដ៏រឹងមាំបំផុតគឺប្រើ `enum` ដែលមានធាតុតែមួយ។ JVM ធានាសុវត្ថិភាព thread ការបង្កើតតែម្តង និងការការពារ reflection/serialization ដោយស្វ័យប្រវត្តិ៖
+### កំណត់សម្គាល់ — វិធី​សាមញ្ញ និង​ល្អ​បំផុត​ក្នុង Java (The Enum Singleton)៖
+
+តាម​ការ​ណែនាំ​របស់​អ្នក​ជំនាញ​សរសេរ​កូដ (ដូចជា​នៅក្នុង​សៀវភៅ *Effective Java* របស់ Joshua Bloch) វិធីដ៏រឹងមាំបំផុត និង​ឆើតឆាយបំផុត​ក្នុង​ការ​បង្កើត Singleton ក្នុង Java គឺ​ប្រើ `enum` ដែល​មាន​ធាតុ​តែ​មួយ។ ម៉ាស៊ីន JVM ធានា​បាន​នូវសុវត្ថិភាព Thread (Thread Safety) ការ​បង្កើត​តែ​ម្តងគត់ និង​ការ​ការ​ពារ​ពី​ការ​បំបែក​ដោយ Reflection ឬ Serialization ដោយ​ស្វ័យប្រវត្តិ៖
 
 ```java
 public enum ConnectionPool {
@@ -87,7 +90,7 @@ public enum ConnectionPool {
 }
 ```
 
-`enum` ខ្លីជាង សុវត្ថិភាពជាង ហើយលុបបំបាត់រាល់ការលំបាកនៃ double-checked locking។ ប្រើ DCL តែនៅពេលដែលអ្នកត្រូវការការ initialize ដ៏ស្មុគស្មាញ ដែល enum មិនអាចបង្ហាញបានស្រួល។
+`enum` ខ្លី​ជា​ង សុវត្ថិភាព​ជា​ង ហើយ​លុបបំបាត់​រាល់​ការ​លំបាក​នៃ Double-Checked Locking។ ប្រើ DCL តែ​នៅ​ពេល​ដែល​អ្នក​ត្រូវ​ការ​ការ​រៀបចំ (Initialization) ដ៏ស្មុគស្មាញ ដែល​ទាមទារ​ការ​ពន្យារ​ពេល (Lazy Loading) យ៉ាង​តឹងរ៉ឹងបំផុតប៉ុណ្ណោះ។
 
 ---
 
@@ -99,10 +102,10 @@ flowchart TD
     classDef derivation fill:#2980b9,stroke:#3498db,color:#fff
     classDef result fill:#27ae60,stroke:#2ecc71,color:#fff
 
-    A["🔴 System Requirement:<br/>Exactly One Instance"]:::axiom --> B["🔒 Private Constructor:<br/>Prevents direct instantiation"]:::derivation
-    B --> C["🌍 Static Variable:<br/>Stores the single<br/>instance"]:::derivation
-    C --> D["⚡ Static getInstance():<br/>Lazy loads and<br/>returns instance"]:::derivation
-    D --> E["✅ Guaranteed Single Source<br/>of Truth"]:::result
+    A["🔴 System Requirement:<br/>Exactly One Instance<br/>(Single Truth)"]:::axiom --> B["🔒 Private Constructor:<br/>Prevents direct<br/>instantiation by clients"]:::derivation
+    B --> C["🌍 Static Variable:<br/>Stores the single<br/>instance globally"]:::derivation
+    C --> D["⚡ Static getInstance():<br/>Lazy loads and<br/>returns instance safely"]:::derivation
+    D --> E["✅ Guaranteed Single Source<br/>of Truth across Threads"]:::result
 ```
 
 ---
@@ -110,14 +113,14 @@ flowchart TD
 ## ៥. Related Posts
 
 ### 🔗 Explore All Viewpoints:
-* 📖 **Read the Parable:** [The Bank's Only Vault (ទូដែកតែមួយគត់របស់ធនាគារ)](../../parables/75-the-banks-only-vault.md) — Explains the emotional core of shared truth.
-* 🧠 **Read the First Principles Derivation:** [MIT Professor Strategy: Singleton (គោលការណ៍គ្រឹះដំបូងនៃ Singleton)](../01-mit-professor/01-singleton.md) — Derives the pattern from fundamental computer axioms.
-* 👶 **Read the Feynman Simplification:** [Feynman Technique: Singleton (ការពន្យល់ពី Singleton ដោយគ្មានពាក្យបច្ចេកទេស)](../02-feynman-technique/04-singleton.md) — Breaks it down using the central clock tower.
-* 👦 **Read the ELI5 Metaphor:** [ELI5: Singleton (ម៉ាស៊ីនខួងខ្មៅដៃតែមួយគត់ក្នុងថ្នាក់រៀន)](../03-eli5/04-singleton.md) — Teaches it to a five-year-old using classroom pencil sharpeners.
-* 🌉 **Read the Analogy Bridge:** [Analogy Bridge: Singleton (ស្ពានប្រៀបធៀបនៃប្រភពពិតតែមួយគត់)](../04-analogy-bridge/04-singleton.md) — Maps it to a hotel front desk and shows where physical limits fail compared to code threads.
-* 🧐 **Read the Socratic Discovery:** [Socratic Method: Singleton (ការបង្កើតប្រព័ន្ធការពិតតែមួយគត់តាមវិធីសាស្ត្រសូក្រាត)](../05-socratic-method/04-singleton.md) — Guide your self-discovery through mentor-student dialogue.
-* 📰 **Read the Journalist Summary:** [Journalist: Singleton (ការធានាឱ្យមានការពិតតែមួយគត់ក្នុងប្រព័ន្ធទាំងមូល)](../06-journalist-inverted-pyramid/04-singleton.md) — Get the high-impact lede, volatile visibility, and thread-safety details first.
-* 🎭 **Read the Storyteller Narrative:** [Storyteller: Singleton (អាណាព្យាបាលនៃសេចក្តីពិត និងកងទ័ពក្លូនបង្កចលាចល)](../07-storyteller-narrative-arc/04-singleton.md) — Follow Kiri's heroic journey to vanquish the duplicate logger clone army.
-* ⚙️ **Read the Engineer Spec:** [Engineer: Singleton (ការសម្របសម្រួលប្រភពពិតតែមួយគត់ និងទប់ស្កាត់ការខ្ជះខ្ជាយធនធាន)](../08-engineer-requirements-constraints-solution/03-singleton.md) — Read the rigorous engineering specification, DCL performance details, and candidate elimination.
-* 📊 **Read the Pros & Cons:** [Pros & Cons Compared: Singleton (ការប្រៀបធៀបគុណសម្បត្តិ និងគុណវិបត្តិនៃ Singleton)](../09-pros-and-cons-compared/01-singleton.md) — Full trade-off analysis and decision matrix.
+* 📖 **Read the Parable:** [The Bank's Only Vault (ទូដែក​តែ​មួយគត់​របស់​ធនាគារ)](../../parables/75-the-banks-only-vault.md) — Explains the emotional core of shared truth.
+* 🧠 **Read the First Principles Derivation:** [MIT Professor Strategy: Singleton (គោល​ការ​ណ៍គ្រឹះដំបូង​នៃ Singleton)](../01-mit-professor/01-singleton.md) — Derives the pattern from fundamental computer axioms.
+* 👶 **Read the Feynman Simplification:** [Feynman Technique: Singleton (ការ​ពន្យល់​ពី Singleton ដោយ​គ្មាន​ពាក្យបច្ចេកទេស)](../02-feynman-technique/04-singleton.md) — Breaks it down using the central clock tower.
+* 👦 **Read the ELI5 Metaphor:** [ELI5: Singleton (ម៉ាស៊ីនខួងខ្មៅដៃ​តែ​មួយគត់​ក្នុង​ថ្នាក់រៀន)](../03-eli5/04-singleton.md) — Teaches it to a five-year-old using classroom pencil sharpeners.
+* 🌉 **Read the Analogy Bridge:** [Analogy Bridge: Singleton (ស្ពានប្រៀបធៀប​នៃ​ប្រភព​ពិត​តែ​មួយគត់)](../04-analogy-bridge/04-singleton.md) — Maps it to a hotel front desk and shows where physical limits fail compared to code threads.
+* 🧐 **Read the Socratic Discovery:** [Socratic Method: Singleton (ការ​បង្កើត​ប្រព័ន្ធ​ការ​ពិត​តែ​មួយគត់​តាម​វិធីសាស្ត្រសូក្រាត)](../05-socratic-method/04-singleton.md) — Guide your self-discovery through mentor-student dialogue.
+* 📰 **Read the Journalist Summary:** [Journalist: Singleton (ការ​ធានាឱ្យ​មាន​ការ​ពិត​តែ​មួយគត់​ក្នុង​ប្រព័ន្ធ​ទាំងមូល)](../06-journalist-inverted-pyramid/04-singleton.md) — Get the high-impact lede, volatile visibility, and thread-safety details first.
+* 🎭 **Read the Storyteller Narrative:** [Storyteller: Singleton (អាណាព្យាបាល​នៃ​សេចក្តី​ពិត និង​កងទ័ពក្លូនបង្កចលាចល)](../07-storyteller-narrative-arc/04-singleton.md) — Follow Kiri's heroic journey to vanquish the duplicate logger clone army.
+* ⚙️ **Read the Engineer Spec:** [Engineer: Singleton (ការ​សម្របសម្រួល​ប្រភព​ពិត​តែ​មួយគត់ និង​ទប់ស្កាត់​ការ​ខ្ជះខ្​ជា​យធនធាន)](../08-engineer-requirements-constraints-solution/03-singleton.md) — Read the rigorous engineering specification, DCL performance details, and candidate elimination.
+* 📊 **Read the Pros & Cons:** [Pros & Cons Compared: Singleton (ការ​ប្រៀបធៀបគុណសម្បត្តិ និង​គុណវិបត្តិ​នៃ Singleton)](../09-pros-and-cons-compared/01-singleton.md) — Full trade-off analysis and decision matrix.
 * 🛠️ **Read the Code Implementation:** [Creational Patterns: The Art of Instantiation](../../../clean-code/design-patterns/01-creational-patterns.md#the-singleton) — Production-grade Java with double-checked locking and thread safety.
