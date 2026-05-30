@@ -1,0 +1,55 @@
+%%{init: {
+  'theme': 'dark',
+  'themeVariables': {
+    'background': '#1e1e1e',
+    'primaryTextColor': '#ffffff',
+    'lineColor': '#a0a0a0'
+  },
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+}}%%
+flowchart LR
+    START(["START"]):::start --> FS["FS Document<br/>(PO)"]:::input
+    FS -->|"Gate 0 · PM<br/>(create tickets)"| A["Backlogs<br/>(PM)"]:::process
+    A -->|"Gate 1 · PO<br/>(DoR met)"| B["Ready for Devs<br/>(PM)"]:::process
+    B -->|"Dev pulls (one owner)"| C["In Progress<br/>(Dev)"]:::process
+    C -->|"Gate 2 · Dev (PR raised)"| D["To Reviews<br/>(Peer Dev)"]:::process
+    D -->|"Reviewer picks up"| E["In Reviews<br/>(Peer Dev)"]:::process
+    E -->|"Gate 3 · Peer (approved)"| F["Pending Deploy<br/>(PM / DevOps)"]:::process
+    F -->|"Gate 4 · deploy to staging<br/>+ smoke check"| G["Ready For Test<br/>(QA)"]:::process
+    G -->|"Gate 5 · QA pass"| H["Done<br/>(PO)"]:::success
+
+    %% --- Fails / fix branch (right side) ---
+    G -.->|"Gate 5 · QA fail"| I["Fails<br/>(Dev / PM triage)"]:::danger
+    I -.->|"real defect"| PF["Pending Fix<br/>(Dev)"]:::danger
+    I -.->|"not a defect"| G
+    I -.->|"needs discussion"| TD["To Discuss<br/>(PO / PM)"]:::hold
+    PF -.->|"Dev picks up to fix"| C
+    TD -.->|"PO/PM resolves"| C
+
+    %% --- Pause / park branch (left side) ---
+    C -.->|"PM/PO switch priority"| PA["Paused<br/>(Dev; PM/PO trigger)"]:::hold
+    PA -.->|"PM/PO restore priority"| C
+    C -.->|"any in-flight ticket parked"| OH["On Hold / Redo<br/>(PO / PM)"]:::hold
+    OH -.->|"PO/PM returns to flow"| C
+
+    %% --- Edge colors by type ---
+    linkStyle 0,1,2,3,4,5,6,7,8 stroke:#27ae60,stroke-width:2px
+    linkStyle 9,10 stroke:#e74c3c,stroke-width:2px
+    linkStyle 12,15,17 stroke:#e67e22,stroke-width:2px
+    linkStyle 11,13,14,16,18 stroke:#1abc9c,stroke-width:2px
+
+    style START fill:#34495e,color:#fff
+    style FS fill:#16a085,color:#fff
+    style A fill:#2980b9,color:#fff
+    style B fill:#2980b9,color:#fff
+    style C fill:#2980b9,color:#fff
+    style D fill:#2980b9,color:#fff
+    style E fill:#2980b9,color:#fff
+    style F fill:#8e44ad,color:#fff
+    style G fill:#8e44ad,color:#fff
+    style H fill:#27ae60,color:#fff
+    style I fill:#e74c3c,color:#fff
+    style PF fill:#c0392b,color:#fff
+    style TD fill:#f39c12,color:#fff
+    style OH fill:#f39c12,color:#fff
+    style PA fill:#d35400,color:#fff

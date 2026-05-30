@@ -22,6 +22,8 @@ This document defines how a Jira ticket moves from the PO's Functional Spec (FS)
 
 The procedure covers eight forward-flow statuses, five side statuses (Fails, Paused, On Hold, To Discuss, Redo), the Pending Fix status, and the FS document as the starting input — fifteen states in total. It defines the ownership of each, plus the rules for failures, holds, and rework. The signature block at the end records the team's agreement to follow it.
 
+**Where sign-offs are recorded.** Each gate sign-off is recorded in Jira: the owner makes the status transition and adds a brief comment confirming the gate was met (for example, "QA passed: 12/12 cases, no open bugs"). Teams that want a fuller per-ticket record can attach the companion Ticket Sign-Off Template, which provides a checklist and a name + date line for every gate.
+
 ---
 
 ## Table of Contents
@@ -114,6 +116,10 @@ flowchart LR
 
 Line colors: green = forward flow (toward Done) · red = fail / defect · orange = paused or parked (off-flow) · teal = returning to the flow.
 
+> For documents where Mermaid does not render (Google Docs, PDF, print), use the exported image: `assets/signoff-flow.png` (or `assets/signoff-flow.svg`). Re-export from `assets/signoff-flow.mmd` if the flow changes.
+
+![Ticket sign-off status flow](assets/signoff-flow.png)
+
 ### 1.3 Status List
 
 The forward-flow statuses, in order, plus the side statuses:
@@ -168,7 +174,7 @@ Side statuses (off the forward flow):
 
 **Gate 4 — Pending Deploy → Ready For Test (PM / DevOps).** The build is deployed to the staging/test environment and a smoke check is run. QA is then notified that a testable build is available, and the ticket moves to Ready For Test. Testing always happens on a deployed build, never before deploy.
 
-> **Delays at Pending Deploy.** A ticket stuck in Pending Deploy directly blocks QA and shrinks the time left to test and fix before the sprint ends. If a deploy is delayed, the owner (PM / DevOps) must add a comment on the ticket explaining the problem being faced and the expected timing, and CC the relevant members (QA, the Dev author, and the PO/PM) so everyone is aware and can adjust. The same applies to any ticket whose delay in one status blocks work downstream.
+> **Delays at Pending Deploy.** A ticket stuck in Pending Deploy directly blocks QA and shrinks the time left to test and fix before the sprint ends. If a ticket sits in Pending Deploy for **more than 1 working day**, the owner (PM / DevOps) must add a comment on the ticket explaining the problem being faced and the expected timing, and CC the relevant members (QA, the Dev author, and the PO/PM) so everyone is aware and can adjust. The same applies to any ticket whose delay in one status blocks work downstream.
 >
 > Common causes and what to do:
 > - **Server / infrastructure problem.** The staging environment is down or the deploy pipeline is failing. Comment the cause and the fix ETA; do not move the ticket to Ready For Test until a clean build is actually deployed (testing a broken environment wastes QA's time).
@@ -237,7 +243,7 @@ Paused vs. On Hold: Paused means work was started and then bumped by a re-priori
 6. Status reflects reality. The Jira status is the true location of the work; if it is blocked, move it to On Hold or flag it.
 7. No silent drag-backs. Every backward or side move requires a log entry and a comment.
 8. Rules are frozen during a sprint. No one changes this procedure mid-sprint; problems are noted, discussed at the retrospective, and any fix takes effect in the next sprint (see Exceptions & Escalation).
-9. Flag delays that block others. If a ticket sits in a status too long and that delay affects downstream work (for example, a slow Pending Deploy blocking QA), the owner comments on the ticket explaining the problem and CCs the relevant members so everyone is aware.
+9. Flag delays that block others. If a ticket sits in any status for more than 1 working day and that delay affects downstream work (for example, a slow Pending Deploy blocking QA), the owner comments on the ticket explaining the problem and CCs the relevant members so everyone is aware. Blockers open more than 1 working day are also raised at the next Daily Standup.
 
 ---
 
