@@ -18,11 +18,11 @@
 
 ## ១. បញ្ហាស្នូល (The Core Problem)
 
-Let me start with a question. Suppose your program has one printer, one database connection pool, one configuration file loaded into memory. Some part of the system asks for it, and a moment later — somewhere else entirely — another part asks for it too. How do you guarantee they are talking about the *same* thing, and not two copies that have quietly drifted apart?
+ខ្ញុំសូមចាប់ផ្តើមដោយសំណួរមួយ។ ស្រមៃថាកម្មវិធីរបស់អ្នកមាន printer តែមួយ មាន database connection pool តែមួយ ឬមានឯកសារ config ដែលផ្ទុកក្នុងមេម៉ូរីតែមួយ។ ផ្នែកមួយនៃប្រព័ន្ធស្នើសុំវា ហើយមួយភ្លែតក្រោយមក — នៅកន្លែងផ្សេងទៀតទាំងស្រុង — ផ្នែកមួយទៀតក៏ស្នើសុំវាដែរ។ តើអ្នកធានាដោយរបៀបណាថា ផ្នែកទាំងពីរនេះកំពុងនិយាយអំពីវត្ថុ *ដូចគ្នា* មិនមែនច្បាប់ចម្លងពីរ ដែលបានញែកចេញពីគ្នាដោយស្ងាត់ៗ?
 
-Hold onto that, because the trouble is subtle. When two pieces of code each create their own copy of "the" connection pool, nothing crashes immediately. The program runs. The tests pass. And then in production, under load, you get the bug that ruins your week: exhausted memory, a locked hardware port, two caches that disagree about the truth. Nobody wrote a bug. The bug is *structural* — it lives in the fact that the language let two copies exist at all.
+សូមចងចាំសំណួរនេះទុក ព្រោះបញ្ហានេះមានភាពលាក់កំបាំង។ នៅពេលដែលកូដពីរផ្នែកបង្កើតច្បាប់ចម្លងផ្ទាល់ខ្លួនរបស់ «the» connection pool នោះ គ្មានអ្វីខូចភ្លាមៗឡើយ។ កម្មវិធីដំណើរការ។ Test ក៏ជាប់។ ប៉ុន្តែបន្ទាប់មកនៅក្នុង production ក្រោមបន្ទុកធ្ងន់ អ្នកនឹងជួបនូវ bug ដែលធ្វើឱ្យសប្តាហ៍របស់អ្នកវឹកវរ៖ មេម៉ូរីហូរហៀរ (Memory Exhaustion) port hardware ជាប់គាំង ឬ cache ពីរដែលផ្ទុយគ្នាអំពីការពិត។ គ្មាននរណាសរសេរ bug នេះទេ។ bug នេះគឺជា bug *រចនាសម្ព័ន្ធ (structural)* — វាកើតចេញពីការពិតដែលថា ភាសាសរសេរកម្មវិធីបានអនុញ្ញាតឱ្យច្បាប់ចម្លងពីរអាចមានវត្តមានតាំងពីដំបូង។
 
-យើងចង់គ្រប់គ្រងធនធានរួមគ្នា (ដូចជា Database Connection Pool ឬ Hardware Port) ដែលការបង្កើត Object ច្រើននឹងបណ្តាលឱ្យហូរហៀរមេម៉ូរី (Memory Exhaustion) ការជាប់គាំងខ្សែស្រឡាយដំណើរការ (Thread Lockups) ឬស្ថានភាពទិន្នន័យមិនស៊ីសង្វាក់គ្នា (Inconsistent State)។
+ដូច្នេះ យើងចង់គ្រប់គ្រងធនធានរួមគ្នា (ដូចជា Database Connection Pool ឬ Hardware Port) ដែលការបង្កើត Object ច្រើននឹងបណ្តាលឱ្យហូរហៀរមេម៉ូរី (Memory Exhaustion) ការជាប់គាំងខ្សែស្រឡាយដំណើរការ (Thread Lockups) ឬស្ថានភាពទិន្នន័យមិនស៊ីសង្វាក់គ្នា (Inconsistent State)។
 
 ---
 
