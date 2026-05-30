@@ -18,7 +18,9 @@
 
 ## ១. បញ្ហាស្នូល (The Core Problem)
 
-We want to manage a shared resource (like a database connection pool or hardware port) where having multiple instances causes memory exhaustion, thread lockups, or inconsistent state. 
+Let me start with a question. Suppose your program has one printer, one database connection pool, one configuration file loaded into memory. Some part of the system asks for it, and a moment later — somewhere else entirely — another part asks for it too. How do you guarantee they are talking about the *same* thing, and not two copies that have quietly drifted apart?
+
+Hold onto that, because the trouble is subtle. When two pieces of code each create their own copy of "the" connection pool, nothing crashes immediately. The program runs. The tests pass. And then in production, under load, you get the bug that ruins your week: exhausted memory, a locked hardware port, two caches that disagree about the truth. Nobody wrote a bug. The bug is *structural* — it lives in the fact that the language let two copies exist at all.
 
 យើងចង់គ្រប់គ្រងធនធានរួមគ្នា (ដូចជា Database Connection Pool ឬ Hardware Port) ដែលការបង្កើត Object ច្រើននឹងបណ្តាលឱ្យហូរហៀរមេម៉ូរី (Memory Exhaustion) ការជាប់គាំងខ្សែស្រឡាយដំណើរការ (Thread Lockups) ឬស្ថានភាពទិន្នន័យមិនស៊ីសង្វាក់គ្នា (Inconsistent State)។
 
@@ -27,9 +29,18 @@ We want to manage a shared resource (like a database connection pool or hardware
 ## ២. ការទាញហេតុផលពីគោលការណ៍គ្រឹះ (First Principles Derivation)
 
 ### English
-* **Axiom 1:** Think about how computers physically work. Every time you use the `new` keyword, the computer carves out a brand-new, completely separate block of memory.
-* **Axiom 2:** If our goal is to guarantee that only *one* single truth exists in our entire system, we have to take away everyone else's ability to create new instances. We must protect the creation process.
-* **Derivation:** So, how do we do this? First, we make the class constructor `private`, effectively locking the front door. But if the door is locked, how does anyone get in? We build a safe, controlled gateway—a `public static` method (like `getInstance()`). This gateway checks if an instance already exists. If it doesn't, it creates one carefully. If it does, it simply hands over the exact same instance, ensuring everyone shares the exact same truth.
+
+Let's not memorize a solution. Let's *derive* it, starting from how the machine actually behaves, and see if the pattern is forced on us.
+
+**Start with one fact about the machine.** Every time you write `new`, the computer carves out a fresh, separate block of memory. That is not a style choice — it is what `new` *means*. So if our requirement is "exactly one of these must ever exist," then every stray `new` is a direct threat to that requirement. The danger isn't hypothetical; it's built into the keyword.
+
+**Now ask the uncomfortable question.** What is currently stopping any developer, anywhere in the codebase, from typing `new ConnectionPool()` a second time? Be honest — the answer is *nothing*. The constructor is public, so the door is wide open. As long as that door stays open, no amount of discipline or documentation will save us; someone, someday, will walk through it.
+
+**So the requirement quietly rewrites itself.** "Guarantee one instance" really means "remove from everyone else the *power* to create instances." We don't ask people not to call `new` — we make it impossible. We lock the constructor: make it `private`.
+
+**But now we've created a new problem, haven't we?** If the door is locked, how does anyone get the object at all? We've protected the resource so well that nobody can reach it. The resolution is the whole insight: if the class is the only one allowed to construct itself, then *the class itself* must hand out the instance. We add one controlled doorway — a `public static` method, `getInstance()` — that does the bookkeeping nobody else can be trusted with: the first time it's called, it creates the single instance; every time after, it returns that very same one.
+
+And that is the pattern, derived rather than memorized: lock creation, then expose one gate that guarantees sameness. Notice we never *chose* Singleton — the machine's behavior plus our requirement left us no other door.
 
 ### Khmer
 * **គោលការណ៍គ្រឹះ ១៖** គិតអំពីដំណើរការរបស់កុំព្យូទ័រជាទូទៅ។ រាល់ពេលដែលអ្នកប្រើប្រាស់ពាក្យគន្លឹះ `new` កុំព្យូទ័រនឹងកាត់យកទំហំមេម៉ូរីថ្មីមួយ ដែលដាច់ដោយឡែកពីគ្នាទាំងស្រុង។

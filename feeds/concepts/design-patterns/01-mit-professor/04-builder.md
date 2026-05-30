@@ -19,11 +19,11 @@
 
 ## ១. គោលការណ៍គ្រឹះដំបូង (Axiomatic Foundations)
 
-To understand the core necessity of the **Builder Pattern**, we must derive it from three fundamental laws of runtime memory execution and compiler mechanics:
+Before we look at any solution, let me put three facts on the table — not opinions, but things that are simply *true* about how code runs. Everything about the Builder pattern falls out of these. If you accept the three, you'll find you've already invented Builder by the end.
 
-1. **The Human Error Axiom:** When we call a constructor with a long list of parameters, they are pushed into memory in an exact, rigid order. If we have multiple parameters of the same type—like a sequence of numbers or true/false flags—the compiler is completely blind to whether we accidentally swapped them. This is a quiet, deadly trap for human error.
-2. **The Golden State Axiom:** From the exact moment an object is brought to life in memory, it must instantly be whole, perfectly valid, and ready to protect its own rules. We cannot allow an object to exist in a "half-baked" or invalid state, even for a millisecond.
-3. **The Immutable Peace Axiom:** In a world where multiple threads are constantly racing and reading data simultaneously, trying to coordinate them with locks is exhausting and slow. The most elegant way to guarantee absolute peace and thread safety is to make the object unchangeable (`immutable`) once it's born.
+1. **Positional arguments are blind.** When you call `new Document("Report", "Sokha", true, false, 3, ...)`, the language matches those values to parameters purely by *position*. It has no idea what you *meant*. Swap two booleans — `isDraft` and `isArchived` — and the compiler says nothing, the program runs, and the bug ships. The more parameters of the same type you have, the more certain this silent error becomes. This isn't carelessness; it's the calling convention itself working against you.
+2. **An object should be born valid.** From the very instant an object exists in memory, it ought to be whole and obeying its own rules — a `Document` with no title is not a "mostly fine Document," it's a contradiction that shouldn't be allowed to exist, even for a millisecond. If we let objects come into the world incomplete, every piece of code that touches them afterward has to wonder, "is this one actually finished?"
+3. **The simplest way to be thread-safe is to never change.** When many threads read the same object at once, coordinating them with locks is slow and easy to get wrong. But notice: if an object *cannot be modified after creation*, there is nothing to coordinate — every thread sees the same frozen truth. Immutability isn't just tidy; it's the cheapest concurrency guarantee there is.
 
 1. **គោលការណ៍នៃកំហុសមនុស្ស៖** នៅពេលដែលយើងហៅ Constructor ដែលមានប៉ារ៉ាម៉ែត្រវែងអន្លាយ ពួកវានឹងត្រូវបានបញ្ជូនទៅក្នុងអង្គចងចាំតាមលំដាប់លំដោយយ៉ាងតឹងរ៉ឹង។ ប្រសិនបើយើងមានប៉ារ៉ាម៉ែត្រប្រភេទដូចគ្នាច្រើន (ដូចជាលេខ ឬ true/false បន្តបន្ទាប់គ្នា) កម្មវិធីបម្លែងកូដ (Compiler) នឹងងងឹតភ្នែកទាំងស្រុង ហើយមិនអាចដឹងថាយើងបានច្រឡំផ្លាស់ប្តូរទីតាំងពួកវាឬអត់នោះទេ។ នេះគឺជាអន្ទាក់ដ៏ស្ងាត់ស្ងៀមនិងគ្រោះថ្នាក់បំផុតសម្រាប់កំហុសរបស់មនុស្ស។
 2. **គោលការណ៍នៃស្ថានភាពមាស (Golden State)៖** ចាប់ពីវិនាទីដែល Object មួយត្រូវបានផ្តល់ជីវិតនៅក្នុងអង្គចងចាំ វាត្រូវតែពេញលេញ ត្រឹមត្រូវ និងត្រៀមខ្លួនរួចជាស្រេចដើម្បីការពារច្បាប់ផ្ទាល់ខ្លួនរបស់វាភ្លាមៗ។ យើងមិនអាចបណ្តោយឱ្យ Object ណាមួយស្ថិតក្នុងស្ថានភាព "ពាក់កណ្តាលទី" ឬមិនទាន់ត្រឹមត្រូវឡើយ សូម្បីតែមួយមីលីវិនាទីក៏ដោយ។
@@ -33,13 +33,15 @@ To understand the core necessity of the **Builder Pattern**, we must derive it f
 
 ## ២. ការទាញរកលក្ខណៈបច្ចេកទេស (The Derivation)
 
-### The Problem: The Exploding Constructor & The Fragile Object
+### The Problem: two tempting answers, both wrong
 
-Imagine a complex entity—say, a `Document`—that has a dozen optional properties. If we try to handle this the traditional way, we are forced to write an exhausting number of constructors to cover every possible combination of these options. This is known as the "Telescoping Constructor" anti-pattern, and it quickly turns our codebase into an unmaintainable nightmare.
+Take a `Document` with a dozen properties — two required (title, author), the rest optional. Watch our three facts collide with the two "obvious" solutions, and watch both fail.
 
-You might think, "Why not just create an empty object and use Setters to fill in the blanks?" But this creates two critical vulnerabilities:
-1. The moment the object is created, it's essentially an empty shell—fragile and invalid. 
-2. It remains dangerously mutable. This breaks our *Immutable Peace Axiom*, leaving the object completely exposed to multi-threading disasters where Thread A might read a half-constructed object while Thread B is still desperately trying to fill in the missing pieces.
+**Tempting answer #1: just add more constructors.** One for title+author, one that also takes content, one that also takes a version… You end up with a tower of near-identical constructors covering every combination — the *telescoping constructor*. It's unreadable, and it walks straight into Fact #1: a caller staring at `new Document(a, b, c, true, false, 2)` cannot tell which boolean is which, and neither can the compiler. We've multiplied the surface area for silent, positional mistakes.
+
+**Tempting answer #2: build it empty, then use setters.** `Document d = new Document(); d.setTitle(...); d.setAuthor(...);`. Cleaner to read — and it violates *two* of our facts at once. It breaks Fact #2, because between line one and line three the document exists with no title: a half-built, invalid object that other code might grab. And it breaks Fact #3, because an object you fill in with setters is an object that can be *changed* forever after — mutable, and unsafe the moment a second thread reads it mid-assembly.
+
+So we're cornered. We need the readable, name-each-field assembly that setters gave us, but we also need the object to spring into existence *all at once, complete and frozen*. Assembly is gradual; validity must be instant. Those two demands seem contradictory — until you realize the way out is to **separate the gathering of parts from the birth of the object**. Let one helper collect the ingredients over several friendly, named steps; then, in a single final act, validate everything and construct one immutable object. That helper is the Builder — and the solution below shows exactly how it keeps all three facts satisfied.
 
 ### ដំណោះស្រាយ៖ ជម្រកសុវត្ថិភាពរបស់ Builder
 

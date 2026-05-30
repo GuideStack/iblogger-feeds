@@ -18,7 +18,9 @@
 
 ## ១. បញ្ហាស្នូល (The Core Problem)
 
-Have you ever noticed how rigid code becomes when you directly create objects using the `new` keyword? By doing this, your main code becomes deeply tied to a very specific, concrete class. The moment your business needs to grow and you want to introduce a new type of product, you're forced to dig back into your original code and change it. This tightly coupled approach breaks the beautiful Open-Closed Principle—where our code should be open to growing, but closed to being constantly rewritten.
+Here's a line of code so ordinary you've written it a thousand times: `new EmailNotifier()`. Harmless, right? Let me convince you it's quietly expensive.
+
+The moment you write `new EmailNotifier()` inside your order-processing code, you have welded two things together that have nothing to do with each other: the logic that *decides to send a notification*, and the concrete fact *that it's email, of this exact class*. They now share fate. Tomorrow the business says, "We need SMS too. And push notifications. And, for enterprise clients, Slack." Where do you go? Back into the order-processing code — code that was working perfectly — to add a `switch` or an `if/else`. You are reopening a closed wound every time the world changes. That is the violation of the Open–Closed Principle in its purest form: your code should be *open* to new behavior but *closed* to being rewritten, and `new` slammed that possibility shut.
 
 តើអ្នកធ្លាប់កត់សម្គាល់ទេថាកូដរបស់យើងនឹងក្លាយទៅជារឹងស្អិតប៉ុណ្ណា នៅពេលដែលយើងបង្កើត Object ដោយផ្ទាល់តាមរយៈពាក្យគន្លឹះ `new`? ការធ្វើបែបនេះ ធ្វើឱ្យកូដគោលរបស់យើងចងភ្ជាប់យ៉ាងតឹងរ៉ឹងទៅនឹង Class ជាក់លាក់ណាមួយ។ នៅពេលដែលអាជីវកម្មរបស់អ្នករីកចម្រើន ហើយអ្នកចង់បន្ថែមប្រភេទផលិតផលថ្មី អ្នកនឹងត្រូវបង្ខំចិត្តត្រឡប់ទៅកែប្រែកូដចាស់ឡើងវិញ។ ភាពចងភ្ជាប់គ្នាស្អិតនេះ បានបំផ្លាញនូវភាពស្រស់ស្អាតនៃគោលការណ៍ Open-Closed Principle ដែលចង់ឱ្យកូដរបស់យើងបើកចំហសម្រាប់ការអភិវឌ្ឍបន្ថែម តែមិនគួរត្រូវកែប្រែចុះឡើងនោះទេ។
 
@@ -27,9 +29,16 @@ Have you ever noticed how rigid code becomes when you directly create objects us
 ## ២. ការទាញហេតុផលពីគោលការណ៍គ្រឹះ (First Principles Derivation)
 
 ### English
-* **Axiom 1:** Tying our code directly to concrete details is a trap. It violates a core engineering law—the Dependency Inversion Principle. To build resilient systems, we must rely on meaningful interfaces rather than rigid, hardcoded implementations.
-* **Axiom 2:** Think about the client using your code. They just want to consume the product. They shouldn't have to carry the burden of knowing exactly *how* or *which* specific version of that product needs to be created.
-* **Derivation:** Our solution is beautiful in its simplicity: we completely separate the act of *using* an object from the act of *creating* it. We introduce an abstract creator class that holds a special "Factory Method" (like `createProduct()`). Now, instead of the client blindly calling `new Product()`, they simply ask this factory method for what they need. The brilliant part is that the specific subclasses of this creator are the ones that decide exactly which concrete product to build. The client? They stay perfectly blissfully unaware, happily interacting only with the overarching abstract interface.
+
+Let's find the fix by asking what the calling code *actually* needs — and what it's only pretending to need.
+
+**Separate the want from the how.** Your order code wants *a notification sent*. Does it genuinely need to know the notification is an `EmailNotifier`, constructed with these exact arguments? No. That knowledge is baggage it's been forced to carry. The first principle of resilient design — depend on abstractions, not concretions — tells us the caller should speak only to an interface, `Notifier`, and never name a concrete class at all.
+
+**But someone, somewhere, must still say `new`.** We can't wish object creation away — the SMS object has to be built by *something*. So the real question isn't "how do we avoid creating objects," it's "*who* should be allowed to decide which concrete object gets created, and *where* should that decision live?"
+
+**Follow that question and the answer appears.** The decision should not live in the caller — that's what made the caller fragile. So we pull the act of creation out into its own method on a creator class: `createNotifier()`. The base creator declares it; the caller uses only its result. Then — here is the move — we let *subclasses* of the creator override that method, each one choosing its own concrete product. `EmailDispatcher` builds an email notifier; `SmsDispatcher` builds an SMS one.
+
+**Watch what just happened to the cost of change.** Adding push notifications no longer means editing the order code. It means writing one *new* subclass and leaving everything else untouched. The caller never learns a new name; it still just asks for a `Notifier` and gets one. We didn't decorate the code — we relocated a single decision (which class to instantiate) to the one place where extending it is free. That relocation *is* the Factory Method.
 
 ### Khmer
 * **គោលការណ៍គ្រឹះ ១៖** ការចងភ្ជាប់កូដរបស់យើងដោយផ្ទាល់ទៅនឹងព័ត៌មានលម្អិតជាក់លាក់ គឺជាអន្ទាក់មួយ។ វាបានបំពានលើច្បាប់វិស្វកម្មដ៏សំខាន់មួយ គឺ Dependency Inversion Principle។ ដើម្បីកសាងប្រព័ន្ធដែលរឹងមាំ យើងត្រូវពឹងផ្អែកលើចំណុចប្រទាក់ (Interfaces) ដែលមានអត្ថន័យ ជាជាងការចងភ្ជាប់កូដយ៉ាងរឹងកំព្រឹស។
