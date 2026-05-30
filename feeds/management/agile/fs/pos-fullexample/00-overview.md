@@ -86,6 +86,7 @@ This FS is split into modules; each is its own document with full requirements a
 
 **Revenue / growth layer**
 10. [Promotions & Discounts](10-promotions.md) — offers, vouchers, bundles, with a margin guardrail.
+15. [Product Demand Testing](15-product-testing.md) — **test before you buy**: validate demand on social first, then decide Stock / Dropship / Drop. (Runs *before* procurement.)
 11. [Marketing & Attribution](11-marketing-attribution.md) — which ads/posts/lives actually make money (ROAS).
 12. [Customers, Loyalty & Retention](12-customers-loyalty.md) — repeat buyers, points, store credit, segments.
 13. [Live Selling & Channel Engagement](13-live-selling.md) — fast claim capture, real-time stock, follow-up.
@@ -104,7 +105,11 @@ This FS is split into modules; each is its own document with full requirements a
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 flowchart TD
-    SUP["China Supplier<br/>(1688 / Taobao)"]:::ext --> PO["Purchase Order<br/>(Buyer)"]:::proc
+    CAND["Candidate Product<br/>(idea / supplier find)"]:::ext --> TEST["Demand Test<br/>(post / ad / live)"]:::test
+    TEST -->|"strong demand"| PO["Purchase Order<br/>(Buyer)"]:::proc
+    TEST -->|"moderate"| PROD
+    TEST -.->|"weak: DROP<br/>(do not buy)"| STOP["Archived<br/>(no inventory spent)"]:::ret
+    SUP["China Supplier<br/>(1688 / Taobao)"]:::ext --> PO
     PO --> LAND["Import + Landed Cost<br/>(shipping, customs, FX)"]:::proc
     LAND --> INV["Inventory<br/>(stocked items)"]:::proc
     PROD["Product Catalog<br/>(stocked / dropship)"]:::proc --> CH
@@ -124,6 +129,7 @@ flowchart TD
     RET -.-> REC
 
     classDef ext fill:#7f8c8d,color:#fff
+    classDef test fill:#f39c12,color:#fff
     classDef proc fill:#2980b9,color:#fff
     classDef sale fill:#8e44ad,color:#fff
     classDef ful fill:#16a085,color:#fff

@@ -20,6 +20,7 @@ Built to show the [FS Document Procedure](../fs-document-procedure.md) at real s
 - **[09 — Users, Roles & Audit](09-users-roles.md)** — permissions and an append-only audit trail.
 
 **Revenue / growth layer (drive more sales)**
+- **[15 — Product Demand Testing](15-product-testing.md)** — *test before you buy*: validate demand on social, then decide Stock / Dropship / Drop (runs before procurement). Includes an example test report.
 - **[10 — Promotions & Discounts](10-promotions.md)** — offers, vouchers, bundles, with a margin guardrail.
 - **[11 — Marketing & Attribution](11-marketing-attribution.md)** — which ads/posts/lives make money (ROAS).
 - **[12 — Customers, Loyalty & Retention](12-customers-loyalty.md)** — repeat buyers, points, store credit, segments.
