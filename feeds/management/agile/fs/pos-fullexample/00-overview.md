@@ -98,7 +98,7 @@ flowchart TD
     FULD -.-> PO
     FULS --> DEL["Delivery<br/>(courier)"]:::ful
     FULD --> DEL
-    DEL --> PAY["Payment<br/>(COD / bank / wallet / prepaid)"]:::pay
+    DEL --> PAY["Payment<br/>(COD / bank /<br/>wallet / prepaid)"]:::pay
     PAY --> REC["Reconciliation"]:::pay
     REC --> RPT["Profit / Loss<br/>Reporting"]:::rpt
     DEL -.->|"return"| RET["Returns / Refund"]:::ret
