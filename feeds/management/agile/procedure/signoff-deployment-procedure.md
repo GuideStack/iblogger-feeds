@@ -73,7 +73,7 @@ flowchart LR
     DONE["Done tickets<br/>(from Ticket Procedure)"]:::input --> REL["Release bundled<br/>(PM · vX.Y.Z)"]:::process
     REL -->|"D1 · DevOps<br/>(deploy + smoke)"| ST["Staging<br/>(DevOps)"]:::process
     ST -->|"D2 · QA<br/>(release regression)"| UAT["UAT<br/>(PO)"]:::process
-    UAT -->|"D3 · PO + PM<br/>(business + ops ready)"| PROD["Production<br/>(PO + PM approve, DevOps deploys)"]:::success
+    UAT -->|"D3 · PO + PM<br/>(business + ops ready)"| PROD["Production<br/>(PO + PM approve,<br/>DevOps deploys)"]:::success
     PROD -->|"D4 · post-deploy smoke OK"| LIVE["Released<br/>(monitored)"]:::success
 
     PROD -.->|"production failure"| RB["Rollback<br/>(DevOps)"]:::danger
