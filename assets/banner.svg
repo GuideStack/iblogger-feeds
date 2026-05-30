@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="iblogger-feeds — an engineering and knowledge reference library">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0b3a53"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <style>
+      .title  { font: 700 64px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #f8fafc; }
+      .tag    { font: 400 24px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #cbd5e1; }
+      .chip   { font: 600 18px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #e2e8f0; }
+      .stat   { font: 700 40px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #f8fafc; }
+      .statlbl{ font: 400 16px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #94a3b8; }
+      .mono   { font: 600 20px 'SFMono-Regular', Consolas, monospace; fill: #38bdf8; }
+    </style>
+  </defs>
+
+  <!-- background -->
+  <rect width="1280" height="320" rx="20" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1280" height="6" rx="3" fill="url(#accent)"/>
+
+  <!-- subtle node/graph motif on the right -->
+  <g opacity="0.18" stroke="#38bdf8" stroke-width="2" fill="none">
+    <circle cx="1080" cy="90"  r="10" fill="#38bdf8"/>
+    <circle cx="1180" cy="150" r="10" fill="#22d3ee"/>
+    <circle cx="1040" cy="200" r="10" fill="#34d399"/>
+    <circle cx="1150" cy="250" r="10" fill="#38bdf8"/>
+    <circle cx="980"  cy="120" r="10" fill="#22d3ee"/>
+    <line x1="1080" y1="90"  x2="1180" y2="150"/>
+    <line x1="1080" y1="90"  x2="980"  y2="120"/>
+    <line x1="1040" y1="200" x2="980"  y2="120"/>
+    <line x1="1040" y1="200" x2="1150" y2="250"/>
+    <line x1="1180" y1="150" x2="1150" y2="250"/>
+    <line x1="1180" y1="150" x2="1040" y2="200"/>
+  </g>
+
+  <!-- prompt mark -->
+  <text x="64" y="118" class="mono">~/</text>
+  <text x="104" y="118" class="title">iblogger-feeds</text>
+
+  <!-- tagline -->
+  <text x="66" y="162" class="tag">A living engineering &amp; knowledge reference library</text>
+
+  <!-- domain chips -->
+  <g>
+    <rect x="64"  y="196" width="150" height="38" rx="19" fill="#1e293b" stroke="#334155"/>
+    <text x="139" y="221" class="chip" text-anchor="middle">Clean Code</text>
+
+    <rect x="226" y="196" width="120" height="38" rx="19" fill="#1e293b" stroke="#334155"/>
+    <text x="286" y="221" class="chip" text-anchor="middle">DevOps</text>
+
+    <rect x="358" y="196" width="124" height="38" rx="19" fill="#1e293b" stroke="#334155"/>
+    <text x="420" y="221" class="chip" text-anchor="middle">Security</text>
+
+    <rect x="494" y="196" width="172" height="38" rx="19" fill="#1e293b" stroke="#334155"/>
+    <text x="580" y="221" class="chip" text-anchor="middle">Management</text>
+
+    <rect x="678" y="196" width="150" height="38" rx="19" fill="#1e293b" stroke="#334155"/>
+    <text x="753" y="221" class="chip" text-anchor="middle">Compliance</text>
+
+    <rect x="840" y="196" width="160" height="38" rx="19" fill="#1e293b" stroke="#334155"/>
+    <text x="920" y="221" class="chip" text-anchor="middle">Curriculum</text>
+  </g>
+
+  <!-- stats row -->
+  <g>
+    <text x="66"  y="288" class="stat">1,200+</text>
+    <text x="68"  y="308" class="statlbl">reference docs</text>
+
+    <text x="280" y="288" class="stat">18</text>
+    <text x="282" y="308" class="statlbl">knowledge domains</text>
+
+    <text x="520" y="288" class="stat">Bilingual</text>
+    <text x="522" y="308" class="statlbl">English &amp; Khmer</text>
+  </g>
+</svg>

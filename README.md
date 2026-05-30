@@ -1,121 +1,139 @@
-# 📚 iblogger-feeds
+<div align="center">
+
+![iblogger-feeds](assets/banner.svg)
+
+# iblogger-feeds
+
+**A living engineering &amp; knowledge reference library** — clean code, DevOps, security, project management, compliance, curriculum, language, and the habits that hold it all together.
 
 [![Last Commit](https://img.shields.io/github/last-commit/iblogger855/iblogger-feeds)](https://github.com/iblogger855/iblogger-feeds/commits/main)
 [![License](https://img.shields.io/github/license/iblogger855/iblogger-feeds)](LICENSE)
-[![Articles](https://img.shields.io/badge/articles-comprehensive-blue)](INDEX.md)
+[![Docs](https://img.shields.io/badge/reference%20docs-1200%2B-0ea5e9)](INDEX.md)
+[![Languages](https://img.shields.io/badge/languages-EN%20%2B%20Khmer-34d399)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/iblogger855/iblogger-feeds/pulls)
 
-An enterprise-grade technical reference library capturing real-world software engineering — clean code, emerging tech, reverse proxies, project management, visual security architectures, and sustainable developer habits.
+</div>
 
 ---
 
-## 🎯 Quick Navigation
+## What this is
 
-| Reference File | Purpose |
+`iblogger-feeds` is a structured, long-form reference library — not a blog feed, but a curated knowledge base that explains real-world topics in depth, often in **both English and Khmer**, with diagrams, worked examples, and a recurring "explain it many ways" style (first-principles, ELI5, Socratic, storyteller, and more).
+
+> **At a glance:** 1,200+ documents · ~18 knowledge domains · bilingual (English &amp; ខ្មែរ) · Mermaid diagrams &amp; worked examples throughout.
+
+---
+
+## Start here
+
+| File | Purpose |
 | :--- | :--- |
-| **[INDEX.md](INDEX.md)** | Browse all technical articles & modules by category |
-| **[QUICK_START.md](QUICK_START.md)** | Onboard and get up-to-speed in under 5 minutes |
-| **[STRUCTURE.md](STRUCTURE.md)** | Detailed repository layout & naming conventions |
-| **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** | Community contribution & collaboration standards |
-| **[CONTRIBUTING.md](.github/CONTRIBUTING.md)** | Step-by-step pipeline to draft, review, and merge articles |
+| **[INDEX.md](INDEX.md)** | Browse everything by category |
+| **[QUICK_START.md](QUICK_START.md)** | Get oriented in under 5 minutes |
+| **[STRUCTURE.md](STRUCTURE.md)** | Repository layout &amp; naming conventions |
+| **[CONTRIBUTING.md](.github/CONTRIBUTING.md)** | How to draft, review, and merge a doc |
+| **[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)** | Community standards |
 
 ---
 
-## 🗂️ Knowledge Domains
+## Knowledge domains
 
-| Domain / Category | Folder Link | Primary Subjects Covered |
-| :--- | :--- | :--- |
-| **💡 Concepts** | [feeds/concepts/](./feeds/concepts/README.md) | Cognitive biases, problem-solving, root-cause 5-whys |
-| **💻 Clean Code** | [feeds/clean-code/](./feeds/clean-code/README.md) | GoF design patterns, DSA complexity, refactoring smelly code |
-| **☁️ DevOps** | [feeds/devops/](./feeds/devops/README.md) | NGINX, HAProxy, Envoy load balancing, Coolify PaaS, Cloudflare |
-| **🛡️ Security** | [feeds/security/](./feeds/security/README.md) | OAuth 2.1, OIDC, SAML, WebAuthn Passkeys, DDoS, ASVS 5.0 |
-| **📊 Management** | [feeds/management/](./feeds/management/README.md) | Agile, Waterfall, Spiral, V-Model comparison matrices, DoR/DoD |
-| **🎯 Habits** | [feeds/developer-habits/](./feeds/developer-habits/README.md) | Visual design guides, fast workflows, Model Context Protocol (MCP) |
-| **🚀 Careers** | [feeds/concepts/career-paths/](./feeds/concepts/career-paths/README.md) | Professional matrices for SWE, Product Owner, QA, and Ops |
-| **🧠 Well-being** | [feeds/mental-health/](./feeds/mental-health/README.md) | Chronic burnout markers, stress management, building resilience |
-| **☕ Dev Stories** | [feeds/daily-dev/](./feeds/daily-dev/README.md) | Production outage post-mortems, bug hunting reflections |
-| **🌐 Trending** | [feeds/trending-tech/](./feeds/trending-tech/README.md) | AI integrations, new frameworks, compiler advancements |
-| **🧬 Science** | [feeds/science/](./feeds/science/biology/README.md) | Biology, taxonomy, evolution, and 6 kingdoms |
-
----
-
-## 🌟 Featured Deep-Dives
-
-Here are some of the most rigorous, highly-visual engineering guides in the library:
-
-*   **🛡️ Enterprise Authentication:** [OAuth 2.0 & Delegated Access](./feeds/security/auth-and-identity-patterns/02-oauth2-and-delegated-access.md) — Illustrating PKCE security handshakes.
-*   **💻 Architectural Principles:** [Creational, Structural & Behavioral Patterns](./feeds/clean-code/design-patterns/README.md) — 23 Gang-of-Four patterns with Java examples.
-*   **☁️ Edge Engineering:** [Traefik, NGINX & Cloudflare Reverse Proxies](./feeds/devops/README.md) — Comparative matrices for high-traffic load balancers.
-*   **📡 Communication Layers:** [Network Protocols & API Architectures](./feeds/devops/fundamentals/01-network-protocols-and-api-architectures.md) — Rigorous guide covering REST, SOAP, GraphQL, gRPC, and WebSockets.
-*   **💡 Root-Cause Analysis:** [The 5 Whys Problem Solving Technique](./feeds/concepts/02-five-whys-technique.md) — Transitioning from surface fixes to process surgery.
-*   **🗣️ Science of Communication:** [10 EQ Flaws in Conversation](./feeds/concepts/03-science-of-communication-eq-flaws.md) — Diagnosing conversational faults and psychological strategies.
-*   **🎭 Pedagogical Parables:** [Psychological Parable Library](./feeds/concepts/README.md#🎭-pedagogical-parable-library-feedsconceptsparables) — 12 rich analogical narratives exploring biases, bounds, and behaviors.
-*   **📊 Delivery Frameworks:** [Agile, Spiral & V-Model SDLC Matrix](./feeds/management/sdlc-05-comparison-matrix.md) — Choosing the right development lifecycle.
+| Domain | What's inside |
+| :--- | :--- |
+| 💡 **[Concepts](feeds/concepts/)** | Mental models, design-pattern explanations (12 teaching styles), parables, career paths — the largest collection in the repo |
+| 💻 **[Clean Code](feeds/clean-code/)** | GoF design patterns with Java, data structures &amp; algorithms, refactoring, frontend architecture |
+| ☁️ **[DevOps](feeds/devops/)** | Reverse proxies (NGINX/HAProxy/Traefik), CI/CD, network protocols &amp; API architectures, observability |
+| 🛡️ **[Security](feeds/security/)** | OAuth 2.1, OIDC, SAML, WebAuthn/passkeys, DDoS defense, OWASP/ASVS |
+| 📊 **[Management](feeds/management/)** | Agile &amp; SDLC, sign-off procedures, Functional Specs (with a full worked POS example), DoR/DoD |
+| ⚖️ **[Compliance](feeds/compliances/)** | Data privacy, healthcare, identity &amp; KYC, EU-specific regulation |
+| 📋 **[Procedures](feeds/procedures/)** | Operational runbooks — payments &amp; revenue, domain workflows, accounts, open source |
+| 🎓 **[Colleges &amp; Curriculum](feeds/colleges/)** | Full university-style curricula (Denison, RKC) — 200+ structured learning files |
+| 🏫 **[Schools](feeds/schools/)** | Grade-level educational material |
+| 🗣️ **[English](feeds/english/)** | Professional English, idioms, daily practice |
+| 🎯 **[Developer Habits](feeds/developer-habits/)** | Workflows, Model Context Protocol (MCP), visual communication |
+| ⚡ **[Productivity](feeds/productivity/)** | Documentation workflows, AI-with-TDD, team-lead practices |
+| 🧠 **[Mental Health](feeds/mental-health/)** | Burnout prevention, resilience |
+| ☕ **[Daily Dev](feeds/daily-dev/)** | Post-mortems &amp; engineering reflections |
+| 🌐 **[Trending Tech](feeds/trending-tech/)** | AI integrations, emerging tools |
+| 🧬 **[Science](feeds/science/)** | Biology, taxonomy, the six kingdoms |
+| 🧩 **[Templates](feeds/templates/)** | Reusable document skeletons |
 
 ---
 
-## 🚀 Repository Directory Structure
+## Featured deep-dives
+
+- 📊 **[Functional Spec — full POS example](feeds/management/agile/fs/pos-fullexample/README.md)** — a comprehensive, build-ready FS for a cross-border social-commerce business: 15 modules, user stories, acceptance criteria, NFRs, data dictionary, and wireframes.
+- ✅ **[Agile sign-off procedures](feeds/management/agile/procedure/)** — ticket lifecycle, deployment, and ADR sign-off, with ownership/RACI and diagrams.
+- 💻 **[Design patterns, 12 ways](feeds/concepts/design-patterns/)** — each GoF pattern explained as a first-principles lecture, ELI5, Socratic dialogue, parable, and more.
+- 🛡️ **[Authentication &amp; identity](feeds/security/)** — OAuth 2.0 / PKCE handshakes, OIDC, SAML, passkeys.
+- ☁️ **[Network protocols &amp; API architectures](feeds/devops/)** — REST, GraphQL, gRPC, WebSockets compared.
+- 🎓 **[Business &amp; sustainability curriculum](feeds/colleges/)** — a full multi-year program with bilingual parables and AI self-learning prompts.
+
+---
+
+## Repository structure
 
 ```
 iblogger-feeds/
-├── README.md                    ← You are here
-├── INDEX.md                     ← Global index linking to all modules
-├── QUICK_START.md               ← Onboarding blueprint
-├── STRUCTURE.md                 ← Repo tree and naming conventions
+├── README.md            ← you are here
+├── INDEX.md             ← global index of all docs
+├── QUICK_START.md       ← 5-minute onboarding
+├── STRUCTURE.md         ← layout & naming conventions
 │
-├── feeds/                       ← Categorized article database
-│   ├── concepts/                ← Mental models & biases
-│   │   ├── career-paths/        ← Role competency matrices
-│   ├── clean-code/              ← Design patterns, DSA, refactoring, architecture
-│   ├── devops/                  ← Infrastructure, observability, databases, CI/CD
-│   │   └── fundamentals/        ← Network protocols & API architectures
-│   ├── security/                ← Auth, DDoS, OWASP, session security
-│   ├── management/              ← SDLC, DoR/DoD, project tools
-│   │   └── sdlc/                ← SDLC model comparison series
-│   ├── developer-habits/        ← Workflows, MCP, visual communication
-│   ├── mental-health/           ← Well-being & burnout prevention
-│   ├── daily-dev/               ← Real developer reflections
-│   ├── trending-tech/           ← AI & emerging tools
-│   └── science/                 ← Hard sciences and natural world
-│       └── biology/             ← Biology and 6 kingdoms
+├── feeds/               ← the knowledge base (~1,200 docs)
+│   ├── concepts/        ← mental models, patterns (12 styles), parables, careers
+│   ├── clean-code/      ← patterns, DSA, refactoring, frontend architecture
+│   ├── devops/          ← proxies, CI/CD, protocols, observability
+│   ├── security/        ← auth, OWASP, DDoS, session security
+│   ├── management/      ← agile, SDLC, sign-off procedures, Functional Specs
+│   ├── compliances/     ← privacy, healthcare, KYC, EU regulation
+│   ├── procedures/      ← operational runbooks
+│   ├── colleges/        ← university-style curricula (200+ files)
+│   ├── schools/         ← grade-level material
+│   ├── english/         ← professional English, idioms, daily
+│   ├── developer-habits/← workflows, MCP, visual communication
+│   ├── productivity/    ← documentation, AI+TDD, team leadership
+│   ├── mental-health/   ← well-being & burnout prevention
+│   ├── daily-dev/       ← post-mortems & reflections
+│   ├── trending-tech/   ← AI & emerging tools
+│   ├── science/         ← biology & natural world
+│   └── templates/       ← reusable document skeletons
 │
-├── _templates/
-│   └── article-template.md      ← Base markdown skeleton for new drafts
-│
-└── .github/
-    ├── CONTRIBUTING.md          ← Branching, review, and merging rules
-    └── ISSUE_TEMPLATE/          ← Bug reports & content requests
+├── assets/              ← repo assets (banner, etc.)
+├── _templates/          ← article skeleton for new drafts
+└── .github/             ← contributing guide & issue templates
 ```
 
 ---
 
-## ✍️ Contribution Workflow
-
-We welcome contributions! To draft a new technical reference or add a code case-study, follow these steps:
+## Contributing
 
 ```bash
-# 1. Clone the repository
+# 1. Clone
 git clone https://github.com/iblogger855/iblogger-feeds.git
 cd iblogger-feeds
 
-# 2. Create a clean feature branch
-git checkout -b article/visual-security-guide
+# 2. Branch
+git checkout -b article/your-topic-here
 
-# 3. Copy the base template to the correct category folder using the standard naming format
-cp _templates/article-template.md feeds/security/auth-and-identity-patterns/12-your-topic-here.md
+# 3. Start from the template, in the right category folder
+cp _templates/article-template.md feeds/<domain>/NN-your-topic.md
 
-# 4. Draft your article (incorporating Mermaid diagrams & ELI5 sections)
+# 4. Write it — diagrams (Mermaid), worked examples, and (where relevant) a Khmer version
 
-# 5. Link your article to the category README.md and the global INDEX.md
+# 5. Link it from the category README and INDEX.md
 
-# 6. Push and create a Pull Request
-git add .
-git commit -m "Add: Detailed Visual Guide to Topic X"
+# 6. Push and open a PR
+git add . && git commit -m "Add: <your topic>"
 git push origin article/your-topic-here
 ```
 
-Please consult [STRUCTURE.md](STRUCTURE.md) for style requirements, image embed rules, and internal cross-link naming standards.
+See [STRUCTURE.md](STRUCTURE.md) for style, diagram, and cross-link conventions, and [CONTRIBUTING.md](.github/CONTRIBUTING.md) for the review workflow.
 
 ---
 
-*Maintained by [@iblogger855](https://github.com/iblogger855)*
+<div align="center">
+
+Maintained by [@ichamrong](https://github.com/ichamrong) · [@iblogger855](https://github.com/iblogger855)
+
+</div>
