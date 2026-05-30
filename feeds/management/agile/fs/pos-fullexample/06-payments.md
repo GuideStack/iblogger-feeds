@@ -1,0 +1,43 @@
+# FS Module 6: Payments & Reconciliation
+
+> Part of the [Cross-Border Social Resell POS](00-overview.md). Matching money to orders across COD, bank/ABA, wallets, and prepaid links.
+
+## Summary
+
+Money arrives in different ways and at different times. **Prepaid** (card/wallet/payment link) lands before fulfillment. **Bank transfer / ABA** lands when the customer transfers and Finance confirms it. **COD** is collected by the courier on delivery and paid back to us later — meaning we carry a "COD float" that must be reconciled. This module records every payment against its order and makes sure the money we *should* have matches the money we *do* have.
+
+## Users
+
+Finance (primary), Sales (records intended method), Owner (reads cash position).
+
+## Functional Requirements
+
+- **PM-1:** Each order has one or more **payments**, each with method (**COD / Bank-ABA / Wallet / Prepaid link**), amount, and status (**Pending / Confirmed / Failed**).
+- **PM-2:** An order supports **split payment** (e.g. part deposit by transfer, balance by COD) — total confirmed payments must equal the order total to be "paid".
+- **PM-3:** **Prepaid link / wallet / card**: when the customer pays, the payment is marked Confirmed (via gateway callback where integrated, or manual confirm).
+- **PM-4:** **Bank/ABA transfer**: the customer sends proof; **Finance confirms** the matching deposit, moving the payment to Confirmed. Unconfirmed transfers keep the order "Awaiting Payment".
+- **PM-5:** **COD**: marked as "to be collected" at ship time; when the **courier remits cash**, Finance **reconciles** the COD batch, confirming which orders' cash was received.
+- **PM-6:** The system tracks **COD float** = total COD shipped but not yet remitted by couriers, per courier.
+- **PM-7:** A **deposit** can be required for high-value or dropship orders before purchasing (configurable).
+- **PM-8:** Every payment, confirmation, and reconciliation is **logged**; a confirmed payment cannot be silently edited (only reversed with a logged reason).
+- **PM-9:** The order's payment status (unpaid / partial / paid) is always derived from its confirmed payments, shown in [Module 4](04-channels-orders.md).
+
+## Acceptance Criteria
+
+- **PM-2:** Given an order total of 50, When a 20 transfer is confirmed and 30 is later collected by COD, Then the order becomes "paid" (20 + 30 = 50).
+- **PM-4:** Given a customer uploads transfer proof for 50, When Finance confirms a matching 50 deposit, Then the payment is Confirmed and the order leaves "Awaiting Payment".
+- **PM-4 (mismatch):** Given proof says 50 but the deposit is 45, When Finance reviews, Then they can confirm 45 (leaving 5 outstanding) — the order stays partially paid.
+- **PM-5:** Given 10 COD orders totaling 600 shipped via courier X, When courier X remits 540 covering 9 orders, Then Finance reconciles those 9 as paid and the 10th stays "COD pending / 60 owed".
+- **PM-6:** Given the above, When the Owner views COD float for courier X, Then it shows 60 outstanding.
+- **PM-8:** Given a Confirmed payment, When someone attempts to change its amount, Then it is blocked and a logged reversal is required instead.
+
+## Edge Cases
+
+- Customer overpays a transfer → record actual; surface the overage for refund or store credit (ties to [Module 7](07-returns.md)).
+- Courier remits a lump sum without a clean per-order breakdown → reconciliation screen lets Finance allocate the lump sum across the shipped COD orders.
+- Failed prepaid payment (card declined) → order stays Awaiting Payment; not fulfilled.
+- Refund after payment → handled in [Module 7](07-returns.md), which reverses the relevant payment.
+
+## Dependencies
+
+- Payment intent set in [Module 4](04-channels-orders.md); COD float created at ship in [Module 5](05-fulfillment.md); refunds in [Module 7](07-returns.md); cash & margin into [Module 8 — Reporting](08-reporting.md).
