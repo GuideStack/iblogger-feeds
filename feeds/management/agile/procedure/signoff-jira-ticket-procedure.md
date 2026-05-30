@@ -162,7 +162,7 @@ Side statuses (off the forward flow):
 
 ### 2.2 Notes on Each Gate
 
-**Gate 0 — FS Document → Backlogs (PM, from PO's FS).** The PO writes and approves the Functional Spec — that is the only artifact the PO owns at this stage. The PM then creates the tickets from the approved FS into Backlogs and owns them from there. This is the single entry point into the workflow. The FS must be ready one sprint ahead — dropped by Day 7 of the prior sprint — so tickets are refined and Ready before planning (see the Sprint Ticket Confirmation Lifecycle, section 5.1).
+**Gate 0 — FS Document → Backlogs (PM, from PO's FS).** The PO writes and approves the Functional Spec — that is the only artifact the PO owns at this stage. The PM then creates the tickets from the approved FS into Backlogs and owns them from there. This is the single entry point into the workflow. The FS must be ready one sprint ahead — dropped by Day 7 (the 7th working day) of the prior sprint — so tickets are refined and Ready before the next sprint's planning.
 
 **Gate 1 — Backlogs → Ready for Devs (PO).** The PO confirms the ticket meets the Definition of Ready: the requirement is clear and traceable to the FS, acceptance criteria are written and testable, the ticket is sized, and no dependency is blocking it. Only then is it available for a developer.
 
