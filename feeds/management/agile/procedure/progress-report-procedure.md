@@ -65,26 +65,21 @@ If nothing changed, say so honestly ("No movement on PROJ-201 — still blocked 
 
 ## 4. Daily Report Email Template
 
-*Sent by each Dev / QA every working day. Keep it short — bullets, not paragraphs.*
+*Sent by each Dev / QA every working day. Keep it short — one line per ticket.*
 
 **To:** `<team list>`, `<PM>`
 **Subject:** [Daily] `<your name>` — `<YYYY-MM-DD>`
 
 Hi team,
 
-**Moved yesterday**
-- `<PROJ-001>` `<title>` → `<new status>`
-- `<PROJ-002>` `<title>` → `<new status>`
+| What | Ticket | Title | Status | Note |
+|------|--------|-------|--------|------|
+| Moved yesterday | `<PROJ-001>` | `<title>` | → `<new status>` | — |
+| Working on today | `<PROJ-003>` | `<title>` | `<current status>` | `<what specifically>` |
+| Blocked / at risk | `<PROJ-004>` | `<title>` | `<status>` | `<blocker, who I need (open since <date>)>` |
+| Next up | `<PROJ-005>` | `<title>` | `<status>` | — |
 
-**Working on today**
-- `<PROJ-003>` `<title>` — `<current status>` — `<what specifically>`
-
-**Blocked / at risk**
-- `<PROJ-004>` — `<what's blocking, who I need>` `<(open since <date>)>`
-- `<or: None>`
-
-**Next up**
-- `<PROJ-005>` `<title>`
+`<Blockers: None — remove the row if nothing is blocked.>`
 
 `<your name>`
 
@@ -100,22 +95,34 @@ Hi team,
 Hi team,
 
 **Completed this week** (reached Done or moved significantly forward)
-- `<PROJ-001>` `<title>` — `<Done / now in QA / etc.>`
-- `<PROJ-002>` `<title>` — `<status>`
+
+| Ticket | Title | Status |
+|--------|-------|--------|
+| `<PROJ-001>` | `<title>` | `<Done / now in QA / etc.>` |
+| `<PROJ-002>` | `<title>` | `<status>` |
 
 **In progress (carrying into next week)**
-- `<PROJ-003>` `<title>` — `<status>` — `<% / what remains>`
+
+| Ticket | Title | Status | What remains |
+|--------|-------|--------|--------------|
+| `<PROJ-003>` | `<title>` | `<status>` | `<% / what's left>` |
 
 **Blocked / at risk**
-- `<PROJ-004>` — `<blocker, who I need, since when>`
-- `<or: None>`
+
+| Ticket | Blocker | Who I need | Since |
+|--------|---------|------------|-------|
+| `<PROJ-004>` | `<what's blocking>` | `<role/name>` | `<date>` |
+
+`<None — remove this table if nothing is blocked.>`
 
 **Planned for next week**
-- `<PROJ-005>` `<title>`
-- `<PROJ-006>` `<title>`
 
-**Notes for the PM** *(optional)*
-- `<capacity, time off, anything that affects the plan>`
+| Ticket | Title |
+|--------|-------|
+| `<PROJ-005>` | `<title>` |
+| `<PROJ-006>` | `<title>` |
+
+**Notes for the PM** *(optional):* `<capacity, time off, anything that affects the plan>`
 
 `<your name>`
 
@@ -126,7 +133,7 @@ Hi team,
 1. Report your own work. Each member reports their own tickets; the PM aggregates — no one reports for the whole team.
 2. Tie every item to a ticket and status. A report mirrors the Jira board; if they disagree, fix the board.
 3. Be honest about blockers. Flag anything stuck — especially blockers open more than 1 working day — rather than hiding a stall.
-4. Keep it short. Daily = a few bullets; weekly = a summary, not five dailies pasted together.
+4. Keep it short. Daily = one line per ticket in the table; weekly = a summary, not five dailies pasted together. Delete any table rows or sections that don't apply.
 5. Consistent timing. Send by the agreed time so the PM can aggregate before reporting upward.
 6. Frozen during a sprint. The report format is not changed mid-sprint; suggest changes at the retrospective.
 
