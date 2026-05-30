@@ -22,9 +22,9 @@ Finance (primary), Sales (records intended method), Owner (reads cash position).
 
 ## User Stories
 
-- As a **Finance**, I want to record one or more payments per order, so that split payments (deposit + COD) reconcile to a single sale. *(→ PM-1, PM-2)*
-- As a **Finance**, I want to confirm a bank/ABA transfer against proof, so that an order isn't fulfilled on an unconfirmed payment. *(→ PM-4)*
-- As a **Finance**, I want to reconcile a courier's COD remittance against shipped orders, so that I know exactly which orders' cash arrived. *(→ PM-5, PM-6)*
+- As **Finance**, I want to record one or more payments per order, so that split payments (deposit + COD) reconcile to a single sale. *(→ PM-1, PM-2)*
+- As **Finance**, I want to confirm a bank/ABA transfer against proof, so that an order isn't fulfilled on an unconfirmed payment. *(→ PM-4)*
+- As **Finance**, I want to reconcile a courier's COD remittance against shipped orders, so that I know exactly which orders' cash arrived. *(→ PM-5, PM-6)*
 - As an **Owner**, I want to see total COD float per courier, so that I can chase cash that's overdue. *(→ PM-6)*
 - As an **Owner**, I want to have payment status derived from confirmed payments, so that the order never lies about whether it's paid. *(→ PM-8, PM-9)*
 
@@ -43,12 +43,16 @@ Finance (primary), Sales (records intended method), Owner (reads cash position).
 
 ## Acceptance Criteria
 
+- **PM-1:** Given an order, When a COD payment is added, Then it is recorded against that order with status Pending until confirmed.
 - **PM-2:** Given an order total of 50, When a 20 transfer is confirmed and 30 is later collected by COD, Then the order becomes "paid" (20 + 30 = 50).
+- **PM-3:** Given a prepaid-link payment, When the gateway callback (or a manual confirm) reports success, Then the payment moves to Confirmed automatically.
 - **PM-4:** Given a customer uploads transfer proof for 50, When Finance confirms a matching 50 deposit, Then the payment is Confirmed and the order leaves "Awaiting Payment".
 - **PM-4 (mismatch):** Given proof says 50 but the deposit is 45, When Finance reviews, Then they can confirm 45 (leaving 5 outstanding) — the order stays partially paid.
 - **PM-5:** Given 10 COD orders totaling 600 shipped via courier X, When courier X remits 540 covering 9 orders, Then Finance reconciles those 9 as paid and the 10th stays "COD pending / 60 owed".
 - **PM-6:** Given the above, When the Owner views COD float for courier X, Then it shows 60 outstanding.
+- **PM-7:** Given a product configured to require a deposit, When an order for it is confirmed, Then it cannot proceed to purchase/fulfillment until the deposit payment is Confirmed.
 - **PM-8:** Given a Confirmed payment, When someone attempts to change its amount, Then it is blocked and a logged reversal is required instead.
+- **PM-9:** Given an order with 20 of 50 confirmed, When its payment status is read, Then it shows "partial"; when the remaining 30 confirms, it shows "paid".
 
 ## Edge Cases
 

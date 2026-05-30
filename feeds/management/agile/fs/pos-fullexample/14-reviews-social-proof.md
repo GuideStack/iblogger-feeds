@@ -22,9 +22,9 @@ Marketing/Owner (use proof), Service/Sales (handle negatives), customers (leave 
 
 ## User Stories
 
-- As a **Marketing**, I want to request a review after delivery, so that we steadily gather fresh social proof. *(→ RV-1)*
+- As **Marketing**, I want to request a review after delivery, so that we steadily gather fresh social proof. *(→ RV-1)*
 - As a **Customer**, I want to leave a rating, comment and photo, so that my feedback helps other buyers and the seller. *(→ RV-2)*
-- As a **Marketing**, I want to collect positive reviews into a shareable library, so that I can reuse real proof in posts and lives. *(→ RV-3, RV-5)*
+- As **Marketing**, I want to collect positive reviews into a shareable library, so that I can reuse real proof in posts and lives. *(→ RV-3, RV-5)*
 - As a **Service agent**, I want to be alerted to a negative review, so that I resolve it privately before it becomes a public complaint. *(→ RV-4)*
 - As an **Owner**, I want to see review rate and rating trend, so that I track trust as a measurable lever. *(→ RV-7)*
 
@@ -46,6 +46,8 @@ Marketing/Owner (use proof), Service/Sales (handle negatives), customers (leave 
 - **RV-3:** Given a 5★ review, When marketing marks it shareable, Then it appears in the social-proof library for reuse.
 - **RV-4:** Given a 1★ review arrives, When it is saved, Then a service follow-up task is created and assigned, not left to chance.
 - **RV-5:** Given a product has reviews 5,4,5,3, When viewed, Then it shows average 4.25 over 4 reviews.
+- **RV-6:** Given review incentives are on, When a customer submits any review (good or bad), Then they receive the configured points/voucher for leaving it.
+- **RV-7:** Given a period's delivered orders and reviews, When the metric is viewed, Then it shows review rate (reviews ÷ delivered) and the rating trend.
 
 ## Edge Cases
 

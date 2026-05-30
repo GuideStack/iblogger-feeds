@@ -26,7 +26,7 @@ Buyer/Sourcer (primary), Owner (approves large POs), Inventory staff (receives a
 - As a **Buyer**, I want to create a purchase order with CNY line costs, so that I capture exactly what we ordered and what it cost at source. *(→ PR-2, PR-4)*
 - As a **Buyer**, I want to move a PO through Ordered → Shipped → Received, so that everyone can see where our incoming goods are. *(→ PR-3)*
 - As an **Owner**, I want to approve POs above a value threshold before they're placed, so that large spend isn't committed without my sign-off. *(→ PR-5)*
-- As a **Inventory staff**, I want to receive against a PO and record actual quantities, so that shortages are caught instead of silently lost. *(→ PR-6, PR-7)*
+- As an **Inventory staff member**, I want to receive against a PO and record actual quantities, so that shortages are caught instead of silently lost. *(→ PR-6, PR-7)*
 - As a **Buyer**, I want to see a supplier's history and discrepancy rate, so that I stop reordering from unreliable suppliers. *(→ PR-8)*
 
 ---
@@ -48,6 +48,9 @@ Buyer/Sourcer (primary), Owner (approves large POs), Inventory staff (receives a
 - **PR-5:** Given the approval threshold is ¥5,000, When the Buyer tries to move a ¥6,000 PO to Ordered without approval, Then the action is blocked with "Owner approval required".
 - **PR-6:** Given a PO ordered for 100 units, When Inventory receives 96 units, Then the PO records 96 received and flags a 4-unit shortage for review.
 - **PR-7:** Given a Received PO, When someone tries to change a unit cost, Then direct editing is blocked and they are directed to create a logged cost adjustment.
+- **PR-1:** Given the Buyer opens supplier setup, When they save a supplier with platform 1688 and a 14-day lead time, Then the supplier is created and selectable on a new PO.
+- **PR-4:** Given a PO with goods totaling ¥1,250, When the Buyer adds ¥80 China shipping and ¥20 platform fee, Then the PO's CNY total shows ¥1,350.
+- **PR-8:** Given a supplier with 5 past POs, When the Buyer views the supplier, Then average lead time and ordered-vs-received discrepancy rate are shown.
 
 ## Edge Cases
 

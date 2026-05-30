@@ -24,8 +24,8 @@ Owner/Marketing (retention strategy), Sales (sees customer history at order time
 
 - As a **Sales agent**, I want to see a customer's full history across channels, so that I treat returning buyers well and personalize service. *(→ CU-1, CU-2)*
 - As an **Owner**, I want to award and redeem loyalty points, so that customers have a reason to buy again. *(→ CU-3)*
-- As a **Finance**, I want to hold store credit on a customer, so that refunds can become future sales instead of cash out. *(→ CU-4)*
-- As a **Marketing**, I want to build a segment of lapsed customers, so that I can re-engage them with a targeted offer. *(→ CU-5, CU-6)*
+- As **Finance**, I want to hold store credit on a customer, so that refunds can become future sales instead of cash out. *(→ CU-4)*
+- As **Marketing**, I want to build a segment of lapsed customers, so that I can re-engage them with a targeted offer. *(→ CU-5, CU-6)*
 - As an **Owner**, I want to see what share of revenue is repeat business, so that I know if we're building a base or churning. *(→ CU-7)*
 
 ---
@@ -47,6 +47,9 @@ Owner/Marketing (retention strategy), Sales (sees customer history at order time
 - **CU-4:** Given a customer has 10 store credit, When they place a 30 order, Then they can apply the 10 and pay 20.
 - **CU-5:** Given "lapsed = no order in 60 days", When the segment runs, Then it lists customers whose last order is older than 60 days.
 - **CU-7:** Given a month's orders, When repeat-rate is viewed, Then it shows % of revenue from returning customers vs new.
+- **CU-2:** Given a returning customer, When the agent opens a new order for them, Then the customer's order count, lifetime value, and past issues are shown.
+- **CU-6:** Given the 'lapsed VIP' segment, When the Owner exports it, Then a contactable list (respecting consent) is produced, optionally with a voucher.
+- **CU-8:** Given a customer who opted out of marketing, When re-engagement lists are generated, Then that customer is excluded.
 
 ## Edge Cases
 

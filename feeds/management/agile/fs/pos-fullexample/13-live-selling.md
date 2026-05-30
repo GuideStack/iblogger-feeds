@@ -46,6 +46,8 @@ Sales/Host (during live), Fulfillment (after), Marketing.
 - **LV-4:** Given A2 has 1 left, When two viewers claim it within the same second, Then the first claim wins and the second is flagged "waitlist / sold out".
 - **LV-5:** Given the live ends with 30 claims, When the host closes it, Then 30 orders exist and a payment-request list is produced for follow-up.
 - **LV-7:** Given a claim unpaid after the 24h window, When the window passes, Then that unit returns to available stock and the order is marked "expired / unpaid".
+- **LV-1:** Given a planned live, When the host sets up item code A1 with 5 units allocated, Then A1 is claimable during the live up to 5 units.
+- **LV-6:** Given a live session tied to a campaign, When the live ends, Then its orders, revenue, and viewer-to-order conversion attribute to that campaign.
 
 ## Edge Cases
 

@@ -45,6 +45,9 @@ Owner/Admin (manages users), all roles (subject to permissions).
 - **UR-3:** Given Inventory posts a "−2 damaged" stock adjustment, When the audit log is viewed, Then it shows the user, timestamp, reason, and stock before (47) and after (45).
 - **UR-4:** Given an audit entry exists, When anyone (including Admin) tries to edit or delete it, Then the action is rejected.
 - **UR-5:** Given a staff member leaves, When the Owner deactivates them, Then they can no longer log in but their past orders and audit entries remain intact.
+- **UR-1:** Given a new user, When the Owner assigns them the Sales and Fulfillment roles, Then they gain exactly those two roles' permissions.
+- **UR-6:** Given a Sales-only user, When they open the P&L report, Then access is denied (Owner/Finance only).
+- **UR-7:** Given activity occurred, When the Owner filters the activity feed by user and date, Then only that user's actions in range are shown.
 
 ## Edge Cases
 

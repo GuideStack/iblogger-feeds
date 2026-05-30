@@ -23,8 +23,8 @@ Owner (pricing, product setup), Inventory staff (stock counts), Sales (reads ava
 ## User Stories
 
 - As an **Owner**, I want to set a product as Stocked or Dropship, so that the right fulfillment path is automatic, not remembered by staff. *(→ IN-1, IN-3)*
-- As a **Inventory staff**, I want to see live available quantity per variant, so that I know what we can actually sell right now. *(→ IN-2, IN-3)*
-- As a **Inventory staff**, I want to post a stock adjustment with a reason, so that damage and loss are accounted for, never silent. *(→ IN-5)*
+- As an **Inventory staff member**, I want to see live available quantity per variant, so that I know what we can actually sell right now. *(→ IN-2, IN-3)*
+- As an **Inventory staff member**, I want to post a stock adjustment with a reason, so that damage and loss are accounted for, never silent. *(→ IN-5)*
 - As a **Buyer**, I want to be warned when a product is low on stock, so that I reorder before we run out and miss sales. *(→ IN-6)*
 - As an **Owner**, I want to have each unit carry its landed cost, so that stock value and margin are always real. *(→ IN-7)*
 
@@ -47,6 +47,10 @@ Owner (pricing, product setup), Inventory staff (stock counts), Sales (reads ava
 - **IN-3:** Given a Dropship product, When Sales views it, Then it shows "made to order" and never blocks a sale for being "out of stock".
 - **IN-5:** Given a variant at 47, When Inventory posts a "-2 damaged" adjustment, Then available becomes 45 and the log shows the reason, user, and timestamp.
 - **IN-7 (weighted avg):** Given 50 units at landed cost 3.40 and 50 units at 3.60, When valued by weighted average, Then unit cost = 3.50 and total stock value = 350.
+- **IN-1:** Given the Owner creates a product with a variant, When they set price 25 and fulfillment type Stocked, Then the variant is sellable and stock-tracked.
+- **IN-2:** Given a product with Red/L and Blue/M, When stock is viewed, Then each variant shows its own independent available quantity and cost.
+- **IN-6:** Given a variant with low-stock threshold 10, When available drops to 9, Then it is flagged low-stock and a reorder suggestion appears for the Buyer.
+- **IN-8:** Given a product with history but no stock, When the Owner deactivates it, Then it disappears from selling but its past orders remain.
 
 ## Edge Cases
 

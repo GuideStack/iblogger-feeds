@@ -23,9 +23,9 @@ Sales/Finance (process returns), Inventory (restock), Owner (approves exceptions
 ## User Stories
 
 - As a **Sales agent**, I want to cancel an order before it ships, so that reserved stock is released and pending payment voided. *(→ RT-1)*
-- As a **Inventory staff**, I want to restock a good return at its original cost, so that stock value stays accurate after a return. *(→ RT-3)*
-- As a **Finance**, I want to process a refund that reverses the matching payment, so that money out is tied to the original money in. *(→ RT-4)*
-- As a **Finance**, I want to close a COD parcel rejected at the door with no refund, so that stock is released and the courier fee is booked correctly. *(→ RT-5)*
+- As an **Inventory staff member**, I want to restock a good return at its original cost, so that stock value stays accurate after a return. *(→ RT-3)*
+- As **Finance**, I want to process a refund that reverses the matching payment, so that money out is tied to the original money in. *(→ RT-4)*
+- As **Finance**, I want to close a COD parcel rejected at the door with no refund, so that stock is released and the courier fee is booked correctly. *(→ RT-5)*
 - As a **Sales agent**, I want to return just one line of a multi-item order, so that the customer keeps what they want and is refunded only for the rest. *(→ RT-7)*
 
 ---
@@ -48,6 +48,9 @@ Sales/Finance (process returns), Inventory (restock), Owner (approves exceptions
 - **RT-4:** Given an order paid 50 by transfer, When a full refund is processed, Then a 50 reversal is recorded against that payment and the order shows "refunded".
 - **RT-5:** Given a COD order rejected at the door, When it is closed, Then no refund is created, stock is released, the order is "returned, unpaid", and the courier return fee is booked as a cost.
 - **RT-7:** Given a 2-line order (A=30, B=20) fully paid, When line B is returned, Then only 20 is refunded and line A stays sold.
+- **RT-2:** Given a delivered order, When a return is recorded with reason 'damaged', Then the return is linked to the original order with that reason.
+- **RT-6:** Given a dropship order returned, When the Owner approves 'refund without physical return', Then the customer is refunded and no inbound shipment is expected.
+- **RT-8:** Given a refunded order, When reports run for the period, Then the refund reduces net revenue and margin (revenue is after returns).
 
 ## Edge Cases
 

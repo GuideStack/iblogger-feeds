@@ -26,7 +26,7 @@ Fulfillment/Dispatch (primary), Buyer (for dropship purchasing), Inventory staff
 - As a **Buyer**, I want to have a dropship order raise a linked PO automatically, so that I buy from the supplier only after the sale, with no stock risk. *(→ FF-2)*
 - As a **Fulfillment staff**, I want to ship a mixed order partially, so that the customer gets in-stock items now instead of waiting for everything. *(→ FF-3)*
 - As a **Fulfillment staff**, I want to record courier and tracking number, so that the customer and team can follow the parcel. *(→ FF-4, FF-5)*
-- As a **Finance**, I want to see COD owed-back the moment an order ships, so that I know how much cash the courier is carrying for us. *(→ FF-6)*
+- As **Finance**, I want to see COD owed-back the moment an order ships, so that I know how much cash the courier is carrying for us. *(→ FF-6)*
 
 ---
 ## Functional Requirements
@@ -47,6 +47,9 @@ Fulfillment/Dispatch (primary), Buyer (for dropship purchasing), Inventory staff
 - **FF-3:** Given an order with one stocked and one dropship line, When the stocked line ships, Then the order shows "partially shipped" and the dropship line remains open.
 - **FF-4:** Given a Ready-to-Ship order, When Fulfillment enters tracking number "TRK123" and books courier "X", Then the order moves to Shipped with that tracking visible.
 - **FF-6:** Given a COD order for 50, When it ships, Then the system records 50 as "COD float — owed by courier" until Finance reconciles the cash.
+- **FF-5:** Given a Shipped order, When the courier reports delivered (API or manual), Then the order moves to Delivered with the delivery time recorded.
+- **FF-7:** Given a Ready-to-Ship order, When staff generate the label, Then a packing slip / shipping label for that order is produced.
+- **FF-8:** Given an order, When its delivery timeline is viewed, Then each fulfillment action (packed, shipped, delivered) shows a timestamp.
 
 ## Edge Cases
 

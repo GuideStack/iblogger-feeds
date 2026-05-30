@@ -53,6 +53,9 @@ Owner/Marketing (run tests, read results), Buyer (acts on the decision), Sales.
 - **PT-6:** Given the Owner accepts a **Stock** recommendation, When applied, Then the product's fulfillment type becomes Stocked in Module 3 and a suggested PO quantity is shown to the Buyer.
 - **PT-2:** Given variants price A=25 and price B=22, When the test ends, Then the report shows orders/conversion for each so the Owner sees which price sold better.
 - **PT-7:** Given a test spent 15 on ads, When the product later sells, Then that 15 is part of the product's attributed cost in reporting.
+- **PT-1:** Given a candidate product, When the Owner creates a test with channel, type, budget cap and a 3-day window, Then the test is scheduled with those parameters.
+- **PT-3:** Given a running test, When signals come in, Then views, clicks, comments and pre-orders are recorded per variant.
+- **PT-8:** Given a completed test, When it closes, Then a test report is saved showing signals, variant comparison, decision, and reasoning.
 
 ## Edge Cases
 

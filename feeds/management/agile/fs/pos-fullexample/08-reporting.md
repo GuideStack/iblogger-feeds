@@ -26,7 +26,7 @@ Owner (primary), Finance, PM.
 - As an **Owner**, I want to see margin per product, so that I double down on winners and drop losers. *(→ RP-2)*
 - As an **Owner**, I want to compare TikTok vs Facebook performance, so that I put effort where it pays. *(→ RP-3)*
 - As an **Owner**, I want to see current stock value and COD float, so that I know how much capital is tied up and in the wild. *(→ RP-4, RP-5)*
-- As a **Finance**, I want to export reports to CSV, so that our accountant can work from clean data. *(→ RP-8)*
+- As **Finance**, I want to export reports to CSV, so that our accountant can work from clean data. *(→ RP-8)*
 
 ---
 ## Functional Requirements
@@ -47,6 +47,9 @@ Owner (primary), Finance, PM.
 - **RP-3:** Given 60 orders from TikTok and 40 from Facebook, When channel performance is viewed, Then revenue and margin are shown separately for each channel.
 - **RP-5:** Given 60 of COD is shipped but unremitted via courier X, When COD float is viewed, Then it shows 60 outstanding for courier X.
 - **RP-7:** Given a 50 sale that was fully refunded, When the P&L for that period is viewed, Then that 50 is not counted in net revenue.
+- **RP-4:** Given stock of 100 units at landed cost 3.50, When the stock-value report runs, Then it shows 350 tied-up capital.
+- **RP-6:** Given orders awaiting or partially paid, When the outstanding-payments report runs, Then each is listed with the amount still owed.
+- **RP-8:** Given any report, When the user filters by date range and channel and exports, Then a CSV matching the filtered view is produced.
 
 ## Edge Cases
 

@@ -25,7 +25,7 @@ Buyer (enters shipment costs), Finance (verifies fees & FX), Owner (sets FX poli
 - As an **Owner**, I want to set an FX rate per shipment that won't change later, so that historical costs stay accurate when the rate moves. *(→ LC-1)*
 - As a **Buyer**, I want to record freight, duty and handling for a shipment, so that the real import cost is captured, not just the supplier price. *(→ LC-2)*
 - As an **Owner**, I want to have shipment costs allocated across units automatically, so that I get a true per-unit landed cost without hand math. *(→ LC-3, LC-4)*
-- As a **Finance**, I want to post a late cost adjustment when a customs invoice arrives, so that valuation corrects itself and the change is logged. *(→ LC-6)*
+- As **Finance**, I want to post a late cost adjustment when a customs invoice arrives, so that valuation corrects itself and the change is logged. *(→ LC-6)*
 - As an **Owner**, I want to see the full cost breakdown for any unit, so that I can trust the margin numbers I make decisions on. *(→ LC-5, LC-7)*
 
 ---
@@ -45,6 +45,9 @@ Buyer (enters shipment costs), Finance (verifies fees & FX), Owner (sets FX poli
 - **LC-1:** Given FX was 0.14 when shipment A was received, When the FX rate later changes to 0.15, Then shipment A's unit costs remain at the 0.14 basis (history is immutable).
 - **LC-3 (by value):** Given two products of very different prices in one shipment, When allocation is set to "by value", Then more of the freight is assigned to the higher-value product proportionally.
 - **LC-6:** Given a shipment already received and valued, When Finance posts a late ¥0 / 90 base-currency customs fee, Then affected units' landed cost increases and the adjustment appears in the audit log.
+- **LC-2:** Given an inbound shipment, When the Buyer records freight 280, duty 120 and handling 0 in base currency, Then those fees are stored against the shipment for allocation.
+- **LC-5:** Given units received at landed cost 3.40, When inventory value is read, Then those units are valued at 3.40 each, not the supplier price.
+- **LC-7:** Given a unit, When the Owner opens its cost breakdown, Then it shows supplier cost, FX applied, each allocated fee, and the final landed cost.
 
 ## Edge Cases
 

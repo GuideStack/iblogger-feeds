@@ -52,6 +52,10 @@ Sales/Chat agent (primary), Fulfillment, Finance, Owner.
 - **OR-6:** Given a stocked variant at 1 available, When two agents each try to confirm an order for that last unit, Then only the first succeeds and the second is blocked with "insufficient stock".
 - **OR-7:** Given a list price of 25, When an agent sells it at 22, Then the order records a −3 discount and the margin report reflects the lower price.
 - **OR-4:** Given an order in Draft, When it is moved straight to Shipped, Then the action is blocked — it must pass through Confirmed and the required intermediate states.
+- **OR-1:** Given a new order, When the agent enters customer, channel, line items, payment method and address, Then a complete Order record is created with all those fields.
+- **OR-8:** Given an order, When its lines and statuses change, Then it always shows the current payment status and fulfillment status sourced from Modules 6 and 5.
+- **OR-9:** Given many orders, When the agent searches by customer phone, Then matching orders across channels are returned.
+- **OR-10:** Given the same customer and items were captured 2 minutes ago, When a second identical order is entered, Then the system warns of a possible duplicate before saving.
 
 ## Edge Cases
 

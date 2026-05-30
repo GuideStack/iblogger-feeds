@@ -47,6 +47,9 @@ Owner (sets promos & margin floor), Sales (applies promos at order), Marketing.
 - **PRO-4:** Given a product with landed cost 14 and a 50%-off promo (would sell at ~12), When applied, Then it is blocked with "below margin floor" unless the Owner overrides (logged).
 - **PRO-6:** Given a bundle of A (list 30) + B (list 20) sold at 40, When ordered, Then the 40 is split proportionally (A=24, B=16) so each line's margin is correct.
 - **PRO-7:** Given a flash sale ran, When the Owner views its report, Then it shows uses, revenue, and net margin impact (could be negative if discounts were deep).
+- **PRO-1:** Given the Owner creates a 20%-off promotion scoped to a category for a 3-day window, When it is saved, Then it applies only to that category within those dates.
+- **PRO-5:** Given a promo applied to an order line, When the order is read, Then the discount amount on that line is recorded for margin reporting.
+- **PRO-8:** Given a promotion scheduled to start at a future time, When that time arrives, Then it auto-activates, and it auto-expires at its end time.
 
 ## Edge Cases
 
