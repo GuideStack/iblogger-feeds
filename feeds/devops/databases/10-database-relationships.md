@@ -6,11 +6,11 @@
 
 ## 📖 Table of Contents
 
-- [1. The Relational Foundation (PKs & FKs)](#1-the-relational-foundation-pks-fks)
+- [1. The Relational Foundation (PKs & FKs)](#1-the-relational-foundation-pks--fks)
 - [2. One-to-One (1:1)](#2-one-to-one-11)
 - [3. One-to-Many (1:N)](#3-one-to-many-1n)
-- [4. Many-to-Many (M:N) & Junction Tables](#4-many-to-many-mn-junction-tables)
-- [5. Self-Referential (Trees & Hierarchies)](#5-self-referential-trees-hierarchies)
+- [4. Many-to-Many (M:N) & Junction Tables](#4-many-to-many-mn--junction-tables)
+- [5. Self-Referential (Trees & Hierarchies)](#5-self-referential-trees--hierarchies)
 - [6. Polymorphic Associations (Advanced)](#6-polymorphic-associations-advanced)
 
 ---

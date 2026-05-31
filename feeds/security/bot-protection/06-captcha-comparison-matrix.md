@@ -9,7 +9,7 @@
 ## 📌 Table of Contents
 - [1. The Decision Matrix](#1-the-decision-matrix)
 - [2. The Architectural Integration Flow](#2-the-architectural-integration-flow)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

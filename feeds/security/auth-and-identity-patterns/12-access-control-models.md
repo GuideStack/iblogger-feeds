@@ -8,16 +8,16 @@
 
 ## 📌 Table of Contents
 - [The Core Question: Authorization vs Authentication](#the-core-question-authorization-vs-authentication)
-- [1. DAC — Discretionary Access Control](#1-dac-discretionary-access-control)
-- [2. MAC — Mandatory Access Control](#2-mac-mandatory-access-control)
-- [3. RBAC — Role-Based Access Control](#3-rbac-role-based-access-control)
-- [4. ABAC — Attribute-Based Access Control](#4-abac-attribute-based-access-control)
-- [5. ReBAC — Relationship-Based Access Control](#5-rebac-relationship-based-access-control)
-- [6. PBAC — Policy-Based Access Control](#6-pbac-policy-based-access-control)
-- [7. OBAC — Organization-Based Access Control](#7-obac-organization-based-access-control)
-- [Comparison & When to Use Which](#comparison-when-to-use-which)
+- [1. DAC — Discretionary Access Control](#1-dac--discretionary-access-control)
+- [2. MAC — Mandatory Access Control](#2-mac--mandatory-access-control)
+- [3. RBAC — Role-Based Access Control](#3-rbac--role-based-access-control)
+- [4. ABAC — Attribute-Based Access Control](#4-abac--attribute-based-access-control)
+- [5. ReBAC — Relationship-Based Access Control](#5-rebac--relationship-based-access-control)
+- [6. PBAC — Policy-Based Access Control](#6-pbac--policy-based-access-control)
+- [7. OBAC — Organization-Based Access Control](#7-obac--organization-based-access-control)
+- [Comparison & When to Use Which](#comparison--when-to-use-which)
 - [Combining Models in Practice](#combining-models-in-practice)
-- [References & Tools](#references-tools)
+- [References & Tools](#references--tools)
 
 ---
 

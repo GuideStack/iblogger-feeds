@@ -318,5 +318,5 @@ graph LR
 <a id="7"></a>
 ## Related Posts
 
-* [[DSA: Hash Tables](../dsa/02-non-linear-structures.md#1-hash-tables-o1-or-a-lie)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Hash Tables ក្នុង DSA។
+* [[DSA: Hash Tables](../dsa/02-non-linear-structures.md#1-hash-tables--o1-or-a-lie)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Hash Tables ក្នុង DSA។
 * [[Array Data Structure & The Cinema Seats](./98-the-cinema-seats.md)] — การស្វែងយល់ពីរបៀបដែល Arrays ដើរតួជាគ្រឹះផ្ទុកទិន្នន័យសម្រាប់ Hash Tables។

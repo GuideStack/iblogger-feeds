@@ -10,9 +10,9 @@
 - [2. Pull vs Push Model](#2-pull-vs-push-model)
 - [3. Core Architecture](#3-core-architecture)
 - [4. Data Model](#4-data-model)
-- [5. PromQL — The Query Language](#5-promql-the-query-language)
+- [5. PromQL — The Query Language](#5-promql--the-query-language)
 - [6. Alertmanager](#6-alertmanager)
-- [7. Scaling: Thanos & Mimir](#7-scaling-thanos-mimir)
+- [7. Scaling: Thanos & Mimir](#7-scaling-thanos--mimir)
 - [8. When to Use Prometheus](#8-when-to-use-prometheus)
 
 ---

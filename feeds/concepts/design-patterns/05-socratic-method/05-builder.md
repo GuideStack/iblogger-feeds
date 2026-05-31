@@ -10,8 +10,8 @@
 
 ## 📌 មាតិកា (Table of Contents)
 - [សេចក្តីផ្តើម (Introduction)](#សេចក្តីផ្តើម-introduction)
-- [ការសន្ទនាជាភាសាអង់គ្លេស (Socratic Dialogue - English)](#ការសន្ទនាជាភាសាអង់គ្លេស-socratic-dialogue-english)
-- [ការសន្ទនាជាភាសាខ្មែរ (Socratic Dialogue - Khmer)](#ការសន្ទនាជាភាសាខ្មែរ-socratic-dialogue-khmer)
+- [ការសន្ទនាជាភាសាអង់គ្លេស (Socratic Dialogue - English)](#ការសន្ទនាជាភាសាអង់គ្លេស-socratic-dialogue---english)
+- [ការសន្ទនាជាភាសាខ្មែរ (Socratic Dialogue - Khmer)](#ការសន្ទនាជាភាសាខ្មែរ-socratic-dialogue---khmer)
 - [ដ្យាក្រាមលំហូរ (Visual Flowchart)](#ដ្យាក្រាមលំហូរ-visual-flowchart)
 - [Related Posts](#related-posts)
 

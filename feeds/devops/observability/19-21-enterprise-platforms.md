@@ -6,9 +6,9 @@
 
 ## 📖 Table of Contents
 
-- [1. New Relic — Full-Stack APM](#1-new-relic-full-stack-apm)
-- [2. Dynatrace — AI-Powered Observability](#2-dynatrace-ai-powered-observability)
-- [3. Splunk — Enterprise Analytics & SIEM](#3-splunk-enterprise-analytics-siem)
+- [1. New Relic — Full-Stack APM](#1-new-relic--full-stack-apm)
+- [2. Dynatrace — AI-Powered Observability](#2-dynatrace--ai-powered-observability)
+- [3. Splunk — Enterprise Analytics & SIEM](#3-splunk--enterprise-analytics--siem)
 - [4. Side-by-Side Comparison](#4-side-by-side-comparison)
 - [5. When to Choose Each](#5-when-to-choose-each)
 

@@ -12,7 +12,7 @@
 - [4. Profile Types](#4-profile-types)
 - [5. Pyroscope Architecture](#5-pyroscope-architecture)
 - [6. Quick Start](#6-quick-start)
-- [7. Flame Graphs — Reading Profiles](#7-flame-graphs-reading-profiles)
+- [7. Flame Graphs — Reading Profiles](#7-flame-graphs--reading-profiles)
 - [8. Integrating with Grafana](#8-integrating-with-grafana)
 - [9. When to Use Profiling](#9-when-to-use-profiling)
 

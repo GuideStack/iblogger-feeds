@@ -10,8 +10,8 @@
 - [1. Pretexting (The Fabricated Scenario)](#1-pretexting-the-fabricated-scenario)
 - [2. Quid Pro Quo (Something for Something)](#2-quid-pro-quo-something-for-something)
 - [3. The Water Holing Attack (The Supply Chain)](#3-the-water-holing-attack-the-supply-chain)
-- [4. Urgency & Fear Tactics](#4-urgency-fear-tactics)
-- [📚 References & Tools](#references-tools)
+- [4. Urgency & Fear Tactics](#4-urgency--fear-tactics)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

@@ -8,7 +8,7 @@
 
 ## 📌 Table of Contents
 - [Overview: The Defense Perimeter](#overview-the-defense-perimeter)
-- [1. HTTP Flood (GET & POST)](#1-http-flood-get-post)
+- [1. HTTP Flood (GET & POST)](#1-http-flood-get--post)
   - [Attack Mechanism](#attack-mechanism-7)
   - [Defense Architecture](#defense-architecture-7)
 - [2. Slowloris Attack](#2-slowloris-attack)
@@ -17,7 +17,7 @@
 - [3. Slow POST (R.U.D.Y. Attack)](#3-slow-post-rudy-attack)
   - [Attack Mechanism](#attack-mechanism-7)
   - [Defense Architecture](#defense-architecture-7)
-- [4. Hash Collision / Algorithmic Complexity Attack](#4-hash-collision-algorithmic-complexity-attack)
+- [4. Hash Collision / Algorithmic Complexity Attack](#4-hash-collision--algorithmic-complexity-attack)
   - [Attack Mechanism](#attack-mechanism-7)
   - [Defense Architecture](#defense-architecture-7)
 - [5. Cache Busting](#5-cache-busting)
@@ -26,7 +26,7 @@
 - [6. HTTP/2 Rapid Reset Attack (CVE-2023-44487)](#6-http2-rapid-reset-attack-cve-2023-44487)
   - [Attack Mechanism](#attack-mechanism-7)
   - [Defense Architecture](#defense-architecture-7)
-- [7. ZIP Bomb / Response Expansion](#7-zip-bomb-response-expansion)
+- [7. ZIP Bomb / Response Expansion](#7-zip-bomb--response-expansion)
   - [Attack Mechanism](#attack-mechanism-7)
   - [Defense Architecture](#defense-architecture-7)
 - [8. Large Request Body Attack](#8-large-request-body-attack)
@@ -35,7 +35,7 @@
 - [Defense Checklist: Production Configuration](#defense-checklist-production-configuration)
 - [Complete Nginx Hardened Configuration](#complete-nginx-hardened-configuration)
 - [The Attacker's Cost vs. Your Defense Cost](#the-attackers-cost-vs-your-defense-cost)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

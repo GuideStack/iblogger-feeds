@@ -9,7 +9,7 @@
 - [1. The Curse of Shared Memory](#1-the-curse-of-shared-memory)
 - [2. What Is an Actor?](#2-what-is-an-actor)
 - [3. Mailboxes and Messages](#3-mailboxes-and-messages)
-- [4. The Erlang / Akka Ecosystem](#4-the-erlang-akka-ecosystem)
+- [4. The Erlang / Akka Ecosystem](#4-the-erlang--akka-ecosystem)
 
 ---
 

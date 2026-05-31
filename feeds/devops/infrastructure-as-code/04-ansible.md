@@ -9,7 +9,7 @@
 - [1. Configuration Management vs Provisioning](#1-configuration-management-vs-provisioning)
 - [2. What Is Ansible?](#2-what-is-ansible)
 - [3. How Ansible Works (Agentless)](#3-how-ansible-works-agentless)
-- [4. Playbooks & Roles](#4-playbooks-roles)
+- [4. Playbooks & Roles](#4-playbooks--roles)
 - [5. When to Use Ansible Today](#5-when-to-use-ansible-today)
 
 ---

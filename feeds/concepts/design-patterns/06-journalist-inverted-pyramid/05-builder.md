@@ -15,8 +15,8 @@
 ## 📌 មាតិកា (Table of Contents)
 - [១. របាយការណ៍សង្ខេប (The Lede)](#១-របាយការណ៍សង្ខេប-the-lede)
 - [២. ព័ត៌មានលម្អិតស្នូល (Core Details)](#២-ព័ត៌មានលម្អិតស្នូល-core-details)
-- [៣. ដំណោះស្រាយ និងបច្ចេកវិទ្យា (Resolution & Specs)](#៣-ដំណោះស្រាយ-និងបច្ចេកវិទ្យា-resolution-specs)
-- [៤. កាលវិភាគដំណើរការ (Execution Log & Flowchart)](#៤-កាលវិភាគដំណើរការ-execution-log-flowchart)
+- [៣. ដំណោះស្រាយ និងបច្ចេកវិទ្យា (Resolution & Specs)](#៣-ដំណោះស្រាយ-និងបច្ចេកវិទ្យា-resolution--specs)
+- [៤. កាលវិភាគដំណើរការ (Execution Log & Flowchart)](#៤-កាលវិភាគដំណើរការ-execution-log--flowchart)
 - [៥. Related Posts](#៥-related-posts)
 
 ---

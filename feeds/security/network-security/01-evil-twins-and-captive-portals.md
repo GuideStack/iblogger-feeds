@@ -10,7 +10,7 @@
 - [1. The Coffee Shop Threat (The Evil Twin)](#1-the-coffee-shop-threat-the-evil-twin)
 - [2. The Captive Portal Phishing Attack](#2-the-captive-portal-phishing-attack)
 - [3. Bypassing 2FA/OTP in Real-Time](#3-bypassing-2faotp-in-real-time)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

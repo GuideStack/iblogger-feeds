@@ -9,9 +9,9 @@
 - [1. What Is Typesense?](#1-what-is-typesense)
 - [2. In-Memory Architecture](#2-in-memory-architecture)
 - [3. Core Capabilities](#3-core-capabilities)
-- [4. Vector & Semantic Search](#4-vector-semantic-search)
+- [4. Vector & Semantic Search](#4-vector--semantic-search)
 - [5. High Availability (Raft)](#5-high-availability-raft)
-- [6. Pricing & When to Use](#6-pricing-when-to-use)
+- [6. Pricing & When to Use](#6-pricing--when-to-use)
 
 ---
 

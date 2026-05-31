@@ -7,9 +7,9 @@
 ## 📖 Table of Contents
 
 - [1. What Is Distributed Tracing?](#1-what-is-distributed-tracing)
-- [2. Jaeger — The Reference Implementation](#2-jaeger-the-reference-implementation)
-- [3. Grafana Tempo — The Scalable Alternative](#3-grafana-tempo-the-scalable-alternative)
-- [4. Zipkin — Lightweight Tracing](#4-zipkin-lightweight-tracing)
+- [2. Jaeger — The Reference Implementation](#2-jaeger--the-reference-implementation)
+- [3. Grafana Tempo — The Scalable Alternative](#3-grafana-tempo--the-scalable-alternative)
+- [4. Zipkin — Lightweight Tracing](#4-zipkin--lightweight-tracing)
 - [5. Trace Context Propagation](#5-trace-context-propagation)
 - [6. Jaeger vs Tempo vs Zipkin](#6-jaeger-vs-tempo-vs-zipkin)
 - [7. When to Use Each](#7-when-to-use-each)

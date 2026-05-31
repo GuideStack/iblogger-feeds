@@ -14,7 +14,7 @@
   - [Case Study #1: The 2020 Twitter Master-Hack](#case-study-1-the-2020-twitter-master-hack)
   - [Case Study #2: The Booking.com Partner Scam (Session Hijacking)](#case-study-2-the-bookingcom-partner-scam-session-hijacking)
 - [5. Smishing (SMS Phishing)](#5-smishing-sms-phishing)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

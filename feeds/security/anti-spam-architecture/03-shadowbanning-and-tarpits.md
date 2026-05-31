@@ -12,7 +12,7 @@
   - [How it works:](#how-it-works-1)
 - [3. API Tarpits (The Time Sink)](#3-api-tarpits-the-time-sink)
   - [How it works:](#how-it-works-1)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

@@ -12,7 +12,7 @@
 - [3. The Backend Architecture (Stateful vs Stateless)](#3-the-backend-architecture-stateful-vs-stateless)
   - [The Stateful Redis Solution](#the-stateful-redis-solution)
   - [The Implementation Steps:](#the-implementation-steps)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

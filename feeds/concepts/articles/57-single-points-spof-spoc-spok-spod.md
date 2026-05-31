@@ -10,12 +10,12 @@
 
 ## 📌 មាតិកា (Table of Contents)
 - [សេចក្តីផ្តើម (Introduction)](#សេចក្តីផ្តើម-introduction)
-- [១. SPOF — Single Point of Failure (ចំណុចខ្សោយតែមួយ)](#១-spof-single-point-of-failure-ចំណុចខ្សោយតែមួយ)
-- [២. SPOC — Single Point of Contact (ចំណុចទំនាក់ទំនងតែមួយ)](#២-spoc-single-point-of-contact-ចំណុចទំនាក់ទំនងតែមួយ)
-- [៣. SPOK — Single Point of Knowledge (ចំណុចចំណេះដឹងតែមួយ)](#៣-spok-single-point-of-knowledge-ចំណុចចំណេះដឹងតែមួយ)
-- [៤. SPOD — Single Point of Dependency (ចំណុចការពឹងផ្អែកតែមួយ)](#៤-spod-single-point-of-dependency-ចំណុចការពឹងផ្អែកតែមួយ)
-- [៥. SPOA — Single Point of Authority (ចំណុចអំណាចតែមួយ)](#៥-spoa-single-point-of-authority-ចំណុចអំណាចតែមួយ)
-- [៦. SPOB — Single Point of Bottleneck (ចំណុចស្ទះតែមួយ)](#៦-spob-single-point-of-bottleneck-ចំណុចស្ទះតែមួយ)
+- [១. SPOF — Single Point of Failure (ចំណុចខ្សោយតែមួយ)](#១-spof--single-point-of-failure-ចំណុចខ្សោយតែមួយ)
+- [២. SPOC — Single Point of Contact (ចំណុចទំនាក់ទំនងតែមួយ)](#២-spoc--single-point-of-contact-ចំណុចទំនាក់ទំនងតែមួយ)
+- [៣. SPOK — Single Point of Knowledge (ចំណុចចំណេះដឹងតែមួយ)](#៣-spok--single-point-of-knowledge-ចំណុចចំណេះដឹងតែមួយ)
+- [៤. SPOD — Single Point of Dependency (ចំណុចការពឹងផ្អែកតែមួយ)](#៤-spod--single-point-of-dependency-ចំណុចការពឹងផ្អែកតែមួយ)
+- [៥. SPOA — Single Point of Authority (ចំណុចអំណាចតែមួយ)](#៥-spoa--single-point-of-authority-ចំណុចអំណាចតែមួយ)
+- [៦. SPOB — Single Point of Bottleneck (ចំណុចស្ទះតែមួយ)](#៦-spob--single-point-of-bottleneck-ចំណុចស្ទះតែមួយ)
 - [ការប្រៀបធៀបគ្រប់ SPO* (Summary Comparison)](#ការប្រៀបធៀបគ្រប់-spo-summary-comparison)
 - [Related Posts](#related-posts)
 

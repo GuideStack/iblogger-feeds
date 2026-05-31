@@ -7,21 +7,21 @@
 ---
 
 ## 📌 Table of Contents
-- [1. OAuth 1.0 and 1.0a (2007 - 2009)](#1-oauth-10-and-10a-2007-2009)
-- [2. OAuth 2.0 (2012) - RFC 6749](#2-oauth-20-2012-rfc-6749)
+- [1. OAuth 1.0 and 1.0a (2007 - 2009)](#1-oauth-10-and-10a-2007---2009)
+- [2. OAuth 2.0 (2012) - RFC 6749](#2-oauth-20-2012---rfc-6749)
 - [3. OAuth 2.1 (The Modern Hardening)](#3-oauth-21-the-modern-hardening)
   - [What changes in OAuth 2.1?](#what-changes-in-oauth-21)
-- [4. What's Next? (GNAP / "OAuth 3.0")](#4-whats-next-gnap-oauth-30)
-- [📚 References & Tools](#references-tools)
+- [4. What's Next? (GNAP / "OAuth 3.0")](#4-whats-next-gnap--oauth-30)
+- [📚 References & Tools](#-references--tools)
 
 ---
 
 ## Table of Contents
-- [1. OAuth 1.0 and 1.0a (2007 - 2009)](#1-oauth-10-and-10a-2007-2009)
-- [2. OAuth 2.0 (2012) - RFC 6749](#2-oauth-20-2012-rfc-6749)
+- [1. OAuth 1.0 and 1.0a (2007 - 2009)](#1-oauth-10-and-10a-2007---2009)
+- [2. OAuth 2.0 (2012) - RFC 6749](#2-oauth-20-2012---rfc-6749)
 - [3. OAuth 2.1 (The Modern Hardening)](#3-oauth-21-the-modern-hardening)
   - [What changes in OAuth 2.1?](#what-changes-in-oauth-21)
-- [4. What's Next? (GNAP / "OAuth 3.0")](#4-whats-next-gnap-oauth-30)
+- [4. What's Next? (GNAP / "OAuth 3.0")](#4-whats-next-gnap--oauth-30)
 ---
 
 The OAuth standard has evolved significantly over the last 15 years in response to shifting application architectures (from server-side rendering to Single Page Applications to mobile apps) and new security threats.

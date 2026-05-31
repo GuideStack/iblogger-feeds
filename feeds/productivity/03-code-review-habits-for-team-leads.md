@@ -13,12 +13,12 @@
 ## 📌 Table of Contents
 - [The Team Lead's Review Mindset](#the-team-leads-review-mindset)
 - [Time-Boxing: When and How Long](#time-boxing-when-and-how-long)
-- [The Review Order — What to Read First](#the-review-order-what-to-read-first)
+- [The Review Order — What to Read First](#the-review-order--what-to-read-first)
 - [Three Levels of Comment](#three-levels-of-comment)
 - [What a TL Looks For (That a Peer Misses)](#what-a-tl-looks-for-that-a-peer-misses)
 - [How to Give Feedback That Teaches](#how-to-give-feedback-that-teaches)
 - [The Approval Decision](#the-approval-decision)
-- [After the Review — Following Through](#after-the-review-following-through)
+- [After the Review — Following Through](#after-the-review--following-through)
 - [Anti-Patterns to Eliminate](#anti-patterns-to-eliminate)
 
 ---

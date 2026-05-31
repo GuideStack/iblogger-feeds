@@ -7,8 +7,8 @@
 ## 📖 Table of Contents
 
 - [1. AWS CloudWatch Deep Dive](#1-aws-cloudwatch-deep-dive)
-- [2. Google Cloud Logging & Monitoring Deep Dive](#2-google-cloud-logging-monitoring-deep-dive)
-- [3. Azure Monitor & Log Analytics Deep Dive](#3-azure-monitor-log-analytics-deep-dive)
+- [2. Google Cloud Logging & Monitoring Deep Dive](#2-google-cloud-logging--monitoring-deep-dive)
+- [3. Azure Monitor & Log Analytics Deep Dive](#3-azure-monitor--log-analytics-deep-dive)
 - [4. Cross-Cloud Observability Patterns](#4-cross-cloud-observability-patterns)
 
 > **Note:** For a high-level overview and initial comparison, see [Module 06 — Cloud Logging Overview](./06-cloud-logging.md). This module covers advanced configurations, integrations, and multi-cloud patterns.

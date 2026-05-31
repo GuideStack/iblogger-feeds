@@ -13,8 +13,8 @@ Stack: Spring Boot 3 / Java 21 + React 18 / TypeScript + PostgreSQL + Redis + OV
 **Part 1 — Understanding OpenCart**
 
 1. [Executive Summary](#1-executive-summary)
-2. [What OpenCart Does — Feature Map](#2-what-opencart-does-feature-map)
-3. [Why Rebuild in Spring Boot + React](#3-why-rebuild-in-spring-boot-react)
+2. [What OpenCart Does — Feature Map](#2-what-opencart-does--feature-map)
+3. [Why Rebuild in Spring Boot + React](#3-why-rebuild-in-spring-boot--react)
 4. [Architecture Comparison](#4-architecture-comparison)
 
 **Part 2 — Project Setup**
@@ -25,26 +25,26 @@ Stack: Spring Boot 3 / Java 21 + React 18 / TypeScript + PostgreSQL + Redis + OV
 
 **Part 3 — Backend: Spring Boot**
 
-8. [Domain Model & Database Schema](#8-domain-model-database-schema)
-9. [Module 1 — Catalog](#9-module-1-catalog)
-10. [Module 2 — Customer Accounts](#10-module-2-customer-accounts)
-11. [Module 3 — Shopping Cart](#11-module-3-shopping-cart)
-12. [Module 4 — Checkout](#12-module-4-checkout)
-13. [Module 5 — Order Management](#13-module-5-order-management)
-14. [Module 6 — Admin Panel API](#14-module-6-admin-panel-api)
-15. [Module 7 — Payment Integration](#15-module-7-payment-integration)
-16. [Module 8 — File & Image Management](#16-module-8-file-image-management)
-17. [Security — Spring Security, JWT, RBAC](#17-security-spring-security-jwt-rbac)
+8. [Domain Model & Database Schema](#8-domain-model--database-schema)
+9. [Module 1 — Catalog](#9-module-1--catalog)
+10. [Module 2 — Customer Accounts](#10-module-2--customer-accounts)
+11. [Module 3 — Shopping Cart](#11-module-3--shopping-cart)
+12. [Module 4 — Checkout](#12-module-4--checkout)
+13. [Module 5 — Order Management](#13-module-5--order-management)
+14. [Module 6 — Admin Panel API](#14-module-6--admin-panel-api)
+15. [Module 7 — Payment Integration](#15-module-7--payment-integration)
+16. [Module 8 — File & Image Management](#16-module-8--file--image-management)
+17. [Security — Spring Security, JWT, RBAC](#17-security--spring-security-jwt-rbac)
 
 **Part 4 — Frontend: React**
 
-18. [Project Setup — Vite + React 18 + TypeScript + Tailwind](#18-project-setup-vite-react-18-typescript-tailwind)
-19. [Storefront — Catalog & Product Pages](#19-storefront-catalog-product-pages)
-20. [Cart & Checkout UI](#20-cart-checkout-ui)
+18. [Project Setup — Vite + React 18 + TypeScript + Tailwind](#18-project-setup--vite--react-18--typescript--tailwind)
+19. [Storefront — Catalog & Product Pages](#19-storefront--catalog--product-pages)
+20. [Cart & Checkout UI](#20-cart--checkout-ui)
 21. [Customer Dashboard](#21-customer-dashboard)
 22. [Admin Panel UI](#22-admin-panel-ui)
-23. [State Management — Zustand](#23-state-management-zustand)
-24. [API Integration — Axios + React Query](#24-api-integration-axios-react-query)
+23. [State Management — Zustand](#23-state-management--zustand)
+24. [API Integration — Axios + React Query](#24-api-integration--axios--react-query)
 
 **Part 5 — Infrastructure & Deployment**
 
@@ -57,7 +57,7 @@ Stack: Spring Boot 3 / Java 21 + React 18 / TypeScript + PostgreSQL + Redis + OV
 
 29. [Observability](#29-observability)
 30. [Common Mistakes](#30-common-mistakes)
-31. [Migration Path — Importing OpenCart Data](#31-migration-path-importing-opencart-data)
+31. [Migration Path — Importing OpenCart Data](#31-migration-path--importing-opencart-data)
 
 **Reference**
 

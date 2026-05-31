@@ -8,7 +8,7 @@
 
 - [1. The Cost of Ignoring Users](#1-the-cost-of-ignoring-users)
 - [2. Accessibility (a11y) Fundamentals](#2-accessibility-a11y-fundamentals)
-- [3. Focus Trapping & Keyboard Navigation](#3-focus-trapping-keyboard-navigation)
+- [3. Focus Trapping & Keyboard Navigation](#3-focus-trapping--keyboard-navigation)
 - [4. Internationalization (i18n) Architecture](#4-internationalization-i18n-architecture)
 - [5. RTL (Right-to-Left) Layouts](#5-rtl-right-to-left-layouts)
 

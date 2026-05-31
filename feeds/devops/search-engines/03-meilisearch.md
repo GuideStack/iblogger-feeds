@@ -8,10 +8,10 @@
 
 - [1. What Is Meilisearch?](#1-what-is-meilisearch)
 - [2. Core Features](#2-core-features)
-- [3. Architecture & Storage](#3-architecture-storage)
+- [3. Architecture & Storage](#3-architecture--storage)
 - [4. Quick Start](#4-quick-start)
 - [5. Front-End Integration](#5-front-end-integration)
-- [6. Pricing & When to Use](#6-pricing-when-to-use)
+- [6. Pricing & When to Use](#6-pricing--when-to-use)
 
 ---
 

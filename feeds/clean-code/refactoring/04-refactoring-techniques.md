@@ -17,7 +17,7 @@
   - [B. Replace Conditional with Polymorphism](#b-replace-conditional-with-polymorphism)
 - [5. Simplifying Conditional Expressions](#5-simplifying-conditional-expressions)
   - [A. Return Early (Guard Clauses)](#a-return-early-guard-clauses)
-- [🔗 External References & Required Reading](#external-references-required-reading)
+- [🔗 External References & Required Reading](#-external-references--required-reading)
 
 ---
 

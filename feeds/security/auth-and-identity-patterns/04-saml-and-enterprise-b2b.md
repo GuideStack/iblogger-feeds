@@ -14,7 +14,7 @@
 - [4. SAML Security Vulnerabilities](#4-saml-security-vulnerabilities)
   - [XML Signature Wrapping (XSW)](#xml-signature-wrapping-xsw)
   - [The Defense](#the-defense)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

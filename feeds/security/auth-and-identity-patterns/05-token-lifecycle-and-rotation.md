@@ -7,16 +7,16 @@
 ---
 
 ## 📌 Table of Contents
-- [1. The Access Token & Refresh Token Paradigm](#1-the-access-token-refresh-token-paradigm)
+- [1. The Access Token & Refresh Token Paradigm](#1-the-access-token--refresh-token-paradigm)
 - [2. Refresh Token Rotation (RTR)](#2-refresh-token-rotation-rtr)
   - [The Threat Detection Mechanism](#the-threat-detection-mechanism)
 - [3. Sliding Windows vs. Absolute Expiry](#3-sliding-windows-vs-absolute-expiry)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 
 ## Table of Contents
-- [1. The Access Token & Refresh Token Paradigm](#1-the-access-token-refresh-token-paradigm)
+- [1. The Access Token & Refresh Token Paradigm](#1-the-access-token--refresh-token-paradigm)
 - [2. Refresh Token Rotation (RTR)](#2-refresh-token-rotation-rtr)
   - [The Threat Detection Mechanism](#the-threat-detection-mechanism)
 - [3. Sliding Windows vs. Absolute Expiry](#3-sliding-windows-vs-absolute-expiry)

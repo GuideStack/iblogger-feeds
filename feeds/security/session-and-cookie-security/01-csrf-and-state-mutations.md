@@ -12,7 +12,7 @@
 - [3. The Architectural Defenses](#3-the-architectural-defenses)
   - [Defense 1: The Anti-CSRF Token](#defense-1-the-anti-csrf-token)
   - [Defense 2: The SameSite Cookie Attribute](#defense-2-the-samesite-cookie-attribute)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

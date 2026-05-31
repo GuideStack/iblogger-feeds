@@ -12,7 +12,7 @@
   - [Case Study #2: Stuxnet (The Air-Gapped Breach)](#case-study-2-stuxnet-the-air-gapped-breach)
 - [3. Shoulder Surfing](#3-shoulder-surfing)
 - [4. Dumpster Diving](#4-dumpster-diving)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

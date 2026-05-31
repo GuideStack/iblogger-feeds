@@ -15,7 +15,7 @@
   - [What is it?](#what-is-it-1)
   - [How does it work?](#how-does-it-work-1)
   - [Case Study #6: Zero-JS WordPress Spam Protection](#case-study-6-zero-js-wordpress-spam-protection)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

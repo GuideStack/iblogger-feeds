@@ -9,7 +9,7 @@
 - [1. The YAML Sprawl Problem](#1-the-yaml-sprawl-problem)
 - [2. Helm (The Package Manager)](#2-helm-the-package-manager)
 - [3. Kustomize (The Overlay Engine)](#3-kustomize-the-overlay-engine)
-- [4. Comparison & When to Use Which](#4-comparison-when-to-use-which)
+- [4. Comparison & When to Use Which](#4-comparison--when-to-use-which)
 
 ---
 

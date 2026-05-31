@@ -7,9 +7,9 @@
 ## 📖 Table of Contents
 
 - [1. The Testing Pyramid](#1-the-testing-pyramid)
-- [2. Unit Testing (Jest / Vitest)](#2-unit-testing-jest-vitest)
+- [2. Unit Testing (Jest / Vitest)](#2-unit-testing-jest--vitest)
 - [3. Component Testing (React Testing Library)](#3-component-testing-react-testing-library)
-- [4. E2E Testing (Cypress / Playwright)](#4-e2e-testing-cypress-playwright)
+- [4. E2E Testing (Cypress / Playwright)](#4-e2e-testing-cypress--playwright)
 
 ---
 

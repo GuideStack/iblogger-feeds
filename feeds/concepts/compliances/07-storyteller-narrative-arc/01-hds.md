@@ -9,7 +9,7 @@
 ---
 
 ## 📌 មាតិកា (Table of Contents)
-- [១. តួអង្គ និងការតស៊ូ (Hero & Conflict)](#១-តួអង្គ-និងការតស៊ូ-hero-conflict)
+- [១. តួអង្គ និងការតស៊ូ (Hero & Conflict)](#១-តួអង្គ-និងការតស៊ូ-hero--conflict)
 - [២. ដំណោះស្រាយ (The Resolution)](#២-ដំណោះស្រាយ-the-resolution)
 - [៣. ដ្យាក្រាមលំហូរ (Visual Flowchart)](#៣-ដ្យាក្រាមលំហូរ-visual-flowchart)
 - [៤. Related Posts](#៤-related-posts)

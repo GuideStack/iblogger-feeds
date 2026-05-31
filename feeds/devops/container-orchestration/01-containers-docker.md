@@ -7,10 +7,10 @@
 ## 📖 Table of Contents
 
 - [1. Containers vs Virtual Machines](#1-containers-vs-virtual-machines)
-- [2. How Containers Work (Namespaces & cgroups)](#2-how-containers-work-namespaces-cgroups)
+- [2. How Containers Work (Namespaces & cgroups)](#2-how-containers-work-namespaces--cgroups)
 - [3. The Docker Architecture](#3-the-docker-architecture)
 - [4. Docker vs Podman](#4-docker-vs-podman)
-- [5. CRI (Containerd & CRI-O)](#5-cri-containerd-cri-o)
+- [5. CRI (Containerd & CRI-O)](#5-cri-containerd--cri-o)
 
 ---
 

@@ -9,7 +9,7 @@
 - [1. The Monolithic Page Problem](#1-the-monolithic-page-problem)
 - [2. Smart vs Dumb Components](#2-smart-vs-dumb-components)
 - [3. Atomic Design Methodology](#3-atomic-design-methodology)
-- [4. Storybook & Design Systems](#4-storybook-design-systems)
+- [4. Storybook & Design Systems](#4-storybook--design-systems)
 
 ---
 

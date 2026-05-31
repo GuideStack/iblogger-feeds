@@ -27,21 +27,21 @@
   - [Anti-Pattern 1: "We'll figure it out during the sprint"](#anti-pattern-1-well-figure-it-out-during-the-sprint)
   - [Anti-Pattern 2: "It works on my machine"](#anti-pattern-2-it-works-on-my-machine)
   - [Anti-Pattern 3: "We'll write tests next sprint"](#anti-pattern-3-well-write-tests-next-sprint)
-  - [Anti-Pattern 4: "The story is done — we just need to configure monitoring"](#anti-pattern-4-the-story-is-done-we-just-need-to-configure-monitoring)
-  - [Anti-Pattern 5: "We refined it enough — let's start"](#anti-pattern-5-we-refined-it-enough-lets-start)
+  - [Anti-Pattern 4: "The story is done — we just need to configure monitoring"](#anti-pattern-4-the-story-is-done--we-just-need-to-configure-monitoring)
+  - [Anti-Pattern 5: "We refined it enough — let's start"](#anti-pattern-5-we-refined-it-enough--lets-start)
 - [Failure Mode Diagnosis Flowchart](#failure-mode-diagnosis-flowchart)
-- [🔗 External References](#external-references)
-- [📚 Cross-References & Related Reading](#cross-references-related-reading)
+- [🔗 External References](#-external-references)
+- [📚 Cross-References & Related Reading](#-cross-references--related-reading)
 
 ---
 
 ## Table of Contents
 
-- [Part 1 — What is Definition of Ready (DoR)?](#part-1-what-is-definition-of-ready-dor)
-- [Part 2 — What is Definition of Done (DoD)?](#part-2-what-is-definition-of-done-dod)
-- [Part 3 — DoR vs DoD: The Full Comparison](#part-3-dor-vs-dod-the-full-comparison)
-- [Part 4 — The Sprint Lifecycle with Both Gates](#part-4-the-sprint-lifecycle-with-both-gates)
-- [Part 5 — Failure Patterns & Consequences](#part-5-failure-patterns-consequences)
+- [Part 1 — What is Definition of Ready (DoR)?](#part-1--what-is-definition-of-ready-dor)
+- [Part 2 — What is Definition of Done (DoD)?](#part-2--what-is-definition-of-done-dod)
+- [Part 3 — DoR vs DoD: The Full Comparison](#part-3--dor-vs-dod-the-full-comparison)
+- [Part 4 — The Sprint Lifecycle with Both Gates](#part-4--the-sprint-lifecycle-with-both-gates)
+- [Part 5 — Failure Patterns & Consequences](#part-5--failure-patterns--consequences)
 - [Summary](#summary)
 
 ---

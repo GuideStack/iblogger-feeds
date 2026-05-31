@@ -15,7 +15,7 @@
   - [How does it actually work?](#how-does-it-actually-work)
   - [Case Study #1: Stopping Ticket Scalpers](#case-study-1-stopping-ticket-scalpers)
   - [The Downside (and Vulnerabilities) of v2](#the-downside-and-vulnerabilities-of-v2)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

@@ -314,5 +314,5 @@ graph LR
 <a id="7"></a>
 ## Related Posts
 
-* [[DSA: Graphs](../dsa/02-non-linear-structures.md#3-graphs-the-universal-model)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Graphs ក្នុង DSA។
+* [[DSA: Graphs](../dsa/02-non-linear-structures.md#3-graphs--the-universal-model)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Graphs ក្នុង DSA។
 * [[Linked List Data Structure & The Spy's Treasure Hunt](./99-the-spys-treasure-hunt.md)] — ការស្វែងយល់ពី Pointers និង References ដែលប្រើសម្រាប់ភ្ជាប់ Node នីមួយៗក្នុង Graph។

@@ -17,7 +17,7 @@
   - [The Structure](#the-structure)
   - [Industrial Case Study: Database Index Lookups](#industrial-case-study-database-index-lookups)
   - [When NOT to Use Binary Search](#when-not-to-use-binary-search)
-- [2. Two Pointers & Sliding Window](#2-two-pointers-sliding-window)
+- [2. Two Pointers & Sliding Window](#2-two-pointers--sliding-window)
   - [The Problem](#the-problem-3)
   - [The Insight](#the-insight-2)
   - [Sliding Window Visual](#sliding-window-visual)
@@ -42,7 +42,7 @@
 ## Table of Contents
 
 - [Binary Search: The Logarithmic Scalpel](#1-binary-search-the-logarithmic-scalpel)
-- [Two Pointers & Sliding Window](#2-two-pointers-sliding-window)
+- [Two Pointers & Sliding Window](#2-two-pointers--sliding-window)
 - [Sorting Stability: Why It Matters in Production](#3-sorting-stability-why-it-matters-in-production)
 - [Dynamic Programming: The Memoization Masterclass](#4-dynamic-programming-the-memoization-masterclass)
 - [Pattern Summary](#pattern-summary)
@@ -53,10 +53,10 @@
 
 | Pattern | Core Insight | Complexity Gain |
 | :--- | :--- | :--- |
-| [Binary Search](#core-algorithmic-patterns-binary-search-two-pointers-sorting-stability-dynamic-programming) | Eliminate half the candidates per step | O(n) → O(log n) |
-| [Two Pointers & Sliding Window](#2-two-pointers-sliding-window) | Maintain state as the window moves | O(n·k) → O(n) |
-| [Sorting Stability](#core-algorithmic-patterns-binary-search-two-pointers-sorting-stability-dynamic-programming) | Equal elements preserve relative order | Correctness guarantee |
-| [Dynamic Programming](#core-algorithmic-patterns-binary-search-two-pointers-sorting-stability-dynamic-programming) | Never solve the same sub-problem twice | O(2ⁿ) → O(n²) |
+| [Binary Search](#core-algorithmic-patterns-binary-search-two-pointers-sorting-stability--dynamic-programming) | Eliminate half the candidates per step | O(n) → O(log n) |
+| [Two Pointers & Sliding Window](#2-two-pointers--sliding-window) | Maintain state as the window moves | O(n·k) → O(n) |
+| [Sorting Stability](#core-algorithmic-patterns-binary-search-two-pointers-sorting-stability--dynamic-programming) | Equal elements preserve relative order | Correctness guarantee |
+| [Dynamic Programming](#core-algorithmic-patterns-binary-search-two-pointers-sorting-stability--dynamic-programming) | Never solve the same sub-problem twice | O(2ⁿ) → O(n²) |
 
 ---
 

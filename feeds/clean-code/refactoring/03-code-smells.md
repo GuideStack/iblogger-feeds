@@ -16,7 +16,7 @@
   - [C. Change Preventers](#c-change-preventers)
   - [D. Dispensables](#d-dispensables)
   - [E. Couplers](#e-couplers)
-- [🔗 External References & Required Reading](#external-references-required-reading)
+- [🔗 External References & Required Reading](#-external-references--required-reading)
 
 ---
 

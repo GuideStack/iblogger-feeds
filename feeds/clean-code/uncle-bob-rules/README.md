@@ -7,7 +7,7 @@ A comprehensive distillation of Robert C. Martin's legendary book, *Clean Code: 
 ## 📖 Table of Contents
 
 - [The Boy Scout Rule](#the-boy-scout-rule)
-- [📚 Module Index](#module-index)
+- [📚 Module Index](#-module-index)
 - [The Architecture of Clean Code](#the-architecture-of-clean-code)
 
 ---

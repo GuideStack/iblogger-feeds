@@ -12,12 +12,12 @@
   - [The Client-Side Attack (The Download Vector)](#the-client-side-attack-the-download-vector)
 - [2. Why Traditional Security Fails](#2-why-traditional-security-fails)
 - [3. How to Architecturally Prevent Polyglot Attacks](#3-how-to-architecturally-prevent-polyglot-attacks)
-  - [Strategy 1: Re-Encoding & Re-Sampling (The Ultimate Defense)](#strategy-1-re-encoding-re-sampling-the-ultimate-defense)
+  - [Strategy 1: Re-Encoding & Re-Sampling (The Ultimate Defense)](#strategy-1-re-encoding--re-sampling-the-ultimate-defense)
   - [Strategy 2: Strip EXIF Data](#strategy-2-strip-exif-data)
   - [Strategy 3: Storage Isolation (The S3 Bucket)](#strategy-3-storage-isolation-the-s3-bucket)
   - [Strategy 4: The `nosniff` Header](#strategy-4-the-nosniff-header)
 - [4. The Secure Upload Pipeline](#4-the-secure-upload-pipeline)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

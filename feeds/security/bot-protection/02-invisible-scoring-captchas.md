@@ -12,7 +12,7 @@
   - [The Key Difference](#the-key-difference)
 - [3. Case Study #2: E-Commerce Credential Stuffing](#3-case-study-2-e-commerce-credential-stuffing)
   - [The Downside of v3](#the-downside-of-v3)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

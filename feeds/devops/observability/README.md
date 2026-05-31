@@ -6,15 +6,15 @@ A comprehensive reference library covering the four pillars of modern observabil
 
 ## 📖 Table of Contents
 
-- [🔭 Observability Engineering](#observability-engineering)
-  - [📖 Table of Contents](#table-of-contents)
+- [🔭 Observability Engineering](#-observability-engineering)
+  - [📖 Table of Contents](#-table-of-contents)
   - [What Is Observability?](#what-is-observability)
-  - [📚 Module Index](#module-index)
+  - [📚 Module Index](#-module-index)
     - [🧩 Pillar 1 — Instrumentation \& Collection](#-pillar-1--instrumentation--collection)
-    - [📋 Pillar 2 — Logging](#pillar-2-logging)
-    - [📈 Pillar 3 — Metrics](#pillar-3-metrics)
-    - [🔗 Pillar 4 — Distributed Tracing](#pillar-4-distributed-tracing)
-    - [🧠 Pillar 5 — Continuous Profiling](#pillar-5-continuous-profiling)
+    - [📋 Pillar 2 — Logging](#-pillar-2--logging)
+    - [📈 Pillar 3 — Metrics](#-pillar-3--metrics)
+    - [🔗 Pillar 4 — Distributed Tracing](#-pillar-4--distributed-tracing)
+    - [🧠 Pillar 5 — Continuous Profiling](#-pillar-5--continuous-profiling)
     - [📊 Pillar 6 — Visualization \& Dashboarding](#-pillar-6--visualization--dashboarding)
     - [🚨 Pillar 7 — Alerting \& Incident Management](#-pillar-7--alerting--incident-management)
     - [🏗️ Unified Platforms](#️-unified-platforms)

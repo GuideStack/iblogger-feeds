@@ -8,7 +8,7 @@
 
 - [1. Why Do We Need Bundlers?](#1-why-do-we-need-bundlers)
 - [2. The Old Guard (Webpack)](#2-the-old-guard-webpack)
-- [3. The Modern Era (Vite & ESBuild)](#3-the-modern-era-vite-esbuild)
+- [3. The Modern Era (Vite & ESBuild)](#3-the-modern-era-vite--esbuild)
 - [4. How Bundling Actually Works](#4-how-bundling-actually-works)
 
 ---

@@ -8,12 +8,12 @@
 
 ## 📌 Table of Contents
 - [1. The Evolution of Hacking](#1-the-evolution-of-hacking)
-- [2. The Genesis Market & RedLine Stealer](#2-the-genesis-market-redline-stealer)
-- [3. The "Free" Cookie Economy (Netflix & Spotify)](#3-the-free-cookie-economy-netflix-spotify)
+- [2. The Genesis Market & RedLine Stealer](#2-the-genesis-market--redline-stealer)
+- [3. The "Free" Cookie Economy (Netflix & Spotify)](#3-the-free-cookie-economy-netflix--spotify)
 - [4. Architectural Defenses: Session Binding](#4-architectural-defenses-session-binding)
-  - [Defense 1: IP Binding & Geo-Velocity](#defense-1-ip-binding-geo-velocity)
+  - [Defense 1: IP Binding & Geo-Velocity](#defense-1-ip-binding--geo-velocity)
   - [Defense 2: Browser Fingerprinting](#defense-2-browser-fingerprinting)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

@@ -7,7 +7,7 @@ A comprehensive series exploring how modern applications are packaged, deployed,
 ## 📖 Table of Contents
 
 - [The Container Revolution](#the-container-revolution)
-- [📚 Module Index](#module-index)
+- [📚 Module Index](#-module-index)
 - [The Cloud Native Landscape](#the-cloud-native-landscape)
 
 ---

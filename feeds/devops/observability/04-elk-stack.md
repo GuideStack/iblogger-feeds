@@ -10,9 +10,9 @@
 - [2. Core Components](#2-core-components)
 - [3. Architecture](#3-architecture)
 - [4. The Modern EFK Stack](#4-the-modern-efk-stack)
-- [5. Elasticsearch — The Search Engine](#5-elasticsearch-the-search-engine)
+- [5. Elasticsearch — The Search Engine](#5-elasticsearch--the-search-engine)
 - [6. Logstash Pipeline](#6-logstash-pipeline)
-- [7. Kibana — Visualization](#7-kibana-visualization)
+- [7. Kibana — Visualization](#7-kibana--visualization)
 - [8. Strengths and Weaknesses](#8-strengths-and-weaknesses)
 - [9. When to Use ELK](#9-when-to-use-elk)
 

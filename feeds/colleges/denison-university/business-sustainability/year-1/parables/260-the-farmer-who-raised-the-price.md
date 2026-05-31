@@ -9,7 +9,7 @@
 ---
 
 ## 📌 មាតិកា (Table of Contents)
-- [វិបត្តិធុរកិច្ច និងអន្ទាក់ទីផ្សារ (The Business Dilemma & Market Trap)](#វិបត្តិធុរកិច្ច-និងអន្ទាក់ទីផ្សារ-the-business-dilemma-market-trap)
+- [វិបត្តិធុរកិច្ច និងអន្ទាក់ទីផ្សារ (The Business Dilemma & Market Trap)](#វិបត្តិធុរកិច្ច-និងអន្ទាក់ទីផ្សារ-the-business-dilemma--market-trap)
 - [១. រឿងនិទានប្រៀបធៀប៖ សុខា និងវាលស្រែខេត្តកំពង់ចាម (The Parable: Sokha and the Kampong Cham Rice Fields)](#1)
   - [គ្រោះរាំងស្ងួត និងការដំឡើងថ្លៃស្រូវ (The Drought and the Price Hike)](#1-1)
   - [ស្រមោលអន្ធការពីឧស្សាហកម្ម៖ ទឹកបំពុលលើវាលស្រែ (The Shadow of Industry: Upstream Pollution)](#1-2)

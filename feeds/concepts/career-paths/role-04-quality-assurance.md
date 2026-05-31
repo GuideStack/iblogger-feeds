@@ -11,16 +11,16 @@
 - [2. The Ecosystem: Shift-Left Testing](#2-the-ecosystem-shift-left-testing)
 - [3. Responsibilities: The Day-to-Day](#3-responsibilities-the-day-to-day)
 - [4. The Autopsy: Why QA Teams Fail](#4-the-autopsy-why-qa-teams-fail)
-- [5. Hard Skills: Security & Compliance](#5-hard-skills-security-compliance)
-- [6. Soft Skills & Dark Psychology (The Shield)](#6-soft-skills-dark-psychology-the-shield)
-- [7. Mental Health & Mental Models](#7-mental-health-mental-models)
+- [5. Hard Skills: Security & Compliance](#5-hard-skills-security--compliance)
+- [6. Soft Skills & Dark Psychology (The Shield)](#6-soft-skills--dark-psychology-the-shield)
+- [7. Mental Health & Mental Models](#7-mental-health--mental-models)
   - [Mental Model 1: The Curse of Knowledge](#mental-model-1-the-curse-of-knowledge)
   - [Mental Model 2: The Pesticide Paradox](#mental-model-2-the-pesticide-paradox)
   - [Mental Health: The Bad News Bearer](#mental-health-the-bad-news-bearer)
 - [8. Next Career Growth](#8-next-career-growth)
 - [9. Recommended Reading](#9-recommended-reading)
-- [🔗 External References](#external-references)
-- [📚 Cross-References & Related Reading](#cross-references-related-reading)
+- [🔗 External References](#-external-references)
+- [📚 Cross-References & Related Reading](#-cross-references--related-reading)
 
 ---
 

@@ -10,7 +10,7 @@
 - [2. Core Concepts](#2-core-concepts)
 - [3. Data Sources](#3-data-sources)
 - [4. Dashboard Panels](#4-dashboard-panels)
-- [5. Grafana Explore — Ad-Hoc Debugging](#5-grafana-explore-ad-hoc-debugging)
+- [5. Grafana Explore — Ad-Hoc Debugging](#5-grafana-explore--ad-hoc-debugging)
 - [6. Alerting](#6-alerting)
 - [7. Grafana vs Kibana](#7-grafana-vs-kibana)
 - [8. Grafana Cloud vs Self-Hosted](#8-grafana-cloud-vs-self-hosted)

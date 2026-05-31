@@ -11,15 +11,15 @@
 - [2. The Ecosystem: Where the PO Fits](#2-the-ecosystem-where-the-po-fits)
 - [3. Responsibilities: The Day-to-Day](#3-responsibilities-the-day-to-day)
 - [4. The Autopsy: Why Product Teams Fail](#4-the-autopsy-why-product-teams-fail)
-- [5. The Blueprint: How to Succeed (Soft Skills & Dark Psychology)](#5-the-blueprint-how-to-succeed-soft-skills-dark-psychology)
-- [6. Mental Health & Mental Models](#6-mental-health-mental-models)
+- [5. The Blueprint: How to Succeed (Soft Skills & Dark Psychology)](#5-the-blueprint-how-to-succeed-soft-skills--dark-psychology)
+- [6. Mental Health & Mental Models](#6-mental-health--mental-models)
   - [Mental Model 1: Confirmation Bias](#mental-model-1-confirmation-bias)
   - [Mental Model 2: The Pareto Principle (80/20 Rule)](#mental-model-2-the-pareto-principle-8020-rule)
-  - [Mental Health: Stakeholder Pressure & Compartmentalization](#mental-health-stakeholder-pressure-compartmentalization)
+  - [Mental Health: Stakeholder Pressure & Compartmentalization](#mental-health-stakeholder-pressure--compartmentalization)
 - [7. Next Career Growth](#7-next-career-growth)
 - [8. Recommended Reading](#8-recommended-reading)
-- [🔗 External References](#external-references)
-- [📚 Cross-References & Related Reading](#cross-references-related-reading)
+- [🔗 External References](#-external-references)
+- [📚 Cross-References & Related Reading](#-cross-references--related-reading)
 
 ---
 

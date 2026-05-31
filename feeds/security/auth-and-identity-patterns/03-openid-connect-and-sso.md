@@ -18,9 +18,9 @@
 - [4. What is Single Sign-On (SSO)?](#4-what-is-single-sign-on-sso)
   - [How Many Types of SSO Are There?](#how-many-types-of-sso-are-there)
     - [Type 1: Cross-Subdomain SSO (Seamless SSO)](#type-1-cross-subdomain-sso-seamless-sso)
-    - [Type 2: Federated SSO (OIDC / SAML)](#type-2-federated-sso-oidc-saml)
-    - [Type 3: Broker-Based / Desktop SSO (Kerberos)](#type-3-broker-based-desktop-sso-kerberos)
-- [📚 References & Tools](#references-tools)
+    - [Type 2: Federated SSO (OIDC / SAML)](#type-2-federated-sso-oidc--saml)
+    - [Type 3: Broker-Based / Desktop SSO (Kerberos)](#type-3-broker-based--desktop-sso-kerberos)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

@@ -7,9 +7,9 @@
 ## 📖 Table of Contents
 
 - [1. Provisioning vs Configuration Management](#1-provisioning-vs-configuration-management)
-- [2. Terraform & OpenTofu (The Industry Standard)](#2-terraform-opentofu-the-industry-standard)
+- [2. Terraform & OpenTofu (The Industry Standard)](#2-terraform--opentofu-the-industry-standard)
 - [3. Pulumi (Real Programming Languages)](#3-pulumi-real-programming-languages)
-- [4. Cloud-Native (CloudFormation & ARM)](#4-cloud-native-cloudformation-arm)
+- [4. Cloud-Native (CloudFormation & ARM)](#4-cloud-native-cloudformation--arm)
 - [5. Feature Comparison Matrix](#5-feature-comparison-matrix)
 - [6. Decision Guide](#6-decision-guide)
 

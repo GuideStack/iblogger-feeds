@@ -319,5 +319,5 @@ graph LR
 <a id="7"></a>
 ## Related Posts
 
-* [[DSA: Stacks & Queues](../dsa/01-linear-structures.md#3-stacks--queues-order-with-constraints)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Stacks និង Queues ក្នុង DSA។
+* [[DSA: Stacks & Queues](../dsa/01-linear-structures.md#3-stacks--queues--order-with-constraints)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Stacks និង Queues ក្នុង DSA។
 * [[Linked List Data Structure & The Spy's Treasure Hunt](./99-the-spys-treasure-hunt.md)] — របៀបប្រើប្រាស់ Linked Lists ដើម្បីបង្កើត Stacks និង Queues ដែលមានទំហំឌីណាមិកបត់បែនបាន។

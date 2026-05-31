@@ -320,5 +320,5 @@ graph LR
 <a id="7"></a>
 ## Related Posts
 
-* [[DSA: Heaps](../dsa/02-non-linear-structures.md#4-heaps-the-priority-engine)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Heaps ក្នុង DSA។
+* [[DSA: Heaps](../dsa/02-non-linear-structures.md#4-heaps--the-priority-engine)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Heaps ក្នុង DSA។
 * [[Stack & Queue Data Structure & The Dish Stack](./100-the-dish-stack-and-the-ticket-queue.md)] — ការយល់ដឹងពីលំដាប់លំដោយ FIFO/LIFO ធម្មតាដែលត្រូវអភិវឌ្ឍទៅជា Priority Queue។

@@ -9,12 +9,12 @@
 ## 📌 Table of Contents
 - [1. The Core Rule of Refactoring](#1-the-core-rule-of-refactoring)
 - [2. The Prerequisite: Automated Safety Nets](#2-the-prerequisite-automated-safety-nets)
-  - [The TDD Cycle (Red - Green - Refactor)](#the-tdd-cycle-red-green-refactor)
+  - [The TDD Cycle (Red - Green - Refactor)](#the-tdd-cycle-red---green---refactor)
 - [3. Real-World Enterprise Case Studies](#3-real-world-enterprise-case-studies)
   - [Case Study #3: Google's "Rosie" (Large-Scale Automated Refactoring)](#case-study-3-googles-rosie-large-scale-automated-refactoring)
   - [Case Study #4: Netflix's Chaos Engineering (Refactoring for Resilience)](#case-study-4-netflixs-chaos-engineering-refactoring-for-resilience)
 - [4. The Step-by-Step Refactoring Approach](#4-the-step-by-step-refactoring-approach)
-- [🔗 External References & Required Reading](#external-references-required-reading)
+- [🔗 External References & Required Reading](#-external-references--required-reading)
 
 ---
 

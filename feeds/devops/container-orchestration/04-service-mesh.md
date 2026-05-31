@@ -9,7 +9,7 @@
 - [1. The Microservice Network Problem](#1-the-microservice-network-problem)
 - [2. What Is a Service Mesh?](#2-what-is-a-service-mesh)
 - [3. The Sidecar Architecture](#3-the-sidecar-architecture)
-- [4. Key Capabilities (mTLS & Routing)](#4-key-capabilities-mtls-routing)
+- [4. Key Capabilities (mTLS & Routing)](#4-key-capabilities-mtls--routing)
 - [5. When to Use (and Avoid) a Service Mesh](#5-when-to-use-and-avoid-a-service-mesh)
 
 ---

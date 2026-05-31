@@ -7,7 +7,7 @@ A comprehensive series exploring the modern database landscape. There is no "per
 ## 📖 Table of Contents
 
 - [The Polyglot Persistence Architecture](#the-polyglot-persistence-architecture)
-- [📚 Module Index](#module-index)
+- [📚 Module Index](#-module-index)
 - [The Database Landscape](#the-database-landscape)
 
 ---

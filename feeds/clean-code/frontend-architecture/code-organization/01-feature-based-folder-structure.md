@@ -7,10 +7,10 @@
 ## 📖 Table of Contents
 
 - [1. The Enterprise Layering Strategy](#1-the-enterprise-layering-strategy)
-- [2. React (Vite) + TypeScript](#2-react-vite-typescript)
-- [3. Next.js (App Router) + TypeScript](#3-nextjs-app-router-typescript)
-- [4. Vue 3 (Composition API) + TypeScript](#4-vue-3-composition-api-typescript)
-- [5. Angular (Standalone) + TypeScript](#5-angular-standalone-typescript)
+- [2. React (Vite) + TypeScript](#2-react-vite--typescript)
+- [3. Next.js (App Router) + TypeScript](#3-nextjs-app-router--typescript)
+- [4. Vue 3 (Composition API) + TypeScript](#4-vue-3-composition-api--typescript)
+- [5. Angular (Standalone) + TypeScript](#5-angular-standalone--typescript)
 
 ---
 

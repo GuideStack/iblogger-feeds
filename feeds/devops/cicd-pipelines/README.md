@@ -7,7 +7,7 @@ A comprehensive series on automating the testing, building, and deployment of mo
 ## 📖 Table of Contents
 
 - [The CI/CD Lifecycle](#the-cicd-lifecycle)
-- [📚 Module Index](#module-index)
+- [📚 Module Index](#-module-index)
 - [The CI/CD Landscape](#the-cicd-landscape)
 
 ---

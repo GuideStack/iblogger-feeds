@@ -9,7 +9,7 @@
 ---
 
 ## 📌 មាតិកា (Table of Contents)
-- [បញ្ហា ៖ គ្មានសាលា (The Problem — No School)](#បញ្ហា-គ្មានសាលា-the-problem-no-school)
+- [បញ្ហា ៖ គ្មានសាលា (The Problem — No School)](#បញ្ហា--គ្មានសាលា-the-problem--no-school)
 - [គំរូ Hybrid (The Hybrid Model)](#គំរូ-hybrid-the-hybrid-model)
 - [ការវាស់ SROI (Measuring SROI)](#ការវាស់-sroi-measuring-sroi)
 - [ការវិភាគទ្រឹស្តី៖ Social Entrepreneurship (Theoretical Breakdown)](#ការវិភាគទ្រឹស្តី-social-entrepreneurship-theoretical-breakdown)

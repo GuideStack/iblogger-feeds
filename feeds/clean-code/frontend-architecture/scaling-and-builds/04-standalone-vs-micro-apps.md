@@ -8,7 +8,7 @@
 
 - [1. The Standalone App (The Default)](#1-the-standalone-app-the-default)
 - [2. The Micro-App Concept](#2-the-micro-app-concept)
-- [3. The "Super App" Pattern (WeChat / Grab)](#3-the-super-app-pattern-wechat-grab)
+- [3. The "Super App" Pattern (WeChat / Grab)](#3-the-super-app-pattern-wechat--grab)
 - [4. Choosing the Right Architecture](#4-choosing-the-right-architecture)
 
 ---

@@ -10,8 +10,8 @@
 - [2. The Terraform Workflow](#2-the-terraform-workflow)
 - [3. HCL (HashiCorp Configuration Language)](#3-hcl-hashicorp-configuration-language)
 - [4. State Management (The Holy Grail)](#4-state-management-the-holy-grail)
-- [5. Modules — Reusable Code](#5-modules-reusable-code)
-- [6. OpenTofu — The Open-Source Fork](#6-opentofu-the-open-source-fork)
+- [5. Modules — Reusable Code](#5-modules--reusable-code)
+- [6. OpenTofu — The Open-Source Fork](#6-opentofu--the-open-source-fork)
 
 ---
 

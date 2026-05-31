@@ -6,10 +6,10 @@
 
 ## 📖 Table of Contents
 
-- [1. Graylog — Structured Log Management](#1-graylog-structured-log-management)
-- [2. OpenSearch — The Open-Source Elasticsearch Fork](#2-opensearch-the-open-source-elasticsearch-fork)
+- [1. Graylog — Structured Log Management](#1-graylog--structured-log-management)
+- [2. OpenSearch — The Open-Source Elasticsearch Fork](#2-opensearch--the-open-source-elasticsearch-fork)
 - [3. Graylog Architecture](#3-graylog-architecture)
-- [4. GELF — Graylog's Log Format](#4-gelf-graylogs-log-format)
+- [4. GELF — Graylog's Log Format](#4-gelf--graylogs-log-format)
 - [5. OpenSearch vs Elasticsearch](#5-opensearch-vs-elasticsearch)
 - [6. When to Choose Graylog or OpenSearch](#6-when-to-choose-graylog-or-opensearch)
 

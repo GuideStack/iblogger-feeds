@@ -12,7 +12,7 @@
 - [សេចក្តីសង្ស័យ (The Suspicion)](#សេចក្តីសង្ស័យ-the-suspicion)
 - [ដំណោះស្រាយបែបតម្លាភាព (The Transparent Solution)](#ដំណោះស្រាយបែបតម្លាភាព-the-transparent-solution)
 - [ប្រជាពលរដ្ឋជាសវនករ (Citizens as Auditors)](#ប្រជាពលរដ្ឋជាសវនករ-citizens-as-auditors)
-- [ការវិភាគទ្រឹស្តី៖ Data Transparency & Auditing (Theoretical Breakdown)](#ការវិភាគទ្រឹស្តី-data-transparency-auditing-theoretical-breakdown)
+- [ការវិភាគទ្រឹស្តី៖ Data Transparency & Auditing (Theoretical Breakdown)](#ការវិភាគទ្រឹស្តី-data-transparency--auditing-theoretical-breakdown)
 - [Related Posts](#related-posts)
 
 ---

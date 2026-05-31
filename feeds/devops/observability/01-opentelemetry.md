@@ -7,8 +7,8 @@
 
 ## 📖 Table of Contents
 
-- [🧩 OpenTelemetry — The Universal Instrumentation Standard](#opentelemetry-the-universal-instrumentation-standard)
-  - [📖 Table of Contents](#table-of-contents)
+- [🧩 OpenTelemetry — The Universal Instrumentation Standard](#-opentelemetry--the-universal-instrumentation-standard)
+  - [📖 Table of Contents](#-table-of-contents)
   - [1. What Is OpenTelemetry?](#1-what-is-opentelemetry)
   - [2. The Problem It Solves](#2-the-problem-it-solves)
   - [3. Core Architecture](#3-core-architecture)
@@ -16,7 +16,7 @@
     - [4.1 Traces](#41-traces)
     - [4.2 Metrics](#42-metrics)
     - [4.3 Logs](#43-logs)
-  - [5. The Collector — The Central Hub](#5-the-collector-the-central-hub)
+  - [5. The Collector — The Central Hub](#5-the-collector--the-central-hub)
   - [6. Auto-Instrumentation vs Manual](#6-auto-instrumentation-vs-manual)
   - [7. Supported Languages](#7-supported-languages)
   - [8. Quick Start Example (Java)](#8-quick-start-example-java)

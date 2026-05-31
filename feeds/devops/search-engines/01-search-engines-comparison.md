@@ -7,10 +7,10 @@
 ## 📖 Table of Contents
 
 - [1. The Search Landscape](#1-the-search-landscape)
-- [2. Algolia — The Managed Premium Choice](#2-algolia-the-managed-premium-choice)
-- [3. Meilisearch — The Developer-Friendly OSS](#3-meilisearch-the-developer-friendly-oss)
-- [4. Typesense — The Performance-First Engine](#4-typesense-the-performance-first-engine)
-- [5. Elasticsearch — The Enterprise Powerhouse](#5-elasticsearch-the-enterprise-powerhouse)
+- [2. Algolia — The Managed Premium Choice](#2-algolia--the-managed-premium-choice)
+- [3. Meilisearch — The Developer-Friendly OSS](#3-meilisearch--the-developer-friendly-oss)
+- [4. Typesense — The Performance-First Engine](#4-typesense--the-performance-first-engine)
+- [5. Elasticsearch — The Enterprise Powerhouse](#5-elasticsearch--the-enterprise-powerhouse)
 - [6. Feature Comparison Matrix](#6-feature-comparison-matrix)
 - [7. Decision Guide](#7-decision-guide)
 

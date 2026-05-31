@@ -317,5 +317,5 @@ graph LR
 <a id="7"></a>
 ## Related Posts
 
-* [[DSA: Arrays](../dsa/01-linear-structures.md#1-arrays-contiguous-power)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Arrays ក្នុងរចនាសម្ព័ន្ធទិន្នន័យ។
+* [[DSA: Arrays](../dsa/01-linear-structures.md#1-arrays--contiguous-power)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Arrays ក្នុងរចនាសម្ព័ន្ធទិន្នន័យ។
 * [[Linked Lists & The Spy's Treasure Hunt](./99-the-spys-treasure-hunt.md)] — របៀបប្រើប្រាស់ខ្សែសង្វាក់ចង្អុលបង្ហាញ (Pointers) ដើម្បីដោះស្រាយបញ្ហានៃការ Shifting/Reallocation របស់ Array។

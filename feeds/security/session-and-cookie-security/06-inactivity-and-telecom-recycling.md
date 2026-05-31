@@ -10,7 +10,7 @@
 - [1. The Telegram "Self-Destruct" Feature](#1-the-telegram-self-destruct-feature)
 - [2. The Primary Threat: Number Recycling](#2-the-primary-threat-number-recycling)
 - [3. The Secondary Threat: Zombie Botnets](#3-the-secondary-threat-zombie-botnets)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

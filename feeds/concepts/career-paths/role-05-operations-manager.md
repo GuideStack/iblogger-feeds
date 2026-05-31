@@ -11,15 +11,15 @@
 - [2. The Ecosystem: The Management Triad](#2-the-ecosystem-the-management-triad)
 - [3. Responsibilities: The Day-to-Day](#3-responsibilities-the-day-to-day)
 - [4. The Autopsy: Why Managers Fail](#4-the-autopsy-why-managers-fail)
-- [5. Soft Skills & Dark Psychology (The Shield)](#5-soft-skills-dark-psychology-the-shield)
-- [6. Mental Health & Mental Models](#6-mental-health-mental-models)
+- [5. Soft Skills & Dark Psychology (The Shield)](#5-soft-skills--dark-psychology-the-shield)
+- [6. Mental Health & Mental Models](#6-mental-health--mental-models)
   - [Mental Model 1: The Peter Principle](#mental-model-1-the-peter-principle)
   - [Mental Model 2: Systems Thinking](#mental-model-2-systems-thinking)
   - [Mental Health: The Feedback Vacuum](#mental-health-the-feedback-vacuum)
 - [7. Next Career Growth](#7-next-career-growth)
 - [8. Recommended Reading](#8-recommended-reading)
-- [🔗 External References](#external-references)
-- [📚 Cross-References & Related Reading](#cross-references-related-reading)
+- [🔗 External References](#-external-references)
+- [📚 Cross-References & Related Reading](#-cross-references--related-reading)
 
 ---
 

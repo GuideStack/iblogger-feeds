@@ -13,7 +13,7 @@
 - [រូបមន្តនៃការដោះស្រាយ (The Formula)](#រូបមន្តនៃការដោះស្រាយ-the-formula)
 - [ដ្យាក្រាមលំហូរ (Visual Flowchart)](#ដ្យាក្រាមលំហូរ-visual-flowchart)
 - [ឧទាហរណ៍ជាក់ស្តែង៖ ការពន្យល់ពី Recursion (Practical Example)](#ឧទាហរណ៍ជាក់ស្តែង-ការពន្យល់ពី-recursion-practical-example)
-- [មេរៀន និងដែនកំណត់ (When to Use & Limitations)](#មេរៀន-និងដែនកំណត់-when-to-use-limitations)
+- [មេរៀន និងដែនកំណត់ (When to Use & Limitations)](#មេរៀន-និងដែនកំណត់-when-to-use--limitations)
 
 ---
 

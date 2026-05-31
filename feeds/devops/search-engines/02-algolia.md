@@ -9,9 +9,9 @@
 - [1. What Is Algolia?](#1-what-is-algolia)
 - [2. Core Features](#2-core-features)
 - [3. Indexing Data](#3-indexing-data)
-- [4. InstantSearch.js — Building the UI](#4-instantsearchjs-building-the-ui)
-- [5. NeuralSearch (AI & Vectors)](#5-neuralsearch-ai-vectors)
-- [6. Pricing & When to Use](#6-pricing-when-to-use)
+- [4. InstantSearch.js — Building the UI](#4-instantsearchjs--building-the-ui)
+- [5. NeuralSearch (AI & Vectors)](#5-neuralsearch-ai--vectors)
+- [6. Pricing & When to Use](#6-pricing--when-to-use)
 
 ---
 

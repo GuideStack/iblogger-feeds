@@ -11,7 +11,7 @@
 ## 📌 មាតិកា (Table of Contents)
 - [១. ការចាប់ផ្តើមជម្លោះ៖ ប្រឡាយលក្ខខណ្ឌ switch ឥតកំណត់ (Inciting Incident)](#១-ការចាប់ផ្តើមជម្លោះ-ប្រឡាយលក្ខខណ្ឌ-switch-ឥតកំណត់-inciting-incident)
 - [២. ភាពតានតឹងឡើងកម្រិត៖ ការបែកបាក់នៅថ្ងៃ Black Friday (Rising Action)](#២-ភាពតានតឹងឡើងកម្រិត-ការបែកបាក់នៅថ្ងៃ-black-friday-rising-action)
-- [៣. របកគំហើញវីរបុរស៖ ការណែនាំ Factory Method (The Climax & Solution)](#៣-របកគំហើញវីរបុរស-ការណែនាំ-factory-method-the-climax-solution)
+- [៣. របកគំហើញវីរបុរស៖ ការណែនាំ Factory Method (The Climax & Solution)](#៣-របកគំហើញវីរបុរស-ការណែនាំ-factory-method-the-climax--solution)
 - [៤. Related Posts](#៤-related-posts)
 
 ---

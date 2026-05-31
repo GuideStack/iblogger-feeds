@@ -8,8 +8,8 @@
 
 - [1. Overview](#1-overview)
 - [2. AWS CloudWatch](#2-aws-cloudwatch)
-- [3. Google Cloud Logging & Monitoring](#3-google-cloud-logging-monitoring)
-- [4. Azure Monitor & Log Analytics](#4-azure-monitor-log-analytics)
+- [3. Google Cloud Logging & Monitoring](#3-google-cloud-logging--monitoring)
+- [4. Azure Monitor & Log Analytics](#4-azure-monitor--log-analytics)
 - [5. Cloud Logging Comparison](#5-cloud-logging-comparison)
 - [6. When to Use vs When to Escape](#6-when-to-use-vs-when-to-escape)
 

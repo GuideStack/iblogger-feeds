@@ -7,10 +7,10 @@
 ## 📖 Table of Contents
 
 - [1. Push vs Pull Recap](#1-push-vs-pull-recap)
-- [2. StatsD — The Original Push Metric Protocol](#2-statsd-the-original-push-metric-protocol)
-- [3. InfluxDB — The Time-Series Database](#3-influxdb-the-time-series-database)
-- [4. Telegraf — InfluxDB's Collection Agent](#4-telegraf-influxdbs-collection-agent)
-- [5. InfluxQL & Flux — Query Languages](#5-influxql-flux-query-languages)
+- [2. StatsD — The Original Push Metric Protocol](#2-statsd--the-original-push-metric-protocol)
+- [3. InfluxDB — The Time-Series Database](#3-influxdb--the-time-series-database)
+- [4. Telegraf — InfluxDB's Collection Agent](#4-telegraf--influxdbs-collection-agent)
+- [5. InfluxQL & Flux — Query Languages](#5-influxql--flux--query-languages)
 - [6. When to Use StatsD or InfluxDB](#6-when-to-use-statsd-or-influxdb)
 
 ---

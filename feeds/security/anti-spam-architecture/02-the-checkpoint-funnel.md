@@ -13,7 +13,7 @@
   - [Level 2: The Medium Checkpoint (The Financial Burn)](#level-2-the-medium-checkpoint-the-financial-burn)
   - [Level 3: The Hard Checkpoint (The Identity Burn)](#level-3-the-hard-checkpoint-the-identity-burn)
 - [3. The Backend State Machine](#3-the-backend-state-machine)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

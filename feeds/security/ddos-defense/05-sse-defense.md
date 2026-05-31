@@ -33,12 +33,12 @@
   - [Attack: Goroutine Exhaustion via Open Streams](#attack-goroutine-exhaustion-via-open-streams)
   - [Defense: gRPC Server Configuration (Go)](#defense-grpc-server-configuration-go)
 - [HTTP/2 Server Push DDoS](#http2-server-push-ddos)
-  - [The Attack (Historical — Now Deprecated)](#the-attack-historical-now-deprecated)
+  - [The Attack (Historical — Now Deprecated)](#the-attack-historical--now-deprecated)
   - [Defense: Disable HTTP/2 Server Push Entirely](#defense-disable-http2-server-push-entirely)
 - [Defense Layering: The Full Stack](#defense-layering-the-full-stack)
   - [Numeric Defense Limits Reference](#numeric-defense-limits-reference)
 - [Key Takeaways](#key-takeaways)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

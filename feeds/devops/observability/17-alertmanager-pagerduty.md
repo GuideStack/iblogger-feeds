@@ -7,11 +7,11 @@
 ## 📖 Table of Contents
 
 - [1. The Problem: Alert Noise](#1-the-problem-alert-noise)
-- [2. Alertmanager — Prometheus Alert Routing](#2-alertmanager-prometheus-alert-routing)
+- [2. Alertmanager — Prometheus Alert Routing](#2-alertmanager--prometheus-alert-routing)
 - [3. Alert Routing Configuration](#3-alert-routing-configuration)
-- [4. Inhibition & Silencing](#4-inhibition-silencing)
-- [5. PagerDuty — On-Call Management](#5-pagerduty-on-call-management)
-- [6. OpsGenie & Alternatives](#6-opsgenie-alternatives)
+- [4. Inhibition & Silencing](#4-inhibition--silencing)
+- [5. PagerDuty — On-Call Management](#5-pagerduty--on-call-management)
+- [6. OpsGenie & Alternatives](#6-opsgenie--alternatives)
 - [7. Alert Design Best Practices](#7-alert-design-best-practices)
 - [8. The Four Golden Signals to Alert On](#8-the-four-golden-signals-to-alert-on)
 

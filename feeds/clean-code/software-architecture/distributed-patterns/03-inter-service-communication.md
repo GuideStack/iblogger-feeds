@@ -8,7 +8,7 @@
 
 - [1. The Evolution of Communication](#1-the-evolution-of-communication)
 - [2. In-Memory (JVM Method Calls)](#2-in-memory-jvm-method-calls)
-- [3. Synchronous HTTP (REST & OpenFeign)](#3-synchronous-http-rest-openfeign)
+- [3. Synchronous HTTP (REST & OpenFeign)](#3-synchronous-http-rest--openfeign)
 - [4. High-Performance RPC (gRPC)](#4-high-performance-rpc-grpc)
 - [5. Resiliency (Circuit Breakers)](#5-resiliency-circuit-breakers)
 

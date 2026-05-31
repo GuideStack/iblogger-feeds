@@ -9,16 +9,16 @@
 ## 📌 Table of Contents
 - [1. The Legacy Mistake: Static API Keys](#1-the-legacy-mistake-static-api-keys)
 - [2. The Standard: OAuth 2.0 Client Credentials Grant](#2-the-standard-oauth-20-client-credentials-grant)
-- [3. The Cloud-Native Solution: IAM & Workload Identity](#3-the-cloud-native-solution-iam-workload-identity)
+- [3. The Cloud-Native Solution: IAM & Workload Identity](#3-the-cloud-native-solution-iam--workload-identity)
 - [4. The Zero Trust Standard: mTLS (Mutual TLS)](#4-the-zero-trust-standard-mtls-mutual-tls)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 
 ## Table of Contents
 - [1. The Legacy Mistake: Static API Keys](#1-the-legacy-mistake-static-api-keys)
 - [2. The Standard: OAuth 2.0 Client Credentials Grant](#2-the-standard-oauth-20-client-credentials-grant)
-- [3. The Cloud-Native Solution: IAM & Workload Identity](#3-the-cloud-native-solution-iam-workload-identity)
+- [3. The Cloud-Native Solution: IAM & Workload Identity](#3-the-cloud-native-solution-iam--workload-identity)
 - [4. The Zero Trust Standard: mTLS (Mutual TLS)](#4-the-zero-trust-standard-mtls-mutual-tls)
 ---
 

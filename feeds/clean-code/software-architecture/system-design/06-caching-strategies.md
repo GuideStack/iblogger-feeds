@@ -10,7 +10,7 @@
 - [2. Local Cache vs Distributed Cache](#2-local-cache-vs-distributed-cache)
 - [3. Reading Strategies (Cache Aside)](#3-reading-strategies-cache-aside)
 - [4. Writing Strategies (Write-Through vs Write-Back)](#4-writing-strategies-write-through-vs-write-back)
-- [5. Eviction Policies & Thundering Herds](#5-eviction-policies-thundering-herds)
+- [5. Eviction Policies & Thundering Herds](#5-eviction-policies--thundering-herds)
 
 ---
 

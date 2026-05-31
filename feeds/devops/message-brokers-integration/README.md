@@ -7,7 +7,7 @@ A comprehensive series exploring how distributed systems, microservices, and leg
 ## 📖 Table of Contents
 
 - [The Need for Asynchronous Communication](#the-need-for-asynchronous-communication)
-- [📚 Module Index](#module-index)
+- [📚 Module Index](#-module-index)
 - [The Integration Landscape](#the-integration-landscape)
 
 ---

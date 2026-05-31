@@ -8,10 +8,10 @@
 
 ## 📌 Table of Contents
 - [1. The Two-Sided Marketplace Threat](#1-the-two-sided-marketplace-threat)
-- [2. Airbnb: Communication Escrow & NLP Redaction](#2-airbnb-communication-escrow-nlp-redaction)
-- [3. Booking.com: Device Graphing & Review Rings](#3-bookingcom-device-graphing-review-rings)
-- [4. Doctolib: Inventory Hoarding & Denial of Service](#4-doctolib-inventory-hoarding-denial-of-service)
-- [📚 References & Tools](#references-tools)
+- [2. Airbnb: Communication Escrow & NLP Redaction](#2-airbnb-communication-escrow--nlp-redaction)
+- [3. Booking.com: Device Graphing & Review Rings](#3-bookingcom-device-graphing--review-rings)
+- [4. Doctolib: Inventory Hoarding & Denial of Service](#4-doctolib-inventory-hoarding--denial-of-service)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

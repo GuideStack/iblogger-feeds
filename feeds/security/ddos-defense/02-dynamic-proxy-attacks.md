@@ -11,9 +11,9 @@
 - [2. Architectural Defenses Against Proxy Swarms](#2-architectural-defenses-against-proxy-swarms)
   - [A. The Global JS Challenge (Cloudflare "Under Attack" Mode)](#a-the-global-js-challenge-cloudflare-under-attack-mode)
   - [B. Deep TLS Fingerprinting (JA3 Signatures)](#b-deep-tls-fingerprinting-ja3-signatures)
-  - [C. ASN & Datacenter Blocking](#c-asn-datacenter-blocking)
+  - [C. ASN & Datacenter Blocking](#c-asn--datacenter-blocking)
   - [D. The Dynamic Tarpit](#d-the-dynamic-tarpit)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

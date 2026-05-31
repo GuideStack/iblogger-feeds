@@ -12,9 +12,9 @@
   - [What is a Session?](#what-is-a-session)
   - [What is a Token?](#what-is-a-token)
 - [2. Stateful Sessions (Opaque Tokens)](#2-stateful-sessions-opaque-tokens)
-- [3. Stateless Sessions (JWT - JSON Web Tokens)](#3-stateless-sessions-jwt-json-web-tokens)
+- [3. Stateless Sessions (JWT - JSON Web Tokens)](#3-stateless-sessions-jwt---json-web-tokens)
 - [4. The Enterprise Verdict](#4-the-enterprise-verdict)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 
@@ -24,7 +24,7 @@
   - [What is a Session?](#what-is-a-session)
   - [What is a Token?](#what-is-a-token)
 - [2. Stateful Sessions (Opaque Tokens)](#2-stateful-sessions-opaque-tokens)
-- [3. Stateless Sessions (JWT - JSON Web Tokens)](#3-stateless-sessions-jwt-json-web-tokens)
+- [3. Stateless Sessions (JWT - JSON Web Tokens)](#3-stateless-sessions-jwt---json-web-tokens)
 - [4. The Enterprise Verdict](#4-the-enterprise-verdict)
 ---
 

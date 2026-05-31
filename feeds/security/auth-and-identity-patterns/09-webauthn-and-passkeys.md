@@ -14,7 +14,7 @@
     - [2. Passkey Authentication (Subsequent Logins)](#2-passkey-authentication-subsequent-logins)
 - [3. Why Passkeys are Unphishable](#3-why-passkeys-are-unphishable)
 - [4. The Future of Authentication](#4-the-future-of-authentication)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

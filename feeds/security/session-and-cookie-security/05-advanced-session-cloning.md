@@ -10,7 +10,7 @@
 - [1. The Threat: Total State Cloning](#1-the-threat-total-state-cloning)
 - [2. The Google Strategy: State Divergence (Heuristics)](#2-the-google-strategy-state-divergence-heuristics)
 - [3. The Telegram Strategy: Refresh Token Rotation](#3-the-telegram-strategy-refresh-token-rotation)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

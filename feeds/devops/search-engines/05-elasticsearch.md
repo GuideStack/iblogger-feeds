@@ -9,7 +9,7 @@
 - [1. What Is Elasticsearch?](#1-what-is-elasticsearch)
 - [2. The Inverted Index (Lucene)](#2-the-inverted-index-lucene)
 - [3. Distributed Architecture](#3-distributed-architecture)
-- [4. Query DSL & Aggregations](#4-query-dsl-aggregations)
+- [4. Query DSL & Aggregations](#4-query-dsl--aggregations)
 - [5. OpenSearch vs Elasticsearch](#5-opensearch-vs-elasticsearch)
 - [6. When to Use Elasticsearch](#6-when-to-use-elasticsearch)
 

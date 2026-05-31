@@ -7,7 +7,7 @@
 ## 📖 Table of Contents
 
 - [1. The Multi-Repo Problem (Polyrepo)](#1-the-multi-repo-problem-polyrepo)
-- [2. The Monorepo Solution (Nx / Turborepo)](#2-the-monorepo-solution-nx-turborepo)
+- [2. The Monorepo Solution (Nx / Turborepo)](#2-the-monorepo-solution-nx--turborepo)
 - [3. Code Sharing at Build-Time](#3-code-sharing-at-build-time)
 - [4. Remote Caching (The Superpower)](#4-remote-caching-the-superpower)
 - [5. The "Ejection" Strategy (Splitting to Standalone)](#5-the-ejection-strategy-splitting-to-standalone)

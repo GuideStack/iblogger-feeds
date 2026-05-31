@@ -56,7 +56,7 @@ If you see [ABNORMAL OUTPUT]: proceed to Step 2.
 ```bash
 [COMMAND — e.g. git log or deployment history query]
 ```
-If a deployment happened in the last 30 minutes: consider rollback (see [Rollback](#rollback-1)).
+If a deployment happened in the last 30 minutes: consider rollback (see [Rollback](#-rollback-1)).
 
 ---
 
@@ -209,7 +209,7 @@ kubectl rollout history deployment/auth-service -n production
 # Or check CI/CD:
 # https://ci.example.com/pipelines?service=auth-service&env=production&limit=5
 ```
-If a deployment happened in the last 60 minutes: **consider rollback first** (see [Rollback](#rollback-1)).
+If a deployment happened in the last 60 minutes: **consider rollback first** (see [Rollback](#-rollback-1)).
 
 ---
 

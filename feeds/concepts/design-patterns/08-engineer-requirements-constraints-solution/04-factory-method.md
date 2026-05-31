@@ -9,9 +9,9 @@
 ---
 
 ## 📌 មាតិកា (Table of Contents)
-- [១. របាយការណ៍ស្ថាបត្យកម្មប្រព័ន្ធ (System Requirements & Constraints)](#១-របាយការណ៍ស្ថាបត្យកម្មប្រព័ន្ធ-system-requirements-constraints)
+- [១. របាយការណ៍ស្ថាបត្យកម្មប្រព័ន្ធ (System Requirements & Constraints)](#១-របាយការណ៍ស្ថាបត្យកម្មប្រព័ន្ធ-system-requirements--constraints)
 - [២. ការវាយតម្លៃបេក្ខភាពដំណោះស្រាយ (Candidate Evaluation Matrix)](#២-ការវាយតម្លៃបេក្ខភាពដំណោះស្រាយ-candidate-evaluation-matrix)
-- [៣. ដំណោះស្រាយដែលបានជ្រើសរើស និងការបញ្ជាក់ហេតុផល (Chosen Solution & Rationale)](#៣-ដំណោះស្រាយដែលបានជ្រើសរើស-និងការបញ្ជាក់ហេតុផល-chosen-solution-rationale)
+- [៣. ដំណោះស្រាយដែលបានជ្រើសរើស និងការបញ្ជាក់ហេតុផល (Chosen Solution & Rationale)](#៣-ដំណោះស្រាយដែលបានជ្រើសរើស-និងការបញ្ជាក់ហេតុផល-chosen-solution--rationale)
 - [៤. Related Posts](#៤-related-posts)
 
 ---

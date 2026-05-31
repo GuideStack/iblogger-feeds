@@ -12,7 +12,7 @@
 - [១. បញ្ហាស្នូល (The Core Problem)](#១-បញ្ហាស្នូល-the-core-problem)
 - [២. ការទាញហេតុផលពីគោលការណ៍គ្រឹះ (First Principles Derivation)](#២-ការទាញហេតុផលពីគោលការណ៍គ្រឹះ-first-principles-derivation)
 - [៣. ដ្យាក្រាមលំហូរ (Visual Derivation)](#៣-ដ្យាក្រាមលំហូរ-visual-derivation)
-- [៤. របៀបអនុវត្ត HDS — ជាម្ចាស់វេទិកា Doctolib (How to Apply HDS as a Platform Owner)](#៤-របៀបអនុវត្ត-hds-ជាម្ចាស់វេទិកា-doctolib-how-to-apply-hds-as-a-platform-owner)
+- [៤. របៀបអនុវត្ត HDS — ជាម្ចាស់វេទិកា Doctolib (How to Apply HDS as a Platform Owner)](#៤-របៀបអនុវត្ត-hds--ជាម្ចាស់វេទិកា-doctolib-how-to-apply-hds-as-a-platform-owner)
 - [៥. Related Posts](#៥-related-posts)
 
 ---

@@ -11,7 +11,7 @@
   - [What is it?](#what-is-it-1)
   - [Why use it?](#why-use-it)
   - [Case Study #7: Stack Overflow's Lean Architecture](#case-study-7-stack-overflows-lean-architecture)
-- [2. Envoy Proxy & The Service Mesh](#2-envoy-proxy-the-service-mesh)
+- [2. Envoy Proxy & The Service Mesh](#2-envoy-proxy--the-service-mesh)
   - [What is it?](#what-is-it-1)
   - [Why use it? (The Sidecar Pattern)](#why-use-it-the-sidecar-pattern)
   - [Case Study #8: Lyft Moving to Microservices](#case-study-8-lyft-moving-to-microservices)

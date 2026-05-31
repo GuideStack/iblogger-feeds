@@ -7,7 +7,7 @@ A comprehensive series exploring modern error tracking, crash reporting, and cli
 ## 📖 Table of Contents
 
 - [What Is Error Tracking?](#what-is-error-tracking)
-- [📚 Module Index](#module-index)
+- [📚 Module Index](#-module-index)
 - [The Error Tracking Landscape](#the-error-tracking-landscape)
 
 ---

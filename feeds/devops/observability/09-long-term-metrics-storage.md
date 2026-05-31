@@ -7,9 +7,9 @@
 ## 📖 Table of Contents
 
 - [1. The Problem: Prometheus Doesn't Scale Alone](#1-the-problem-prometheus-doesnt-scale-alone)
-- [2. Thanos — Multi-Cluster Federation](#2-thanos-multi-cluster-federation)
-- [3. Grafana Mimir — Fully Distributed TSDB](#3-grafana-mimir-fully-distributed-tsdb)
-- [4. VictoriaMetrics — Efficient Drop-In Replacement](#4-victoriametrics-efficient-drop-in-replacement)
+- [2. Thanos — Multi-Cluster Federation](#2-thanos--multi-cluster-federation)
+- [3. Grafana Mimir — Fully Distributed TSDB](#3-grafana-mimir--fully-distributed-tsdb)
+- [4. VictoriaMetrics — Efficient Drop-In Replacement](#4-victoriametrics--efficient-drop-in-replacement)
 - [5. Comparison Matrix](#5-comparison-matrix)
 - [6. When to Use Each](#6-when-to-use-each)
 

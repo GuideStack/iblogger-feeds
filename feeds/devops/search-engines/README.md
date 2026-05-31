@@ -7,7 +7,7 @@ A comprehensive series exploring modern search infrastructure, from managed sear
 ## 📖 Table of Contents
 
 - [The Role of a Search Engine](#the-role-of-a-search-engine)
-- [📚 Module Index](#module-index)
+- [📚 Module Index](#-module-index)
 - [The Search Engine Landscape](#the-search-engine-landscape)
 
 ---

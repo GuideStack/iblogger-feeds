@@ -9,7 +9,7 @@
 - [1. The Problem with CRUD](#1-the-problem-with-crud)
 - [2. What Is CQRS?](#2-what-is-cqrs)
 - [3. The Two Models (Write vs Read)](#3-the-two-models-write-vs-read)
-- [4. Eventual Consistency & Message Brokers](#4-eventual-consistency-message-brokers)
+- [4. Eventual Consistency & Message Brokers](#4-eventual-consistency--message-brokers)
 - [5. When to Use CQRS](#5-when-to-use-cqrs)
 
 ---

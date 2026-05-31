@@ -7,10 +7,10 @@
 ## 📖 Table of Contents
 
 - [1. The Problem: Logs Are Not Enough](#1-the-problem-logs-are-not-enough)
-- [2. Sentry — The Industry Standard](#2-sentry-the-industry-standard)
-- [3. Bugsnag — The Mobile Powerhouse](#3-bugsnag-the-mobile-powerhouse)
-- [4. Rollbar — The Workflow Specialist](#4-rollbar-the-workflow-specialist)
-- [5. LogRocket — The UX Debugger](#5-logrocket-the-ux-debugger)
+- [2. Sentry — The Industry Standard](#2-sentry--the-industry-standard)
+- [3. Bugsnag — The Mobile Powerhouse](#3-bugsnag--the-mobile-powerhouse)
+- [4. Rollbar — The Workflow Specialist](#4-rollbar--the-workflow-specialist)
+- [5. LogRocket — The UX Debugger](#5-logrocket--the-ux-debugger)
 - [6. Feature Comparison Matrix](#6-feature-comparison-matrix)
 - [7. Decision Guide](#7-decision-guide)
 

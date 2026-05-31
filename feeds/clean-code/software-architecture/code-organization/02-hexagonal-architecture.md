@@ -8,7 +8,7 @@
 
 - [1. The Philosophy of Independence](#1-the-philosophy-of-independence)
 - [2. Inside vs Outside](#2-inside-vs-outside)
-- [3. Ports & Adapters](#3-ports-adapters)
+- [3. Ports & Adapters](#3-ports--adapters)
 - [4. The Spring Boot Folder Structure](#4-the-spring-boot-folder-structure)
 
 ---

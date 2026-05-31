@@ -322,5 +322,5 @@ graph LR
 <a id="7"></a>
 ## Related Posts
 
-* [[DSA: Trees & Tries](../dsa/02-non-linear-structures.md#2-trees--tries-navigating-hierarchy)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Trees និង Tries ក្នុង DSA។
+* [[DSA: Trees & Tries](../dsa/02-non-linear-structures.md#2-trees--tries--navigating-hierarchy)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Trees និង Tries ក្នុង DSA។
 * [[Linked List Data Structure & The Spy's Treasure Hunt](./99-the-spys-treasure-hunt.md)] — របៀបយល់ដឹងពី Pointers/References ដែលប្រើសម្រាប់តភ្ជាប់ Node នីមួយៗក្នុង Tree។

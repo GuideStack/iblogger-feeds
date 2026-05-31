@@ -16,28 +16,28 @@
   - [The Structure](#the-structure-3)
   - [Runtime Reference](#runtime-reference-3)
   - [Industrial Case Study: Consistent Hashing for Distributed Sharding](#industrial-case-study-consistent-hashing-for-distributed-sharding)
-  - [When to Use / When to Avoid](#when-to-use-when-to-avoid-3)
-- [2. Trees & Tries: Navigating Hierarchy](#2-trees-tries-navigating-hierarchy)
+  - [When to Use / When to Avoid](#when-to-use--when-to-avoid-3)
+- [2. Trees & Tries: Navigating Hierarchy](#2-trees--tries-navigating-hierarchy)
   - [The Problem](#the-problem-3)
   - [The Insight](#the-insight-3)
   - [The Structure](#the-structure-3)
   - [Runtime Reference](#runtime-reference-3)
   - [Industrial Case Study: Search Bar Autocomplete](#industrial-case-study-search-bar-autocomplete)
-  - [When to Use / When to Avoid](#when-to-use-when-to-avoid-3)
+  - [When to Use / When to Avoid](#when-to-use--when-to-avoid-3)
 - [3. Graphs: The Universal Model](#3-graphs-the-universal-model)
   - [The Problem](#the-problem-3)
   - [The Insight](#the-insight-3)
   - [The Structure](#the-structure-3)
   - [Runtime Reference](#runtime-reference-3)
   - [Industrial Case Study: Social Network Degrees of Separation](#industrial-case-study-social-network-degrees-of-separation)
-  - [When to Use / When to Avoid](#when-to-use-when-to-avoid-3)
+  - [When to Use / When to Avoid](#when-to-use--when-to-avoid-3)
 - [4. Heaps: The Priority Engine](#4-heaps-the-priority-engine)
   - [The Problem](#the-problem-3)
   - [The Insight](#the-insight-3)
   - [The Structure](#the-structure-3)
   - [Runtime Reference](#runtime-reference-3)
   - [Industrial Case Study: Cloud Task Scheduler](#industrial-case-study-cloud-task-scheduler)
-  - [When to Use / When to Avoid](#when-to-use-when-to-avoid-3)
+  - [When to Use / When to Avoid](#when-to-use--when-to-avoid-3)
 - [Summary: Non-Linear Structures at a Glance](#summary-non-linear-structures-at-a-glance)
 
 ---
@@ -45,7 +45,7 @@
 ## Table of Contents
 
 - [Hash Tables: O(1) or a Lie?](#1-hash-tables-o1-or-a-lie)
-- [Trees & Tries: Navigating Hierarchy](#2-trees-tries-navigating-hierarchy)
+- [Trees & Tries: Navigating Hierarchy](#2-trees--tries-navigating-hierarchy)
 - [Graphs: The Universal Model](#3-graphs-the-universal-model)
 - [Heaps: The Priority Engine](#4-heaps-the-priority-engine)
 - [Summary: Non-Linear Structures at a Glance](#summary-non-linear-structures-at-a-glance)
@@ -57,7 +57,7 @@
 | Structure | Core Promise | Industrial Use Case |
 | :--- | :--- | :--- |
 | [Hash Tables](#1-hash-tables-o1-or-a-lie) | O(1) average lookup by key | Distributed database sharding (Cassandra, DynamoDB) |
-| [Trees & Tries](#2-trees-tries-navigating-hierarchy) | O(prefix_length) prefix search | Search bar autocomplete |
+| [Trees & Tries](#2-trees--tries-navigating-hierarchy) | O(prefix_length) prefix search | Search bar autocomplete |
 | [Graphs](#3-graphs-the-universal-model) | Model any relationship | Social network degrees of separation |
 | [Heaps](#4-heaps-the-priority-engine) | O(log n) insert and extract-max | Cloud task scheduler |
 

@@ -16,7 +16,7 @@
 - [3. The Anatomy of Clean Code](#3-the-anatomy-of-clean-code)
   - [The Hallmarks of Clean Code:](#the-hallmarks-of-clean-code)
 - [4. The Transformation](#4-the-transformation)
-- [🔗 External References & Required Reading](#external-references-required-reading)
+- [🔗 External References & Required Reading](#-external-references--required-reading)
 
 ---
 

@@ -13,7 +13,7 @@
 - [Mermaid Swimlane Diagram](#mermaid-swimlane-diagram)
 - [ASCII Flow](#ascii-flow)
 - [Step-by-Step Responsibility Table](#step-by-step-responsibility-table)
-- [Review Standards — What Each Role Checks](#review-standards-what-each-role-checks)
+- [Review Standards — What Each Role Checks](#review-standards--what-each-role-checks)
 - [SLAs](#slas)
 - [Handling Disagreements](#handling-disagreements)
 - [Anti-Patterns](#anti-patterns)

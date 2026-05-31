@@ -8,7 +8,7 @@
 
 - [1. The UI Inconsistency Problem](#1-the-ui-inconsistency-problem)
 - [2. Design Tokens (The Foundation)](#2-design-tokens-the-foundation)
-- [3. Building vs Buying (Tailwind / MUI)](#3-building-vs-buying-tailwind-mui)
+- [3. Building vs Buying (Tailwind / MUI)](#3-building-vs-buying-tailwind--mui)
 - [4. The Headless UI Revolution](#4-the-headless-ui-revolution)
 
 ---

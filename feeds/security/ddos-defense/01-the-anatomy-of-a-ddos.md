@@ -7,9 +7,9 @@
 ---
 
 ## 📌 Table of Contents
-- [1. Layer 3 & Layer 4: Volumetric Attacks](#1-layer-3-layer-4-volumetric-attacks)
+- [1. Layer 3 & Layer 4: Volumetric Attacks](#1-layer-3--layer-4-volumetric-attacks)
 - [2. Layer 7: The Application Attack](#2-layer-7-the-application-attack)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

@@ -7,9 +7,9 @@
 ## 📖 Table of Contents
 
 - [1. Prop Drilling (The Anti-Pattern)](#1-prop-drilling-the-anti-pattern)
-- [2. The Global Store (Redux / Zustand)](#2-the-global-store-redux-zustand)
+- [2. The Global Store (Redux / Zustand)](#2-the-global-store-redux--zustand)
 - [3. Client State vs Server State](#3-client-state-vs-server-state)
-- [4. The Modern Stack (React Query + Zustand)](#4-the-modern-stack-react-query-zustand)
+- [4. The Modern Stack (React Query + Zustand)](#4-the-modern-stack-react-query--zustand)
 
 ---
 

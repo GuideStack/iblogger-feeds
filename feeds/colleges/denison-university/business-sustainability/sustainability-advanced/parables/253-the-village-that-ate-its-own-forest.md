@@ -9,8 +9,8 @@
 ---
 
 ## 📌 មាតិកា (Table of Contents)
-- [ភូមិ A ៖ ការបំផ្លាញ (Village A — The Destruction)](#ភូមិ-a-ការបំផ្លាញ-village-a-the-destruction)
-- [ភូមិ ប ៖ ការបង្វិល (Village B — The Loop)](#ភូមិ-ប-ការបង្វិល-village-b-the-loop)
+- [ភូមិ A ៖ ការបំផ្លាញ (Village A — The Destruction)](#ភូមិ-a--ការបំផ្លាញ-village-a--the-destruction)
+- [ភូមិ ប ៖ ការបង្វិល (Village B — The Loop)](#ភូមិ-ប--ការបង្វិល-village-b--the-loop)
 - [លទ្ធផល ៥០ ឆ្នាំ (Fifty-Year Outcome)](#លទ្ធផល-៥០-ឆ្នាំ-fifty-year-outcome)
 - [ការវិភាគទ្រឹស្តី៖ Circular Economy (Theoretical Breakdown)](#ការវិភាគទ្រឹស្តី-circular-economy-theoretical-breakdown)
 - [Related Posts](#related-posts)

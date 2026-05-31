@@ -7,7 +7,7 @@
 ## 📖 Table of Contents
 
 - [1. The JavaScript Bundle Problem](#1-the-javascript-bundle-problem)
-- [2. Code Splitting & Lazy Loading](#2-code-splitting-lazy-loading)
+- [2. Code Splitting & Lazy Loading](#2-code-splitting--lazy-loading)
 - [3. Tree Shaking](#3-tree-shaking)
 - [4. DOM Virtualization (Windowing)](#4-dom-virtualization-windowing)
 - [5. Core Web Vitals (LCP, CLS, FID)](#5-core-web-vitals-lcp-cls-fid)

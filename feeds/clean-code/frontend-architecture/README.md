@@ -7,7 +7,7 @@ A comprehensive guide to scaling user interfaces. As web applications grow from 
 ## 📖 Table of Contents
 
 - [The Complexity of the Client](#the-complexity-of-the-client)
-- [📚 Module Index](#module-index)
+- [📚 Module Index](#-module-index)
 - [Architecture Landscape](#architecture-landscape)
 
 ---

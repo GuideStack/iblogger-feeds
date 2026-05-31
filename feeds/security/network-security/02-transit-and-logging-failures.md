@@ -11,7 +11,7 @@
 - [2. The Cardinal Sin: Passwords in Access Logs](#2-the-cardinal-sin-passwords-in-access-logs)
   - [The GET Request Failure](#the-get-request-failure)
   - [The Catastrophic Consequence](#the-catastrophic-consequence)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

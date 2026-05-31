@@ -8,7 +8,7 @@
 
 - [1. Intention-Revealing Names](#1-intention-revealing-names)
 - [2. Avoid Disinformation](#2-avoid-disinformation)
-- [3. Use Pronounceable & Searchable Names](#3-use-pronounceable-searchable-names)
+- [3. Use Pronounceable & Searchable Names](#3-use-pronounceable--searchable-names)
 - [4. Classes vs Methods](#4-classes-vs-methods)
 
 ---

@@ -326,5 +326,5 @@ graph LR
 <a id="7"></a>
 ## Related Posts
 
-* [[DSA: Linked Lists](../dsa/01-linear-structures.md#2-linked-lists-dynamic-flexibility)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Linked Lists ក្នុង DSA។
+* [[DSA: Linked Lists](../dsa/01-linear-structures.md#2-linked-lists--dynamic-flexibility)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Linked Lists ក្នុង DSA។
 * [[Array Data Structure & The Cinema Seats](./98-the-cinema-seats.md)] — ការយល់ដឹងពីចំណុចខ្លាំងរបស់ Arrays ដែលមានល្បឿន direct access O(1) លឿនជាង Linked Lists។

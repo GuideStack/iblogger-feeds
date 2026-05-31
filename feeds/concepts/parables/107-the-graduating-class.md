@@ -327,5 +327,5 @@ graph LR
 <a id="7"></a>
 ## Related Posts
 
-* [[DSA: Sorting Algorithms](../dsa/03-algorithms.md#3-sorting-stability-why-it-matters-in-production)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Sorting Algorithms ក្នុង DSA។
+* [[DSA: Sorting Algorithms](../dsa/03-algorithms.md#3-sorting--stability-why-it-matters-in-production)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Sorting Algorithms ក្នុង DSA។
 * [[Two Pointers & Sliding Window Algorithms & The Photographer's Lens](./106-the-photographers-lens.md)] — របៀបគ្រប់គ្រង Pointers ពីរសម្រាប់ស្វែងរក និងរៀបចំទិន្នន័យ O(N) មុនពេលឈានដល់ការតម្រៀប។

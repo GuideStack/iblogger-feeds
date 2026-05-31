@@ -13,7 +13,7 @@
 - [The Five Signs](#the-five-signs)
   - [1. **Chronic Exhaustion**](#1-chronic-exhaustion)
   - [2. **Cynicism About Work**](#2-cynicism-about-work)
-  - [3. **Reduced Performance & Focus**](#3-reduced-performance-focus)
+  - [3. **Reduced Performance & Focus**](#3-reduced-performance--focus)
   - [4. **Emotional Detachment**](#4-emotional-detachment)
   - [5. **Persistent Cynicism About Your Skills**](#5-persistent-cynicism-about-your-skills)
 - [Why This Matters](#why-this-matters)

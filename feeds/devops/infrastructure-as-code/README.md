@@ -7,7 +7,7 @@ A comprehensive series exploring how to provision, manage, and version-control c
 ## 📖 Table of Contents
 
 - [What Is Infrastructure as Code?](#what-is-infrastructure-as-code)
-- [📚 Module Index](#module-index)
+- [📚 Module Index](#-module-index)
 - [The IaC Landscape](#the-iac-landscape)
 
 ---

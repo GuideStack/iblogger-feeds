@@ -11,15 +11,15 @@
 - [2. The Core Workflow: The Unblocker](#2-the-core-workflow-the-unblocker)
 - [3. Responsibilities: The Day-to-Day](#3-responsibilities-the-day-to-day)
 - [4. The Autopsy: Why PMs Fail](#4-the-autopsy-why-pms-fail)
-- [5. The Blueprint: Soft Skills & Dark Psychology](#5-the-blueprint-soft-skills-dark-psychology)
-- [6. Mental Health & Mental Models](#6-mental-health-mental-models)
+- [5. The Blueprint: Soft Skills & Dark Psychology](#5-the-blueprint-soft-skills--dark-psychology)
+- [6. Mental Health & Mental Models](#6-mental-health--mental-models)
   - [Mental Model 1: The 5 Whys (Root Cause Analysis)](#mental-model-1-the-5-whys-root-cause-analysis)
   - [Mental Model 2: Optimism Bias (Hofstadter's Law)](#mental-model-2-optimism-bias-hofstadters-law)
-  - [Mental Health: Servant Leadership & Burnout](#mental-health-servant-leadership-burnout)
+  - [Mental Health: Servant Leadership & Burnout](#mental-health-servant-leadership--burnout)
 - [7. Next Career Growth](#7-next-career-growth)
 - [8. Recommended Reading](#8-recommended-reading)
-- [🔗 External References](#external-references)
-- [📚 Cross-References & Related Reading](#cross-references-related-reading)
+- [🔗 External References](#-external-references)
+- [📚 Cross-References & Related Reading](#-cross-references--related-reading)
 
 ---
 

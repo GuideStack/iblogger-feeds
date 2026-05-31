@@ -16,7 +16,7 @@
   - [What is it?](#what-is-it-1)
   - [How does it work?](#how-does-it-work)
   - [Case Study #4: Frictionless Banking Login](#case-study-4-frictionless-banking-login)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

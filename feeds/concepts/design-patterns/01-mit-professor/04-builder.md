@@ -11,7 +11,7 @@
 ## 📌 មាតិកា (Table of Contents)
 - [១. គោល​ការ​ណ៍គ្រឹះដំបូង (Axiomatic Foundations)](#១-គោលការណ៍គ្រឹះដំបូង-axiomatic-foundations)
 - [២. ការ​ទាញរក​លក្ខណៈ​បច្ចេកទេស (The Derivation)](#២-ការទាញរកលក្ខណៈបច្ចេកទេស-the-derivation)
-- [៣. ស្ថាបត្យកម្​មក​ូដគំរូ (Mathematical & Code Architecture)](#៣-ស្ថាបត្យកម្មកូដគំរូ-mathematical-code-architecture)
+- [៣. ស្ថាបត្យកម្​មក​ូដគំរូ (Mathematical & Code Architecture)](#៣-ស្ថាបត្យកម្មកូដគំរូ-mathematical--code-architecture)
 - [៤. ដ្យាក្រាមលំហូរ (Visual Flowchart)](#៤-ដ្យាក្រាមលំហូរ-visual-flowchart)
 - [៥. Related Posts](#៥-related-posts)
 

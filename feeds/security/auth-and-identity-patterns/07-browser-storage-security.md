@@ -13,7 +13,7 @@
 - [4. HTTP Cookies](#4-http-cookies)
   - [The Critical Cookie Security Flags](#the-critical-cookie-security-flags)
   - [Summary: The Ultimate Architecture Matrix](#summary-the-ultimate-architecture-matrix)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

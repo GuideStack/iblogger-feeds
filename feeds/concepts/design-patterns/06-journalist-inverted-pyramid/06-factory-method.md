@@ -10,7 +10,7 @@
 
 ## 📌 មាតិកា (Table of Contents)
 - [១. សេចក្តីសង្ខេបព័ត៌មានបន្ទាន់ (High-Impact Lede)](#១-សេចក្តីសង្ខេបព័ត៌មានបន្ទាន់-high-impact-lede)
-- [២. ព័ត៌មានលម្អិត និងកូដគំរូ (Supporting Details & Code Architecture)](#២-ព័ត៌មានលម្អិត-និងកូដគំរូ-supporting-details-code-architecture)
+- [២. ព័ត៌មានលម្អិត និងកូដគំរូ (Supporting Details & Code Architecture)](#២-ព័ត៌មានលម្អិត-និងកូដគំរូ-supporting-details--code-architecture)
 - [៣. ដ្យាក្រាមលំហូរ (Visual Flowchart)](#៣-ដ្យាក្រាមលំហូរ-visual-flowchart)
 - [៤. Related Posts](#៤-related-posts)
 

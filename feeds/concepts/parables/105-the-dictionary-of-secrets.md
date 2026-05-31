@@ -315,5 +315,5 @@ graph LR
 <a id="7"></a>
 ## Related Posts
 
-* [[DSA: Binary Search](../dsa/03-algorithms.md#1-binary-search-the-logarithmic-scalpel)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Binary Search ក្នុង DSA។
+* [[DSA: Binary Search](../dsa/03-algorithms.md#1-binary-search--the-logarithmic-scalpel)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Binary Search ក្នុង DSA។
 * [[Hash Table Data Structure & The Apothecary's Cabinet](./101-the-apothecarys-cabinet.md)] — របៀបស្វែងរកទិន្នន័យ O(1) តាមរយៈ Hashing ប្រៀបធៀបនឹង Binary Search O(log N)។

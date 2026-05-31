@@ -11,7 +11,7 @@
 ## 📌 Table of Contents
 - [១. តើជួងជឺជានរណា? (Who was Zhuangzi?)](#១-តើជួងជឺជានរណា-who-was-zhuangzi)
 - [២. ប្រវត្តិសង្ខេប (Brief History)](#២-ប្រវត្តិសង្ខេប-brief-history)
-- [៣. ទស្សនវិជ្ជាស្នូល៖ សុបិនមេអំបៅ និងសេរីភាព (The Butterfly Dream & Freedom)](#៣-ទស្សនវិជ្ជាស្នូល-សុបិនមេអំបៅ-និងសេរីភាព-the-butterfly-dream-freedom)
+- [៣. ទស្សនវិជ្ជាស្នូល៖ សុបិនមេអំបៅ និងសេរីភាព (The Butterfly Dream & Freedom)](#៣-ទស្សនវិជ្ជាស្នូល-សុបិនមេអំបៅ-និងសេរីភាព-the-butterfly-dream--freedom)
 - [៤. ភាពទទេរស្អាត (The Usefulness of Uselessness)](#៤-ភាពទទេរស្អាត-the-usefulness-of-uselessness)
 - [៥. កេរដំណែល (Legacy)](#៥-កេរដំណែល-legacy)
 - [References](#references)

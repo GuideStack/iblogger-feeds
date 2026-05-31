@@ -15,7 +15,7 @@
 - [Cadence and Format](#cadence-and-format)
 - [The 1-on-1 Structure](#the-1-on-1-structure)
 - [How to Give Feedback That Sticks](#how-to-give-feedback-that-sticks)
-- [The Growth Ladder — Junior to Senior](#the-growth-ladder-junior-to-senior)
+- [The Growth Ladder — Junior to Senior](#the-growth-ladder--junior-to-senior)
 - [Spotting Disengagement Early](#spotting-disengagement-early)
 - [Difficult Conversations](#difficult-conversations)
 - [Anti-Patterns to Eliminate](#anti-patterns-to-eliminate)

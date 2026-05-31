@@ -14,7 +14,7 @@
 - [ASCII Flow](#ascii-flow)
 - [Step-by-Step Responsibility Table](#step-by-step-responsibility-table)
 - [Path A: QA-Found Bug (Pre-Production)](#path-a-qa-found-bug-pre-production)
-- [Path B: Production Incident (SEV-1 / SEV-2)](#path-b-production-incident-sev-1-sev-2)
+- [Path B: Production Incident (SEV-1 / SEV-2)](#path-b-production-incident-sev-1--sev-2)
 - [Decision Points](#decision-points)
 - [Related Templates](#related-templates)
 

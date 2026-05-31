@@ -324,5 +324,5 @@ graph LR
 <a id="7"></a>
 ## Related Posts
 
-* [[DSA: Dynamic Programming](../dsa/03-algorithms.md#4-dynamic-programming-the-memoization-masterclass)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Dynamic Programming ក្នុង DSA។
+* [[DSA: Dynamic Programming](../dsa/03-algorithms.md#4-dynamic-programming--the-memoization-masterclass)] — ការពន្យល់លម្អិត និងស៊ីជម្រៅអំពី Dynamic Programming ក្នុង DSA។
 * [[Binary Search Algorithm & The Dictionary of Secrets](./105-the-dictionary-of-secrets.md)] — របៀបយល់ដឹងពីការបែងចែកបញ្ហាជាពីរ (Divide and Conquer) ប្រៀបធៀបនឹង Dynamic Programming។

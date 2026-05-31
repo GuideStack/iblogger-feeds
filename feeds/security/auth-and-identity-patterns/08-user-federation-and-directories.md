@@ -8,16 +8,16 @@
 
 ## 📌 Table of Contents
 - [1. What is User Federation?](#1-what-is-user-federation)
-  - [Type 1: LDAP / Active Directory Federation](#type-1-ldap-active-directory-federation)
+  - [Type 1: LDAP / Active Directory Federation](#type-1-ldap--active-directory-federation)
   - [Type 2: Identity Provider (IdP) Federation (Identity Brokering)](#type-2-identity-provider-idp-federation-identity-brokering)
 - [2. The Benefits of Federation](#2-the-benefits-of-federation)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 
 ## Table of Contents
 - [1. What is User Federation?](#1-what-is-user-federation)
-  - [Type 1: LDAP / Active Directory Federation](#type-1-ldap-active-directory-federation)
+  - [Type 1: LDAP / Active Directory Federation](#type-1-ldap--active-directory-federation)
   - [Type 2: Identity Provider (IdP) Federation (Identity Brokering)](#type-2-identity-provider-idp-federation-identity-brokering)
 - [2. The Benefits of Federation](#2-the-benefits-of-federation)
 ---

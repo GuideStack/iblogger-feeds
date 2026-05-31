@@ -15,13 +15,13 @@
   - [Symmetric Encryption (The Fast Workhorse)](#symmetric-encryption-the-fast-workhorse)
   - [Asymmetric Encryption (Public Key Cryptography)](#asymmetric-encryption-public-key-cryptography)
 - [4. The Real World: The Hybrid Approach (TLS/HTTPS)](#4-the-real-world-the-hybrid-approach-tlshttps)
-- [5. Data at Rest (Databases & Redis)](#5-data-at-rest-databases-redis)
+- [5. Data at Rest (Databases & Redis)](#5-data-at-rest-databases--redis)
   - [Encrypting Sessions in Redis](#encrypting-sessions-in-redis)
   - [The Three Levels of Database Encryption](#the-three-levels-of-database-encryption)
-    - [1. Infrastructure-Level (Disk Encryption / TDE)](#1-infrastructure-level-disk-encryption-tde)
+    - [1. Infrastructure-Level (Disk Encryption / TDE)](#1-infrastructure-level-disk-encryption--tde)
     - [2. Database-Level (Engine Encryption)](#2-database-level-engine-encryption)
     - [3. Application-Level (Client-Side Field-Level Encryption)](#3-application-level-client-side-field-level-encryption)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 
@@ -34,7 +34,7 @@
   - [Symmetric Encryption (The Fast Workhorse)](#symmetric-encryption-the-fast-workhorse)
   - [Asymmetric Encryption (Public Key Cryptography)](#asymmetric-encryption-public-key-cryptography)
 - [4. The Real World: The Hybrid Approach (TLS/HTTPS)](#4-the-real-world-the-hybrid-approach-tlshttps)
-- [5. Data at Rest (Databases & Redis)](#5-data-at-rest-databases-redis)
+- [5. Data at Rest (Databases & Redis)](#5-data-at-rest-databases--redis)
   - [Encrypting Sessions in Redis](#encrypting-sessions-in-redis)
   - [The Three Levels of Database Encryption](#the-three-levels-of-database-encryption)
 

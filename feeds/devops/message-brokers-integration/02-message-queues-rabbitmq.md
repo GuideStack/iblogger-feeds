@@ -7,8 +7,8 @@
 ## 📖 Table of Contents
 
 - [1. What Is a Message Broker?](#1-what-is-a-message-broker)
-- [2. The Push Architecture (Smart Broker / Dumb Consumer)](#2-the-push-architecture-smart-broker-dumb-consumer)
-- [3. RabbitMQ & The AMQP Standard](#3-rabbitmq-the-amqp-standard)
+- [2. The Push Architecture (Smart Broker / Dumb Consumer)](#2-the-push-architecture-smart-broker--dumb-consumer)
+- [3. RabbitMQ & The AMQP Standard](#3-rabbitmq--the-amqp-standard)
 - [4. Exchanges, Routing Keys, and Queues](#4-exchanges-routing-keys-and-queues)
 - [5. RabbitMQ vs AWS SQS](#5-rabbitmq-vs-aws-sqs)
 

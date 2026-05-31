@@ -7,7 +7,7 @@ A comprehensive guide to organizing the codebase of enterprise applications. Whi
 ## 📖 Table of Contents
 
 - [The Evolution of Code Organization](#the-evolution-of-code-organization)
-- [📚 Module Index](#module-index)
+- [📚 Module Index](#-module-index)
 - [Architecture Landscape](#architecture-landscape)
 
 ---

@@ -12,10 +12,10 @@
   - [A. Velocity Limits (The Speed Trap)](#a-velocity-limits-the-speed-trap)
   - [B. Impossible Travel (Geo-Velocity)](#b-impossible-travel-geo-velocity)
   - [C. Content Fingerprinting (The Hash Ban)](#c-content-fingerprinting-the-hash-ban)
-  - [D. Account Age & Historical Trust](#d-account-age-historical-trust)
+  - [D. Account Age & Historical Trust](#d-account-age--historical-trust)
   - [E. Disposable Email Filtering (The Burner Block)](#e-disposable-email-filtering-the-burner-block)
 - [3. The Backend Flow](#3-the-backend-flow)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

@@ -8,8 +8,8 @@
 
 - [1. What Is Kibana?](#1-what-is-kibana)
 - [2. Core Features](#2-core-features)
-- [3. Discover — Log Exploration](#3-discover-log-exploration)
-- [4. KQL — Kibana Query Language](#4-kql-kibana-query-language)
+- [3. Discover — Log Exploration](#3-discover--log-exploration)
+- [4. KQL — Kibana Query Language](#4-kql--kibana-query-language)
 - [5. Dashboard Building](#5-dashboard-building)
 - [6. Kibana vs Grafana](#6-kibana-vs-grafana)
 - [7. When to Use Kibana](#7-when-to-use-kibana)

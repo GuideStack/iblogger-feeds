@@ -12,7 +12,7 @@
 - [1. Arrays: Contiguous Power](#1-arrays-contiguous-power)
   - [Hook](#hook-2)
   - [Problem: Why Does Memory Layout Matter?](#problem-why-does-memory-layout-matter)
-  - [Insight: Spatial Locality = Free Prefetching](#insight-spatial-locality-free-prefetching)
+  - [Insight: Spatial Locality = Free Prefetching](#insight-spatial-locality--free-prefetching)
   - [Memory Layout: Array vs Linked List](#memory-layout-array-vs-linked-list)
   - [Big O Reference](#big-o-reference)
   - [Industrial Case Study: E-Commerce Product Catalog](#industrial-case-study-e-commerce-product-catalog)
@@ -20,13 +20,13 @@
 - [2. Linked Lists: Dynamic Flexibility](#2-linked-lists-dynamic-flexibility)
   - [Hook](#hook-2)
   - [Problem: The Array Insertion Tax](#problem-the-array-insertion-tax)
-  - [Insight: O(1) Surgery — But Only If You Have the Pointer](#insight-o1-surgery-but-only-if-you-have-the-pointer)
+  - [Insight: O(1) Surgery — But Only If You Have the Pointer](#insight-o1-surgery--but-only-if-you-have-the-pointer)
   - [LRU Cache Decision Flow](#lru-cache-decision-flow)
   - [LRU Cache Class Structure](#lru-cache-class-structure)
   - [LRU Cache Sequence: Get and Put](#lru-cache-sequence-get-and-put)
-  - [Industrial Case Study: The LRU Cache (HashMap + Doubly Linked List)](#industrial-case-study-the-lru-cache-hashmap-doubly-linked-list)
+  - [Industrial Case Study: The LRU Cache (HashMap + Doubly Linked List)](#industrial-case-study-the-lru-cache-hashmap--doubly-linked-list)
   - [When to Use Linked Lists](#when-to-use-linked-lists)
-- [3. Stacks & Queues: Order with Constraints](#3-stacks-queues-order-with-constraints)
+- [3. Stacks & Queues: Order with Constraints](#3-stacks--queues-order-with-constraints)
   - [Hook](#hook-2)
   - [Problem: Why Raw Arrays Are Painful for Both](#problem-why-raw-arrays-are-painful-for-both)
   - [Insight: LIFO and FIFO Encode Causal Relationships](#insight-lifo-and-fifo-encode-causal-relationships)
@@ -43,7 +43,7 @@
 
 - [Arrays: Contiguous Power](#1-arrays-contiguous-power)
 - [Linked Lists: Dynamic Flexibility](#2-linked-lists-dynamic-flexibility)
-- [Stacks & Queues: Order with Constraints](#3-stacks-queues-order-with-constraints)
+- [Stacks & Queues: Order with Constraints](#3-stacks--queues-order-with-constraints)
 
 ---
 

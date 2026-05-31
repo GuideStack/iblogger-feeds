@@ -8,14 +8,14 @@
 
 ## 📌 Table of Contents
 - [1. The Death of the CAPTCHA](#1-the-death-of-the-captcha)
-- [2. The Titans: DataDome, PerimeterX & Akamai](#2-the-titans-datadome-perimeterx-akamai)
+- [2. The Titans: DataDome, PerimeterX & Akamai](#2-the-titans-datadome-perimeterx--akamai)
   - [What are they?](#what-are-they)
   - [How do they work?](#how-do-they-work)
   - [Case Study #5: Airlines vs. Price Scraping Bots](#case-study-5-airlines-vs-price-scraping-bots)
 - [3. reCAPTCHA Enterprise](#3-recaptcha-enterprise)
   - [What is it?](#what-is-it)
   - [How is it different from v3?](#how-is-it-different-from-v3)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

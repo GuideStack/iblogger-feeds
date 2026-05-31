@@ -7,7 +7,7 @@
 ## 📖 Table of Contents
 
 - [1. What Is Event Streaming?](#1-what-is-event-streaming)
-- [2. The Pull Architecture (Dumb Broker / Smart Consumer)](#2-the-pull-architecture-dumb-broker-smart-consumer)
+- [2. The Pull Architecture (Dumb Broker / Smart Consumer)](#2-the-pull-architecture-dumb-broker--smart-consumer)
 - [3. The Immutable Log](#3-the-immutable-log)
 - [4. Event Sourcing Paradigm](#4-event-sourcing-paradigm)
 - [5. Kafka vs RabbitMQ](#5-kafka-vs-rabbitmq)

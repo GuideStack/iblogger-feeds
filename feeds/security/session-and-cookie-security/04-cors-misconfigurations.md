@@ -15,7 +15,7 @@
   - [B. The Regex Failure](#b-the-regex-failure)
 - [4. The Server-Side Proxy Bypass (Header Spoofing)](#4-the-server-side-proxy-bypass-header-spoofing)
 - [5. Architectural Prevention](#5-architectural-prevention)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

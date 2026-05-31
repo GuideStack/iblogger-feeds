@@ -12,8 +12,8 @@
 - [សេចក្តីផ្តើម (Introduction)](#សេចក្តីផ្តើម-introduction)
 - [រូបមន្តនៃការដោះស្រាយ (The Formula)](#រូបមន្តនៃការដោះស្រាយ-the-formula)
 - [ដ្យាក្រាមលំហូរ (Visual Flowchart)](#ដ្យាក្រាមលំហូរ-visual-flowchart)
-- [មេរៀន និងដែនកំណត់ (When to Use & Limitations)](#មេរៀន-និងដែនកំណត់-when-to-use-limitations)
-- [📚 Implemented Patterns (គំរូស្ថាបត្យកម្មដែលបានអនុវត្ត)](#implemented-patterns-គំរូស្ថាបត្យកម្មដែលបានអនុវត្ត)
+- [មេរៀន និងដែនកំណត់ (When to Use & Limitations)](#មេរៀន-និងដែនកំណត់-when-to-use--limitations)
+- [📚 Implemented Patterns (គំរូស្ថាបត្យកម្មដែលបានអនុវត្ត)](#-implemented-patterns-គំរូស្ថាបត្យកម្មដែលបានអនុវត្ត)
 
 ---
 

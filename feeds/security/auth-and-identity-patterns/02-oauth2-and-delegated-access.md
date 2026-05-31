@@ -14,7 +14,7 @@
 - [3. Why PKCE? (Proof Key for Code Exchange)](#3-why-pkce-proof-key-for-code-exchange)
 - [4. Why OAuth is NOT Authentication](#4-why-oauth-is-not-authentication)
   - [AuthN vs AuthZ (The Golden Rule)](#authn-vs-authz-the-golden-rule)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

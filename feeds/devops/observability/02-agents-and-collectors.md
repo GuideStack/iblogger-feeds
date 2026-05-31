@@ -8,10 +8,10 @@
 
 - [1. Why You Need a Collection Layer](#1-why-you-need-a-collection-layer)
 - [2. The Three Patterns](#2-the-three-patterns)
-- [3. OTel Collector — The Universal Hub](#3-otel-collector-the-universal-hub)
-- [4. Grafana Alloy — The Modern Agent](#4-grafana-alloy-the-modern-agent)
-- [5. Fluent Bit — Lightweight Log Shipper](#5-fluent-bit-lightweight-log-shipper)
-- [6. Filebeat — Elastic's Log Shipper](#6-filebeat-elastics-log-shipper)
+- [3. OTel Collector — The Universal Hub](#3-otel-collector--the-universal-hub)
+- [4. Grafana Alloy — The Modern Agent](#4-grafana-alloy--the-modern-agent)
+- [5. Fluent Bit — Lightweight Log Shipper](#5-fluent-bit--lightweight-log-shipper)
+- [6. Filebeat — Elastic's Log Shipper](#6-filebeat--elastics-log-shipper)
 - [7. Sidecar vs DaemonSet vs Gateway](#7-sidecar-vs-daemonset-vs-gateway)
 - [8. Agent Comparison Matrix](#8-agent-comparison-matrix)
 

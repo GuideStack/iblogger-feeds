@@ -31,7 +31,7 @@
   - [Defense](#defense-6)
 - [Layered Defense Architecture](#layered-defense-architecture)
 - [Quick Reference](#quick-reference)
-- [📚 References & Tools](#references-tools)
+- [📚 References & Tools](#-references--tools)
 
 ---
 

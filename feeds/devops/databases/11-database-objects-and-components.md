@@ -10,8 +10,8 @@
 - [2. Tables vs. Views](#2-tables-vs-views)
 - [3. Indexes (The Search Engine)](#3-indexes-the-search-engine)
 - [4. Partitions (Horizontal Scaling)](#4-partitions-horizontal-scaling)
-- [5. Programmability (Procedures & Triggers)](#5-programmability-procedures-triggers)
-- [6. Constraints & Sequences](#6-constraints-sequences)
+- [5. Programmability (Procedures & Triggers)](#5-programmability-procedures--triggers)
+- [6. Constraints & Sequences](#6-constraints--sequences)
 
 ---
 

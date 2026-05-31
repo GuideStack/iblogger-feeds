@@ -9,7 +9,7 @@
 - [1. What Is a Graph Database?](#1-what-is-a-graph-database)
 - [2. Nodes, Edges, and Properties](#2-nodes-edges-and-properties)
 - [3. The "Join" Problem in SQL](#3-the-join-problem-in-sql)
-- [4. Neo4j & Cypher](#4-neo4j-cypher)
+- [4. Neo4j & Cypher](#4-neo4j--cypher)
 - [5. When to Use Graph Databases](#5-when-to-use-graph-databases)
 
 ---
