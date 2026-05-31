@@ -4,6 +4,8 @@
 
 ពាក្យគន្លឹះទាំង ៣៧ ត្រូវបានបែងចែកជា ៦ ប្រភេទស្នូល ដើម្បីជួយសម្រួលដល់ការសិក្សាស្រាវជ្រាវ និងការស្វែងយល់ជាប្រព័ន្ធ៖
 
+> 🚧 **ចំណាំ (Note)៖** ពាក្យគន្លឹះដែលមានសញ្ញា 🚧 កំពុងស្ថិតក្នុងដំណើរការសរសេរ (content coming soon) — ពួកវាមិនទាន់មានឯកសារពន្យល់ស៊ីជម្រៅនៅឡើយទេ។ ពាក្យគន្លឹះដែលមានតំណភ្ជាប់ (linked) គឺមានឯកសារពេញលេញចម្រុះរចនាបថទាំង ៦។
+
 ---
 
 ## 📌 មាតិកា (Table of Contents)
@@ -24,13 +26,13 @@
 |:---|:---|:---|
 | 📈 **[Supply and Demand (តម្រូវការ និងការផ្គត់ផ្គង់)](./supply-and-demand/)** | យន្តការជាគ្រឹះដែលកំណត់តម្លៃ និងបរិមាណទំនិញនៅលើទីផ្សារសេរីតាមរយៈចំណុចប្រសព្វនៃអាកប្បកិរិយាអ្នកទិញនិងអ្នកលក់។ | [Principles of Microeconomics](../year-1/01-principles-of-microeconomics.md) |
 | 📉 **[Price Elasticity (ភាពយឺតនៃថ្លៃ)](./price-elasticity/)** | រង្វាស់កម្រិតឆ្លើយតបនៃបរិមាណតម្រូវការ ឬការផ្គត់ផ្គង់ទំនិញ នៅពេលដែលតម្លៃរបស់វាមានការប្រែប្រួល។ | [Principles of Microeconomics](../year-1/01-principles-of-microeconomics.md) |
-| 🛍️ **[Consumer Surplus (អតិរេកអ្នកប្រើប្រាស់)](./consumer-surplus/)** | ផលខុសគ្នារវាងតម្លៃអតិបរមាដែលអ្នកប្រើប្រាស់សុខចិត្តបង់ និងតម្លៃជាក់ស្តែងដែលពួកគេបានបង់នៅលើទីផ្សារ។ | [Principles of Microeconomics](../year-1/01-principles-of-microeconomics.md) |
+| 🛍️ **Consumer Surplus (អតិរេកអ្នកប្រើប្រាស់)** 🚧 | ផលខុសគ្នារវាងតម្លៃអតិបរមាដែលអ្នកប្រើប្រាស់សុខចិត្តបង់ និងតម្លៃជាក់ស្តែងដែលពួកគេបានបង់នៅលើទីផ្សារ។ | [Principles of Microeconomics](../year-1/01-principles-of-microeconomics.md) |
 | ⚠️ **[Market Failure (បរាជ័យទីផ្សារ)](./market-failure/)** | ស្ថានភាពដែលទីផ្សារសេរីមិនអាចបែងចែកធនធានបានប្រកបដោយប្រសិទ្ធភាពសង្គមខ្ពស់បំផុត (បង្កើតលទ្ធផលខូចខាត)។ | [Principles of Microeconomics](../year-1/01-principles-of-microeconomics.md) |
 | 🏭 **[Negative Externality (ផលជះក្រៅប្រព័ន្ធអវិជ្ជមាន)](./negative-externality/)** | ថ្លៃដើមខូចខាតដែលបង្កឡើងដោយប្រតិបត្តិការផលិតកម្ម ឬការប្រើប្រាស់ ទៅលើភាគីទីបីដែលគ្មានចំណែកក្នុងប្រតិបត្តិការនោះ (ឧ. ការបំពុល)។ | [Principles of Microeconomics](../year-1/01-principles-of-microeconomics.md) |
-| 🌱 **[Positive Externality (ផលជះក្រៅប្រព័ន្ធវិជ្ជមាន)](./positive-externality/)** | ផលប្រយោជន៍ដែលទទួលបានដោយភាគីទីបីដែលគ្មានចំណែក ពីប្រតិបត្តិការផលិតកម្ម ឬការប្រើប្រាស់របស់អ្នកដទៃ (ឧ. ការដាំព្រៃឈើ)។ | [Principles of Microeconomics](../year-1/01-principles-of-microeconomics.md) |
+| 🌱 **Positive Externality (ផលជះក្រៅប្រព័ន្ធវិជ្ជមាន)** 🚧 | ផលប្រយោជន៍ដែលទទួលបានដោយភាគីទីបីដែលគ្មានចំណែក ពីប្រតិបត្តិការផលិតកម្ម ឬការប្រើប្រាស់របស់អ្នកដទៃ (ឧ. ការដាំព្រៃឈើ)។ | [Principles of Microeconomics](../year-1/01-principles-of-microeconomics.md) |
 | 🌐 **[Public Goods (ទំនិញសាធារណៈ)](./public-goods/)** | ទំនិញដែលមិនអាចផាត់ចេញអ្នកមិនបង់ប្រាក់បាន និងគ្មានភាពប្រជែងគ្នាក្នុងការប្រើប្រាស់ (ឧ. ខ្យល់អាកាសបរិសុទ្ធ ជីវចម្រុះ)។ | [Principles of Microeconomics](../year-1/01-principles-of-microeconomics.md) |
 | 🗼 **[Monopoly (ផ្តាច់មុខ)](./monopoly/)** | រចនាសម្ព័ន្ធទីផ្សារដែលមានអ្នកលក់តែម្នាក់គត់គ្រប់គ្រងការផ្គត់ផ្គង់ទាំងស្រុង ដោយគ្មានទំនិញជំនួសជិតស្និទ្ធឡើយ។ | [Principles of Microeconomics](../year-1/01-principles-of-microeconomics.md) |
-| 🤝 **[Oligopoly (អូលីហ្គោប៉ូលី)](./oligopoly/)** | រចនាសម្ព័ន្ធទីផ្សារដែលគ្រប់គ្រងដោយអ្នកលក់ធំៗមួយចំនួនតូច ដែលធ្វើឱ្យសកម្មភាពរបស់ក្រុមហ៊ុននីមួយៗជះឥទ្ធិពលខ្លាំងលើគ្នា។ | [Principles of Microeconomics](../year-1/01-principles-of-microeconomics.md) |
+| 🤝 **Oligopoly (អូលីហ្គោប៉ូលី)** 🚧 | រចនាសម្ព័ន្ធទីផ្សារដែលគ្រប់គ្រងដោយអ្នកលក់ធំៗមួយចំនួនតូច ដែលធ្វើឱ្យសកម្មភាពរបស់ក្រុមហ៊ុននីមួយៗជះឥទ្ធិពលខ្លាំងលើគ្នា។ | [Principles of Microeconomics](../year-1/01-principles-of-microeconomics.md) |
 
 ---
 
@@ -41,9 +43,9 @@
 | ពាក្យគន្លឹះ (Keyword) | និយមន័យសង្ខេប (Summary) | មុខវិជ្ជាសិក្សាពាក់ព័ន្ធ (Denison Course Link) |
 |:---|:---|:---|
 | 🪵 **[Tragedy of the Commons (សោកនាដកម្មនៃទ្រព្យរួម)](./tragedy-of-the-commons/)** | វិបត្តិដែលបុគ្គលម្នាក់ៗដកយកផលប្រយោជន៍រយៈពេលខ្លីពីធនធានរួម បណ្តាលឱ្យធនធាននោះត្រូវវិនាសហិនហោចទាំងស្រុង។ | [Environmental Economics](../year-4/02-environmental-economics.md) |
-| ⚖️ **[Coase Theorem (ទ្រឹស្តីបទ Coase)](./coase-theorem/)** | ទ្រឹស្តីដែលថា ប្រសិនបើសិទ្ធិកម្មសិទ្ធិត្រូវបានកំណត់ច្បាស់លាស់ និងគ្មានថ្លៃចរចា នោះភាគីនានានឹងចរចាដោះស្រាយបញ្ហាបំពានបានយ៉ាងមានប្រសិទ្ធភាព។ | [Environmental Economics](../year-4/02-environmental-economics.md) |
-| 🪙 **[Carbon Tax (ពន្ធកាបូន)](./carbon-tax/)** | ឧបករណ៍ពន្ធដារដែលដាក់តម្លៃផ្ទាល់លើការបំភាយឧស្ម័នកាបូនឌីអុកស៊ីត ដើម្បីបញ្ជ្រាបថ្លៃដើមខូចខាតអេកូឡូស៊ីទៅក្នុងថ្លៃដើមរបស់ក្រុមហ៊ុន។ | [Environmental Economics](../year-4/02-environmental-economics.md) |
-| 🏭 **[Cap and Trade (ប្រព័ន្ធកំណត់កម្រិត និងការជួញដូរ)](./cap-and-trade/)** | យន្តការទីផ្សារដែលកំណត់ដែនកំណត់សរុបលើការបំភាយឧស្ម័ន រួចអនុញ្ញាតឱ្យក្រុមហ៊ុននានាធ្វើការជួញដូរលិខិតអនុញ្ញាតបំភាយកាបូនសេរី។ | [Environmental Economics](../year-4/02-environmental-economics.md) |
+| ⚖️ **Coase Theorem (ទ្រឹស្តីបទ Coase)** 🚧 | ទ្រឹស្តីដែលថា ប្រសិនបើសិទ្ធិកម្មសិទ្ធិត្រូវបានកំណត់ច្បាស់លាស់ និងគ្មានថ្លៃចរចា នោះភាគីនានានឹងចរចាដោះស្រាយបញ្ហាបំពានបានយ៉ាងមានប្រសិទ្ធភាព។ | [Environmental Economics](../year-4/02-environmental-economics.md) |
+| 🪙 **Carbon Tax (ពន្ធកាបូន)** 🚧 | ឧបករណ៍ពន្ធដារដែលដាក់តម្លៃផ្ទាល់លើការបំភាយឧស្ម័នកាបូនឌីអុកស៊ីត ដើម្បីបញ្ជ្រាបថ្លៃដើមខូចខាតអេកូឡូស៊ីទៅក្នុងថ្លៃដើមរបស់ក្រុមហ៊ុន។ | [Environmental Economics](../year-4/02-environmental-economics.md) |
+| 🏭 **Cap and Trade (ប្រព័ន្ធកំណត់កម្រិត និងការជួញដូរ)** 🚧 | យន្តការទីផ្សារដែលកំណត់ដែនកំណត់សរុបលើការបំភាយឧស្ម័ន រួចអនុញ្ញាតឱ្យក្រុមហ៊ុននានាធ្វើការជួញដូរលិខិតអនុញ្ញាតបំភាយកាបូនសេរី។ | [Environmental Economics](../year-4/02-environmental-economics.md) |
 | 🐝 **[Ecosystem Services (សេវាកម្មប្រព័ន្ធអេកូឡូស៊ី)](./ecosystem-services/)** | ផលប្រយោជន៍ និងプロセスធម្មជាតិទាំងឡាយដែលប្រព័ន្ធអេកូឡូស៊ីផ្តល់ឱ្យមនុស្សជាតិដោយឥតគិតថ្លៃ (ឧ. ការលម្អងផ្កា ការចម្រោះទឹកស្អាត)។ | [Environmental Economics](../year-4/02-environmental-economics.md) |
 
 ---
@@ -69,10 +71,10 @@
 | ពាក្យគន្លឹះ (Keyword) | និយមន័យសង្ខេប (Summary) | មុខវិជ្ជាសិក្សាពាក់ព័ន្ធ (Denison Course Link) |
 |:---|:---|:---|
 | 🚢 **[Comparative Advantage (អត្ថប្រយោជន៍ប្រៀបធៀប)](./comparative-advantage/)** | ទ្រឹស្តីសេដ្ឋកិច្ចដែលថា ប្រទេសនីមួយៗគួរផលិតតែទំនិញណាដែលមានថ្លៃដើមឱកាសទាបជាងគេ រួចធ្វើពាណិជ្ជកម្មជាមួយគ្នា។ | [International Trade & Supply Chains](../year-3/01-international-trade-and-supply-chains.md) |
-| 📊 **[Balance of Payments (ជញ្ជីងទូទាត់)](./balance-of-payments/)** | កំណត់ត្រាស្ថិតិនៃរាល់ប្រតិបត្តិការសេដ្ឋកិច្ចទាំងអស់រវាងអ្នកស្នាក់នៅក្នុងស្រុក និងពិភពលោកក្នុងរយៈពេលកំណត់មួយ។ | [Introduction to Global Financial Markets](../year-1/02-introduction-to-global-financial-markets.md) |
-| 💱 **[Foreign Exchange (ការប្តូរប្រាក់បរទេស)](./foreign-exchange/)** | ទីផ្សារសកលសម្រាប់ប្តូររូបិយប័ណ្ណជាតិ និងប្រព័ន្ធកំណត់តម្លៃដែលជះឥទ្ធិពលលើលំហូរពាណិជ្ជកម្មអន្តរជាតិ។ | [Introduction to Global Financial Markets](../year-1/02-introduction-to-global-financial-markets.md) |
-| 🏦 **[Equity Markets (ទីផ្សារភាគហ៊ុន)](./equity-markets/)** | ទីផ្សារហិរញ្ញវត្ថុដែលភាគហ៊ុន និងកម្មសិទ្ធិរបស់ក្រុមហ៊ុនត្រូវបានទិញលក់ ដើម្បីគៀងគរដើមទុន និងបែងចែកហានិភ័យ។ | [Introduction to Global Financial Markets](../year-1/02-introduction-to-global-financial-markets.md) |
-| 🟢 **[Green Bond (សញ្ញាប័ណ្ណបៃតង)](./green-bond/)** | ឧបករណ៍បំណុលថេរដែលគៀងគរមូលនិធិជាពិសេសសម្រាប់តែហិរញ្ញប្បទានដល់គម្រោងបរិស្ថាន និងនិរន្តរភាពដែលវាស់វែងបាន។ | [Advanced Corporate Finance](../year-3/03-advanced-corporate-finance.md) |
+| 📊 **Balance of Payments (ជញ្ជីងទូទាត់)** 🚧 | កំណត់ត្រាស្ថិតិនៃរាល់ប្រតិបត្តិការសេដ្ឋកិច្ចទាំងអស់រវាងអ្នកស្នាក់នៅក្នុងស្រុក និងពិភពលោកក្នុងរយៈពេលកំណត់មួយ។ | [Introduction to Global Financial Markets](../year-1/02-introduction-to-global-financial-markets.md) |
+| 💱 **Foreign Exchange (ការប្តូរប្រាក់បរទេស)** 🚧 | ទីផ្សារសកលសម្រាប់ប្តូររូបិយប័ណ្ណជាតិ និងប្រព័ន្ធកំណត់តម្លៃដែលជះឥទ្ធិពលលើលំហូរពាណិជ្ជកម្មអន្តរជាតិ។ | [Introduction to Global Financial Markets](../year-1/02-introduction-to-global-financial-markets.md) |
+| 🏦 **Equity Markets (ទីផ្សារភាគហ៊ុន)** 🚧 | ទីផ្សារហិរញ្ញវត្ថុដែលភាគហ៊ុន និងកម្មសិទ្ធិរបស់ក្រុមហ៊ុនត្រូវបានទិញលក់ ដើម្បីគៀងគរដើមទុន និងបែងចែកហានិភ័យ។ | [Introduction to Global Financial Markets](../year-1/02-introduction-to-global-financial-markets.md) |
+| 🟢 **Green Bond (សញ្ញាប័ណ្ណបៃតង)** 🚧 | ឧបករណ៍បំណុលថេរដែលគៀងគរមូលនិធិជាពិសេសសម្រាប់តែហិរញ្ញប្បទានដល់គម្រោងបរិស្ថាន និងនិរន្តរភាពដែលវាស់វែងបាន។ | [Advanced Corporate Finance](../year-3/03-advanced-corporate-finance.md) |
 
 ---
 
@@ -100,9 +102,9 @@
 | 📊 **[Triple Bottom Line (បន្ទាត់បាតបីជាន់/3Ps)](./triple-bottom-line/)** | ក្របខ័ណ្ឌវាស់វែងសមិទ្ធផលអាជីវកម្មតាមរយៈវិមាត្របី៖ ប្រជាជន (People) ភពផែនដី (Planet) និងប្រាក់ចំណេញ (Profit)។ | [Sustainability Practicum](../year-3/04-sustainability-practicum.md) |
 | 💬 **[High-Context vs Low-Context (ការប្រាស្រ័យទាក់ទងបែបបរិបទខ្ពស់/ទាប)](./high-context-vs-low-context/)** | គំរូវប្បធម៌៖ បរិបទខ្ពស់ពឹងផ្អែកលើទំនាក់ទំនង និងការយល់ន័យមិនច្បាស់; បរិបទទាបពឹងផ្អែកលើពាក្យសម្តីច្បាស់លាស់។ | [Foreign Language for Global Commerce](../year-1/06-foreign-language-for-global-commerce.md) |
 | ⚖️ **[Environmental Justice (យុត្តិធម៌បរិស្ថាន)](./environmental-justice/)** | គោលការណ៍ដែលភាគីទាំងអស់ទទួលបានការការពារស្មើគ្នាច្បាប់បរិស្ថាន និងការចូលរួមក្នុងការសម្រេចចិត្តគោលនយោបាយ។ | [Introduction to Environmental Studies](../year-1/03-introduction-to-environmental-studies.md) |
-| 🔗 **[Intersectionality (អន្តរផ្នែកសង្គម)](./intersectionality/)** | ក្របខ័ណ្ឌដែលសង្កេតមើលពីរបៀបដែលអត្តសញ្ញាណសង្គមខុសៗគ្នា (យេនឌ័រ វណ្ណៈ ជាតិពន្ធុ) ប្រទាក់ក្រឡាគ្នាក្នុងការបង្កើតប្រព័ន្ធរើសអើង។ | [Introduction to Anthropology & Sociology](../year-1/08-introduction-to-anthropology-and-sociology.md) |
+| 🔗 **Intersectionality (អន្តរផ្នែកសង្គម)** 🚧 | ក្របខ័ណ្ឌដែលសង្កេតមើលពីរបៀបដែលអត្តសញ្ញាណសង្គមខុសៗគ្នា (យេនឌ័រ វណ្ណៈ ជាតិពន្ធុ) ប្រទាក់ក្រឡាគ្នាក្នុងការបង្កើតប្រព័ន្ធរើសអើង។ | [Introduction to Anthropology & Sociology](../year-1/08-introduction-to-anthropology-and-sociology.md) |
 | 🪜 **[Social Stratification (ការបែងចែកស្រទាប់សង្គម)](./social-stratification/)** | ប្រព័ន្ធដែលសង្គមបែងចែកសមាជិករបស់ខ្លួនជាលំដាប់ថ្នាក់ ផ្អែកលើទ្រព្យសម្បត្តិ អំណាច និងឋានៈសង្គម។ | [Introduction to Anthropology & Sociology](../year-1/08-introduction-to-anthropology-and-sociology.md) |
-| 📝 **[FPIC (ការទទួលបានការយល់ព្រមជាមុនដោយសេរី)](./fpic/)** | សិទ្ធិរបស់ជនជាតិដើមភាគតិចក្នុងការផ្តល់ ឬមិនផ្តល់ការយល់ព្រមចំពោះគម្រោងណាដែលជះឥទ្ធិពលលើដីធ្លី និងធនធានរបស់ពួកគេ។ | [Introduction to Anthropology & Sociology](../year-1/08-introduction-to-anthropology-and-sociology.md) |
+| 📝 **FPIC (ការទទួលបានការយល់ព្រមជាមុនដោយសេរី)** 🚧 | សិទ្ធិរបស់ជនជាតិដើមភាគតិចក្នុងការផ្តល់ ឬមិនផ្តល់ការយល់ព្រមចំពោះគម្រោងណាដែលជះឥទ្ធិពលលើដីធ្លី និងធនធានរបស់ពួកគេ។ | [Introduction to Anthropology & Sociology](../year-1/08-introduction-to-anthropology-and-sociology.md) |
 
 ---
 

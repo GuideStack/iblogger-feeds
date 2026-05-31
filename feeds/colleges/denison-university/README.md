@@ -13,7 +13,7 @@
 
 | ថតឯកសារ (Folder) | មុខជំនាញ (Major) | ការពិពណ៌នា (Description) |
 |:---|:---|:---|
-| [business-sustainability](./business-sustainability/) | ពាណិជ្ជកម្មសកល + និរន្តរភាព និងការសិក្សាបរិស្ថាន (Global Commerce + Sustainability & Environmental Studies) | មុខជំនាញទ្វេ (Double Major) ដែលគ្របដណ្តប់លើពាណិជ្ជកម្មអន្តរជាតិ (International Trade) ហិរញ្ញវត្ថុ (Finance) វិទ្យាសាស្ត្រអាកាសធាតុ (Climate Science) ESG និងសហគ្រិនភាពប្រកបដោយនិរន្តរភាព (Sustainable Entrepreneurship) |
+| [business-sustainability](./business-sustainability/README.md) | ពាណិជ្ជកម្មសកល + និរន្តរភាព និងការសិក្សាបរិស្ថាន (Global Commerce + Sustainability & Environmental Studies) | មុខជំនាញទ្វេ (Double Major) ដែលគ្របដណ្តប់លើពាណិជ្ជកម្មអន្តរជាតិ (International Trade) ហិរញ្ញវត្ថុ (Finance) វិទ្យាសាស្ត្រអាកាសធាតុ (Climate Science) ESG និងសហគ្រិនភាពប្រកបដោយនិរន្តរភាព (Sustainable Entrepreneurship) |
 
 ---
 

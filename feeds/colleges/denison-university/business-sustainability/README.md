@@ -17,6 +17,20 @@
 
 ---
 
+## 🗺️ របៀបរៀបចំជំនាញនេះ (How This Major Is Organized)
+
+ជំនាញនេះអាចសិក្សាបានតាម **បីផ្លូវបំពេញគ្នា (three complementary paths)** — ជ្រើសរើសផ្លូវដែលសមនឹងរបៀបសិក្សារបស់អ្នក៖
+
+| ផ្លូវ (Path) | សម្រាប់ (Best for) | ចាប់ផ្តើមនៅ (Start here) |
+|:---|:---|:---|
+| 📅 **តាមឆ្នាំ (By Year)** | និស្សិតដែលដើរតាមផ្លូវសញ្ញាបត្រ ៤ ឆ្នាំ ជាលំដាប់ | [Year 1](./year-1/README.md) → [4](./year-4/README.md) |
+| 📚 **តាមមុខវិជ្ជា (By Subject)** | អ្នកដែលចង់ស៊ីជម្រៅលើប្រធានបទជាក់លាក់ (ហិរញ្ញវត្ថុ, ទីផ្សារ, និរន្តរភាព...) | [Subject Deep-Dives](#1) |
+| 🐇 **តាមពាក្យគន្លឹះ (By Keyword)** | អ្នកដែលជួបពាក្យបច្ចេកទេស ហើយចង់យល់វាតាមរចនាបថ ៦ បែប | [Keyword Rabbit Hole](#2) |
+
+> **ផ្លូវទាំងបីភ្ជាប់គ្នា (the paths interconnect)៖** មុខវិជ្ជា "តាមឆ្នាំ" និង "តាមមុខវិជ្ជា" គឺជាខ្លឹមសារដូចគ្នា ដែលរៀបចំតាមរបៀបពីរផ្សេងគ្នា។ មុខវិជ្ជានីមួយៗភ្ជាប់ទៅ **រឿងប្រៀបធៀប (parable)** សម្រាប់ការយល់ដឹងតាមនិទានកថា និងទៅ **ពាក្យគន្លឹះ (keywords)** សម្រាប់ការស្វែងយល់ស៊ីជម្រៅ។ និស្សិតថ្មីគួរចាប់ផ្តើមតាមឆ្នាំ; អ្នកដែលត្រួសត្រាយ អាចលោតចូលតាមមុខវិជ្ជា ឬពាក្យគន្លឹះ។
+
+---
+
 <a id="0"></a>
 ## 📅 កម្មវិធីសិក្សាតាមឆ្នាំ (Year-by-Year Curriculum)
 
@@ -118,6 +132,17 @@
 | [០២ — សេដ្ឋកិច្ចវិលជុំ (02 — Circular Economy)](./sustainability-advanced/02-circular-economy.md) | គោលការណ៍ Cradle-to-cradle, ក្របខ័ណ្ឌ ReSOLVE, ផលិតផលជាសេវាកម្ម (PaaS), សហជីវនកម្មឧស្សាហកម្ម (Industrial symbiosis) | [The Village That Ate Its Own Forest (ភូមិដែលបានស៊ីព្រៃឈើរបស់ខ្លួន និងសេដ្ឋកិច្ចវិលជុំ)](./sustainability-advanced/parables/253-the-village-that-ate-its-own-forest.md) |
 | [០៣ — គណនេយ្យកាបូន និងការបំភាយសូន្យសុទ្ធ (03 — Carbon Accounting & Net Zero)](./sustainability-advanced/03-carbon-accounting-and-net-zero.md) | ពិធីសារឧស្ម័នផ្ទះកញ្ចក់ (GHG Protocol), វិសាលភាពទី ១/២/៣ (Scope 1/2/3), គំនិតផ្តួចផ្តើម SBTi, ឥណទានកាបូន (Carbon credits) | [The Smoke That Cost a Kingdom (ផ្សែងដែលធ្វើឱ្យខាតបង់ព្រះរាជាណាចក្រ និងគណនេយ្យកាបូន)](./sustainability-advanced/parables/254-the-smoke-that-cost-a-kingdom.md) |
 | [០៤ — សហគ្រិនភាពសង្គម (04 — Social Entrepreneurship)](./sustainability-advanced/04-social-entrepreneurship.md) | ក្រុមហ៊ុន B-Corps, ផលត្រឡប់មកវិញផ្នែកសង្គមលើការវិនិយោគ (SROI), ការវិនិយោគមានផលជះ (Impact investing), ហិរញ្ញប្បទានចម្រុះ (Blended finance) | [The Monk Who Built a School (ព្រះសង្ឃដែលបានសាងសង់សាលារៀន និងសហគ្រិនភាពសង្គម)](./sustainability-advanced/parables/255-the-monk-who-built-a-school.md) |
+| [០៥ — ការផ្លាស់ប្តូរថាមពល និងការកាត់បន្ថយកាបូន (05 — Energy Transition & Decarbonization)](./sustainability-advanced/05-energy-transition-and-decarbonization.md) | ប្រព័ន្ធថាមពល, ថាមពលកកើតឡើងវិញ, បណ្តាញអគ្គិសនី, អ៊ីដ្រូសែនបៃតង, ផ្លូវឆ្ពោះទៅសូន្យសុទ្ធ | — |
+| [០៦ — ជីវចម្រុះ និងការគ្រប់គ្រងប្រព័ន្ធអេកូឡូស៊ី (06 — Biodiversity & Ecosystem Management)](./sustainability-advanced/06-biodiversity-and-ecosystem-management.md) | ការបាត់បង់ជីវចម្រុះ, សេវាកម្មប្រព័ន្ធអេកូឡូស៊ី, ដំណោះស្រាយផ្អែកលើធម្មជាតិ (NbS), ការបង្ហាញ TNFD | — |
+| [០៧ — ការសម្របខ្លួន និងភាពធន់នឹងអាកាសធាតុ (07 — Climate Adaptation & Resilience)](./sustainability-advanced/07-climate-adaptation-and-resilience.md) | ហានិភ័យរូបវន្ត ធៀបនឹង អន្តរកាល, ការវិភាគសេណារីយ៉ូ, ភាពធន់ខ្សែច្រវាក់ផ្គត់ផ្គង់, TCFD | — |
+
+### ពាណិជ្ជកម្មសកល (Global Commerce)
+មុខវិជ្ជាស៊ីជម្រៅផ្នែកពាណិជ្ជកម្មអន្តរជាតិ ដែលភ្ជាប់ទ្រឹស្តីពាណិជ្ជកម្ម ការចូលទីផ្សារ និងបញ្ហានិរន្តរភាព (ដូចជាការលេចធ្លាយកាបូន)។ ([មាតិកា (Index)](./global-commerce/README.md))
+
+| ឯកសារ (File) | មុខវិជ្ជា (Subject) |
+|:---|:---|
+| [០១ — ទ្រឹស្តីពាណិជ្ជកម្មអន្តរជាតិ (01 — International Trade Theory)](./global-commerce/01-international-trade-theory.md) | ឧត្តមភាពប្រៀបធៀប, Heckscher-Ohlin, ពន្ធគយ/កូតា, WTO, ការលេចធ្លាយកាបូន (Carbon leakage), CBAM |
+| [០២ — ការចូលទីផ្សារ និងសកលភាវូបនីយកម្ម (02 — Market Entry & Globalization)](./global-commerce/02-market-entry-and-globalization.md) | របៀបចូលទីផ្សារ (Entry modes), ការធ្វើមូលដ្ឋានីយកម្ម (Localization), ការវិភាគ CAGE, ភាពតានតឹងនិរន្តរភាព |
 
 ### ជំនាញឆ្លងដែន/ជំនាញទូទៅ (Cross-Cutting Skills)
 
