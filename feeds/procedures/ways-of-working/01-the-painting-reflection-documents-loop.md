@@ -77,37 +77,38 @@ flowchart LR
 ## ASCII Loop
 
 ```
-THE PAINTING → REFLECTION → DOCUMENTS → CONFIDENCE LOOP
-══════════════════════════════════════════════════════════════════════════════════
+THE PAINTING -> REFLECTION -> DOCUMENTS -> CONFIDENCE LOOP
+===================================================================
 
-                     ┌──────────────────────────────────────┐
-                     │                                       │
-                     ▼                                       │
-         ┌────────────────────┐                              │
-         │  🎨 1 · PAINTING   │   picture the goal / vision  │
-         └─────────┬──────────┘                              │
-                   ▼                                          │
-         ┌────────────────────┐                              │
-         │  🪞 2 · REFLECTION │   look back — what happened? │
-         └─────────┬──────────┘                              │
-                   ▼                                          │
-         ┌────────────────────┐                              │
-         │  📄 3 · DOCUMENTS  │   write it down, share it    │
-         └─────────┬──────────┘                              │
-                   ▼                                          │
-         ┌────────────────────┐                              │
-         │  🔄 4 · CONFIDENCE │   trust grows in the system  │
-         └─────────┬──────────┘                              │
-                   └──  ⏱️ run a set duration → review →  ────┘
-                        update the flow, loop again better
+              +-----------------------------------+
+              |                                   |
+              v                                   |
+       +------------------+                       |
+       |  1 - PAINTING    |   picture the goal    |
+       +--------+---------+                       |
+                v                                 |
+       +------------------+                       |
+       |  2 - REFLECTION  |   look back honestly  |
+       +--------+---------+                       |
+                v                                 |
+       +------------------+                       |
+       |  3 - DOCUMENTS   |   write it & share it |
+       +--------+---------+                       |
+                v                                 |
+       +------------------+                       |
+       |  4 - CONFIDENCE  |   trust the system    |
+       +--------+---------+                       |
+                |                                 |
+                +== run a set duration -> review =+
+                   -> update the flow, loop again
 
-   ┌──────────────────────────────────────────────────────────────────────────┐
-   │  🧠 MINDSET (runs underneath every step):                                  │
-   │     curiosity · humility · stay a student                                  │
-   │  🐐 when something fails → ask WHY & fix the flow — don't kill the goat     │
-   │  → this is what keeps the loop honest and turning, and what lets a         │
-   │    team collaborate 🤝 around the shared system.                           │
-   └──────────────────────────────────────────────────────────────────────────┘
+   +---------------------------------------------------------------+
+   |  MINDSET (runs underneath every step):                        |
+   |     curiosity  -  humility  -  stay a student                 |
+   |  When something fails -> ask WHY & fix the flow.              |
+   |  Don't "kill the goat" (blame a person).                      |
+   |  This keeps the loop honest and lets the team collaborate.    |
+   +---------------------------------------------------------------+
 ```
 
 ---

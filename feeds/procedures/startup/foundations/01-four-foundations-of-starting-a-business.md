@@ -84,36 +84,37 @@ flowchart TD
 
 ```
 THE FOUR FOUNDATIONS OF STARTING A BUSINESS
-══════════════════════════════════════════════════════════════════════════════════
+=================================================================
 
-🌱 "I want to start a business"
-        │
-        ▼
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  1 · KNOWLEDGE 📚                                                             │
-│     Learn the domain deeply — and learn the market & the customer.            │
-│     "Know what is true."                                                      │
-└────────────────────────────────────────┬─────────────────────────────────────┘
-                                         ▼
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  2 · PROFICIENCY / SKILL 🛠️                                                  │
-│     Knowing is not enough — practice until you can DELIVER, reliably.         │
-│     "Turn knowledge into something you can do."                               │
-└────────────────────────────────────────┬─────────────────────────────────────┘
-                                         ▼
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  3 · CREDIT / TRUST 💳                                                        │
-│     Build a track record so people TRUST you. Customers buy because they      │
-│     trust you. Money itself is credit — it flows on trust.                    │
-└────────────────────────────────────────┬─────────────────────────────────────┘
-                                         ▼
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  4 · CHOOSE A PROBLEM 💼                                                      │
-│     Pick a real problem you SEE EVERY DAY that helps other people.            │
-│     e.g. "no good place to learn & work" → a café/co-working space.           │
-└────────────────────────────────────────┬─────────────────────────────────────┘
-                                         ▼
-                            💰 CUSTOMERS PAY → VALUE CREATED
+   "I want to start a business"
+              |
+              v
+   +----------------------------------------------------------+
+   |  1 - KNOWLEDGE                                           |
+   |     Learn the domain deeply -- and learn the market      |
+   |     & the customer.  "Know what is true."                |
+   +-----------------------------+----------------------------+
+                                 v
+   +----------------------------------------------------------+
+   |  2 - PROFICIENCY / SKILL                                 |
+   |     Knowing is not enough -- practice until you can      |
+   |     DELIVER, reliably.  "Turn knowing into doing."       |
+   +-----------------------------+----------------------------+
+                                 v
+   +----------------------------------------------------------+
+   |  3 - CREDIT / TRUST                                      |
+   |     Build a track record so people TRUST you. Customers  |
+   |     buy because they trust you. Money itself is credit.  |
+   +-----------------------------+----------------------------+
+                                 v
+   +----------------------------------------------------------+
+   |  4 - CHOOSE A PROBLEM                                    |
+   |     Pick a real problem you SEE EVERY DAY that helps     |
+   |     people.  e.g. no place to learn & work -> a cafe /   |
+   |     co-working space.                                    |
+   +-----------------------------+----------------------------+
+                                 v
+                  CUSTOMERS PAY -> VALUE CREATED
 ```
 
 ---

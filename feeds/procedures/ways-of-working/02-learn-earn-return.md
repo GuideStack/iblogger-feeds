@@ -70,23 +70,25 @@ flowchart LR
 ## ASCII Flow
 
 ```
-LEARN → EARN → RETURN
-══════════════════════════════════════════════════════════════════════════════════
+LEARN -> EARN -> RETURN
+===================================================================
 
-   ┌────────────────────┐      ┌────────────────────┐      ┌────────────────────┐
-   │   📚 1 · LEARN     │ ───▶ │   💰 2 · EARN      │ ───▶ │   🤝 3 · RETURN    │
-   │  invest in self    │      │  create value      │      │  give it back      │
-   │                    │      │                    │      │                    │
-   │  knowledge ·       │      │  value · money ·   │      │  mentor · teach ·  │
-   │  skills · exp.     │      │  reputation        │      │  invest · give     │
-   └────────────────────┘      └────────────────────┘      └────────────────────┘
-            ▲                                                         │
-            └──────────────  keep learning at every stage  ◀──────────┘
-
-   You as…   an INVESTMENT          a PRODUCER             a MULTIPLIER
-   Center of  early career          mid career             later / mature
-   gravity:   "soak it up"          "make it count"        "make it matter"
+   +------------------+       +------------------+       +------------------+
+   |  1 - LEARN       |       |  2 - EARN        |       |  3 - RETURN      |
+   |  invest in self  | ====> |  create value    | ====> |  give it back    |
+   |                  |       |                  |       |                  |
+   |  knowledge,      |       |  value, money,   |       |  mentor, teach,  |
+   |  skills, exp.    |       |  reputation      |       |  invest, give    |
+   +------------------+       +------------------+       +------------------+
+            ^                                                     |
+            +============  keep learning at every stage  =========+
 ```
+
+| | 📚 Learn | 💰 Earn | 🤝 Return |
+|:--|:--------|:--------|:----------|
+| **You are…** | an investment | a producer | a multiplier |
+| **Center of gravity** | early career | mid career | later / mature |
+| **The motto** | "soak it up" | "make it count" | "make it matter" |
 
 ---
 
