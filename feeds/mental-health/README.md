@@ -9,6 +9,7 @@ Building sustainable careers and maintaining balance in tech. Honest conversatio
 | Date | Title | Level | Time |
 |------|-------|-------|------|
 | 2024-05-16 | [Five Signs You're Heading Toward Burnout (and What to Do)](./01-five-signs-of-burnout.md) | Beginner | ~7 min |
+| 2026-05-31 | [Common Mental Health Conditions — An Awareness Reference](./02-common-mental-health-conditions.md) | Beginner | ~14 min |
 
 ---
 

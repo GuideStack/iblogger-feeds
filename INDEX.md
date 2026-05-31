@@ -220,6 +220,7 @@ A comprehensive, production-grade index of all technical articles, engineering m
 
 *   [Browse Mental Health Index](./feeds/mental-health/README.md)
 *   [01 - Five Signs You're Heading Toward Burnout](./feeds/mental-health/01-five-signs-of-burnout.md)
+*   [02 - Common Mental Health Conditions: An Awareness Reference](./feeds/mental-health/02-common-mental-health-conditions.md)
 
 ---
 
