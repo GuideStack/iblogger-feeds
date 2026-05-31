@@ -38,6 +38,21 @@ Before the first sprint — turning an idea into a running, scoped project.
 
 ---
 
+## 🧪 QA Leadership
+
+Stepping into a QA Lead role for the first time, in a new workspace — onboarding plus the QA process you build. ([series overview](./qa-leadership/README.md))
+
+| File | Procedure | When to Reference |
+|:-----|:----------|:-----------------|
+| [qa-leadership/01-first-90-days.md](./qa-leadership/01-first-90-days.md) | First 90 Days as a New QA Lead | Day 1 — Listen → Assess → Plan → Execute roadmap |
+| [qa-leadership/02-qa-assessment.md](./qa-leadership/02-qa-assessment.md) | QA State Assessment | Auditing the existing QA setup across 6 dimensions |
+| [qa-leadership/03-test-strategy.md](./qa-leadership/03-test-strategy.md) | Building the Test Strategy | The team's source of truth for how you test |
+| [qa-leadership/04-bug-lifecycle-and-triage.md](./qa-leadership/04-bug-lifecycle-and-triage.md) | Bug Lifecycle & Triage | The everyday defect process the QA Lead owns |
+| [qa-leadership/05-release-signoff.md](./qa-leadership/05-release-signoff.md) | Release Sign-Off & QA Gate | Every release — the objective Go/No-Go gate |
+| [qa-leadership/06-team-and-cadence.md](./qa-leadership/06-team-and-cadence.md) | Team, Cadence & Metrics | Rhythm, 1-on-1s, metrics, growing the team |
+
+---
+
 ## 🏗️ System Design
 
 Architecture, database schema, and UI design — from blank page to documented system.
@@ -97,6 +112,7 @@ Real product flows — clinical systems, booking platforms, and marketplace oper
 | Team Lead | TL | Technical decisions, architecture, code review, unblocks team |
 | Developer | DEV | Implements stories, writes tests, raises PRs |
 | QA Engineer | QA | Tests stories, writes E2E tests, signs off for release |
+| QA Lead | QA Lead | Owns the test strategy, defect process, release gate, and QA team |
 
 ---
 
