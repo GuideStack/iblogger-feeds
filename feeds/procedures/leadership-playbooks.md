@@ -6,15 +6,19 @@ Practical, step-by-step guides for stepping into a **leadership role for the fir
 
 ---
 
-## 📚 The Five Playbooks
+## 📚 The Seven Playbooks
+
+Roughly ordered by altitude — from the business outcome down to the day-to-day craft:
 
 | Playbook | For someone becoming… | Leads through… | Core question |
 |:---------|:----------------------|:---------------|:--------------|
-| [🧪 QA Lead](./qa-leadership/README.md) | A first-time QA Lead | Quality partnership | *Is it safe to ship?* |
+| [💼 Business Owner](./business-owner/README.md) | A first-time business/product-line owner (sponsor) | Outcomes & funding | *Is this worth doing — and winning?* |
+| [🎯 Product Owner](./product-owner/README.md) | A first-time PO | Value & the backlog | *Are we building the most valuable thing?* |
 | [📋 Project Manager](./pm-leadership/README.md) | A first-time delivery/Agile PM | Influence, not authority | *Will it ship, predictably?* |
-| [🛠️ Team Lead / Tech Lead](./team-lead/README.md) | A first-time Team/Tech Lead | Technical credibility | *Is it built well?* |
 | [👥 Engineering Manager](./engineering-manager/README.md) | A first-time EM | Building the team | *Is the team healthy & growing?* |
+| [🛠️ Team Lead / Tech Lead](./team-lead/README.md) | A first-time Team/Tech Lead | Technical credibility | *Is it built well?* |
 | [🔄 Scrum Master](./scrum-master/README.md) | A first-time Scrum Master | Servant leadership | *Is the team effective at how it works?* |
+| [🧪 QA Lead](./qa-leadership/README.md) | A first-time QA Lead | Quality partnership | *Is it safe to ship?* |
 
 ---
 
@@ -24,13 +28,17 @@ These titles overlap and companies use them loosely. The clearest way to tell th
 
 | Role | Owns | Authority | Does NOT |
 |:-----|:-----|:----------|:---------|
-| **QA Lead** | Test strategy, defect process, release gate | Over QA practice & sign-off | Decide business scope or dates |
+| **Business Owner** | The P&L, vision, budget, ROI — the *why-it-matters* | Funding & go/no-go; ultimate decision-maker | Run the backlog or the team day-to-day |
+| **Product Owner** | The product backlog, priorities, acceptance — the *what & why* | Over backlog order & value decisions | Own the budget; commit dates; direct *how* it's built |
 | **Project Manager** | Plan, timeline, scope, risk, reporting | Delegated by sponsor (delivery) | Manage people's careers; estimate for the team |
-| **Team Lead** | Technical direction, code quality, the *how* | Technical credibility + (often) line mgmt | Own the backlog or business priorities |
 | **Eng Manager** | People — hiring, growth, performance, team health | Direct people-management authority | Micromanage technical decisions or daily work |
+| **Team Lead** | Technical direction, code quality, the *how* | Technical credibility + (often) line mgmt | Own the backlog or business priorities |
 | **Scrum Master** | The *process* and team effectiveness | None — pure servant-leadership | Assign work, commit dates, or manage people |
+| **QA Lead** | Test strategy, defect process, release gate | Over QA practice & sign-off | Decide business scope or dates |
 
-> **A quick heuristic:** if you're accountable for **dates and scope**, you're closer to PM. For **people's careers**, EM. For **technical decisions and code**, Team Lead. For **quality and the release gate**, QA Lead. For **how well the team runs its process**, Scrum Master. In small companies one person wears several of these hats — read more than one playbook.
+> **A quick heuristic:** if you're accountable for the **business outcome & budget**, you're the Business Owner. For **what's most valuable to build next**, Product Owner. For **dates and scope**, PM. For **people's careers**, EM. For **technical decisions and code**, Team Lead. For **how well the team runs its process**, Scrum Master. For **quality and the release gate**, QA Lead. In small companies one person wears several of these hats — read more than one playbook.
+>
+> 💡 **The two easiest to confuse:** the **Business Owner** sets the *why* and *funds* it; the **Product Owner** decides *what* to build to deliver that value; the **PM** makes sure it *ships*. Owner → outcome, PO → value, PM → delivery.
 
 ---
 
@@ -63,12 +71,19 @@ On a real team these roles collaborate constantly. A simplified picture of who l
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } text, tspan { fill: #ffffff !important; } .edgeLabel rect { fill: #1e1e1e !important; }'
 }}%%
 flowchart TD
+    BO([💼 Business Owner<br>P&L · vision · budget])
+    PO([🎯 Product Owner<br>backlog · value])
     EM([👥 Eng Manager<br>people & team health])
     TL([🛠️ Team Lead<br>technical direction])
     PM([📋 Project Manager<br>delivery & scope])
     SM([🔄 Scrum Master<br>process & flow])
     QA([🧪 QA Lead<br>quality & release gate])
     TEAM([👩‍💻 The Team])
+
+    BO -->|funds & sets outcomes| PO
+    BO <-->|ROI & go/no-go| PM
+    PO <-->|scope & priorities| PM
+    PO -->|what & why| TEAM
 
     EM -->|grows & staffs| TEAM
     TL -->|guides technically| TEAM
@@ -82,6 +97,8 @@ flowchart TD
     EM <-->|technical health| TL
     TL <-->|test strategy fit| QA
 
+    style BO fill:#5d4037,stroke:#3e2723,color:#fff
+    style PO fill:#01579b,stroke:#013a6b,color:#fff
     style EM fill:#b71c1c,stroke:#7f0000,color:#fff
     style TL fill:#004d40,stroke:#00251a,color:#fff
     style PM fill:#1a237e,stroke:#0d47a1,color:#fff

@@ -7,7 +7,7 @@ Each procedure includes:
 - An **ASCII flow** (portable — works in any text editor, Confluence, or Slack)
 - A **step-by-step responsibility table**
 
-> 🧭 **New to a leadership role?** Start at the **[Leadership Playbooks hub](./leadership-playbooks.md)** — first-90-days guides for QA Lead, Project Manager, Team Lead, Engineering Manager, and Scrum Master, with a "which role am I?" comparison.
+> 🧭 **New to a leadership role?** Start at the **[Leadership Playbooks hub](./leadership-playbooks.md)** — first-90-days guides for Business Owner, Product Owner, Project Manager, Engineering Manager, Team Lead, Scrum Master, and QA Lead, with a "which role am I?" comparison.
 
 ---
 
@@ -37,6 +37,36 @@ Before the first sprint — turning an idea into a running, scoped project.
 | [project-kickoff/01-project-setup-from-idea.md](./project-kickoff/01-project-setup-from-idea.md) | Project Setup — From Idea to First Sprint | New project — goals → business model → delivery model → MVP → tech stack → Sprint 1 |
 | [project-kickoff/02-vague-client-to-mvp.md](./project-kickoff/02-vague-client-to-mvp.md) | Vague Client → Shippable MVP | Client has an idea but unclear requirements — discovery to scope freeze to launch |
 | [project-kickoff/03-ai-assisted-dev-workflow.md](./project-kickoff/03-ai-assisted-dev-workflow.md) | AI-Assisted Dev Workflow | DoR → TDD → CI/CD gates → peer review → DoD — full developer procedure with AI |
+
+---
+
+## 💼 Business Owner Leadership
+
+Stepping into a business/product-line owner (sponsor) role for the first time — owning the P&L, vision, budget, and outcomes. ([series overview](./business-owner/README.md))
+
+| File | Procedure | When to Reference |
+|:-----|:----------|:-----------------|
+| [business-owner/01-first-90-days.md](./business-owner/01-first-90-days.md) | First 90 Days as a New Business Owner | Day 1 — own outcomes, empower the doers (strategy altitude) |
+| [business-owner/02-business-and-product-assessment.md](./business-owner/02-business-and-product-assessment.md) | Business & Product Assessment | Diagnosing business/product health across 6 dimensions |
+| [business-owner/03-vision-strategy-and-okrs.md](./business-owner/03-vision-strategy-and-okrs.md) | Vision, Strategy & OKRs | North-star, strategy, focus, cascading OKRs |
+| [business-owner/04-budget-roi-and-investment.md](./business-owner/04-budget-roi-and-investment.md) | Budget, ROI & Investment | Business cases, ROI, build-vs-buy, portfolio bets |
+| [business-owner/05-stakeholders-and-governance.md](./business-owner/05-stakeholders-and-governance.md) | Stakeholders & Governance | Senior stakeholders, decision rights, board reporting |
+| [business-owner/06-empowering-delivery-and-metrics.md](./business-owner/06-empowering-delivery-and-metrics.md) | Empowering Delivery & Metrics | Delegation, business KPIs, outcomes over activity, go/no-go |
+
+---
+
+## 🎯 Product Owner Leadership
+
+Stepping into a Product Owner role for the first time — owning the backlog and maximizing the value the team delivers. ([series overview](./product-owner/README.md))
+
+| File | Procedure | When to Reference |
+|:-----|:----------|:-----------------|
+| [product-owner/01-first-90-days.md](./product-owner/01-first-90-days.md) | First 90 Days as a New PO | Day 1 — owner of value, not a ticket-writer |
+| [product-owner/02-product-and-backlog-assessment.md](./product-owner/02-product-and-backlog-assessment.md) | Product & Backlog Assessment | Assessing product & backlog health across 6 dimensions |
+| [product-owner/03-vision-and-roadmap.md](./product-owner/03-vision-and-roadmap.md) | Vision & Roadmap | Outcomes over outputs; a value-based roadmap |
+| [product-owner/04-backlog-and-stories.md](./product-owner/04-backlog-and-stories.md) | Backlog & Stories | User stories, INVEST, acceptance criteria, refinement |
+| [product-owner/05-prioritization-and-value.md](./product-owner/05-prioritization-and-value.md) | Prioritization & Value | Value vs effort, MoSCoW, WSJF, RICE, saying no |
+| [product-owner/06-stakeholders-and-collaboration.md](./product-owner/06-stakeholders-and-collaboration.md) | Stakeholders & Collaboration | Customer alignment, team availability, accepting work |
 
 ---
 
@@ -169,6 +199,7 @@ Real product flows — clinical systems, booking platforms, and marketplace oper
 
 | Role | Abbreviation | Responsibility |
 |:-----|:-------------|:--------------|
+| Business Owner | BO | Owns the P&L, vision, budget, ROI; the executive sponsor |
 | Product Owner | PO | Owns the backlog, defines business value, accepts stories |
 | Product Manager | PM | Writes PRD, coordinates stakeholders, defines success metrics |
 | Project Manager | PM (Delivery) | Plans & forecasts delivery, runs cadence, clears blockers, manages risk |
