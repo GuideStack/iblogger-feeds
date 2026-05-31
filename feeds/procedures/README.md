@@ -58,7 +58,8 @@ Practices and mindsets that make a system or procedure work — and let a team c
 
 | File | Procedure | When to Reference |
 |:-----|:----------|:-----------------|
-| [ways-of-working/01-the-painting-reflection-documents-loop.md](./ways-of-working/01-the-painting-reflection-documents-loop.md) | The Painting → Reflection → Documents → Confidence Loop | A repeatable learning loop + the curiosity/humility/student mindset behind effective systems & teams |
+| [ways-of-working/01-the-painting-reflection-documents-loop.md](./ways-of-working/01-the-painting-reflection-documents-loop.md) | The Painting → Reflection → Documents → Confidence Loop | A repeatable, time-boxed, blameless learning loop + the curiosity/humility/student mindset behind effective systems & teams |
+| [ways-of-working/02-learn-earn-return.md](./ways-of-working/02-learn-earn-return.md) | Learn → Earn → Return | The three arcs of a career — invest in yourself, create value, give back — and the trap of staying stuck in *Earn* |
 
 ---
 
