@@ -29,7 +29,7 @@ Building sustainable careers and maintaining balance in tech. Honest conversatio
 
 ## 🎯 Quick Navigation
 
-- [All Articles](../README.md#-quick-links-by-category)
+- [All Articles](README.md#-quick-links-by-category)
 - [Browse by Category](../../INDEX.md)
 - [Contributing](../../.github/CONTRIBUTING.md)
 

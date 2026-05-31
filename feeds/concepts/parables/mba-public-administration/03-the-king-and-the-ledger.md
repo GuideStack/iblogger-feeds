@@ -84,7 +84,7 @@ When government budgets and activities are kept secret, corruption thrives. By i
 
 ## Related Posts
 
-- **[Transparency & Evidence-Based Governance](../../../../colleges/robert-kennedy-college/mba-public-administration/data-analytics/01-transparency-and-evidence-based-governance.md)** — Dive into Open Data, outcome measurement, and civic tech dashboards.
+- **[Transparency & Evidence-Based Governance](../../../colleges/robert-kennedy-college/mba-public-administration/data-analytics/01-transparency-and-evidence-based-governance.md)** — Dive into Open Data, outcome measurement, and civic tech dashboards.
 
 ---
 

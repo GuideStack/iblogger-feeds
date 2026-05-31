@@ -94,7 +94,7 @@ In Public Economics, a free market is highly efficient at providing private good
 
 ## Related Posts
 
-- **[Public Financial Management](../../../../colleges/robert-kennedy-college/mba-public-administration/public-finance/01-public-financial-management.md)** — Learn about progressive vs. regressive taxation, public budgeting, and government debt.
+- **[Public Financial Management](../../../colleges/robert-kennedy-college/mba-public-administration/public-finance/01-public-financial-management.md)** — Learn about progressive vs. regressive taxation, public budgeting, and government debt.
 
 ---
 

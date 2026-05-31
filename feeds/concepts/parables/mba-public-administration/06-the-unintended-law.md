@@ -84,7 +84,7 @@ In Public Policy, a law is an intervention into a complex system. When policymak
 
 ## Related Posts
 
-- **[Introduction to Public Policy](../../../../colleges/robert-kennedy-college/mba-public-administration/public-policy/01-introduction-to-public-policy.md)** — Explore the policy lifecycle, systems thinking, and how administrators evaluate the true impact of legislation.
+- **[Introduction to Public Policy](../../../colleges/robert-kennedy-college/mba-public-administration/public-policy/01-introduction-to-public-policy.md)** — Explore the policy lifecycle, systems thinking, and how administrators evaluate the true impact of legislation.
 
 ---
 

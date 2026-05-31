@@ -109,7 +109,7 @@ Google ranks your website in search results based strictly on these three perfor
 
 ---
 
-*← [Standalone vs Micro-Apps](./04-standalone-vs-micro-apps.md) · Next: [Frontend Security](./06-frontend-security.md) →*
+*← [Standalone vs Micro-Apps](../scaling-and-builds/04-standalone-vs-micro-apps.md) · Next: [Frontend Security](./06-frontend-security.md) →*
 
 ## Related
 

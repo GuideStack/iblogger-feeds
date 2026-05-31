@@ -359,7 +359,7 @@ graph LR
 ## 🐇 ធ្លាក់ចូលក្នុងរន្ធទន្សាយ (Enter the Rabbit Hole)
 ដើម្បីស្វែងយល់បន្ថែមអំពីវិធីសាស្ត្រស្ថិតិ និងបរិមាណសម្រាប់ការសម្រេចចិត្ត សូមបន្តដំណើរទៅកាន់៖
 
-* 🚀 **[ចាប់ផ្តើមដំណើររុករក (Start the Journey) ➔ Business Model Feasibility & Operational Optimization (អ្នកនេសាទ និងសំណាញ់)៖ វិធីសាស្ត្រស្ថិតិ និងបរិមាណសម្រាប់ការសម្រេចចិត្ត](./business-sustainability/core-business/244-the-fisherman-and-the-net.md)**
+* 🚀 **[ចាប់ផ្តើមដំណើររុករក (Start the Journey) ➔ Business Model Feasibility & Operational Optimization (អ្នកនេសាទ និងសំណាញ់)៖ វិធីសាស្ត្រស្ថិតិ និងបរិមាណសម្រាប់ការសម្រេចចិត្ត](../../colleges/denison-university/business-sustainability/core-business/parables/244-the-fisherman-and-the-net.md)**
 
 ---
 

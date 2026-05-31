@@ -505,7 +505,7 @@ flowchart TD
 ## Cross-References & Related Reading
 
 - **Agile & Process:** [DoR vs DoD](../../management/02-dor-and-dod-guide.md) | [SDLC Comparison Matrix](../../management/sdlc/06-comparison-matrix.md) | [What is SDLC?](../../management/sdlc/01-what-is-sdlc.md)
-- **Documentation & Flow:** [Fast Documentation](../01-fast-documentation-workflow.md) | [MCP Guide](../02-mcp-development-guide.md)
+- **Documentation & Flow:** [Fast Documentation](../../productivity/01-fast-documentation-workflow.md) | [MCP Guide](../02-mcp-development-guide.md)
 
 ---
 

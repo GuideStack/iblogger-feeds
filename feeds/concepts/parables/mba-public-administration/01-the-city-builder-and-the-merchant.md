@@ -82,7 +82,7 @@ A successful PPP balances these opposing forces. The public sector (the City Bui
 
 ## Related Posts
 
-- **[Public-Private Partnerships](../../../../colleges/robert-kennedy-college/mba-public-administration/public-governance/01-public-private-partnerships.md)** — A deep dive into PPP structures, risk allocation, and Value for Money (VfM).
+- **[Public-Private Partnerships](../../../colleges/robert-kennedy-college/mba-public-administration/public-governance/01-public-private-partnerships.md)** — A deep dive into PPP structures, risk allocation, and Value for Money (VfM).
 
 ---
 

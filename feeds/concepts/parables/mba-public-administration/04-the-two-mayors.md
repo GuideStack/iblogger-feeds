@@ -84,7 +84,7 @@ Elected officials operate on short election cycles (e.g., 4 or 5 years) and are 
 
 ## Related Posts
 
-- **[Strategic Planning in the Public Sector](../../../../colleges/robert-kennedy-college/mba-public-administration/strategic-leadership/01-strategic-planning-in-the-public-sector.md)** — Explore how governments combat short-termism and use tools like PESTLE and Scenario Planning.
+- **[Strategic Planning in the Public Sector](../../../colleges/robert-kennedy-college/mba-public-administration/strategic-leadership/01-strategic-planning-in-the-public-sector.md)** — Explore how governments combat short-termism and use tools like PESTLE and Scenario Planning.
 
 ---
 

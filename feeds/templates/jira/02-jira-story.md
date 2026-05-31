@@ -1,6 +1,6 @@
 # Template: Jira Story
 
-> **How to use:** Copy the blank template into Jira's Story description. A story must pass **DoR** before entering the sprint and **DoD** before being marked Done. See the [DoR/DoD Guide](../management/02-dor-and-dod-guide.md) for full context.
+> **How to use:** Copy the blank template into Jira's Story description. A story must pass **DoR** before entering the sprint and **DoD** before being marked Done. See the [DoR/DoD Guide](../../management/02-dor-and-dod-guide.md) for full context.
 
 ---
 

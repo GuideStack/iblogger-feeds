@@ -79,7 +79,7 @@ In MBA Public Administration programs, striking a balance between strict account
 
 ## Related Posts
 
-- **[Bureaucracy & Process Optimization](../../../../colleges/robert-kennedy-college/mba-public-administration/public-governance/02-bureaucracy-and-process-optimization.md)** — Learn more about Lean Government, Goal Displacement, and optimizing public sector workflows.
+- **[Bureaucracy & Process Optimization](../../../colleges/robert-kennedy-college/mba-public-administration/public-governance/02-bureaucracy-and-process-optimization.md)** — Learn more about Lean Government, Goal Displacement, and optimizing public sector workflows.
 
 ---
 

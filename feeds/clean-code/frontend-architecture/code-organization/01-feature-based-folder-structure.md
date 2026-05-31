@@ -295,7 +295,7 @@ src/
 
 ---
 
-*← [Micro-Frontends](../system-design/03-micro-frontends.md) · Next: [Component-Driven Design](./02-component-driven-design.md) →*
+*← [Micro-Frontends](../scaling-and-builds/03-micro-frontends.md) · Next: [Component-Driven Design](./02-component-driven-design.md) →*
 
 ## Related
 

@@ -96,7 +96,7 @@ In private life, loyalty to one's family is a virtue. However, in the public sec
 
 ## Related Posts
 
-- **[Public Sector Ethics](../../../../colleges/robert-kennedy-college/mba-public-administration/ethics/01-public-sector-ethics.md)** — Understand the rules of impartiality, conflict of interest, and why public trust is the currency of government.
+- **[Public Sector Ethics](../../../colleges/robert-kennedy-college/mba-public-administration/ethics/01-public-sector-ethics.md)** — Understand the rules of impartiality, conflict of interest, and why public trust is the currency of government.
 
 ---
 

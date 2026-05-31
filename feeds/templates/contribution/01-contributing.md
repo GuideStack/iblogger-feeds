@@ -195,7 +195,7 @@ Closes AUTH-31
 [TEST COMMAND — e.g. mvn test / npm test / pytest]
 ```
 
-See [AI with TDD](../productivity/02-ai-with-tdd.md) for how we use AI to accelerate test writing.
+See [AI with TDD](../../productivity/02-ai-with-tdd.md) for how we use AI to accelerate test writing.
 
 ---
 

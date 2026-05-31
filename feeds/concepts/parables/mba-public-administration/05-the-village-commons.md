@@ -83,7 +83,7 @@ It explains why free markets and rational self-interest fail when dealing with "
 
 ## Related Posts
 
-- **[Public Economics](../../../../colleges/robert-kennedy-college/mba-public-administration/economics/01-public-economics.md)** — Learn more about market failures, public goods, and why governments must intervene in the economy.
+- **[Public Economics](../../../colleges/robert-kennedy-college/mba-public-administration/economics/01-public-economics.md)** — Learn more about market failures, public goods, and why governments must intervene in the economy.
 
 ---
 

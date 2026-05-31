@@ -323,7 +323,7 @@ graph TD
 
 * **[23 The Halo Effect: The Illusion of Perfection](../articles/23-halo-effect.md)** — អត្ថបទគោលបកស្រាយពីយន្តការ និងផលប៉ះពាល់នៃ Halo Effect ក្នុងស្ថាប័នការងារ។
 * **[20 Cognitive Biases: The Hidden Flaws in Human Thinking](../articles/20-cognitive-biases-the-flaws-in-human-thinking.md)** — ការយល់ដឹងអំពីកំហុសនៃការគិតជារួម និងរបៀបកសាងប្រព័ន្ធការពារខ្លួន។
-* **[06 The Illusion of Ease](../articles/06-the-illusion-of-ease.md)** — ការយល់ច្រឡំថាការងារមួយស្រួល គ្រាន់តែឃើញគេធ្វើវាបានយ៉ាងរលូន។
+* **[06 The Illusion of Ease](06-the-illusion-of-ease.md)** — ការយល់ច្រឡំថាការងារមួយស្រួល គ្រាន់តែឃើញគេធ្វើវាបានយ៉ាងរលូន។
 
 ---
 *Last updated: 2026-05-27*
