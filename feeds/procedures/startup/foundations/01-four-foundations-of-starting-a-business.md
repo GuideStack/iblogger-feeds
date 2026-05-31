@@ -9,21 +9,22 @@
 ---
 
 ## 📌 Table of Contents
-- [The Big Idea](#the-big-idea)
-- [Mermaid Flow](#mermaid-flow)
-- [ASCII Flow](#ascii-flow)
-- [The Four Foundations at a Glance](#the-four-foundations-at-a-glance)
-- [Foundation 1 — Knowledge 📚](#foundation-1--knowledge-)
-- [Foundation 2 — Proficiency / Skill 🛠️](#foundation-2--proficiency--skill-️)
-- [Foundation 3 — Credit & Trust 💳](#foundation-3--credit--trust-)
-  - [So… what *is* money? 💵](#-so-what-is-money)
-- [Foundation 4 — Choosing a Problem 💼](#foundation-4--choosing-a-problem-)
-- [Putting It Together](#putting-it-together)
-- [Self-Check](#self-check)
-- [Related Documents](#related-documents)
+- [The Big Idea](#01)
+- [Mermaid Flow](#02)
+- [ASCII Flow](#03)
+- [The Four Foundations at a Glance](#04)
+- [Foundation 1 — Knowledge 📚](#05)
+- [Foundation 2 — Proficiency / Skill 🛠️](#06)
+- [Foundation 3 — Credit & Trust 💳](#07)
+  - [So… what *is* money? 💵](#07b)
+- [Foundation 4 — Choosing a Problem 💼](#08)
+- [Putting It Together](#09)
+- [Self-Check](#10)
+- [Related Documents](#11)
 
 ---
 
+<a id="01"></a>
 ## The Big Idea
 
 > **Knowledge → Skill → Credit → Problem.** You can read the four in one breath, but they are a *sequence*, not a checklist you tick in any order. Each one is the soil the next grows in.
@@ -37,6 +38,7 @@ A common mistake is to jump straight to foundation 4 ("I have a business idea!")
 
 ---
 
+<a id="02"></a>
 ## Mermaid Flow
 
 ```mermaid
@@ -77,6 +79,7 @@ flowchart TD
 
 ---
 
+<a id="03"></a>
 ## ASCII Flow
 
 ```
@@ -115,6 +118,7 @@ THE FOUR FOUNDATIONS OF STARTING A BUSINESS
 
 ---
 
+<a id="04"></a>
 ## The Four Foundations at a Glance
 
 | # | Foundation | In one line | What it gives you | Without it… |
@@ -126,6 +130,7 @@ THE FOUR FOUNDATIONS OF STARTING A BUSINESS
 
 ---
 
+<a id="05"></a>
 ## Foundation 1 — Knowledge 📚
 
 > **First, you need knowledge.** You cannot run a business in a field you do not understand.
@@ -144,6 +149,7 @@ Knowledge here is two layers:
 
 ---
 
+<a id="06"></a>
 ## Foundation 2 — Proficiency / Skill 🛠️
 
 > **Knowing is not enough — you must also have the skill.** Knowledge is in your head; skill is in your hands.
@@ -167,6 +173,7 @@ A person can read every book on coffee and still pull a terrible espresso. The m
 
 ---
 
+<a id="07"></a>
 ## Foundation 3 — Credit & Trust 💳
 
 > **Build credit — and credit means trust.** Customers buy your product because they *trust* you. As the speaker put it: *money itself is credit.*
@@ -177,6 +184,7 @@ This is the foundation people underrate most. "Credit" here is not only a bank l
 - **Network / relationship trust** — partners, suppliers, and mentors vouch for you and open doors.
 - **Financial credit** — banks/investors lend because they trust you'll repay. *Money flows on trust* — a banknote is itself a promise (a credit) the whole society agrees to honour.
 
+<a id="07b"></a>
 ### 💵 So… what *is* money?
 
 > The speaker paused on this question on purpose: **what is money, really?** The answer reframes the whole foundation — *money is credit; money is trust made tradable.*
@@ -197,6 +205,7 @@ This is the foundation people underrate most. "Credit" here is not only a bank l
 
 ---
 
+<a id="08"></a>
 ## Foundation 4 — Choosing a Problem 💼
 
 > **Then choose a problem you see every day — one that, by solving it, helps other people.** A business is, at its core, a solved problem someone will pay for.
@@ -216,6 +225,7 @@ With knowledge, skill, and trust in place, you now point them at the right targe
 
 ---
 
+<a id="09"></a>
 ## Putting It Together
 
 The four foundations are a build order — but in real life you strengthen them in loops, not a single straight line:
@@ -236,6 +246,7 @@ The four foundations are a build order — but in real life you strengthen them 
 
 ---
 
+<a id="10"></a>
 ## Self-Check
 
 Before (or while) starting, score yourself honestly 1–5 on each:
@@ -251,6 +262,7 @@ Before (or while) starting, score yourself honestly 1–5 on each:
 
 ---
 
+<a id="11"></a>
 ## Related Documents
 - [Startup Procedures](../README.md) — the broader startup folder (market expansion, clone playbooks)
 - [Project Setup — From Idea to First Sprint](../../project-kickoff/01-project-setup-from-idea.md) — once you've chosen the problem, turn it into a build
