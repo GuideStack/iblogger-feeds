@@ -212,6 +212,8 @@ A comprehensive, production-grade index of all technical articles, engineering m
 *   [04 - Role: Quality Assurance](./feeds/concepts/career-paths/role-04-quality-assurance.md)
 *   [05 - Role: Operations Manager](./feeds/concepts/career-paths/role-05-operations-manager.md)
 
+> 🧭 **Stepping into a leadership role for the first time?** See the **[Leadership Playbooks hub](./feeds/procedures/leadership-playbooks.md)** — practical first-90-days guides (Listen → Assess → Plan → Execute) for **ten** roles: Business Owner, Product Owner, Project Manager, Engineering Manager, Team Lead, Scrum Master, QA Lead, Designer Lead, Data/Analytics Lead, and Support/CS Lead — each with assessment frameworks, swimlane diagrams, and fill-in templates.
+
 ---
 
 ## 🧠 Mental Health & Well-being

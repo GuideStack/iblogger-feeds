@@ -6,9 +6,9 @@ Practical, step-by-step guides for stepping into a **leadership role for the fir
 
 ---
 
-## 📚 The Seven Playbooks
+## 📚 The Ten Playbooks
 
-Roughly ordered by altitude — from the business outcome down to the day-to-day craft:
+Roughly ordered by altitude — from the business outcome down to the day-to-day craft and the customer:
 
 | Playbook | For someone becoming… | Leads through… | Core question |
 |:---------|:----------------------|:---------------|:--------------|
@@ -19,6 +19,9 @@ Roughly ordered by altitude — from the business outcome down to the day-to-day
 | [🛠️ Team Lead / Tech Lead](./team-lead/README.md) | A first-time Team/Tech Lead | Technical credibility | *Is it built well?* |
 | [🔄 Scrum Master](./scrum-master/README.md) | A first-time Scrum Master | Servant leadership | *Is the team effective at how it works?* |
 | [🧪 QA Lead](./qa-leadership/README.md) | A first-time QA Lead | Quality partnership | *Is it safe to ship?* |
+| [🎨 Designer Lead](./designer-lead/README.md) | A first-time design lead | Craft & user empathy | *Is it usable and well-crafted?* |
+| [📈 Data / Analytics Lead](./data-lead/README.md) | A first-time data/analytics lead | Trustworthy evidence | *Can we trust the numbers — and act on them?* |
+| [💬 Support / CS Lead](./support-cs-lead/README.md) | A first-time support/customer-success lead | Customer advocacy | *Are customers succeeding — and heard?* |
 
 ---
 
@@ -35,8 +38,11 @@ These titles overlap and companies use them loosely. The clearest way to tell th
 | **Team Lead** | Technical direction, code quality, the *how* | Technical credibility + (often) line mgmt | Own the backlog or business priorities |
 | **Scrum Master** | The *process* and team effectiveness | None — pure servant-leadership | Assign work, commit dates, or manage people |
 | **QA Lead** | Test strategy, defect process, release gate | Over QA practice & sign-off | Decide business scope or dates |
+| **Designer Lead** | Design system, UX quality, craft bar | Over design practice & critique | Own scope, priorities, or what ships |
+| **Data / Analytics Lead** | Data trust, the metric layer, decision support | Over data definitions & quality | Set business strategy or own product priorities |
+| **Support / CS Lead** | SLAs, customer outcomes, the voice of the customer | Over support ops & escalation | Set product priorities (influences them with evidence) |
 
-> **A quick heuristic:** if you're accountable for the **business outcome & budget**, you're the Business Owner. For **what's most valuable to build next**, Product Owner. For **dates and scope**, PM. For **people's careers**, EM. For **technical decisions and code**, Team Lead. For **how well the team runs its process**, Scrum Master. For **quality and the release gate**, QA Lead. In small companies one person wears several of these hats — read more than one playbook.
+> **A quick heuristic:** if you're accountable for the **business outcome & budget**, you're the Business Owner. For **what's most valuable to build next**, Product Owner. For **dates and scope**, PM. For **people's careers**, EM. For **technical decisions and code**, Team Lead. For **how well the team runs its process**, Scrum Master. For **quality and the release gate**, QA Lead. For **the look, feel, and usability**, Designer Lead. For **trustworthy numbers and evidence**, Data Lead. For **customer outcomes and the voice of the customer**, Support / CS Lead. In small companies one person wears several of these hats — read more than one playbook.
 >
 > 💡 **The two easiest to confuse:** the **Business Owner** sets the *why* and *funds* it; the **Product Owner** decides *what* to build to deliver that value; the **PM** makes sure it *ships*. Owner → outcome, PO → value, PM → delivery.
 
@@ -78,12 +84,19 @@ flowchart TD
     PM([📋 Project Manager<br>delivery & scope])
     SM([🔄 Scrum Master<br>process & flow])
     QA([🧪 QA Lead<br>quality & release gate])
+    DL([🎨 Designer Lead<br>UX & craft])
+    DATA([📈 Data Lead<br>evidence & metrics])
+    CS([💬 Support / CS Lead<br>voice of the customer])
     TEAM([👩‍💻 The Team])
+    CUST([🧑 Customers])
 
     BO -->|funds & sets outcomes| PO
     BO <-->|ROI & go/no-go| PM
     PO <-->|scope & priorities| PM
     PO -->|what & why| TEAM
+    DL -->|design & specs| TEAM
+    DATA -->|metrics & insight| PO
+    DATA -->|north-star evidence| BO
 
     EM -->|grows & staffs| TEAM
     TL -->|guides technically| TEAM
@@ -96,6 +109,12 @@ flowchart TD
     SM <-->|impediments & cadence| PM
     EM <-->|technical health| TL
     TL <-->|test strategy fit| QA
+    DL <-->|usability findings| PO
+
+    TEAM -->|ships to| CUST
+    CUST -->|tickets & feedback| CS
+    CS -->|prioritized pain| PO
+    CS -->|escalations| QA
 
     style BO fill:#5d4037,stroke:#3e2723,color:#fff
     style PO fill:#01579b,stroke:#013a6b,color:#fff
@@ -104,7 +123,11 @@ flowchart TD
     style PM fill:#1a237e,stroke:#0d47a1,color:#fff
     style SM fill:#4a148c,stroke:#12005e,color:#fff
     style QA fill:#1b5e20,stroke:#003300,color:#fff
+    style DL fill:#ad1457,stroke:#6d0d35,color:#fff
+    style DATA fill:#00695c,stroke:#003d36,color:#fff
+    style CS fill:#e65100,stroke:#8f3200,color:#fff
     style TEAM fill:#263238,stroke:#000,color:#fff
+    style CUST fill:#37474f,stroke:#000,color:#fff
 ```
 
 ---

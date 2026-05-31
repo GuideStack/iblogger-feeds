@@ -7,7 +7,7 @@ Each procedure includes:
 - An **ASCII flow** (portable — works in any text editor, Confluence, or Slack)
 - A **step-by-step responsibility table**
 
-> 🧭 **New to a leadership role?** Start at the **[Leadership Playbooks hub](./leadership-playbooks.md)** — first-90-days guides for Business Owner, Product Owner, Project Manager, Engineering Manager, Team Lead, Scrum Master, and QA Lead, with a "which role am I?" comparison.
+> 🧭 **New to a leadership role?** Start at the **[Leadership Playbooks hub](./leadership-playbooks.md)** — first-90-days guides for ten roles (Business Owner, Product Owner, Project Manager, Engineering Manager, Team Lead, Scrum Master, QA Lead, Designer Lead, Data/Analytics Lead, and Support/CS Lead), with a "which role am I?" comparison.
 
 ---
 
@@ -145,6 +145,51 @@ Stepping into a Scrum Master role for the first time — servant-leadership onbo
 
 ---
 
+## 🎨 Designer Lead Leadership
+
+Stepping into a Designer Lead role for the first time — owning design quality, the design system, and growing designers. ([series overview](./designer-lead/README.md))
+
+| File | Procedure | When to Reference |
+|:-----|:----------|:-----------------|
+| [designer-lead/01-first-90-days.md](./designer-lead/01-first-90-days.md) | First 90 Days as a New Designer Lead | Day 1 — the IC-designer → multiplier shift |
+| [designer-lead/02-design-assessment.md](./designer-lead/02-design-assessment.md) | Design Health Assessment | Auditing design maturity across 6 dimensions |
+| [designer-lead/03-design-system-and-ops.md](./designer-lead/03-design-system-and-ops.md) | Design System & Ops | Tokens, components, governance, handoff |
+| [designer-lead/04-critique-and-quality.md](./designer-lead/04-critique-and-quality.md) | Critique & Quality | Healthy critique culture without being the bottleneck |
+| [designer-lead/05-research-and-user-centered.md](./designer-lead/05-research-and-user-centered.md) | Research & User-Centered | Evidence over opinion; usability; measuring impact |
+| [designer-lead/06-collaboration-and-growth.md](./designer-lead/06-collaboration-and-growth.md) | Collaboration & Growth | Embedding design in delivery; mentoring designers |
+
+---
+
+## 📈 Data & Analytics Lead Leadership
+
+Stepping into a Data / Analytics Lead role for the first time — making data trustworthy and actually used. ([series overview](./data-lead/README.md))
+
+| File | Procedure | When to Reference |
+|:-----|:----------|:-----------------|
+| [data-lead/01-first-90-days.md](./data-lead/01-first-90-days.md) | First 90 Days as a New Data Lead | Day 1 — make data trustworthy AND used |
+| [data-lead/02-data-assessment.md](./data-lead/02-data-assessment.md) | Data Health Assessment | Auditing data maturity across 6 dimensions |
+| [data-lead/03-data-quality-and-governance.md](./data-lead/03-data-quality-and-governance.md) | Data Quality & Governance | Trust, data contracts, lineage, observability, access |
+| [data-lead/04-metrics-and-single-source-of-truth.md](./data-lead/04-metrics-and-single-source-of-truth.md) | Metrics & Single Source of Truth | The metric layer; killing "whose number is right?" |
+| [data-lead/05-experimentation-and-decisions.md](./data-lead/05-experimentation-and-decisions.md) | Experimentation & Decisions | Sound A/B testing; avoiding p-hacking; decisions |
+| [data-lead/06-enablement-and-growth.md](./data-lead/06-enablement-and-growth.md) | Enablement & Growth | Self-serve analytics, data literacy, growing the team |
+
+---
+
+## 💬 Support & Customer Success Lead Leadership
+
+Stepping into a Support / CS Lead role for the first time — owning customer outcomes and being the voice of the customer. ([series overview](./support-cs-lead/README.md))
+
+| File | Procedure | When to Reference |
+|:-----|:----------|:-----------------|
+| [support-cs-lead/01-first-90-days.md](./support-cs-lead/01-first-90-days.md) | First 90 Days as a New Support/CS Lead | Day 1 — own customer outcomes; Support vs CS |
+| [support-cs-lead/02-support-assessment.md](./support-cs-lead/02-support-assessment.md) | Support & CS Assessment | Auditing support/CS maturity across 6 dimensions |
+| [support-cs-lead/03-slas-and-ticket-operations.md](./support-cs-lead/03-slas-and-ticket-operations.md) | SLAs & Ticket Operations | SLAs, priority tiers, queue & staffing, CSAT/QA |
+| [support-cs-lead/04-escalation-and-feedback-loop.md](./support-cs-lead/04-escalation-and-feedback-loop.md) | Escalation & Feedback Loop | Escalation paths; turning tickets into product priorities |
+| [support-cs-lead/05-retention-and-customer-success.md](./support-cs-lead/05-retention-and-customer-success.md) | Retention & Customer Success | Onboarding, health scores, churn/save plays, renewals |
+| [support-cs-lead/06-knowledge-team-and-growth.md](./support-cs-lead/06-knowledge-team-and-growth.md) | Knowledge, Team & Growth | Self-service deflection, humane team care, growth |
+
+---
+
 ## 🏗️ System Design
 
 Architecture, database schema, and UI design — from blank page to documented system.
@@ -208,6 +253,9 @@ Real product flows — clinical systems, booking platforms, and marketplace oper
 | Scrum Master | SM | Facilitates ceremonies, removes impediments, coaches on agile |
 | Developer | DEV | Implements stories, writes tests, raises PRs |
 | QA Engineer | QA | Tests stories, writes E2E tests, signs off for release |
+| Designer Lead | DL | Owns design system, UX quality, critique culture; grows designers |
+| Data / Analytics Lead | Data | Owns data trust, the metric layer, experimentation & decision support |
+| Support / CS Lead | CS | Owns SLAs, escalation, retention; the voice of the customer |
 | QA Lead | QA Lead | Owns the test strategy, defect process, release gate, and QA team |
 
 ---

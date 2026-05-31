@@ -62,6 +62,7 @@
 
 ## Featured deep-dives
 
+- 🧭 **[Leadership Playbooks](feeds/procedures/leadership-playbooks.md)** — first-90-days guides (Listen → Assess → Plan → Execute) for ten roles: Business Owner, Product Owner, PM, Engineering Manager, Team Lead, Scrum Master, QA Lead, Designer Lead, Data/Analytics Lead, and Support/CS Lead — each with assessment frameworks, swimlane diagrams, and fill-in templates.
 - 📊 **[Functional Spec — full POS example](feeds/management/agile/fs/pos-fullexample/README.md)** — a comprehensive, build-ready FS for a cross-border social-commerce business: 15 modules, user stories, acceptance criteria, NFRs, data dictionary, and wireframes.
 - ✅ **[Agile sign-off procedures](feeds/management/agile/procedure/)** — ticket lifecycle, deployment, and ADR sign-off, with ownership/RACI and diagrams.
 - 💻 **[Design patterns, 12 ways](feeds/concepts/design-patterns/)** — each GoF pattern explained as a first-principles lecture, ELI5, Socratic dialogue, parable, and more.
