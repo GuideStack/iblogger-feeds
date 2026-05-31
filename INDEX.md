@@ -23,18 +23,18 @@ A comprehensive, production-grade index of all technical articles, engineering m
 *Cognitive biases, mental models, and analytical tools for diagnostic engineering.*
 
 *   [Browse Concepts Index](./feeds/concepts/README.md)
-*   [01 - Confirmation Bias: The Digital Echo Chamber Trap](./feeds/concepts/01-confirmation-bias.md)
-*   [02 - The 5 Whys Technique: Root Cause Analysis](./feeds/concepts/02-five-whys-technique.md)
-*   [03 - The Science of Communication: 10 EQ Flaws in Conversation](./feeds/concepts/03-science-of-communication-eq-flaws.md)
-*   [04 - The Projection Effect: Egocentric Assumption Trap](./feeds/concepts/04-projection-effect.md)
-*   [05 - The Relative Deprivation Effect: Pain of Social Comparison](./feeds/concepts/05-relative-deprivation-effect.md)
-*   [06 - Survivorship Bias: The Winner's Fallacy Trap](./feeds/concepts/06-survivorship-bias.md)
-*   [07 - The Hedgehog Dilemma: Balancing Closeness & Boundaries](./feeds/concepts/07-hedgehog-dilemma.md)
-*   [08 - Learned Helplessness: Overcoming Cognitive Blocks](./feeds/concepts/08-learned-helplessness.md)
-*   [09 - The Principle of Inversion: Eliminating Failure Modes](./feeds/concepts/09-inversion-principle.md)
-*   [10 - Technical Debt & Refactoring: Managing Software Interest](./feeds/concepts/10-technical-debt-and-refactoring.md)
-*   [11 - Definition of Ready & Done: Scrum Predictability Contracts](./feeds/concepts/11-dor-and-dod-scrum-contracts.md)
-*   [12 - Multiplier vs. Diminisher Leadership: Unlocking Team Intellect](./feeds/concepts/12-multiplier-leadership.md)
+*   [01 - Confirmation Bias: The Digital Echo Chamber Trap](./feeds/concepts/articles/01-confirmation-bias.md)
+*   [02 - The 5 Whys Technique: Root Cause Analysis](./feeds/concepts/articles/02-five-whys-technique.md)
+*   [03 - The Science of Communication: 10 EQ Flaws in Conversation](./feeds/concepts/articles/03-science-of-communication-eq-flaws.md)
+*   [04 - The Projection Effect: Egocentric Assumption Trap](./feeds/concepts/articles/04-projection-effect.md)
+*   [05 - The Relative Deprivation Effect: Pain of Social Comparison](./feeds/concepts/articles/05-relative-deprivation-effect.md)
+*   [06 - Survivorship Bias: The Winner's Fallacy Trap](./feeds/concepts/articles/06-survivorship-bias.md)
+*   [07 - The Hedgehog Dilemma: Balancing Closeness & Boundaries](./feeds/concepts/articles/07-hedgehog-dilemma.md)
+*   [08 - Learned Helplessness: Overcoming Cognitive Blocks](./feeds/concepts/articles/08-learned-helplessness.md)
+*   [09 - The Principle of Inversion: Eliminating Failure Modes](./feeds/concepts/articles/09-inversion-principle.md)
+*   [10 - Technical Debt & Refactoring: Managing Software Interest](./feeds/concepts/articles/10-technical-debt-and-refactoring.md)
+*   [11 - Definition of Ready & Done: Scrum Predictability Contracts](./feeds/concepts/articles/11-dor-and-dod-scrum-contracts.md)
+*   [12 - Multiplier vs. Diminisher Leadership: Unlocking Team Intellect](./feeds/concepts/articles/12-multiplier-leadership.md)
 
 
 ### 🎭 Pedagogical Parables
@@ -191,9 +191,9 @@ A comprehensive, production-grade index of all technical articles, engineering m
     *   [01 - Color Science](./feeds/developer-habits/visual-communication/01-color-science.md)
     *   [02 - Mermaid Diagram Catalog](./feeds/developer-habits/visual-communication/02-mermaid-diagram-catalog.md)
     *   [03 - Mermaid Wrap & Anti-Collapse](./feeds/developer-habits/visual-communication/03-mermaid-wrap-anti-collapse.md)
-    *   [04 - Explanation Strategies](./feeds/developer-habits/visual-communication/04-explanation-strategies.md)
     *   [05 - ASCII Diagrams](./feeds/developer-habits/visual-communication/05-ascii-diagrams.md)
-*   [02 - The Fast Documentation Workflow](./feeds/developer-habits/01-fast-documentation-workflow.md)
+*   [Explanation Strategies Series](./feeds/developer-habits/explanation-strategies/README.md)
+*   [The Fast Documentation Workflow](./feeds/productivity/01-fast-documentation-workflow.md)
 *   [03 - Model Context Protocol (MCP) Development Guide](./feeds/developer-habits/02-mcp-development-guide.md)
 
 ---
