@@ -109,20 +109,17 @@ iblogger-feeds/
     │   ├── README.md
     │   └── 01-five-signs-of-burnout.md
     │
-    ├── security/                 ← Auth, DDoS, OWASP, session security
-    │   ├── README.md
-    │   ├── anti-spam-architecture/
-    │   ├── auth-and-identity-patterns/
-    │   ├── bot-protection/
-    │   ├── ddos-defense/
-    │   ├── file-upload-defense/
-    │   ├── network-security/
-    │   ├── owasp-asvs-5.0/
-    │   ├── session-and-cookie-security/
-    │   └── social-engineering/
-    │
-    └── science/                  ← Hard sciences and natural world
-        └── biology/              ← Taxonomy and history of the 6 biological kingdoms
+    └── security/                 ← Auth, DDoS, OWASP, session security
+        ├── README.md
+        ├── anti-spam-architecture/
+        ├── auth-and-identity-patterns/
+        ├── bot-protection/
+        ├── ddos-defense/
+        ├── file-upload-defense/
+        ├── network-security/
+        ├── owasp-asvs-5.0/
+        ├── session-and-cookie-security/
+        └── social-engineering/
 ```
 
 ## Naming Conventions

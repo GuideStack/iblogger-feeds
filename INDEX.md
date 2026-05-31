@@ -15,7 +15,6 @@ A comprehensive, production-grade index of all technical articles, engineering m
 | **📊 Management & SDLC** | Agility, team leadership, SDLC comparison matrix | [Browse Management](./feeds/management/README.md) |
 | **🎯 Developer Habits** | Visual guides, MCP dev, workflow optimization | [Browse Habits](./feeds/developer-habits/README.md) |
 | **🚀 Career Paths & Roles** | Engineering, QA, PM, Operations roadmaps | [Browse Career Paths](./feeds/concepts/career-paths/README.md) |
-| **🧬 Biology & Science** | Taxonomy, evolution, and biology of the 6 kingdoms | [Browse Biology](./feeds/science/biology/README.md) |
 
 ---
 
@@ -224,18 +223,4 @@ A comprehensive, production-grade index of all technical articles, engineering m
 
 ---
 
-## 🧬 Biology & Science
-
-*The scientific study of life, its taxonomy, and its evolutionary history.*
-
-*   [Browse Biology & Science Index (ជីវវិទ្យា និង វិទ្យាសាស្ត្រ)](./feeds/science/biology/README.md)
-*   [01 - Kingdom Animalia (រាជាណាចក្រសត្វ)](./feeds/science/biology/01-kingdom-animalia.md)
-*   [02 - Kingdom Plantae (រាជាណាចក្ររុក្ខជាតិ)](./feeds/science/biology/02-kingdom-plantae.md)
-*   [03 - Kingdom Fungi (រាជាណាចក្រផ្សិត)](./feeds/science/biology/03-kingdom-fungi.md)
-*   [04 - Kingdom Protista (រាជាណាចក្រប្រូទីស)](./feeds/science/biology/04-kingdom-protista.md)
-*   [05 - Kingdom Archaea (រាជាណាចក្រអាគីអូស)](./feeds/science/biology/05-kingdom-archaea.md)
-*   [06 - Kingdom Bacteria (រាជាណាចក្របាក់តេរី)](./feeds/science/biology/06-kingdom-bacteria.md)
-
----
-
-*Last updated: 2026-05-23*
+*Last updated: 2026-05-31*
