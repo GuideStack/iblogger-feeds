@@ -46,7 +46,7 @@ A common mistake is to jump straight to foundation 4 ("I have a business idea!")
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } text, tspan { fill: #ffffff !important; } .edgeLabel rect { fill: #1e1e1e !important; }'
 }}%%
 flowchart TD
-    START([🌱 Want to start a business])
+    START([🌱 Want to<br>start a business])
 
     subgraph F1 ["📚 1 · Knowledge"]
         K1([Learn the domain<br>deeply])
@@ -59,7 +59,7 @@ flowchart TD
     end
 
     subgraph F3 ["💳 3 · Credit / Trust"]
-        C1([Build a track record])
+        C1([Build a<br>track record])
         C2([Earn trust =<br>people buy from you])
     end
 
@@ -69,7 +69,7 @@ flowchart TD
     end
 
     START --> K1 --> K2 --> S1 --> S2 --> C1 --> C2 --> P1 --> P2
-    P2 --> VALUE([💰 Customers pay → value created])
+    P2 --> VALUE([💰 Customers pay →<br>value created])
 
     style F1 fill:#4a148c,stroke:#12005e,color:#fff
     style F2 fill:#004d40,stroke:#00251a,color:#fff

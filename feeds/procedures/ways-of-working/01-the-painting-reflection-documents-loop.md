@@ -50,13 +50,13 @@ And underneath all four runs a **mindset** — curiosity, humility, the student'
 flowchart LR
     P([🎨 Painting<br>picture the goal])
     R([🪞 Reflection<br>look back honestly])
-    D([📄 Documents<br>write it down, share it])
+    D([📄 Documents<br>write it down,<br>share it])
     C([🔄 Confidence<br>trust the system])
 
     P --> R --> D --> C
     C -->|next cycle, better| P
 
-    MIND([🧠 Mindset<br>curiosity · humility · student])
+    MIND([🧠 Mindset<br>curiosity · humility<br>· student])
     MIND -.powers.-> P
     MIND -.powers.-> R
     MIND -.powers.-> D
