@@ -52,6 +52,16 @@ Foundations, strategy, and build playbooks for starting and scaling a business. 
 
 ---
 
+## 🤝 Ways of Working
+
+Practices and mindsets that make a system or procedure work — and let a team collaborate around it. ([series overview](./ways-of-working/README.md))
+
+| File | Procedure | When to Reference |
+|:-----|:----------|:-----------------|
+| [ways-of-working/01-the-painting-reflection-documents-loop.md](./ways-of-working/01-the-painting-reflection-documents-loop.md) | The Painting → Reflection → Documents → Confidence Loop | A repeatable learning loop + the curiosity/humility/student mindset behind effective systems & teams |
+
+---
+
 ## 💼 Business Owner Leadership
 
 Stepping into a business/product-line owner (sponsor) role for the first time — owning the P&L, vision, budget, and outcomes. ([series overview](./business-owner/README.md))
