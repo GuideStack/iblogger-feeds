@@ -53,8 +53,6 @@
 | 🎯 **[Developer Habits](feeds/developer-habits/)** | Workflows, Model Context Protocol (MCP), visual communication |
 | ⚡ **[Productivity](feeds/productivity/)** | Documentation workflows, AI-with-TDD, team-lead practices |
 | 🧠 **[Mental Health](feeds/mental-health/)** | Burnout prevention, resilience |
-| ☕ **[Daily Dev](feeds/daily-dev/)** | Post-mortems &amp; engineering reflections |
-| 🌐 **[Trending Tech](feeds/trending-tech/)** | AI integrations, emerging tools |
 | 🧬 **[Science](feeds/science/)** | Biology, taxonomy, the six kingdoms |
 | 🧩 **[Templates](feeds/templates/)** | Reusable document skeletons |
 
@@ -95,8 +93,6 @@ iblogger-feeds/
 │   ├── developer-habits/← workflows, MCP, visual communication
 │   ├── productivity/    ← documentation, AI+TDD, team leadership
 │   ├── mental-health/   ← well-being & burnout prevention
-│   ├── daily-dev/       ← post-mortems & reflections
-│   ├── trending-tech/   ← AI & emerging tools
 │   ├── science/         ← biology & natural world
 │   └── templates/       ← reusable document skeletons
 │

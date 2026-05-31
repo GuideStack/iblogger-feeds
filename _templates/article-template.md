@@ -3,7 +3,7 @@
 **Author:** ichamrong  
 **Date:** YYYY-MM-DD  
 **Tags:** #tag1 #tag2 #tag3  
-**Category:** [Management/Clean Code/Trending Tech/Mental Health/Developer Habits/Daily Dev]  
+**Category:** [Management/Clean Code/Mental Health/Developer Habits/Procedures]  
 **Read Time:** ~X min
 
 ---

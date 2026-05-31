@@ -121,12 +121,6 @@ iblogger-feeds/
     │   ├── session-and-cookie-security/
     │   └── social-engineering/
     │
-    ├── daily-dev/                ← Incident stories, bug reflections
-    │   └── README.md
-    │
-    ├── trending-tech/            ← Emerging tools and frameworks
-    │   └── README.md
-    │
     └── science/                  ← Hard sciences and natural world
         └── biology/              ← Taxonomy and history of the 6 biological kingdoms
 ```

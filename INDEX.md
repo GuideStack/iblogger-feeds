@@ -15,8 +15,6 @@ A comprehensive, production-grade index of all technical articles, engineering m
 | **📊 Management & SDLC** | Agility, team leadership, SDLC comparison matrix | [Browse Management](./feeds/management/README.md) |
 | **🎯 Developer Habits** | Visual guides, MCP dev, workflow optimization | [Browse Habits](./feeds/developer-habits/README.md) |
 | **🚀 Career Paths & Roles** | Engineering, QA, PM, Operations roadmaps | [Browse Career Paths](./feeds/concepts/career-paths/README.md) |
-| **☕ Daily Dev Stories** | Incident reports, bug hunting, reflections | [Browse Dev Stories](./feeds/daily-dev/README.md) |
-| **🌐 Trending Tech** | Emerging tools, frameworks, and AI workflows | [Browse Trending Tech](./feeds/trending-tech/README.md) |
 | **🧬 Biology & Science** | Taxonomy, evolution, and biology of the 6 kingdoms | [Browse Biology](./feeds/science/biology/README.md) |
 
 ---
@@ -222,22 +220,6 @@ A comprehensive, production-grade index of all technical articles, engineering m
 
 *   [Browse Mental Health Index](./feeds/mental-health/README.md)
 *   [01 - Five Signs You're Heading Toward Burnout](./feeds/mental-health/01-five-signs-of-burnout.md)
-
----
-
-## ☕ Daily Dev Stories
-
-*Reflections and debugging tales from the frontlines of software development.*
-
-*   [Browse Daily Dev Stories Index](./feeds/daily-dev/README.md)
-
----
-
-## 🌐 Trending Tech
-
-*Analyses of emerging frameworks, programming languages, and AI-assisted workflows.*
-
-*   [Browse Trending Tech Index](./feeds/trending-tech/README.md)
 
 ---
 

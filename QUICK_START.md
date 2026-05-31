@@ -14,10 +14,8 @@ Get up and running with iblogger-feeds in 5 minutes!
 **Browse Categories:**
 - 💻 [Clean Code & Engineering](feeds/clean-code/)
 - 📊 [Management & Leadership](feeds/management/)
-- 🌐 [Trending Tech](feeds/trending-tech/)
 - 🧠 [Mental Health & Well-being](feeds/mental-health/)
 - 🎯 [Developer Habits](feeds/developer-habits/)
-- ☕ [Daily Dev Stories](feeds/daily-dev/)
 
 ---
 
@@ -92,10 +90,8 @@ iblogger-feeds/
 ├── feeds/                           ← All articles
 │   ├── clean-code/                ← Design patterns, SOLID, refactoring
 │   ├── management/                ← Leadership, communication, teams
-│   ├── trending-tech/             ← AI, new frameworks, DevOps
 │   ├── mental-health/             ← Burnout, wellness, balance
-│   ├── developer-habits/          ← Productivity, learning, growth
-│   └── daily-dev/                 ← Stories, lessons, adventures
+│   └── developer-habits/          ← Productivity, learning, growth
 │
 └── _templates/
     └── article-template.md        ← Use this for new articles
@@ -119,10 +115,8 @@ iblogger-feeds/
 **A:** Anything in these categories:
 - 💻 Clean Code & Engineering
 - 📊 Management & Leadership
-- 🌐 Trending Tech
 - 🧠 Mental Health & Well-being
 - 🎯 Developer Habits
-- ☕ Daily Dev Stories
 
 ### Q: Can I write about controversial topics?
 
