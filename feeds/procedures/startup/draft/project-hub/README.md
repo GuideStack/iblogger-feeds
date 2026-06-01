@@ -18,6 +18,8 @@
 | 👥 **Team** | [roles.md](./roles.md) | Who owns what + meeting cadence |
 | 👥 **Team** | [responsibilities.md](./responsibilities.md) | Full responsibility matrix (10 areas → roles) |
 | ✅ **Project Mgmt** | [todo.md](./todo.md) | Active task list & open questions, by area |
+| ✅ **Project Mgmt** | [decisions-needed.md](./decisions-needed.md) | Open decisions blocking the build, with owners |
+| 🤝 **Ways of Working** | [team-collaboration.md](./team-collaboration.md) | How the team works without friction (the loop) |
 | 🛒 **Product** | [user-stories.md](./user-stories.md) | Buyer / Seller / Admin user stories |
 | 🛠️ **Engineering** | [tech-stack.md](./tech-stack.md) | Platform & tooling decisions (framework, payments, KYC) |
 | 🤝 **Partnerships** | [vendor-pipeline.md](./vendor-pipeline.md) | Vendor outreach tracker |
@@ -33,12 +35,13 @@
 2. **[roadmap.md](./roadmap.md)** — *when* — the phased plan
 3. **[okrs.md](./okrs.md)** — quarterly goals that turn the roadmap into measurable targets
 4. **[roles.md](./roles.md)** → **[responsibilities.md](./responsibilities.md)** — *who* does what
-5. **[todo.md](./todo.md)** — what's being worked on now
-6. **[user-stories.md](./user-stories.md)** — *what* the product must do
-7. **[tech-stack.md](./tech-stack.md)** — *how* it's built
-8. **[vendor-pipeline.md](./vendor-pipeline.md)** — partnership/vendor status
-9. **[risk-register.md](./risk-register.md)** — what could go wrong + mitigations
-10. **[meeting-notes.md](./meeting-notes.md)** · **[weekly-meeting.md](./weekly-meeting.md)** — running records
+5. **[todo.md](./todo.md)** — what's being worked on now → **[decisions-needed.md](./decisions-needed.md)** — what's blocking the build
+6. **[team-collaboration.md](./team-collaboration.md)** — *how we work together* without friction
+7. **[user-stories.md](./user-stories.md)** — *what* the product must do
+8. **[tech-stack.md](./tech-stack.md)** — *how* it's built
+9. **[vendor-pipeline.md](./vendor-pipeline.md)** — partnership/vendor status
+10. **[risk-register.md](./risk-register.md)** — what could go wrong + mitigations
+11. **[meeting-notes.md](./meeting-notes.md)** · **[weekly-meeting.md](./weekly-meeting.md)** — running records
 
 ---
 
