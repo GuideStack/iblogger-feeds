@@ -20,6 +20,7 @@
 | ✅ **Project Mgmt** | [todo.md](./todo.md) | Active task list & open questions, by area |
 | ✅ **Project Mgmt** | [decisions-needed.md](./decisions-needed.md) | Open decisions blocking the build, with owners |
 | 🔍 **Analysis** | [five-whys-no-builder.md](./five-whys-no-builder.md) | Root-cause analysis of the #1 blocker (no builder) |
+| 🔍 **Analysis** | [inversion-premortem.md](./inversion-premortem.md) | Pre-mortem: how we'd *guarantee* failure → what to avoid |
 | 🤝 **Ways of Working** | [team-collaboration.md](./team-collaboration.md) | How the team works without friction (the loop) |
 | 🛒 **Product** | [user-stories.md](./user-stories.md) | Buyer / Seller / Admin user stories |
 | 🛠️ **Engineering** | [tech-stack.md](./tech-stack.md) | Platform & tooling decisions (framework, payments, KYC) |
