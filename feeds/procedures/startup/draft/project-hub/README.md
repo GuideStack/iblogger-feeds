@@ -19,6 +19,7 @@
 | 👥 **Team** | [responsibilities.md](./responsibilities.md) | Full responsibility matrix (10 areas → roles) |
 | ✅ **Project Mgmt** | [todo.md](./todo.md) | Active task list & open questions, by area |
 | ✅ **Project Mgmt** | [decisions-needed.md](./decisions-needed.md) | Open decisions blocking the build, with owners |
+| 🔍 **Analysis** | [five-whys-no-builder.md](./five-whys-no-builder.md) | Root-cause analysis of the #1 blocker (no builder) |
 | 🤝 **Ways of Working** | [team-collaboration.md](./team-collaboration.md) | How the team works without friction (the loop) |
 | 🛒 **Product** | [user-stories.md](./user-stories.md) | Buyer / Seller / Admin user stories |
 | 🛠️ **Engineering** | [tech-stack.md](./tech-stack.md) | Platform & tooling decisions (framework, payments, KYC) |
