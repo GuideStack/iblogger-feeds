@@ -12,36 +12,37 @@
 
 | Area | Document | Purpose |
 |:-----|:---------|:--------|
+| 🎯 **Strategy** | [business-model-canvas.md](./business-model-canvas.md) | The business model — value prop, segments, revenue, costs |
+| 🎯 **Strategy** | [roadmap.md](./roadmap.md) | Phased plan: Foundation → MVP → Pilot → Growth |
 | 👥 **Team** | [roles.md](./roles.md) | Who owns what + meeting cadence |
 | 👥 **Team** | [responsibilities.md](./responsibilities.md) | Full responsibility matrix (10 areas → roles) |
 | ✅ **Project Mgmt** | [todo.md](./todo.md) | Active task list & open questions, by area |
+| 🛒 **Product** | [user-stories.md](./user-stories.md) | Buyer / Seller / Admin user stories |
+| 🛠️ **Engineering** | [tech-stack.md](./tech-stack.md) | Platform & tooling decisions (framework, payments, KYC) |
+| 🤝 **Partnerships** | [vendor-pipeline.md](./vendor-pipeline.md) | Vendor outreach tracker |
+| ⚠️ **Risk** | [risk-register.md](./risk-register.md) | Known risks, severity & mitigations |
 | 🗒️ **Records** | [meeting-notes.md](./meeting-notes.md) | Dated meeting notes & action items |
 | 🗒️ **Records** | [weekly-meeting.md](./weekly-meeting.md) | Recurring weekly meeting log |
-| 🛒 **Product** | [user-stories.md](./user-stories.md) | Buyer / Seller / Admin user stories |
-| 🤝 **Partnerships** | [vendor-pipeline.md](./vendor-pipeline.md) | Vendor outreach tracker |
 
 ---
 
 ## 🧭 Suggested reading order
 
-1. **[roles.md](./roles.md)** — understand the team and who does what
-2. **[responsibilities.md](./responsibilities.md)** — the detailed ownership map
-3. **[todo.md](./todo.md)** — what's being worked on now
-4. **[user-stories.md](./user-stories.md)** — what the product must do
-5. **[vendor-pipeline.md](./vendor-pipeline.md)** — partnership/vendor status
-6. **[meeting-notes.md](./meeting-notes.md)** · **[weekly-meeting.md](./weekly-meeting.md)** — running records
+1. **[business-model-canvas.md](./business-model-canvas.md)** — *why* the venture exists (the model)
+2. **[roadmap.md](./roadmap.md)** — *when* — the phased plan
+3. **[roles.md](./roles.md)** → **[responsibilities.md](./responsibilities.md)** — *who* does what
+4. **[todo.md](./todo.md)** — what's being worked on now
+5. **[user-stories.md](./user-stories.md)** — *what* the product must do
+6. **[tech-stack.md](./tech-stack.md)** — *how* it's built
+7. **[vendor-pipeline.md](./vendor-pipeline.md)** — partnership/vendor status
+8. **[risk-register.md](./risk-register.md)** — what could go wrong + mitigations
+9. **[meeting-notes.md](./meeting-notes.md)** · **[weekly-meeting.md](./weekly-meeting.md)** — running records
 
 ---
 
 ## 🔜 Suggested next documents (not yet written)
 
-These would round out an early-stage startup hub:
-
-- **`business-model-canvas.md`** — value proposition, customer segments, revenue streams, cost structure (the actual *business model*)
-- **`roadmap.md`** — milestones / phases (MVP → launch → growth)
-- **`tech-stack.md`** — platform & tooling decisions (e.g. the Vendure e-commerce framework, hosting, payments)
-- **`okrs.md`** — quarterly goals & key results
-- **`risk-register.md`** — risks + mitigations (legal/privacy items already noted in meetings)
+- **`okrs.md`** — quarterly goals & key results (once the model & roadmap are validated)
 
 ---
 
