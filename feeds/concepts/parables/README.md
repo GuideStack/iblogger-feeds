@@ -50,6 +50,7 @@ Story-form explanations of software engineering concepts, cognitive biases, lead
 | 202 | [The Old Woman Who Threw Trash](./202-prophet-and-the-old-woman-with-trash.md) | De-escalation & Silent Exception Handling |
 | 204 | [The True Strong Man](./204-prophet-and-the-strong-man.md) | Rate Limiter & Backpressure Regulation |
 | 241 | [The Black Swan Nobody Expected](./241-the-black-swan.md) | Unknown Unknowns & Tail Risk |
+| 243 | [The White Bone Demon & the Fiery Eyes](./243-the-white-bone-demon-and-the-fiery-eyes.md) | Masks, Self-Monitoring & Authenticity |
 
 ---
 

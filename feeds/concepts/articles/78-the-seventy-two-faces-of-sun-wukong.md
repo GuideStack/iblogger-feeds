@@ -179,6 +179,7 @@ True Self                                          Lost Self
 
 ## អត្ថបទពាក់ព័ន្ធ (Related Posts)
 
+- 📖 **[The White Bone Demon & the Fiery Eyes (បិសាចឆ្អឹងស និងភ្នែកមាស)](../parables/243-the-white-bone-demon-and-the-fiery-eyes.md)** — the companion *Journey to the West* parable for this concept.
 - [Projection Effect (បែបផែននៃការបញ្ចាំង)](04-projection-effect.md)
 - [The Science of Communication & EQ Flaws](03-science-of-communication-eq-flaws.md)
 - [Cognitive Flexibility (ភាពបត់បែននៃការគិត)](75-cognitive-flexibility.md)
