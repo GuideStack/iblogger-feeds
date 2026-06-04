@@ -57,6 +57,11 @@ Story-form explanations of software engineering concepts, cognitive biases, lead
 | 249 | [Trapped Under the Mountain](./249-trapped-under-the-mountain.md) | Talent + Discipline + Mission |
 | 250 | [Havoc in Heaven & the Empty Title](./250-havoc-in-heaven-and-the-empty-title.md) | Vanity Titles · Tokenism · Motivation |
 | 251 | [The Flaming Mountains & the Banana Fan](./251-the-flaming-mountains-and-the-banana-fan.md) | Strategy over Force · The Wrong Tool |
+| 252 | [The Water Curtain Cave & the Leap of Faith](./252-the-water-curtain-cave-and-the-leap-of-faith.md) | Calculated Risk & Overcoming Fear of the Unknown |
+| 253 | [The Five Pillars & the Limit of Perception](./253-the-five-pillars-and-the-limit-of-perception.md) | Cognitive Limits & The Dunning-Kruger Effect |
+| 254 | [The Ginseng Fruit Tree & the Cost of Impulse](./254-the-ginseng-fruit-tree-and-the-cost-of-impulse.md) | Emotional Impulse & Destruction/Remediation Cost |
+| 255 | [The Magic Gourd & the Trap of Response](./255-the-magic-gourd-and-the-trap-of-response.md) | Social Engineering & Input Validation |
+| 256 | [The Three Knocks & the Art of Subtle Signals](./256-the-three-knocks-and-the-art-of-subtle-signals.md) | Active Listening & High-Context Communication |
 
 ---
 
