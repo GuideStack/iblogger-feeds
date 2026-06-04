@@ -52,6 +52,11 @@ Story-form explanations of software engineering concepts, cognitive biases, lead
 | 241 | [The Black Swan Nobody Expected](./241-the-black-swan.md) | Unknown Unknowns & Tail Risk |
 | 244 | [The White Bone Demon & the Fiery Eyes](./244-the-white-bone-demon-and-the-fiery-eyes.md) | Masks, Self-Monitoring & Authenticity |
 | 246 | [The Monk Who Banished the Truth](./246-the-monk-who-banished-the-truth.md) | Sincerity ≠ Discernment · Shoot-the-Messenger |
+| 247 | [The Real and the Fake Monkey](./247-the-real-and-the-fake-monkey.md) | Authenticity vs. Imitation · What Can't Be Faked |
+| 248 | [The Golden Headband](./248-the-golden-headband.md) | Power Needs Accountability · Guardrails |
+| 249 | [Trapped Under the Mountain](./249-trapped-under-the-mountain.md) | Talent + Discipline + Mission |
+| 250 | [Havoc in Heaven & the Empty Title](./250-havoc-in-heaven-and-the-empty-title.md) | Vanity Titles · Tokenism · Motivation |
+| 251 | [The Flaming Mountains & the Banana Fan](./251-the-flaming-mountains-and-the-banana-fan.md) | Strategy over Force · The Wrong Tool |
 
 ---
 
