@@ -345,8 +345,8 @@ Confirmation Bias builds walls of hatred out of incomplete information.
 graph TD
     A["🕊️ សាសនាខុសគ្នា នៅក្នុងពិភពលោកតែមួយ<br/>(Different Religions in One World)"] --> B["ភាគី A៖ វាយតម្លៃពុទ្ធសាសនាតាមរយៈទម្លាប់បុណ្យសពមួយ<br/>(Party A: Judges Buddhism by one funeral custom)"]
     A --> C["ភាគី B៖ វាយតម្លៃគ្រិស្តសាសនាតាមពាក្យចចាមអារ៉ាម<br/>(Party B: Judges Christianity by rumors)"]
-    B --> D["'ពុទ្ធសាសនា គ្មានសីលធម៌'<br/>(\"Buddhism lacks morality\")"]
-    C --> E["'គ្រិស្តបរិស័ទ មិនគោរពឪពុកម្តាយ'<br/>(\"Christians disrespect parents\")"]
+    B --> D["'ពុទ្ធសាសនា គ្មានសីលធម៌'<br/>('Buddhism lacks morality')"]
+    C --> E["'គ្រិស្តបរិស័ទ មិនគោរពឪពុកម្តាយ'<br/>('Christians disrespect parents')"]
     D --> F["🔴 ជញ្ជាំងនៃការរើសអើង — សង់ឡើងពីព័ត៌មានមិនគ្រប់ជ្រុងជ្រោយ<br/>(Walls of prejudice built from incomplete data)"]
     E --> F
     F --> G["✅ ដំណោះស្រាយ៖ សិក្សាពីប្រភពដើមផ្ទាល់ និងស្តាប់ដោយចិត្តទូលាយ<br/>(Solution: Study directly from sources, listen open-mindedly)"]
