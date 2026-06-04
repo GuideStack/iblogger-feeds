@@ -62,7 +62,7 @@ Story-form explanations of software engineering concepts, cognitive biases, lead
 | 06 | [The Illusion of Ease](./06-the-illusion-of-ease.md) | Survivorship Bias |
 | 09 | [The Silent Rebellion](./09-the-silent-rebellion.md) | Multiplier Leadership |
 | 11 | [The Baker and the Butcher](./11-the-baker-and-the-butcher.md) | EQ & Conflict |
-| 12 | [The Emperor's New Code](./12-the-emperors-new-code.md) | Social Pressure in Review |
+| 245 | [The Emperor's New Code](./245-the-emperors-new-code.md) | Social Pressure in Review |
 | 15 | [The Broken Bridge and the Art of Inversion](./15-the-broken-bridge-and-the-art-of-inversion.md) | Inversion Principle |
 | 17 | [The Two Orchestras and the Silent Flute](./17-the-two-orchestras-and-the-silent-flute.md) | Multiplier Leadership |
 | 20 | [Cao Cao's Short Song](./20-cao-cao-short-song-and-the-heart-of-talent.md) | Multiplier Leadership |
