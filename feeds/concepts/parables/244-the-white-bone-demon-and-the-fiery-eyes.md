@@ -243,40 +243,18 @@ graph LR
 <a id="deeper"></a>
 ## ៥. មេរៀនជ្រៅជ្រះ៖ កុំក្លាយជាព្រះថាង (The Deeper Lesson: Don't Be the Monk)
 
-មនុស្សភាគច្រើនអានរឿងនេះ ហើយសន្និដ្ឋានថា៖ *«កុំធ្វើខ្លួនក្លែងក្លាយ ហើយត្រូវមើលឱ្យដាច់នូវអ្នកកុហក»*។ នោះគ្រាន់តែជាមេរៀន **ផ្ទៃខាងក្រៅ** — របាំងមុខលើឆ្អឹងស។
+ប៉ារ៉ាប៊ល់នេះ ផ្តោតលើ **«របាំងមុខ vs ខ្លួនពិត»** — បិសាច និងស្តេចស្វា។ ប៉ុន្តែ រឿងតែមួយនេះ លាក់មេរៀនទីពីរដ៏សំខាន់ផងដែរ — អំពី **ព្រះថាង** ដែលជាមនុស្សល្អ តែបែរជា **ដាក់ទោសអ្នកនិយាយការពិត** ព្រោះជឿតែ «មុខស្អាត» ខាងក្រៅ។
 
-Most people read this story and conclude: *"Don't be fake, and see through liars."* But that is only the **surface** lesson — the mask over the bones.
+This parable focuses on **masks vs. the true self** — the demon and the monkey. But the same story hides a second, equally important lesson — about the **monk**: a good man who **punished the truth-teller** because he believed only the *pretty mask*.
 
-មេរៀនពិតដែលវូ ឆេងអេន លាក់ទុក គឺ **ងងឹត និងមានប្រយោជន៍ជាង**៖ The real lesson Wu Cheng'en buried is **darker and more useful**:
+ដោយសារនោះជា **មេរៀនផ្សេង** (ភាពស្មោះត្រង់ ≠ ការវិនិច្ឆ័យ និងគ្រោះថ្នាក់នៃការដាក់ទោសអ្នកនាំសារ) យើងបានដាក់វាក្នុងប៉ារ៉ាប៊ល់ដោយឡែក ដើម្បីរក្សាការផ្តោតអារម្មណ៍៖
 
-> **បញ្ហាមិនមែននៅបិសាចទេ។ បញ្ហានៅត្រង់ថា ក្រុមមិនអាចបែងចែករវាង «អ្នកនិយាយការពិត» និង «អ្នកបង្កបញ្ហា» — ដូច្នេះពួកគេបណ្តេញចេញ នូវមនុស្សតែម្នាក់ដែលអាចមើលឃើញការពិត។**
->
-> **The problem was never the demon. The problem was that the group could not tell the truth-teller from the troublemaker — so they exiled the one person who could actually see.**
+Because that is a *distinct* lesson (sincerity ≠ discernment, and the danger of shooting the messenger), it has its own focused parable:
 
-បិសាច **ត្រូវបានគេរំពឹងទុក** ថានឹងបោកប្រាស់ — នោះជាធម្មជាតិរបស់បិសាច។ សោកនាដកម្មពិតគឺ **ព្រះថាង**៖ មនុស្សល្អ ស្មោះត្រង់ និងមានចេតនាល្អ ដែលបែរជា **ដាក់ទោសអ្នកនិយាយការពិត** ព្រោះការពិតវាអាក្រក់ ហើយការកុហកវាស្អាត។ ផ្នែកនេះហើយ ដែលនិយាយពី **យើង** មិនមែនពីមនុស្សអាក្រក់ឡើយ។
+> 👉 **[The Monk Who Banished the Truth (ព្រះថាងដែលបណ្តេញការពិត)](./246-the-monk-who-banished-the-truth.md)** — ភាពស្មោះត្រង់មិនមែនជាការវិនិច្ឆ័យ និងគ្រោះថ្នាក់នៃការដាក់ទោសអ្នកនិយាយការពិត (sincerity is not discernment; the danger of punishing the truth-teller).
 
-The demon was *expected* to deceive — that is a demon's nature. The real tragedy is the **monk**: a good, sincere, well-meaning person who **punished the truth-teller** because the truth was ugly and the lie was beautiful. *That* is the part about **us**, not about villains.
-
-### ៥ មេរៀនដែលគួរយកទៅប្រើ (Five lessons worth carrying)
-
-**១. ភាពស្មោះត្រង់ មិនមែនជាការមើលឃើញច្បាស់ឡើយ។ (Sincerity is not the same as seeing clearly.)**
-ព្រះថាងមានចិត្តបរិសុទ្ធ — តែគាត់នៅតែ **ខុសទាំងស្រុង**។ ភាពល្អ ដោយគ្មានការវិនិច្ឆ័យ ងាយនឹងត្រូវគេកេងប្រវ័ញ្ច។ *The monk was pure-hearted and still completely wrong. Kindness without discernment gets exploited. Don't trust your own goodness as if it were judgment.*
-
-**២. នៅពេលគេប្រាប់ការពិតដ៏អាក្រក់ ទំនោរដំបូងរបស់យើងគឺដាក់ទោស «អ្នកប្រាប់» មិនមែន «បញ្ហា»។ (When someone delivers an ugly truth, your first instinct is to punish the messenger, not the problem.)**
-អ្នកដែលនិយាយថា «គម្រោងនេះនឹងបរាជ័យ» មើលទៅដូចជាការគំរាមកំហែង។ អ្នកដែលញញឹមយល់ស្រប មើលទៅដូចជាសុវត្ថិភាព។ *The discomfort you feel is information about the message — not the messenger.*
-
-**៣. ភាពស្អាត និងគួរឱ្យអាណិត គឺជារបាំងមុខដ៏ល្អបំផុតរបស់បិសាច — មិនមែនភាពអាក្រក់ឡើយ។ (Beautiful and pitiful are the demon's best disguises — not ugliness.)**
-បិសាចមិនដែលលេចមកជាសត្វចម្លែកគួរស្អប់ឡើយ — វាលេចមកជា **ស្ត្រីក្មេងនាំម្ហូប ម្តាយកំសត់ បុរសចំណាស់វង្វេង**។ ការបោកប្រាស់ ពាក់មុខអ្នកដែលគួរអាណិត។ *Be most careful exactly when something pulls at your sympathy.*
-
-**៤. វិនិច្ឆ័យលំនាំតាមពេលវេលា មិនមែនការសម្ដែងតែម្តង។ (Judge the pattern over time, not a single performance.)**
-ស្តេចស្វា **ត្រូវទាំង ៣ ដង** — តែការវាយម្តង មើលទៅដូចជាឃាតកម្ម។ ការពិត ច្រើនតែត្រូវការការធ្វើម្តងហើយម្តងទៀតទើបគេជឿ ហើយអ្នកដែលត្រូវមុនគេ មើលទៅអាក្រក់ជាងគេ។ *A single snapshot is where masks win; watch behavior across time.*
-
-**៥. ភ្នែកមាស ត្រូវបានលត់ដំក្នុងភ្លើង។ (The fiery eyes were forged in fire.)**
-ស៊ុនអ៊ូឃុង មិនបានភ្នែកមាសដោយឥតគិតថ្លៃទេ — គាត់បានវាបន្ទាប់ពីត្រូវដុតក្នុងឡ ៤៩ ថ្ងៃ។ សមត្ថភាពមើលទម្លុះរបាំងមុខ **មានតម្លៃ** — ជាធម្មតា គឺការត្រូវគេបោក ឬឈឺចាប់ជាមុនសិន។ *Your past pain is not just damage — it is how you earned your fiery eyes. Don't waste the lesson.*
-
-> **ខ្លឹមសារមួយឃ្លា (The one-sentence version):**
-> ការមើលឃើញបិសាច គឺងាយ។ ផ្នែកដ៏ពិបាក គឺ **កុំក្លាយជាព្រះថាង** — មនុស្សស្មោះត្រង់ ដែលបណ្តេញការពិតចេញ ព្រោះការកុហកវាស្អាតជាង។
-> *It's easy to spot the demon. The hard part is not becoming the monk — the sincere person who exiles the truth because the lie was prettier.*
+> **ការមើលឃើញបិសាច គឺងាយ។ ផ្នែកដ៏ពិបាក គឺ កុំក្លាយជាព្រះថាង។**
+> *It's easy to spot the demon. The hard part is not becoming the monk.*
 
 ---
 
