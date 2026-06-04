@@ -119,7 +119,7 @@ This story shows **both sides** of shape-shifting, which the author understood p
 <a id="3-1"></a>
 ### ឧទាហរណ៍ទី ១ — គ្រួសារ៖ មនុស្សដែលផ្លាស់មុខតាមអ្នកមាន (The Two-Faced Relative)
 
-សាច់ញាតិម្នាក់ញញឹមផ្អែមល្ហែម គួរសម និងហ៊ុំព័ទ្ធអ្នកដែលមានលុយ ឬមានឋានៈក្នុងគ្រួសារ — តែងាកមុខត្រជាក់ដាក់អ្នកដែលក្រ ឬគ្មានអំណាច។ មុខស្អាតរបស់គាត់គឺជា **«បិសាចឆ្អឹងស»** តូចមួយក្នុងគ្រួសារ។
+សាច់ញាតិម្នាក់ញញឹមផ្អែមល្ហែម គួរសម និងចោមរោមតែអ្នកដែលមានលុយ ឬមានឋានៈក្នុងគ្រួសារ — តែបែរជាធ្វើព្រងើយកន្តើយដាក់អ្នកដែលក្រ ឬគ្មានអំណាច។ មុខស្អាតរបស់គាត់គឺជា **«បិសាចឆ្អឹងស»** តូចមួយក្នុងគ្រួសារ។
 
 A relative is all sweet smiles and politeness around whoever has money or status in the family — yet turns cold to those who are poor or powerless. Their pretty face is a small **White Bone Demon** in the household.
 
@@ -147,7 +147,7 @@ graph TD
 <a id="3-2"></a>
 ### ឧទាហរណ៍ទី ២ — ការងារ៖ មិត្តរួមការងារដែលញញឹមខាងមុខ (The Smiling Colleague)
 
-មិត្តរួមការងារម្នាក់យល់ស្របនឹងអ្នកគ្រប់ពេលនៅក្នុងកិច្ចប្រជុំ ញញឹមផ្ញើ និងសរសើរអ្នកខាងមុខ — តែនៅពីក្រោយ គាត់និយាយដើម យកឥណទានការងាររបស់អ្នក និងបង្ខូចកេរ្តិ៍ឈ្មោះអ្នកទៅប្រធាន។ មុខ «កិច្ចសហការ» គឺជារបាំង។ ឆ្អឹងសខាងក្នុងគឺ «ការប្រកួតប្រជែងលាក់កំបាំង»។
+មិត្តរួមការងារម្នាក់យល់ស្របនឹងអ្នកគ្រប់ពេលនៅក្នុងកិច្ចប្រជុំ ញញឹម និងសរសើរអ្នកនៅចំពីមុខ — តែនៅក្រោយខ្នង គាត់និយាយដើម ដណ្តើមយកស្នាដៃការងាររបស់អ្នក និងនិយាយបង្ខូចកេរ្តិ៍ឈ្មោះអ្នកប្រាប់ប្រធាន។ មុខ «កិច្ចសហការ» គឺជារបាំង។ ឆ្អឹងសខាងក្នុងគឺ «ការប្រកួតប្រជែងលាក់កំបាំង»។
 
 A colleague agrees with everyone in meetings, smiles, and praises you to your face — but behind your back they gossip, take credit for your work, and damage your name to the boss. The "team player" face is the mask. The white bones inside are hidden rivalry.
 
@@ -162,7 +162,7 @@ A colleague agrees with everyone in meetings, smiles, and praises you to your fa
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 graph TD
-    A["🎭 ញញឹមសរសើរ ខាងមុខ<br/>និយាយដើម ខាងក្រោយ"] --> B["🤕 យកឥណទានការងារ<br/>និងបង្ខូចកេរ្តិ៍ឈ្មោះ"]
+    A["🎭 ញញឹមសរសើរ ខាងមុខ<br/>និយាយដើម ខាងក្រោយ"] --> B["🤕 ដណ្តើមយកស្នាដៃ<br/>និងបង្ខូចកេរ្តិ៍ឈ្មោះ"]
     B --> C["📉 ក្រុមការងារបាត់ទំនុកចិត្ត<br/>គ្នាទៅវិញទៅមក"]
     C --> D["❌ វប្បធម៌ការងារ Toxic<br/>និងបុគ្គលិកល្អៗលាឈប់"]
 
@@ -175,7 +175,7 @@ graph TD
 <a id="3-3"></a>
 ### ឧទាហរណ៍ទី ៣ — អ្នកនិយាយការពិត តែត្រូវគេស្តីបន្ទោស (The Truth-Teller Who Gets Punished)
 
-នេះជាផ្នែកដ៏ឆ្លាតវៃបំផុតនៃរឿង។ បុគ្គលិកម្នាក់ (ដូចស្តេចស្វា) មើលឃើញគម្រោងមួយនឹងបរាជ័យ ឬដៃគូជំនួញម្នាក់ជា «បិសាចឆ្អឹងស» ហើយនិយាយការពិតចេញ។ ប៉ុន្តែ ដោយសារអ្នកដទៃមើលឃើញតែ «មុខស្អាត» ខាងក្រៅ ពួកគេបែរជា **ដាក់ទោសអ្នកនិយាយការពិត** — ហៅគាត់ថា «អវិជ្ជមាន» ឬ «បង្កបញ្ហា» ហើយ «បណ្តេញ» គាត់ចេញពីក្រុម។
+នេះជាចំណុចដ៏ស៊ីជម្រៅបំផុតនៃរឿង។ បុគ្គលិកម្នាក់ (ដូចស្តេចស្វា) មើលឃើញគម្រោងមួយនឹងបរាជ័យ ឬដៃគូជំនួញម្នាក់ជា «បិសាចឆ្អឹងស» ហើយនិយាយការពិតចេញ។ ប៉ុន្តែ ដោយសារអ្នកដទៃមើលឃើញតែ «មុខស្អាត» ខាងក្រៅ ពួកគេបែរជា **ដាក់ទោសអ្នកនិយាយការពិត** — ហៅគាត់ថា «អវិជ្ជមាន» ឬ «បង្កបញ្ហា» ហើយ «បណ្តេញ» គាត់ចេញពីក្រុម។
 
 This is the most insightful part of the story. An employee (like the Monkey King) sees a project heading for failure, or sees that a business partner is a White Bone Demon — and says the truth out loud. But because everyone else sees only the *pretty mask*, they instead **punish the truth-teller** — calling them "negative" or "a troublemaker," and pushing them out of the group.
 
@@ -234,7 +234,7 @@ graph LR
 ជំហាននៃការអនុវត្ត (How to apply)៖
 
 1. **មើលឥរិយាបថ មិនមែនពាក្យ (Watch behavior, not words)៖** របាំងមុខបង្ហាញតែខាងមុខ។ ការពិតលេចចេញតាមរយៈ **ទង្វើ ដែលធ្វើម្តងហើយម្តងទៀតតាមពេលវេលា**។ *Masks show only the surface. Truth reveals itself through repeated behavior over time.*
-2. **កុំដាក់ទោសអ្នកនិយាយការពិត (Don't punish the truth-teller)៖** នៅពេលនរណាម្នាក់ប្រាប់អ្នកនូវរឿងមិនស្រួលស្ដាប់ កុំក្លាយជាព្រះតាំងដែលបណ្តេញស្តេចស្វា — សួរថា «តើគាត់ឃើញឆ្អឹងសអ្វីដែលខ្ញុំមើលមិនឃើញ?» *When someone tells you an uncomfortable truth, don't be the monk who banishes the monkey — ask what bones they see that you can't.*
+2. **កុំដាក់ទោសអ្នកនិយាយការពិត (Don't punish the truth-teller)៖** នៅពេលនរណាម្នាក់ប្រាប់អ្នកនូវការពិតដែលមិនពិរោះស្ដាប់ កុំក្លាយជាព្រះតាំងដែលបណ្តេញស្តេចស្វា — សួរថា «តើគាត់ឃើញឆ្អឹងសអ្វីដែលខ្ញុំមើលមិនឃើញ?» *When someone tells you an uncomfortable truth, don't be the monk who banishes the monkey — ask what bones they see that you can't.*
 3. **រក្សាមុខពិតរបស់ខ្លួនឯង (Keep your own true face)៖** ប្រែ ៧២ មុខបាន — តែកុំក្លាយជាបិសាចឆ្អឹងស។ ចូរធ្វើដូចស្តេចស្វា ដែលមិនដែលភ្លេចថាខ្លួនជាស្វា។ *Wear 72 faces — but never become the White Bone Demon. Be the monkey, who never forgot he was a monkey.*
 
 ---

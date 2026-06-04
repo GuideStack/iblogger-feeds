@@ -128,7 +128,7 @@ True Self                                          Lost Self
 
 ### ⚠️ ការប្រែក្រឡាដែលគ្រោះថ្នាក់ (Harmful shape-shifting)
 
-- អ្នកយល់ស្របនឹងគ្រប់គ្នាខាងមុខ តែនិយាយផ្ទុយខាងក្រោយ។ *You agree with everyone to their face, then say the opposite behind their backs.*
+- អ្នកយល់ស្របនឹងគ្រប់គ្នានៅចំពីមុខ តែនិយាយផ្ទុយពីនេះនៅក្រោយខ្នង។ *You agree with everyone to their face, then say the opposite behind their backs.*
 - អ្នកប្ដូរ «តម្លៃ» (values) របស់អ្នកទៅតាមអ្នកដែលមានអំណាចបំផុតក្នុងបន្ទប់។ *You change your **values** to match whoever holds the most power in the room.*
 - បន្ទាប់ពីប៉ុន្មានឆ្នាំ អ្នកលែងដឹងថា «តើខ្ញុំពិតៗជាអ្នកណា?» *After years, you no longer know: "Who am I, really?"*
 
