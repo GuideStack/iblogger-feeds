@@ -1,155 +1,179 @@
-# EU AI Act — Artificial Intelligence Regulation
+# EU AI Act (ច្បាប់ស្តីពីបញ្ញាសិប្បនិម្មិតសហភាពអឺរ៉ុប)៖ ក្របខ័ណ្ឌការងារគ្រប់គ្រង AI (EU AI Act — Artificial Intelligence Regulation)
 
-**Jurisdiction:** European Union  
-**In force:** 1 August 2024 (phased implementation: 2024–2027)  
-**Applies to:** Providers, deployers, importers, and distributors of AI systems in the EU market  
+**សមត្ថកិច្ចអនុវត្ត (Jurisdiction)៖** សហភាពអឺរ៉ុប (European Union)  
+**ថ្ងៃចូលជាធរមាន (In force)៖** ១ សីហា ២០២៤ (ការអនុវត្តជាដំណាក់កាល៖ ២០២៤-២០២៧) (1 August 2024, phased implementation: 2024–2027)  
+**សហគ្រាសជាប់កាតព្វកិច្ច (Applies to)៖** អ្នកផ្តល់សេវា, អ្នកដាក់ពង្រាយ, អ្នកនាំចូល, និងអ្នកចែកចាយប្រព័ន្ធ AI នៅក្នុងទីផ្សារសហភាពអឺរ៉ុប (Providers, deployers, importers, and distributors of AI systems in the EU market)  
 **Tags:** #compliance #ai-act #eu #artificial-intelligence #high-risk-ai
 
 ---
 
-## What It Is
+## 📌 មាតិកា (Table of Contents)
+- [សេចក្តីផ្តើម (What It Is)](#0)
+- [១. ការបែងចែកកម្រិតហានិភ័យ (Risk Classification)](#1)
+- [២. លក្ខខណ្ឌតម្រូវការអនុលោមភាពសម្រាប់ AI ហានិភ័យខ្ពស់ (High-Risk AI Compliance Requirements)](#2)
+- [៣. កាលបរិច្ឆេទអនុវត្ត (Timeline)](#3)
+- [៤. ទណ្ឌកម្ម និងការផាកពិន័យ (Penalties)](#4)
+- [៥. ផលប៉ះពាល់លើ AI ក្នុងវិស័យសុខាភិបាល (Impact on Healthcare AI)](#5)
+- [៦. អ្វីដែលត្រូវសាងសង់ (What to Build)](#6)
+- [Related](#7)
+
+---
+
+<a id="0"></a>
+## សេចក្តីផ្តើម (What It Is)
+
+EU AI Act គឺជាក្របខ័ណ្ឌច្បាប់ដ៏ទូលំទូលាយដំបូងគេបង្អស់លើពិភពលោកសម្រាប់គ្រប់គ្រងបញ្ញាសិប្បនិម្មិត (AI)។ ច្បាប់នេះប្រើប្រាស់ **វិធីសាស្ត្រផ្អែកលើហានិភ័យ (risk-based approach)** — ដោយបែងចែកប្រព័ន្ធ AI ទៅតាមកម្រិតហានិភ័យរបស់វា និងអនុវត្តលក្ខខណ្ឌតម្រូវទៅតាមសមាមាត្រហានិភ័យនោះ។ ច្បាប់នេះអនុវត្តចំពោះគ្រប់ប្រព័ន្ធ AI ទាំងអស់ដែលដាក់លក់នៅលើទីផ្សារសហភាពអឺរ៉ុប ឬប្រើប្រាស់ដោយពលរដ្ឋសហភាពអឺរ៉ុប ដោយមិនគិតថាអ្នកអភិវឌ្ឍន៍នោះស្ថិតនៅទីតាំងណាមួយឡើយ។
 
 The EU AI Act is the world's first comprehensive legal framework for artificial intelligence. It takes a **risk-based approach** — classifying AI systems by risk level and applying proportionate requirements. It applies to any AI system placed on the EU market or used by EU residents, regardless of where the developer is based.
 
 ---
 
-## Risk Classification
+<a id="1"></a>
+## ១. ការបែងចែកកម្រិតហានិភ័យ (Risk Classification)
 
-### Unacceptable Risk (Prohibited) — Article 5
+### ១.១ ហានិភ័យដែលមិនអាចទទួលយកបាន (ត្រូវបានហាមឃាត់) (Unacceptable Risk — Prohibited - Article 5)
+
+ប្រព័ន្ធ AI ប្រភេទទាំងនេះត្រូវ **ហាមឃាត់ដាច់ខាត** នៅក្នុងសហភាពអឺរ៉ុប៖
 
 These AI systems are **banned** in the EU:
 
 ```
-✗ Social scoring by governments or public authorities
-✗ Real-time biometric identification in public spaces (law enforcement — with narrow exceptions)
-✗ Subliminal manipulation exploiting human weaknesses
-✗ Exploitation of vulnerable groups (children, elderly, disability)
-✗ Emotion recognition in workplaces and educational institutions
-✗ Biometric categorisation inferring sensitive attributes (race, religion, political opinions, etc.)
-✗ Predictive policing based on profiling
+✗ ការវាយតម្លៃពិន្ទុសង្គម (Social scoring) ដោយរដ្ឋាភិបាល ឬអាជ្ញាធរសាធារណៈ
+✗ ការកំណត់អត្តសញ្ញាណជីវមាត្រតាមពេលវេលាជាក់ស្តែង (Real-time biometric ID) ក្នុងទីសាធារណៈ (លើកលែងតែករណីអនុវត្តច្បាប់កម្រិតចង្អៀតបំផុត)
+✗ ការបញ្ឆោត ឬបង្ខិតបង្ខំផ្នែកចិត្តសាស្ត្រដោយលាក់បាំង (Subliminal manipulation) ដើម្បីកេងប្រវ័ញ្ចចំណុចខ្សោយរបស់មនុស្ស
+✗ ការកេងប្រវ័ញ្ចលើក្រុមមនុស្សងាយរងគ្រោះ (កុមារ, មនុស្សចាស់, ជនពិការ)
+✗ ការស្គាល់អារម្មណ៍ (Emotion recognition) នៅក្នុងកន្លែងធ្វើការ និងគ្រឹះស្ថានអប់រំ
+✗ ការបែងចែកប្រភេទជីវមាត្រដើម្បីទាញសន្និដ្ឋានពីលក្ខណៈរសើប (ពូជសាសន៍, សាសនា, និន្នាការនយោបាយ។ល។)
+✗ ការប៉ាន់ស្មានសកម្មភាពប៉ូលីសទុកជាមុន (Predictive policing) ផ្អែកលើការចងក្រងប្រវត្តិរូប (Profiling)
 ```
 
-### High-Risk AI — Article 6 and Annex III
+### ១.២ AI ហានិភ័យខ្ពស់ (High-Risk AI - Article 6 and Annex III)
+
+ប្រព័ន្ធទាំងនេះទាមទារការអនុលោមតាមច្បាប់តឹងរ៉ឹងបំផុត មុនពេលអាចដាក់ឱ្យប្រើប្រាស់បាន៖
 
 These require the strictest compliance before deployment:
 
-| Sector | High-risk AI examples |
+| វិស័យ (Sector) | ឧទាហរណ៍ AI ហានិភ័យខ្ពស់ (High-Risk AI Examples) |
 |:-------|:---------------------|
-| Critical infrastructure | Safety components in energy, water, transport |
-| Education | AI for student assessment, admissions decisions |
-| Employment | CV screening, job matching, performance monitoring |
-| Essential services | Credit scoring, insurance risk assessment, benefits decisions |
-| Law enforcement | Risk assessment, evidence evaluation, crime prediction |
-| Migration/asylum | Document authenticity, risk assessment |
-| Justice | AI-assisted judicial decisions |
-| Healthcare | Medical devices classified as SaMD, AI for medical diagnosis |
-| Biometric identification | Remote biometric identification systems |
+| **ហេដ្ឋារចនាសម្ព័ន្ធសំខាន់ ៗ** | សមាសភាគសុវត្ថិភាពក្នុងវិស័យថាមពល, ទឹកស្អាត, ដឹកជញ្ជូន (Energy, water, transport safety components) |
+| **វិស័យអប់រំ** | AI សម្រាប់វាយតម្លៃលទ្ធផលសិក្សារបស់សិស្ស, សម្រេចចិត្តលើការទទួលសិស្សឱ្យចូលរៀន (Student assessment, admissions) |
+| **វិស័យការងារ** | ការស្កេនប្រវត្តិរូបសង្ខេប (CV screening), ការផ្គូផ្គងការងារ, តាមដានលទ្ធផលការងារ (Job matching, performance monitoring) |
+| **សេវាកម្មសំខាន់ ៗ** | វាយតម្លៃពិន្ទុឥណទាន (Credit scoring), វាយតម្លៃហានិភ័យធានារ៉ាប់រង, សម្រេចចិត្តផ្តល់អត្ថប្រយោជន៍ (Credit, insurance, benefits) |
+| **ការអនុវត្តច្បាប់** | ការវាយតម្លៃហានិភ័យជនល្មើស, វាយតម្លៃភស្តុតាង, ព្យាករណ៍បទល្មើស (Risk assessment, crime prediction) |
+| **អន្តោប្រវេសន៍/ភៀសខ្លួន** | ការផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវនៃឯកសារ, ការវាយតម្លៃហានិភ័យ (Document authenticity, risk assessment) |
+| **ប្រព័ន្ធយុត្តិធម៌** | AI ជួយក្នុងការសម្រេចចិត្តផ្នែកតុលាការ (AI-assisted judicial decisions) |
+| **សុខាភិបាល** | ឧបករណ៍វេជ្ជសាស្ត្រដែលចាត់ថ្នាក់ជា SaMD, AI សម្រាប់ធ្វើរោគវិនិច្ឆ័យវេជ្ជសាស្ត្រ (Medical devices SaMD, AI diagnosis) |
+| **ការកំណត់អត្តសញ្ញាណជីវមាត្រ** | ប្រព័ន្ធកំណត់អត្តសញ្ញាណជីវមាត្រពីចម្ងាយ (Remote biometric identification systems) |
 
-### General Purpose AI (GPAI) — Articles 51–56
+### ១.៣ AI សម្រាប់គោលបំណងទូទៅ (General Purpose AI — GPAI - Articles 51–56)
 
-Foundation models (LLMs like GPT-4, Gemini, Claude) and GPAI that power other AI systems:
+ម៉ូដែលគ្រឹះ (Foundation models ដូចជា LLMs GPT-4, Gemini, Claude) និងប្រព័ន្ធ GPAI ដែលផ្តល់ថាមពលដល់ AI ផ្សេងទៀត៖
 
-| Type | Obligations |
+| ប្រភេទ (Type) | កាតព្វកិច្ច (Obligations) |
 |:-----|:------------|
-| All GPAI | Technical documentation, copyright compliance, training data transparency |
-| GPAI with systemic risk (>10^25 FLOPs training compute) | Adversarial testing, incident reporting to Commission, cybersecurity measures |
+| **GPAI ទាំងអស់ (All GPAI)** | ចងក្រងឯកសារបច្ចេកទេស, អនុលោមតាមច្បាប់រក្សាសិទ្ធិ (Copyright), បង្ហាញតម្លាភាពនៃទិន្នន័យហ្វឹកហាត់ (Technical documentation, copyright compliance, training transparency) |
+| **GPAI ដែលមានហានិភ័យប្រព័ន្ធ (Systemic Risk)** | ធ្វើតេស្តសាកល្បងបែបវាយប្រហារ (Adversarial testing), រាយការណ៍ឧប្បត្តិហេតុទៅកាន់គណៈកម្មការ, អនុវត្តវិធានការសន្តិសុខបច្ចេកវិទ្យា (Adversarial testing, incident reporting, cybersecurity) |
 
-### Limited Risk
+*សម្គាល់៖ ម៉ូដែល GPAI ដែលមានហានិភ័យប្រព័ន្ធ គឺជាម៉ូដែលដែលប្រើប្រាស់កម្លាំងគណនាសម្រាប់ហ្វឹកហាត់លើសពី `10^25 FLOPs`*
 
-- Chatbots and AI that interacts with humans → must disclose it is AI
-- Deepfakes → must be labelled as artificially generated
-- Emotion recognition systems → disclose to users
+### ១.៤ ហានិភ័យមានកម្រិត (Limited Risk)
+* ឧបករណ៍សន្ទនាស្វ័យប្រវត្ត (Chatbots) និង AI ដែលប្រាស្រ័យទាក់ទងជាមួយមនុស្ស ➔ ត្រូវតែប្រាប់ឱ្យអ្នកប្រើប្រាស់ដឹងថាជា AI។
+* ព័ត៌មានបន្លំធ្វើដូចពិត (Deepfakes) ➔ ត្រូវតែបិទស្លាកសញ្ញាបញ្ជាក់ថាបង្កើតឡើងដោយបច្ចេកវិទ្យា AI។
+* ប្រព័ន្ធស្គាល់អារម្មណ៍ (Emotion recognition) ➔ ត្រូវតែលាតត្រដាងព័ត៌មានដល់អ្នកប្រើប្រាស់។
 
-### Minimal Risk (No Obligations)
-
-AI-powered spam filters, video games, AI-powered recommendation systems with no significant impact.
-
----
-
-## High-Risk AI — Compliance Requirements
-
-If your AI system is high-risk, before placing it on the market you must:
-
-```
-□ Risk management system — identify, analyse, evaluate risks
-□ Data governance — training, validation, testing data quality
-□ Technical documentation — design, development, testing records
-□ Record keeping — automatic logging of system operation
-□ Transparency — users informed they are interacting with AI
-□ Human oversight — ability for humans to intervene and override
-□ Accuracy, robustness, cybersecurity — validated performance metrics
-□ Conformity assessment — self-assessment or third-party audit
-□ EU declaration of conformity
-□ CE marking (for product-related AI)
-□ Registration in EU database (for deployers of high-risk AI)
-□ Post-market monitoring — ongoing performance tracking
-□ Incident reporting — serious incidents to market surveillance authority
-```
-
-### Fundamental Rights Impact Assessment (FRIA)
-
-Deployers of high-risk AI in public administration, employment, essential services, and law enforcement must conduct a FRIA — assessing impact on fundamental rights.
+### ១.៥ ហានិភ័យតិចតួចបំផុត (Minimal Risk — គ្មានកាតព្វកិច្ចច្បាប់)
+AI ត្រងអ៊ីមែលឥតប្រយោជន៍ (Spam filters), ហ្គេមវីដេអូ, ប្រព័ន្ធណែនាំផលិតផល (Recommendation systems) ដែលគ្មានផលប៉ះពាល់ធ្ងន់ធ្ងរដល់សិទ្ធិមនុស្ស។
 
 ---
 
-## Timeline
+<a id="2"></a>
+## ២. លក្ខខណ្ឌតម្រូវការអនុលោមភាពសម្រាប់ AI ហានិភ័យខ្ពស់ (High-Risk AI Compliance Requirements)
 
-| Date | What comes into force |
+ប្រសិនបើប្រព័ន្ធ AI របស់អ្នកស្ថិតក្នុងក្រុមហានិភ័យខ្ពស់ មុនពេលដាក់លក់លើទីផ្សារ អ្នកត្រូវតែ៖
+
+```
+□ បង្កើតប្រព័ន្ធគ្រប់គ្រងហានិភ័យ — កំណត់, វិភាគ និងវាយតម្លៃហានិភ័យ (Risk management system)
+□ អភិបាលកិច្ចទិន្នន័យ — ធានាគុណភាពទិន្នន័យសម្រាប់ការហ្វឹកហាត់, ការផ្ទៀងផ្ទាត់ និងការធ្វើតេស្ត (Data governance)
+□ ចងក្រងឯកសារបច្ចេកទេស — កត់ត្រាការរចនា, ការអភិវឌ្ឍ និងកំណត់ត្រាធ្វើតេស្ត (Technical documentation)
+□ ការកត់ត្រាទុក — រក្សាកំណត់ត្រា (Logging) ប្រតិបត្តិការប្រព័ន្ធដោយស្វ័យប្រវត្តិ (Record keeping)
+□ តម្លាភាព — ជូនដំណឹងដល់អ្នកប្រើប្រាស់ថាពួកគេកំពុងប្រាស្រ័យទាក់ទងជាមួយ AI (Transparency)
+□ ការត្រួតពិនិត្យដោយមនុស្ស — ផ្តល់លទ្ធភាពឱ្យមនុស្សចូលមកអន្តរាគមន៍ ឬបញ្ឈប់ដំណើរការបាន (Human oversight)
+□ ភាពត្រឹមត្រូវ, ភាពរឹងមាំ និងសន្តិសុខបច្ចេកវិទ្យា — ផ្ទៀងផ្ទាត់សមត្ថភាពលទ្ធផលការងារ (Accuracy & cybersecurity)
+□ ការវាយតម្លៃការអនុលោមភាព — វាយតម្លៃដោយខ្លួនឯង ឬតាមរយៈសវនកម្មភាគីទីបី (Conformity assessment)
+□ ធ្វើសេចក្តីប្រកាសអនុលោមភាពសហភាពអឺរ៉ុប (EU declaration of conformity)
+□ ប្រើប្រាស់ស្លាកសញ្ញា CE (CE marking) សម្រាប់ផលិតផលដែលពាក់ព័ន្ធនឹង AI
+□ ចុះឈ្មោះក្នុងមូលដ្ឋានទិន្នន័យសហភាពអឺរ៉ុប (EU database registration)
+□ ការតាមដានក្រោយពេលដាក់លក់លើទីផ្សារ — តាមដានលទ្ធផលការងារជាបន្តបន្ទាប់ (Post-market monitoring)
+□ រាយការណ៍ឧប្បត្តិហេតុ — រាយការណ៍ឧប្បត្តិហេតុធ្ងន់ធ្ងរទៅកាន់អាជ្ញាធរត្រួតពិនិត្យទីផ្សារ (Incident reporting)
+```
+
+### ការវាយតម្លៃផលប៉ះពាល់លើសិទ្ធិជាមូលដ្ឋាន (Fundamental Rights Impact Assessment — FRIA)
+អ្នកដាក់ពង្រាយប្រព័ន្ធ AI ហានិភ័យខ្ពស់នៅក្នុងរដ្ឋបាលសាធារណៈ, វិស័យការងារ, សេវាកម្មសំខាន់ ៗ, និងការអនុវត្តច្បាប់ ត្រូវតែធ្វើការវាយតម្លៃ FRIA ដើម្បីពិនិត្យមើលផលប៉ះពាល់លើសិទ្ធិជាមូលដ្ឋានរបស់ពលរដ្ឋ។
+
+---
+
+<a id="3"></a>
+## ៣. កាលបរិច្ឆេទអនុវត្ត (Timeline)
+
+| កាលបរិច្ឆេទ (Date) | អ្វីដែលចាប់ផ្តើមចូលជាធរមាន (What Comes into Force) |
 |:-----|:----------------------|
-| **February 2025** | Prohibited practices ban (unacceptable risk) |
-| **August 2025** | GPAI obligations, governance rules |
-| **August 2026** | High-risk AI systems (Annex III) — most obligations |
-| **August 2027** | High-risk AI in products (medical devices, machinery, vehicles) |
+| **កុម្ភៈ ២០២៥** | ហាមឃាត់ការអនុវត្ត AI ដែលមានហានិភ័យមិនអាចទទួលយកបាន (Prohibited practices ban) |
+| **សីហា ២០២៥** | កាតព្វកិច្ចសម្រាប់អ្នកផ្តល់សេវា GPAI និងច្បាប់អភិបាលកិច្ច (GPAI obligations) |
+| **សីហា ២០២៦** | ប្រព័ន្ធ AI ហានិភ័យខ្ពស់ (Annex III) — ចាប់ផ្តើមអនុវត្តកាតព្វកិច្ចភាគច្រើន (High-risk AI obligations) |
+| **សីហា ២០២៧** | AI ហានិភ័យខ្ពស់នៅក្នុងផលិតផល (ឧបករណ៍វេជ្ជសាស្ត្រ, គ្រឿងម៉ាស៊ីន, យានយន្ត) |
 
 ---
 
-## Penalties
+<a id="4"></a>
+## ៤. ទណ្ឌកម្ម និងការផាកពិន័យ (Penalties)
 
-| Violation | Maximum |
+| ករណីរំលោភច្បាប់ (Violation) | ការផាកពិន័យអតិបរមា (Maximum Fine) |
 |:----------|:--------|
-| Prohibited AI practices | €35M or 7% of global annual turnover |
-| High-risk AI non-compliance | €15M or 3% of global annual turnover |
-| Providing incorrect information | €7.5M or 1.5% of global annual turnover |
-| SMEs and start-ups | Lower of the above or fixed amount |
+| **ប្រើប្រាស់ AI ហាមឃាត់ (Prohibited AI)** | ៣៥ លានអឺរ៉ូ ឬ ៧% នៃចំណូលសកលប្រចាំឆ្នាំ (យកមួយណាខ្ពស់ជាង) (€35M or 7%) |
+| **ការមិនបំពេញតាមលក្ខខណ្ឌ AI ហានិភ័យខ្ពស់** | ១៥ លានអឺរ៉ូ ឬ ៣% នៃចំណូលសកលប្រចាំឆ្នាំ (€15M or 3%) |
+| **ការផ្តល់ព័ត៌មានមិនត្រឹមត្រូវដល់អាជ្ញាធរ** | ៧.៥ លានអឺរ៉ូ ឬ ១.៥% នៃចំណូលសកលប្រចាំឆ្នាំ (€7.5M or 1.5%) |
+| **សហគ្រាសធុនតូច និងមធ្យម (SMEs) / Start-ups** | យកចំនួនដែលទាបជាងរវាងភាគរយខាងលើ ឬកម្រិតប្រាក់ផាកពិន័យជាក់លាក់ |
 
 ---
 
-## Impact on Healthcare AI
+<a id="5"></a>
+## ៥. ផលប៉ះពាល់លើ AI ក្នុងវិស័យសុខាភិបាល (Impact on Healthcare AI)
 
-Healthcare AI is a primary concern:
+AI ក្នុងវិស័យសុខាភិបាលគឺជាចំណុចយកចិត្តទុកដាក់ចម្បង៖
+* **AI សម្រាប់ធ្វើរោគវិនិច្ឆ័យ (Diagnostic AI)៖** (ដូចជា ការរកមើលជំងឺមហារីក, ការអាន ECGs) ➔ ចាត់ចូលជា **ហានិភ័យខ្ពស់** ➔ ស្ថិតក្រោម Annex III + ច្បាប់ឧបករណ៍វេជ្ជសាស្ត្រ (MDR)។
+* **ប្រព័ន្ធគាំទ្រការសម្រេចចិត្តព្យាបាល (Clinical decision support)៖** ដែលអាចបង្កគ្រោះថ្នាក់ដល់អ្នកជំងឺ ➔ ចាត់ចូលជា **ហានិភ័យខ្ពស់**។
+* **AI ផ្នែករដ្ឋបាល (Administrative AI)៖** (ការកំណត់កាលវិភាគណាត់ជួប, ការចេញវិក្កយបត្រ) ➔ ហានិភ័យទាប។
+* **AI សម្រាប់ការស្រាវជ្រាវ (AI for research)៖** (ជាមួយវិធានការការពារសមស្រប) ➔ ហានិភ័យទាប។
 
-- **Diagnostic AI** (AI detecting cancer, reading ECGs) → High-risk → Annex III + Medical Device Regulation
-- **Clinical decision support** that could harm patients → High-risk
-- **Administrative AI** (appointment scheduling, billing) → Lower risk
-- **AI for research** (with appropriate safeguards) → Generally lower risk
-
-Healthcare AI must comply with **both AI Act AND MDR/IVDR** — the stricter requirements apply.
+AI ក្នុងវិស័យសុខាភិបាលត្រូវតែអនុលោមតាម **ទាំងច្បាប់ AI Act ផង និងច្បាប់ MDR/IVDR ផង** — ដោយត្រូវអនុវត្តតាមលក្ខខណ្ឌណាដែលតឹងរ៉ឹងជាងគេ។
 
 ---
 
-## What to Build
+<a id="6"></a>
+## ៦. អ្វីដែលត្រូវសាងសង់ (What to Build)
 
 ```
-For a platform deploying AI that may be high-risk:
+បញ្ជីរៀបចំប្រព័ន្ធការពារទិន្នន័យ AI Act សម្រាប់វេទិកាដែលប្រើប្រាស់ AI៖
 
-□ Classify your AI systems by risk category
-□ For high-risk: implement full compliance framework above
-□ For GPAI use: understand obligations of GPAI provider you use
-□ AI transparency: disclose AI interaction to users
-□ Human oversight: implement override mechanisms for consequential decisions
-□ Document training data, model design, testing procedures
-□ Post-market monitoring: track performance, drift, incidents
-□ Register in EU database (deployer obligation for high-risk)
-□ Incident reporting mechanism
-□ Legal review: is your AI a medical device? → MDR also applies
-□ Fundamental rights impact assessment (FRIA) if required
+□ វាយតម្លៃ និងចាត់ថ្នាក់ប្រព័ន្ធ AI ទៅតាមប្រភេទហានិភ័យ (Classify AI risk category)
+□ សម្រាប់ AI ហានិភ័យខ្ពស់៖ អនុវត្តក្របខ័ណ្ឌអនុលោមភាពពេញលេញខាងលើ
+□ ករណីប្រើប្រាស់ GPAI៖ ស្វែងយល់ពីកាតព្វកិច្ចរបស់អ្នកផ្តល់សេវា GPAI ដែលអ្នកកំពុងប្រើ
+□ តម្លាភាព AI៖ ប្រាប់អ្នកប្រើប្រាស់ឱ្យដឹងនៅពេលពួកគេប្រាស្រ័យទាក់ទងជាមួយ AI
+□ ការត្រួតពិនិត្យដោយមនុស្ស៖ អនុវត្តប្រព័ន្ធបញ្ឈប់ (Override) សម្រាប់ការសម្រេចចិត្តសំខាន់ៗ
+□ កត់ត្រាឯកសារទិន្នន័យហ្វឹកហាត់, ការរចនាម៉ូដែល, និងនីតិវិធីធ្វើតេស្ត
+□ តាមដានក្រោយពេលដាក់លក់៖ តាមដានលទ្ធផលការងារ, ទិន្នន័យលំអៀង (drift), និងឧប្បត្តិហេតុ
+□ ចុះឈ្មោះក្នុងមូលដ្ឋានទិន្នន័យសហភាពអឺរ៉ុប (កាតព្វកិច្ចអ្នកដាក់ពង្រាយសម្រាប់ AI ហានិភ័យខ្ពស់)
+□ បង្កើតយន្តការសម្រាប់រាយការណ៍ឧប្បត្តិហេតុ
+□ ត្រួតពិនិត្យផ្នែកច្បាប់៖ តើ AI របស់អ្នកជាឧបករណ៍វេជ្ជសាស្ត្រដែរឬទេ? ➔ ត្រូវអនុវត្តច្បាប់ MDR បន្ថែម
+□ ធ្វើការវាយតម្លៃផលប៉ះពាល់លើសិទ្ធិជាមូលដ្ឋាន (FRIA) ប្រសិនបើតម្រូវជាដាច់ខាត
 ```
 
 ---
 
+<a id="7"></a>
 ## Related
 
-- [Medical Device Regulation](../healthcare/04-medical-device-regulation.md) — AI as a medical device
-- [GDPR](../data-privacy/01-gdpr.md) — AI processing personal data
-- [NIS2](./01-nis2.md) — cybersecurity requirements for AI systems
+- [Medical Device Regulation](../healthcare/04-medical-device-regulation.md) — AI ក្នុងនាមជាឧបករណ៍វេជ្ជសាស្ត្រ
+- [GDPR](../data-privacy/01-gdpr.md) — AI និងការដំណើរការទិន្នន័យផ្ទាល់ខ្លួន
+- [NIS2](./01-nis2.md) — លក្ខខណ្ឌតម្រូវសន្តិសុខបច្ចេកវិទ្យាសម្រាប់ប្រព័ន្ធ AI
 - [Regional: Europe Overview](../regional/07-europe-overview.md)
