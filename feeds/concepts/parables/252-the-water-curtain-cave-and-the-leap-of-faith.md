@@ -80,7 +80,7 @@ Suddenly, the Stone Monkey (Wukong) cried, "I will go!" He squeezed his eyes shu
 
 This legend reflects human behavior when facing ambiguity:
 
-- **ឥទ្ធិពលរបស់អ្នកឈរមើល (Bystander Effect) & ភាពអសកម្មជាក្រុម** — ហ្វូងស្វារង់ចាំគ្នាទៅវិញទៅមក ដោយសង្ឃឹមថានរណាម្នាក់ផ្សេងទៀតនឹងសាកល្បងមុន។ នៅក្នុងការងារ និងជីវិត យើងច្រើនតែរង់ចាំអ្នកដទៃផ្ដួចផ្ដើមដោះស្រាយបញ្ហាធំៗ។
+- **ឥទ្ធិពលរបស់អ្នកឈរមើល (Bystander Effect) & ភាពអសកម្មជាក្រុម** — ហ្វូងស្វារង់ចាំគ្នាទៅវិញទៅមក ដោយសង្ឃឹមថានរណាម្នាក់ផ្សេងទៀតនឹងសាកល្បងមុន។ នៅក្នុងការងារ និងជីវិត យើងច្រើនតែរង់ចាំអ្នកដទៃផ្ដួចផ្ដើមដោះស្រាយបញ្ហាធំ ៗ ។
 - **ការភាន់ច្រឡំហានិភ័យ (Risk Miscalculation)** — ហ្វូងស្វាស្មានថាការលោតកាត់ទឹកធ្លាក់ នឹងនាំទៅរកសេចក្ដីស្លាប់។ ពួកគេគិតតែពីហានិភ័យនៃការធ្វើសកម្មភាព (risk of action) ប៉ុន្តែភ្លេចគិតពីហានិភ័យនៃការមិនធ្វើសកម្មភាព (risk of inaction) ដូចជារស់នៅក្រោមហាលខ្យល់ ហាលភ្លៀង និងគ្រោះថ្នាក់ពីសត្វសាហាវ។
 - **ភាពខុសគ្នារវាងការផ្សងព្រេងខ្វះការគិត និងហានិភ័យគណនា (Recklessness vs. Calculated Risk)** — អ៊ូឃុងមិនមែនលោតទៅស្លាប់ដោយគ្មានហេតុផលទេ។ គាត់បានសង្កេត វាយតម្លៃចម្ងាយ និងប្រើប្រាស់កម្លាំងកាយរបស់គាត់ដើម្បីលោត។ ហានិភ័យគឺខ្ពស់ តែរង្វាន់ (reward) គឺការសង្គ្រោះហ្វូងស្វា និងការក្លាយជាអ្នកដឹកនាំ។
 
@@ -98,7 +98,7 @@ This legend reflects human behavior when facing ambiguity:
 <a id="3-1"></a>
 ### ឧទាហរណ៍ទី ១ — បច្ចេកទេស៖ ការដោះស្រាយបញ្ហាប្រព័ន្ធចាស់ ដែលគ្មាននរណាហ៊ានប៉ះ (Addressing Legacy Systems No One Dares to Touch)
 
-នៅក្នុងក្រុមហ៊ុនបច្ចេកវិទ្យា ច្រើនតែមានកូដចាស់ៗ (legacy system) ដ៏ស្មុគស្មាញ និងគ្មានឯកសារយោង ដែលគ្រប់គ្នាចាត់ទុកដូចជា «វាំងននទឹកហូរខ្លាំង» — គ្មាននរណាហ៊ានប៉ះព្រោះខ្លាចធ្វើឱ្យប្រព័ន្ធទាំងមូលគាំង។ វិស្វករទូទៅជ្រើសរើសរង់ចាំ ឬបង្វែរដាន។ ប៉ុន្តែ វិស្វករឆ្នើម (អ្នកលោតមុន) ហ៊ានសិក្សា ធ្វើតេស្ត និងចាប់ផ្ដើម refactor វាដោយប្រើប្រព័ន្ធការពារត្រឹមត្រូវ។ នេះជាការលោតដែលនាំទៅរកការកែលម្អប្រព័ន្ធទាំងមូល និងការកើនឡើងកេរ្តិ៍ឈ្មោះក្នុងក្រុម។
+នៅក្នុងក្រុមហ៊ុនបច្ចេកវិទ្យា ច្រើនតែមានកូដចាស់ ៗ (legacy system) ដ៏ស្មុគស្មាញ និងគ្មានឯកសារយោង ដែលគ្រប់គ្នាចាត់ទុកដូចជា «វាំងននទឹកហូរខ្លាំង» — គ្មាននរណាហ៊ានប៉ះព្រោះខ្លាចធ្វើឱ្យប្រព័ន្ធទាំងមូលគាំង។ វិស្វករទូទៅជ្រើសរើសរង់ចាំ ឬបង្វែរដាន។ ប៉ុន្តែ វិស្វករឆ្នើម (អ្នកលោតមុន) ហ៊ានសិក្សា ធ្វើតេស្ត និងចាប់ផ្ដើម refactor វាដោយប្រើប្រព័ន្ធការពារត្រឹមត្រូវ។ នេះជាការលោតដែលនាំទៅរកការកែលម្អប្រព័ន្ធទាំងមូល និងការកើនឡើងកេរ្តិ៍ឈ្មោះក្នុងក្រុម។
 
 In tech companies, there are often complex, undocumented legacy systems that everyone treats like a "roaring waterfall"—no one dares touch it for fear of breaking the build. Average engineers avoid it. But a standout engineer (the leaper) dives in, analyzes, and starts refactoring it with proper safety nets. This calculated leap leads to massive system improvement and establishes their engineering leadership.
 
@@ -166,7 +166,7 @@ graph LR
 
 ជំហាននៃការអនុវត្ត (How to apply):
 
-1. **គណនាតម្លៃនៃភាពស្ងៀមស្ងាត់ (Calculate the cost of inaction)៖** សួរខ្លួនឯងថា «បើខ្ញុំមិនធ្វើអ្វីសោះ តើនឹងមានអ្វីកើតឡើងក្នុងរយៈពេល ៦ ខែខាងមុខ?» ជារឿយៗ ភាពអសកម្មមានតម្លៃថ្លៃជាងការសាកល្បងហើយបរាជ័យ។ *Ask yourself: "If I do nothing, what is the cost over the next 6 months?" Inaction often costs more than testing and failing.*
+1. **គណនាតម្លៃនៃភាពស្ងៀមស្ងាត់ (Calculate the cost of inaction)៖** សួរខ្លួនឯងថា «បើខ្ញុំមិនធ្វើអ្វីសោះ តើនឹងមានអ្វីកើតឡើងក្នុងរយៈពេល ៦ ខែខាងមុខ?» ជារឿយ ៗ ភាពអសកម្មមានតម្លៃថ្លៃជាងការសាកល្បងហើយបរាជ័យ។ *Ask yourself: "If I do nothing, what is the cost over the next 6 months?" Inaction often costs more than testing and failing.*
 2. **សាងសង់ខ្សែការពារ ឬខ្សែធានាសុវត្ថិភាព (Build a safety net)៖** កុំលោតដោយគ្មានការត្រៀមខ្លួន។ នៅពេលសាកល្បងកូដថ្មី ត្រូវប្រាកដថាមាន test suites ឬ backup; ពេលសាកល្បងទីផ្សារថ្មី ត្រូវកម្រិតវិសាលភាពថវិកា។ *Do not leap blindly. Set up rollbacks, test suites, or budgets to limit the downside of your experiment.*
 3. **សម្រេចចិត្តលោតដោយគ្មានការស្ទាក់ស្ទើរ (Commit to the leap)៖** នៅពេលសម្រេចចិត្តធ្វើសកម្មភាព ចូរធ្វើវាឱ្យអស់ពីចិត្ត។ ការស្ទាក់ស្ទើរនៅពាក់កណ្ដាលផ្លូវ គឺជាមូលហេតុចម្បងនៃការធ្លាក់ចុះ។ *Once you decide to act, commit fully. Half-hearted execution is the primary cause of falling short.*
 4. **បើកផ្លូវ និងនាំអ្នកដទៃតាមក្រោយ (Document and guide others)៖** ដូចស្តេចស្វាដែលរកឃើញល្អាងហើយត្រឡប់មកនាំហ្វូងស្វា ក្រោយពេលអ្នកដោះស្រាយបញ្ហាបាន ចូរចែករំលែកឯកសារ និងជួយអ្នកដទៃឱ្យដើរតាម។ *Like Wukong returning to guide the troop, once you cross the barrier, document your path and help others transition.*

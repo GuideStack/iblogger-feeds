@@ -26,7 +26,7 @@
 <a id="0"></a>
 ## អន្ទាក់ផ្លូវចិត្ត (The Trap)
 
-នៅពេលអ្នកទទួលបានទូរស័ព្ទ អ៊ីមែល ឬសំណើប្រព័ន្ធដែលហៅឈ្មោះរបស់អ្នកចំៗ តើអ្នកសម្រេចចិត្តឆ្លើយតប និងជឿជាក់លើវាភ្លាមៗដែរឬទេ? នៅក្នុងពិភពព័ត៌មានវិទ្យា និងចិត្តសាស្ត្រ ការឆ្លើយតបដោយងងឹតងងល់ទៅនឹងការសួរនាំ គឺជាចំណុចខ្សោយដ៏ធំបំផុត ដែលនាំទៅរកការបាត់បង់សុវត្ថិភាព ឬការធ្លាក់ចូលក្នុងអន្ទាក់របស់គូប្រជែង។
+នៅពេលអ្នកទទួលបានទូរស័ព្ទ អ៊ីមែល ឬសំណើប្រព័ន្ធដែលហៅឈ្មោះរបស់អ្នកចំ ៗ តើអ្នកសម្រេចចិត្តឆ្លើយតប និងជឿជាក់លើវាភ្លាម ៗ ដែរឬទេ? នៅក្នុងពិភពព័ត៌មានវិទ្យា និងចិត្តសាស្ត្រ ការឆ្លើយតបដោយងងឹតងងល់ទៅនឹងការសួរនាំ គឺជាចំណុចខ្សោយដ៏ធំបំផុត ដែលនាំទៅរកការបាត់បង់សុវត្ថិភាព ឬការធ្លាក់ចូលក្នុងអន្ទាក់របស់គូប្រជែង។
 
 When you receive a phone call, an email, or a system request that addresses you by name, do you immediately trust it and respond? In information technology and psychology, blindly responding to unsolicited queries is a primary vulnerability that leads to security breaches or falling into an opponent's trap.
 
@@ -60,7 +60,7 @@ graph TD
 <a id="1"></a>
 ## ១. រឿងព្រេង៖ ឃ្លោកពណ៌ស្វាយមាស និងការហៅឈ្មោះ (The Legend: The Purple-Gold Gourd and calling the Name)
 
-នៅក្នុងដំណើរទៅទិសខាងលិច ព្រះថាងសានចាង និងសិស្ស បានជួបនឹងបិសាចពីរនាក់គឺ ស្នែងមាស (Golden Horn) និងស្នែងប្រាក់ (Silver Horn) នៅភ្នំព័ទ្ធជុំវិញដោយផ្កាឈូក។ បិសាចទាំងនេះមានកំណប់ទិព្វមួយគឺ ឃ្លោកស្វាយមាស (Purple-Gold Gourd) ដែលឡៅស៊ី (Lao Tzu) បានប្រើសម្រាប់ដាក់ថ្នាំទិព្វ។ ឃ្លោកនេះមានសមត្ថភាពអស្ចារ្យ៖ ឱ្យតែហៅឈ្មោះនរណាម្នាក់ ហើយអ្នកនោះឆ្លើយតប (ទោះបីជាឆ្លើយ «បាទ» ឬ «ចា៎» ក៏ដោយ) ពួកគេនឹងត្រូវស្រូបចូលក្នុងឃ្លោកភ្លាមៗ ហើយរលាយខ្លួនទៅជាទឹកក្នុងរយៈពេលបីម៉ោង។
+នៅក្នុងដំណើរទៅទិសខាងលិច ព្រះថាងសានចាង និងសិស្ស បានជួបនឹងបិសាចពីរនាក់គឺ ស្នែងមាស (Golden Horn) និងស្នែងប្រាក់ (Silver Horn) នៅភ្នំព័ទ្ធជុំវិញដោយផ្កាឈូក។ បិសាចទាំងនេះមានកំណប់ទិព្វមួយគឺ ឃ្លោកស្វាយមាស (Purple-Gold Gourd) ដែលឡៅស៊ី (Lao Tzu) បានប្រើសម្រាប់ដាក់ថ្នាំទិព្វ។ ឃ្លោកនេះមានសមត្ថភាពអស្ចារ្យ៖ ឱ្យតែហៅឈ្មោះនរណាម្នាក់ ហើយអ្នកនោះឆ្លើយតប (ទោះបីជាឆ្លើយ «បាទ» ឬ «ចា៎» ក៏ដោយ) ពួកគេនឹងត្រូវស្រូបចូលក្នុងឃ្លោកភ្លាម ៗ ហើយរលាយខ្លួនទៅជាទឹកក្នុងរយៈពេលបីម៉ោង។
 
 In *Journey to the West*, the pilgrims encountered two demons, Golden Horn and Silver Horn, at the Lotus Flower Cave. The demons possessed a celestial treasure: the Purple-Gold Gourd, originally used by Lao Tzu to store pills of immortality. The gourd had a unique mechanism: if held up and a name was called, and that person responded (even with a simple "Yes" or "What?"), they would be instantly sucked inside and melted into broth within three hours.
 
@@ -68,7 +68,7 @@ In *Journey to the West*, the pilgrims encountered two demons, Golden Horn and S
 
 Sun Wukong learned of this danger, so when the demons called "Sun Wukong," he remained silent. Later, he shape-shifted and assumed an alias, "Zhe Wukong," to trick the demons.
 
-ទោះជាយ៉ាងណា បិសាចបានលើកឃ្លោកឡើង ហើយហៅឈ្មោះក្លែងក្លាយរបស់គាត់ «ស៊ុនស៊ិងជឺ!»។ ដោយគិតថាឈ្មោះនេះជាឈ្មោះក្លែងក្លាយ គ្មានជាប់ទាក់ទងនឹងអត្តសញ្ញាណពិតរបស់ខ្លួន និងមិនអាចឱ្យឃ្លោកដំណើរការបាន អ៊ូឃុងបានឆ្លើយតបយ៉ាងខ្លាំងថា «អញនៅទីនេះ!»។ ភ្លាមៗនោះ ឃ្លោកទិព្វបានស្រូបយកគាត់ចូលទៅខាងក្នុងភ្លាមៗ។ ឃ្លោកមិនខ្វល់ថាឈ្មោះនោះពិត ឬក្លែងក្លាយឡើយ វាខ្វល់តែការឆ្លើយតប (any response) របស់អ្នកដែលត្រូវបានហៅប៉ុណ្ណោះ។
+ទោះជាយ៉ាងណា បិសាចបានលើកឃ្លោកឡើង ហើយហៅឈ្មោះក្លែងក្លាយរបស់គាត់ «ស៊ុនស៊ិងជឺ!»។ ដោយគិតថាឈ្មោះនេះជាឈ្មោះក្លែងក្លាយ គ្មានជាប់ទាក់ទងនឹងអត្តសញ្ញាណពិតរបស់ខ្លួន និងមិនអាចឱ្យឃ្លោកដំណើរការបាន អ៊ូឃុងបានឆ្លើយតបយ៉ាងខ្លាំងថា «អញនៅទីនេះ!»។ ភ្លាម ៗ នោះ ឃ្លោកទិព្វបានស្រូបយកគាត់ចូលទៅខាងក្នុងភ្លាម ៗ ។ ឃ្លោកមិនខ្វល់ថាឈ្មោះនោះពិត ឬក្លែងក្លាយឡើយ វាខ្វល់តែការឆ្លើយតប (any response) របស់អ្នកដែលត្រូវបានហៅប៉ុណ្ណោះ។
 
 However, the demon held up the gourd and called, "Zhe Wukong!" Thinking that the alias held no connection to his true identity and therefore the gourd would fail, Wukong boldly answered, "Here I am!" Instantly, the gourd sucked him inside. The gourd did not care if the name was real or fake; it only required a *response* from the target.
 
@@ -99,7 +99,7 @@ The magic gourd represents critical vulnerabilities in both tech systems and hum
 <a id="3-1"></a>
 ### ឧទាហរណ៍ទី ១ — បច្ចេកទេស៖ ការវាយប្រហារបែប Phishing និងការបោកប្រាស់អត្តសញ្ញាណ (Phishing Attacks and Social Engineering)
 
-បុគ្គលិកផ្នែកហិរញ្ញវត្ថុម្នាក់ ទទួលបានអ៊ីមែលពីគណនីដែលមើលទៅដូចជាគណនីរបស់នាយកប្រតិបត្តិ (CEO) របស់ក្រុមហ៊ុន ដោយសរសេរថា៖ «សួស្ដី [ឈ្មោះបុគ្គលិក], ខ្ញុំកំពុងប្រជុំបន្ទាន់។ ចូរផ្ទេរប្រាក់ទៅដៃគូអាជីវកម្មនេះជាបន្ទាន់»។ ដោយសារតែឃើញគេហៅឈ្មោះខ្លួនចំៗ បុគ្គលិកនោះឆ្លើយតប និងផ្ទេរប្រាក់ភ្លាមៗ (ឆ្លើយតបនឹងឃ្លោក)។ នេះជាការវាយប្រហារបែប Business Email Compromise (BEC) ដែលជោគជ័យដោយសារមនុស្សខ្វះការផ្ទៀងផ្ទាត់ក្រៅប្រព័ន្ធ (out-of-band verification)។
+បុគ្គលិកផ្នែកហិរញ្ញវត្ថុម្នាក់ ទទួលបានអ៊ីមែលពីគណនីដែលមើលទៅដូចជាគណនីរបស់នាយកប្រតិបត្តិ (CEO) របស់ក្រុមហ៊ុន ដោយសរសេរថា៖ «សួស្ដី [ឈ្មោះបុគ្គលិក], ខ្ញុំកំពុងប្រជុំបន្ទាន់។ ចូរផ្ទេរប្រាក់ទៅដៃគូអាជីវកម្មនេះជាបន្ទាន់»។ ដោយសារតែឃើញគេហៅឈ្មោះខ្លួនចំ ៗ បុគ្គលិកនោះឆ្លើយតប និងផ្ទេរប្រាក់ភ្លាម ៗ (ឆ្លើយតបនឹងឃ្លោក)។ នេះជាការវាយប្រហារបែប Business Email Compromise (BEC) ដែលជោគជ័យដោយសារមនុស្សខ្វះការផ្ទៀងផ្ទាត់ក្រៅប្រព័ន្ធ (out-of-band verification)។
 
 A financial officer receives an email addressing them by name, seemingly from the CEO: "Hello [Employee Name], I'm in an urgent meeting. Please wire funds to this vendor immediately." Seeing their name, the employee complies without verifying the sender outside of the email channel (answering the gourd). This is a Business Email Compromise (BEC) attack, succeeding due to lack of out-of-band authentication.
 
@@ -114,7 +114,7 @@ A financial officer receives an email addressing them by name, seemingly from th
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 } }%%
 graph TD
-    A["📧 អ៊ីមែល Phishing (Gourd Call)"] --> B["❌ ឆ្លើយតប និងផ្ទេរប្រាក់ភ្លាមៗ<br/>= បាត់បង់ថវិកា (Compromised)"]
+    A["📧 អ៊ីមែល Phishing (Gourd Call)"] --> B["❌ ឆ្លើយតប និងផ្ទេរប្រាក់ភ្លាម ៗ <br/>= បាត់បង់ថវិកា (Compromised)"]
     A --> C["🔒 ផ្ទៀងផ្ទាត់តាមទូរស័ព្ទផ្ទាល់ខ្លួន<br/>= រកឃើញការបោកប្រាស់ (Safe)"]
 
     style B fill:#e74c3c,color:#fff
@@ -126,7 +126,7 @@ graph TD
 <a id="3-2"></a>
 ### ឧទាហរណ៍ទី ២ — ប្រព័ន្ធបច្ចេកវិទ្យា៖ ការឆ្លើយតបនឹងទិន្នន័យគ្មានការផ្ទៀងផ្ទាត់ (SQL Injection and SSRF)
 
-នៅក្នុងការសរសេរកម្មវិធី Web Application, ប្រសិនបើប្រព័ន្ធទទួលយក input ពីអ្នកប្រើប្រាស់ (ដូចជា ID ឬឈ្មោះ) ហើយបញ្ចូលវាទៅក្នុង SQL query ដោយផ្ទាល់ដោយគ្មានការ sanitize (input validation) — នោះអ្នកវាយប្រហារអាចបញ្ចូលពាក្យបញ្ជាកូដដើម្បីបំផ្លាញ ឬលួចទិន្នន័យបាន។ នេះហៅថា **SQL Injection**។ ប្រព័ន្ធដំណើរការរាល់ input ទាំងអស់ ដូចជាឃ្លោកទិព្វដែលស្រូបយកអ្វីៗគ្រប់យ៉ាងដែលឆ្លើយតប។
+នៅក្នុងការសរសេរកម្មវិធី Web Application, ប្រសិនបើប្រព័ន្ធទទួលយក input ពីអ្នកប្រើប្រាស់ (ដូចជា ID ឬឈ្មោះ) ហើយបញ្ចូលវាទៅក្នុង SQL query ដោយផ្ទាល់ដោយគ្មានការ sanitize (input validation) — នោះអ្នកវាយប្រហារអាចបញ្ចូលពាក្យបញ្ជាកូដដើម្បីបំផ្លាញ ឬលួចទិន្នន័យបាន។ នេះហៅថា **SQL Injection**។ ប្រព័ន្ធដំណើរការរាល់ input ទាំងអស់ ដូចជាឃ្លោកទិព្វដែលស្រូបយកអ្វី ៗ គ្រប់យ៉ាងដែលឆ្លើយតប។
 
 In web development, if an application accepts user input (such as an ID or name) and concatenates it directly into an SQL database query without sanitization—an attacker can inject malicious database command payloads to steal or wipe data. This is **SQL Injection**. The system processes every input without verification, just like the magic gourd swallowing any responder.
 
@@ -135,7 +135,7 @@ In web development, if an application accepts user input (such as an ID or name)
 <a id="3-3"></a>
 ### ឧទាហរណ៍ទី ៣ — ទំនាក់ទំនង/សង្គម៖ ការឆ្លើយតបនឹងការញុះញង់របស់ Trolls (Responding to Provocations and Trolls)
 
-នៅលើបណ្ដាញសង្គម Trolls ឬអ្នកស្អប់ (haters) តែងតែសរសេរមតិរិះគន់ ជេរប្រមាថ ឬចោទប្រកាន់អ្នកចំៗដោយប្រើឈ្មោះរបស់អ្នក។ គោលបំណងរបស់ពួកគេគឺចង់ឱ្យអ្នកប្រតិកម្មតប (ឆ្លើយតបនឹងឃ្លោក)។ នៅពេលអ្នកឆ្លើយតបដោយកំហឹង ឬការព្យាយាមពន្យល់ — អ្នកបានធ្លាក់ចូលក្នុងអន្ទាក់ពេលវេលារបស់ពួកគេ ហើយពួកគេនឹងស្រូបយកថាមពលរបស់អ្នកទាំងស្រុងដើម្បីបង្កើតការជជែកដេញដោលដ៏គ្មានប្រយោជន៍។
+នៅលើបណ្ដាញសង្គម Trolls ឬអ្នកស្អប់ (haters) តែងតែសរសេរមតិរិះគន់ ជេរប្រមាថ ឬចោទប្រកាន់អ្នកចំ ៗ ដោយប្រើឈ្មោះរបស់អ្នក។ គោលបំណងរបស់ពួកគេគឺចង់ឱ្យអ្នកប្រតិកម្មតប (ឆ្លើយតបនឹងឃ្លោក)។ នៅពេលអ្នកឆ្លើយតបដោយកំហឹង ឬការព្យាយាមពន្យល់ — អ្នកបានធ្លាក់ចូលក្នុងអន្ទាក់ពេលវេលារបស់ពួកគេ ហើយពួកគេនឹងស្រូបយកថាមពលរបស់អ្នកទាំងស្រុងដើម្បីបង្កើតការជជែកដេញដោលដ៏គ្មានប្រយោជន៍។
 
 On social media, trolls target you by name with toxic insults or false accusations. Their single objective is to bait you into reacting (answering the gourd). Once you respond in anger or start explaining yourself—you are sucked into their drama vortex, draining your energy in a useless, endless online flame war.
 
@@ -180,7 +180,7 @@ graph LR
 >
 > **The magic gourd is powerless without a response. The danger is not that they know our name or call out to us; it is that we choose to answer blindly.**
 
-លើកក្រោយ នៅពេលអ្នកទទួលបានសារ សំណើ ឬពាក្យញុះញង់ដែលហៅឈ្មោះរបស់អ្នកចំៗ — ចូររក្សាភាពស្ងៀមស្ងាត់។ សួរខ្លួនឯងថា៖ «តើនេះជាសំណើដែលបានផ្ទៀងផ្ទាត់ត្រឹមត្រូវ ឬវាគ្រាន់តែជាការហៅដើម្បីស្រូបខ្ញុំចូលទៅក្នុងឃ្លោកទិព្វ?» ភាពស្ងៀមស្ងាត់ និងការផ្ទៀងផ្ទាត់ គឺជាខែលការពារដ៏រឹងមាំបំផុតរបស់អ្នក។
+លើកក្រោយ នៅពេលអ្នកទទួលបានសារ សំណើ ឬពាក្យញុះញង់ដែលហៅឈ្មោះរបស់អ្នកចំ ៗ — ចូររក្សាភាពស្ងៀមស្ងាត់។ សួរខ្លួនឯងថា៖ «តើនេះជាសំណើដែលបានផ្ទៀងផ្ទាត់ត្រឹមត្រូវ ឬវាគ្រាន់តែជាការហៅដើម្បីស្រូបខ្ញុំចូលទៅក្នុងឃ្លោកទិព្វ?» ភាពស្ងៀមស្ងាត់ និងការផ្ទៀងផ្ទាត់ គឺជាខែលការពារដ៏រឹងមាំបំផុតរបស់អ្នក។
 
 Next time you receive a message, a request, or a provocation addressing you by name—remain silent. Ask yourself: *"Is this request authenticated, or is it just a call to suck me into the magic gourd?"* Silence and out-of-band verification are your strongest shields.
 

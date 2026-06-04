@@ -112,7 +112,7 @@ The Six-Eared Macaque reveals an important truth: **imitation can copy *what you
 <a id="3-1"></a>
 ### ឧទាហរណ៍ទី ១ — ការងារ៖ អ្នកថតចម្លងស្នាដៃ vs អ្នកបង្កើតពិត (The Copycat vs. the Creator)
 
-មិត្តរួមការងារម្នាក់ ចម្លងស្នាដៃ ស្លាយបទបង្ហាញ ឬកូដរបស់អ្នក ហើយយកទៅអះអាងជារបស់ខ្លួន។ ផ្ទៃខាងក្រៅ មើលទៅដូចគ្នា។ ប៉ុន្តែ នៅពេលត្រូវ **ពន្យល់ «ហេតុអ្វី» ឬដោះស្រាយបញ្ហាថ្មីដែលមិនធ្លាប់ឃើញ** អ្នកចម្លងភ្លាមៗបង្ហាញថាគេគ្មានការយល់ដឹងពិត — ព្រោះគេចម្លងតែ «លទ្ធផល» មិនមែន «ការគិត»។
+មិត្តរួមការងារម្នាក់ ចម្លងស្នាដៃ ស្លាយបទបង្ហាញ ឬកូដរបស់អ្នក ហើយយកទៅអះអាងជារបស់ខ្លួន។ ផ្ទៃខាងក្រៅ មើលទៅដូចគ្នា។ ប៉ុន្តែ នៅពេលត្រូវ **ពន្យល់ «ហេតុអ្វី» ឬដោះស្រាយបញ្ហាថ្មីដែលមិនធ្លាប់ឃើញ** អ្នកចម្លងភ្លាម ៗ បង្ហាញថាគេគ្មានការយល់ដឹងពិត — ព្រោះគេចម្លងតែ «លទ្ធផល» មិនមែន «ការគិត»។
 
 A colleague copies your work, slides, or code and claims it as their own. On the surface, it looks identical. But the moment they must *explain the "why"* or *solve a new problem they haven't seen*, the copycat is exposed — because they copied the *output*, not the *thinking*.
 

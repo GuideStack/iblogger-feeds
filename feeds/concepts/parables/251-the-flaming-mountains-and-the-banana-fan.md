@@ -86,9 +86,9 @@ The Flaming Mountains reveal an important truth: **some problems cannot be won b
 
 នេះភ្ជាប់នឹងគំនិតផ្លូវចិត្ត និងគ្រប់គ្រង (this connects to psychology & management):
 
-- **"Law of the Instrument" (Maslow's Hammer)** — «បើអ្នកមានតែញញួរ អ្វីៗគ្រប់យ៉ាង មើលទៅដូចជាដែកគោល»។ ស្តេចស្វា ខ្លាំង ដូច្នេះ ទម្លាប់ដំបូងគឺកម្លាំង — តែភ្នំភ្លើង ត្រូវការ «ផ្លិត» មិនមែន «ដំបង»។
+- **"Law of the Instrument" (Maslow's Hammer)** — «បើអ្នកមានតែញញួរ អ្វី ៗ គ្រប់យ៉ាង មើលទៅដូចជាដែកគោល»។ ស្តេចស្វា ខ្លាំង ដូច្នេះ ទម្លាប់ដំបូងគឺកម្លាំង — តែភ្នំភ្លើង ត្រូវការ «ផ្លិត» មិនមែន «ដំបង»។
 - **Working Harder vs. Working Smarter** — ការបន្ថែមកម្លាំង ទៅបញ្ហាខុសប្រភេទ ច្រើនតែ ធ្វើឱ្យអាក្រក់ជាង — ដូចផ្លិតក្លែង ដែលបង្កើនភ្លើង។
-- **Persistence + Adaptation (Grit)** — ការតស៊ូ មិនមែនមានន័យថា ធ្វើរឿងដដែលៗ ម្តងហើយម្តងទៀត — តែ **ព្យាយាមវិធីថ្មី** រហូតរកដំណោះស្រាយត្រឹមត្រូវ។
+- **Persistence + Adaptation (Grit)** — ការតស៊ូ មិនមែនមានន័យថា ធ្វើរឿងដដែល ៗ ម្តងហើយម្តងទៀត — តែ **ព្យាយាមវិធីថ្មី** រហូតរកដំណោះស្រាយត្រឹមត្រូវ។
 
 **ភាពខុសគ្នាសំខាន់៖** ស្តេចស្វា ឈ្នះ មិនមែនព្រោះគាត់ខ្លាំងជាងភ្លើងឡើយ — តែព្រោះគាត់ **ឈប់ប្រើកម្លាំង ហើយចាប់ផ្ដើមប្រើ ប្រាជ្ញា**។ ការ ផ្លាស់ប្ដូរវិធីសាស្ត្រ ទើបជាគន្លឹះ មិនមែនការ បង្កើនកម្លាំង។
 
@@ -177,7 +177,7 @@ graph LR
 1. **បើកម្លាំងមិនដំណើរការ ឈប់បន្ថែមកម្លាំង (If force isn't working, stop adding force)៖** ការខំប្រឹងខ្លាំងជាងមុន ទៅវិធីខុស គ្រាន់តែ បន្ថែម «ភ្លើង»។ ឈប់ ហើយ ផ្លាស់ប្ដូរវិធីសាស្ត្រ។ *Trying harder at the wrong method just adds fuel; stop and change the approach.*
 2. **រកឧបករណ៍ត្រឹមត្រូវ មិនមែនឧបករណ៍ដែលអ្នកមាន (Find the right tool, not the tool you have)៖** កុំធ្លាក់ក្នុង «ញញួររបស់ Maslow»។ បញ្ហាខុសប្រភេទ ត្រូវការឧបករណ៍ខុសប្រភេទ។ *Don't fall for "Maslow's Hammer"; a different problem needs a different tool.*
 3. **ប្រយ័ត្នដំណោះស្រាយក្លែង (Beware the fake fan)៖** quick fix ដែលលាក់ symptom ច្រើនតែ ធ្វើឱ្យឫសគល់ កាន់តែអាក្រក់។ ព្យាបាលមូលហេតុ។ *Quick fixes that hide symptoms usually make the root cause worse; treat the cause.*
-4. **តស៊ូ ដោយការសម្រប (Persist by adapting)៖** ស្តេចស្វា ព្យាយាមច្រើនលើក — តែ ផ្លាស់ប្ដូរវិធីរាល់លើក។ ការតស៊ូ មិនមែនការ ធ្វើរឿងដដែលៗ។ *Persistence means trying new methods, not repeating the same one.*
+4. **តស៊ូ ដោយការសម្រប (Persist by adapting)៖** ស្តេចស្វា ព្យាយាមច្រើនលើក — តែ ផ្លាស់ប្ដូរវិធីរាល់លើក។ ការតស៊ូ មិនមែនការ ធ្វើរឿងដដែល ៗ ។ *Persistence means trying new methods, not repeating the same one.*
 
 ---
 

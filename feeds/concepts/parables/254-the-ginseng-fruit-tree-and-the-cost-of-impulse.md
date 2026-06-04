@@ -26,7 +26,7 @@
 <a id="0"></a>
 ## អន្ទាក់ផ្លូវចិត្ត (The Trap)
 
-នៅពេលនរណាម្នាក់ចោទប្រកាន់អ្នកដោយអយុត្តិធម៌ ឬធ្វើឱ្យអ្នកខឹង តើអ្នកជ្រើសរើសប្រតិកម្មភ្លាមៗដោយការបំផ្លាញអ្វីៗគ្រប់យ៉ាងនៅជុំវិញខ្លួន ឬអ្នកផ្អាកដកដង្ហើម? ការបំផ្លិចបំផ្លាញប្រព័ន្ធមួយចំណាយពេលត្រឹមតែប៉ុន្មានវិនាទីប៉ុណ្ណោះ ប៉ុន្តែការជួសជុល និងស្តារវាឡើងវិញ ត្រូវការពេលវេលា និងថាមពលច្រើនជាងរាប់រយដង។
+នៅពេលនរណាម្នាក់ចោទប្រកាន់អ្នកដោយអយុត្តិធម៌ ឬធ្វើឱ្យអ្នកខឹង តើអ្នកជ្រើសរើសប្រតិកម្មភ្លាម ៗ ដោយការបំផ្លាញអ្វី ៗ គ្រប់យ៉ាងនៅជុំវិញខ្លួន ឬអ្នកផ្អាកដកដង្ហើម? ការបំផ្លិចបំផ្លាញប្រព័ន្ធមួយចំណាយពេលត្រឹមតែប៉ុន្មានវិនាទីប៉ុណ្ណោះ ប៉ុន្តែការជួសជុល និងស្តារវាឡើងវិញ ត្រូវការពេលវេលា និងថាមពលច្រើនជាងរាប់រយដង។
 
 When someone accuses you unfairly or pushes your buttons, do you react immediately by destroying everything around you, or do you pause and breathe? Demolishing a system takes mere seconds, but repairing and restoring it requires hundreds of times more time and energy.
 
@@ -45,7 +45,7 @@ The Monkey King, enraged by the insults of Daoist disciples, knocked down and up
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 } }%%
 graph TD
-    A["🗣️ ការចោទប្រកាន់ / ការជេរប្រមាថ (Trigger)"] --> B["😡 កំហឹងឆេវឆាវ / បំផ្លាញដើមឈើ<br/>= បង្កវិបត្តិភ្លាមៗ"]
+    A["🗣️ ការចោទប្រកាន់ / ការជេរប្រមាថ (Trigger)"] --> B["😡 កំហឹងឆេវឆាវ / បំផ្លាញដើមឈើ<br/>= បង្កវិបត្តិភ្លាម ៗ "]
     B --> C["⛓️ ជាប់គុក / ត្រូវដោះស្រាយបញ្ហា (Consequences)"]
     C --> D["🌍 ចំណាយពេលស្វែងរកដំណោះស្រាយ<br/>= តម្លៃស្តារឡើងវិញខ្ពស់ (Remediation)"]
     D --> E["✅ ដើមឈើរស់ឡើងវិញ (Resolution)"]
@@ -65,7 +65,7 @@ graph TD
 
 On the pilgrimage, the monk Tang Sanzang and his disciples rested at the Wuzhuang Temple, the abode of the Daoist Master Zhenyuan. In the temple grew the magical Ginseng Fruit Tree, whose fruits resembled newborn babies and granted tens of thousands of years of life. The temple acolytes offered the fruit to Tang Sanzang, but he was terrified and refused to eat it.
 
-បន្ទាប់មក ជ្រូក ប៉ាចេ បានដឹងពីរឿងនេះ ហើយបញ្ចុះបញ្ចូលអ៊ូឃុងឱ្យលួចផ្លែឈើនេះមកចែកគ្នាឆាន់។ នៅពេលកូនសិស្សតាវដឹងថាបាត់ផ្លែឈើ ពួកគេបានជេរប្រមាថ និងចោទប្រកាន់ក្រុមធម្មយាត្រាដោយពាក្យសម្តីធ្ងន់ៗ។ អ៊ូឃុងមានកំហឹងយ៉ាងខ្លាំង គាត់បានប្រើប្រាស់ដំបងមាសរបស់គាត់វាយកម្ទេចដើមឈើយិនស៊ិន និងគាស់ឫសរបស់វាចោលទាំងស្រុង។
+បន្ទាប់មក ជ្រូក ប៉ាចេ បានដឹងពីរឿងនេះ ហើយបញ្ចុះបញ្ចូលអ៊ូឃុងឱ្យលួចផ្លែឈើនេះមកចែកគ្នាឆាន់។ នៅពេលកូនសិស្សតាវដឹងថាបាត់ផ្លែឈើ ពួកគេបានជេរប្រមាថ និងចោទប្រកាន់ក្រុមធម្មយាត្រាដោយពាក្យសម្តីធ្ងន់ ៗ ។ អ៊ូឃុងមានកំហឹងយ៉ាងខ្លាំង គាត់បានប្រើប្រាស់ដំបងមាសរបស់គាត់វាយកម្ទេចដើមឈើយិនស៊ិន និងគាស់ឫសរបស់វាចោលទាំងស្រុង។
 
 Later, Zhu Bajie discovered this and persuaded Wukong to steal some fruits for them to share. When the acolytes discovered the missing fruits, they insulted and accused the pilgrims with harsh words. Enraged by their insults, Wukong used his golden staff to smash the tree and tear up its roots completely.
 
@@ -84,7 +84,7 @@ The destruction of the Ginseng tree highlights a universal truth:
 
 - **ការបំផ្លាញលឿន តែការស្ថាបនាយឺត (Seconds to Destroy, Years to Build)** — អ៊ូឃុងប្រើពេលត្រឹមតែមួយវិនាទីដើម្បីវាយកម្ទេចដើមឈើ តែត្រូវចំណាយពេលរាប់ថ្ងៃ ហោះហើររាប់ម៉ឺនលី និងសុំជំនួយពីព្រះជាច្រើន ដើម្បីជួសជុលវា។ នៅក្នុងស្ថាប័ន កេរ្តិ៍ឈ្មោះ ឬប្រព័ន្ធបច្ចេកវិទ្យា កំហុសឆេវឆាវមួយអាចបំផ្លាញការងារដែលបានកសាងរាប់ឆ្នាំ។
 - **តម្លៃនៃការស្តារឡើងវិញខ្ពស់ (High Cost of Remediation)** — នៅពេលយើងធ្វើការសម្រេចចិត្តដោយផ្អែកលើកំហឹង យើងច្រើនតែមើលរំលងតម្លៃសរុបនៃការស្តារឡើងវិញ (Total Cost of Remediation)។ នេះរួមបញ្ចូលទាំងការបាត់បង់ទំនុកចិត្ត ពេលវេលា និងធនធានដែលត្រូវប្រើប្រាស់ដើម្បីដោះស្រាយវិបត្តិ។
-- **ការប្រតិកម្មជំនួសការឆ្លើយតប (Reacting vs. Responding)** — ការប្រតិកម្ម (reacting) ជាសកម្មភាពភ្លាមៗដែលដឹកនាំដោយអារម្មណ៍ ចំណែកឯការឆ្លើយតប (responding) ជាសកម្មភាពដែលដឹកនាំដោយការគិត និងយុទ្ធសាស្ត្រ។
+- **ការប្រតិកម្មជំនួសការឆ្លើយតប (Reacting vs. Responding)** — ការប្រតិកម្ម (reacting) ជាសកម្មភាពភ្លាម ៗ ដែលដឹកនាំដោយអារម្មណ៍ ចំណែកឯការឆ្លើយតប (responding) ជាសកម្មភាពដែលដឹកនាំដោយការគិត និងយុទ្ធសាស្ត្រ។
 
 **ភាពខុសគ្នាសំខាន់៖** អ្នកដឹកនាំដែលមានវិន័យ តែងតែគ្រប់គ្រងកំហឹងរបស់ខ្លួន និងយល់ថា ជ័យជម្នះបណ្ដោះអាសន្ននៃការបញ្ចេញកំហឹង មិនសមនឹងតម្លៃនៃការស្តារឡើងវិញនោះឡើយ។
 
@@ -129,7 +129,7 @@ graph TD
 <a id="3-2"></a>
 ### ឧទាហរណ៍ទី ២ — ធុរកិច្ច/ការដឹកនាំ៖ ការបណ្ដេញបុគ្គលិកសំខាន់ចោលក្នុងពេលខឹង (Anger-Driven Firing of Domain Experts)
 
-អ្នកគ្រប់គ្រងម្នាក់ ខឹងនឹងបុគ្គលិកបច្ចេកទេសជាន់ខ្ពស់ម្នាក់ដែលហ៊ានប្រកែក ឬចង្អុលបង្ហាញកំហុសរបស់គាត់នៅក្នុងការប្រជុំ។ ដោយសារតែចង់ការពារអំនួត គាត់សម្រេចចិត្តបណ្ដេញបុគ្គលិកនោះចេញភ្លាមៗ។ ជាលទ្ធផល គម្រោងសំខាន់ៗរបស់ក្រុមហ៊ុនត្រូវគាំងទាំងស្រុង ព្រោះគ្មាននរណាម្នាក់យល់ពីស្ថាបត្យកម្មប្រព័ន្ធក្រៅពីបុគ្គលិកនោះឡើយ។ ក្រុមហ៊ុនត្រូវចំណាយពេល និងលុយកាក់យ៉ាងច្រើនដើម្បីជួលបុគ្គលិកថ្មី និងរង់ចាំការបណ្ដុះបណ្ដាលឡើងវិញ។
+អ្នកគ្រប់គ្រងម្នាក់ ខឹងនឹងបុគ្គលិកបច្ចេកទេសជាន់ខ្ពស់ម្នាក់ដែលហ៊ានប្រកែក ឬចង្អុលបង្ហាញកំហុសរបស់គាត់នៅក្នុងការប្រជុំ។ ដោយសារតែចង់ការពារអំនួត គាត់សម្រេចចិត្តបណ្ដេញបុគ្គលិកនោះចេញភ្លាម ៗ ។ ជាលទ្ធផល គម្រោងសំខាន់ ៗ របស់ក្រុមហ៊ុនត្រូវគាំងទាំងស្រុង ព្រោះគ្មាននរណាម្នាក់យល់ពីស្ថាបត្យកម្មប្រព័ន្ធក្រៅពីបុគ្គលិកនោះឡើយ។ ក្រុមហ៊ុនត្រូវចំណាយពេល និងលុយកាក់យ៉ាងច្រើនដើម្បីជួលបុគ្គលិកថ្មី និងរង់ចាំការបណ្ដុះបណ្ដាលឡើងវិញ។
 
 A manager fires a senior engineer on the spot during a meeting because the engineer publicly challenged their strategy. To protect their ego, the manager axes them. As a result, critical projects halt because no one else understands the system architecture. The company spends months and massive recruitment fees trying to replace them and train new staff.
 
@@ -138,7 +138,7 @@ A manager fires a senior engineer on the spot during a meeting because the engin
 <a id="3-3"></a>
 ### ឧទាហរណ៍ទី ៣ — ទំនាក់ទំនង៖ ការដុតកប៉ាល់ចោលដោយសារពាក្យសម្តីមួយម៉ាត់ (Burning Bridges Over Words)
 
-នៅក្នុងការសហការរវាងដៃគូអាជីវកម្ម ការខ្វែងគំនិតគ្នាតិចតួចអាចឈានទៅរកការជជែកវែកញែកដោយកំហឹង។ ភាគីម្ខាងសម្រេចចិត្តផ្តាច់កិច្ចសន្យា និងផ្ដាច់ទំនាក់ទំនងភ្លាមៗដោយសារអារម្មណ៍ឆេវឆាវ។ ពួកគេភ្លេចថា ការកសាងបណ្ដាញទំនាក់ទំនង និងការទុកចិត្តត្រូវការពេលរាប់ឆ្នាំ។ ការស្ដារទំនាក់ទំនងឡើងវិញ ជួនកាលមិនអាចទៅរួចឡើយ ទោះបីជាមានការសុំទោសក្រោយមកក៏ដោយ។
+នៅក្នុងការសហការរវាងដៃគូអាជីវកម្ម ការខ្វែងគំនិតគ្នាតិចតួចអាចឈានទៅរកការជជែកវែកញែកដោយកំហឹង។ ភាគីម្ខាងសម្រេចចិត្តផ្តាច់កិច្ចសន្យា និងផ្ដាច់ទំនាក់ទំនងភ្លាម ៗ ដោយសារអារម្មណ៍ឆេវឆាវ។ ពួកគេភ្លេចថា ការកសាងបណ្ដាញទំនាក់ទំនង និងការទុកចិត្តត្រូវការពេលរាប់ឆ្នាំ។ ការស្ដារទំនាក់ទំនងឡើងវិញ ជួនកាលមិនអាចទៅរួចឡើយ ទោះបីជាមានការសុំទោសក្រោយមកក៏ដោយ។
 
 In business partnerships, a minor disagreement can escalate into an angry argument. One party abruptly cancels the contract in a fit of rage, burning the bridge. They forget that building network trust took years. Resurrecting the relationship later is often impossible, even with subsequent apologies.
 
@@ -169,7 +169,7 @@ graph LR
 
 ជំហាននៃការអនុវត្ត (How to apply):
 
-1. **អនុវត្តច្បាប់ ២៤ ម៉ោង (Apply the 24-Hour Rule)៖** នៅពេលអ្នកមានអារម្មណ៍ខឹង ឬចង់ធ្វើសកម្មភាពបំផ្លាញ ចូរផ្អាកការឆ្លើយតបយ៉ាងហោចណាស់ ២៤ ម៉ោង។ កុំផ្ញើ email កុំលុបកូដ និងកុំធ្វើការសម្រេចចិត្តធំៗក្នុងពេលនោះ។ *When triggered by anger, delay your response for 24 hours. Never write emails, delete code, or make major decisions when emotionally charged.*
+1. **អនុវត្តច្បាប់ ២៤ ម៉ោង (Apply the 24-Hour Rule)៖** នៅពេលអ្នកមានអារម្មណ៍ខឹង ឬចង់ធ្វើសកម្មភាពបំផ្លាញ ចូរផ្អាកការឆ្លើយតបយ៉ាងហោចណាស់ ២៤ ម៉ោង។ កុំផ្ញើ email កុំលុបកូដ និងកុំធ្វើការសម្រេចចិត្តធំ ៗ ក្នុងពេលនោះ។ *When triggered by anger, delay your response for 24 hours. Never write emails, delete code, or make major decisions when emotionally charged.*
 2. **វាយតម្លៃតម្លៃសរុបនៃការស្តារឡើងវិញ (Estimate the Total Cost of Remediation)៖** មុននឹងចុចប៊ូតុងលុប ឬបញ្ចប់ទំនាក់ទំនង ចូរសរសេរតម្លៃដែលត្រូវបង់៖ ពេលវេលា លុយកាក់ និងកេរ្តិ៍ឈ្មោះ ដើម្បីដោះស្រាយវាឡើងវិញ។ *Before burning a bridge or deleting a system, calculate the cost: time, money, and reputation required to rebuild it.*
 3. **ស្វែងរក «ទឹកមន្តប្រោសដើមឈើ» នៃការសម្របសម្រួល (Seek mediation)៖** នៅពេលមានការខូចខាតកើតឡើងហើយ ចូរឈប់ប្រកែកដើម្បីការពារអំនួត។ ចូរស្វែងរកអ្នកសម្របសម្រួលដែលមានឥទ្ធិពល និងអព្យាក្រឹត (ដូចជាព្រះម៉ែគង់ស៊ីអ៊ីម) ដើម្បីជួយផ្សះផ្សា និងដោះស្រាយបញ្ហា។ *If damage is done, stop fighting to defend your pride. Seek a neutral mediator to help negotiate a resolution and mend the rift.*
 

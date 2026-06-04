@@ -67,7 +67,7 @@ The Monkey King was so powerful that Heaven's army could not win. The Jade Emper
 
 First they gave him the title **"Keeper of the Horses"** — a lowly post. When the Monkey King realized it was the *lowest* rank, he was furious and rebelled. So they gave him the grander title **"Great Sage Equal to Heaven"** — impressive-sounding, but with no power, no real responsibility, and no genuine respect. They even put him in charge of *guarding the peach garden* — a meaningless "keep-him-busy" job.
 
-ស្តេចស្វា ដឹងភ្លាមៗ ថា ងារនោះគ្រាន់តែជា **ល្បិច** ដើម្បីបន្ធូរអារម្មណ៍គាត់ មិនមែនការគោរពពិតឡើយ។ ដូច្នេះ គាត់ស៊ីផ្លែប៉ែសអមតៈទាំងអស់ លួចទឹកដោះអមតៈ និងបង្ករកុបកម្មលើឋានសួគ៌ទាំងមូល (大鬧天宮)។
+ស្តេចស្វា ដឹងភ្លាម ៗ ថា ងារនោះគ្រាន់តែជា **ល្បិច** ដើម្បីបន្ធូរអារម្មណ៍គាត់ មិនមែនការគោរពពិតឡើយ។ ដូច្នេះ គាត់ស៊ីផ្លែប៉ែសអមតៈទាំងអស់ លួចទឹកដោះអមតៈ និងបង្ករកុបកម្មលើឋានសួគ៌ទាំងមូល (大鬧天宮)។
 
 The Monkey King immediately understood that the title was just a *trick* to pacify him, not real respect. So he ate all the immortal peaches, stole the elixir, and caused **havoc throughout Heaven (大鬧天宮)**.
 
@@ -80,7 +80,7 @@ The Monkey King immediately understood that the title was just a *trick* to paci
 <a id="2"></a>
 ## ២. បញ្ហា៖ ការទទួលស្គាល់ ដោយគ្មានការទទួលខុសត្រូវពិត (The Issue: Recognition Without Real Responsibility)
 
-រឿងកុបកម្មលើឋានសួគ៌ បង្ហាញការពិតដ៏សំខាន់៖ **មនុស្សពូកែ ដឹងភ្លាមៗ ពីភាពខុសគ្នារវាង «ការទទួលស្គាល់ពិត» និង «ងារទទេ ដើម្បីបន្ធូរអារម្មណ៍»។**
+រឿងកុបកម្មលើឋានសួគ៌ បង្ហាញការពិតដ៏សំខាន់៖ **មនុស្សពូកែ ដឹងភ្លាម ៗ ពីភាពខុសគ្នារវាង «ការទទួលស្គាល់ពិត» និង «ងារទទេ ដើម្បីបន្ធូរអារម្មណ៍»។**
 
 The Havoc in Heaven reveals an important truth: **talented people immediately sense the difference between *real recognition* and *an empty title meant to placate them*.**
 
@@ -104,7 +104,7 @@ The Havoc in Heaven reveals an important truth: **talented people immediately se
 <a id="3-1"></a>
 ### ឧទាហរណ៍ទី ១ — ការងារ៖ ងារធំ ប្រាក់ខែ និងអំណាចតូច (The Big Title, Small Power Promotion)
 
-ក្រុមហ៊ុនមួយ មិនចង់បាត់បុគ្គលិកពូកែ ដូច្នេះ ផ្ដល់ងារធំ ដូចជា «Head of ...» — តែគ្មានការដំឡើងប្រាក់ខែ គ្មានក្រុមឱ្យដឹកនាំ និងគ្មានអំណាចសម្រេចចិត្តពិត។ បុគ្គលិកនោះ ដឹងភ្លាមៗ ថាជា «ងារទទេ» ហើយ ការលើកទឹកចិត្តរបស់គេ ធ្លាក់ចុះ — ហើយចុងក្រោយ ក៏លាឈប់ ដោយអារម្មណ៍ថាត្រូវបោក។
+ក្រុមហ៊ុនមួយ មិនចង់បាត់បុគ្គលិកពូកែ ដូច្នេះ ផ្ដល់ងារធំ ដូចជា «Head of ...» — តែគ្មានការដំឡើងប្រាក់ខែ គ្មានក្រុមឱ្យដឹកនាំ និងគ្មានអំណាចសម្រេចចិត្តពិត។ បុគ្គលិកនោះ ដឹងភ្លាម ៗ ថាជា «ងារទទេ» ហើយ ការលើកទឹកចិត្តរបស់គេ ធ្លាក់ចុះ — ហើយចុងក្រោយ ក៏លាឈប់ ដោយអារម្មណ៍ថាត្រូវបោក។
 
 A company doesn't want to lose a talented employee, so it gives them a big title like "Head of..." — but with no raise, no team to lead, and no real decision-making power. The employee immediately senses the "empty title," their motivation drops — and eventually they quit, feeling deceived.
 
@@ -160,7 +160,7 @@ An organization puts someone on a committee or in a "representative" role to sho
 ជំហាននៃការអនុវត្ត (How to apply)៖
 
 1. **ផ្គូផ្គងងារ ជាមួយអំណាចពិត (Match the title with real power)៖** បើអ្នកផ្ដល់ងារ ផ្ដល់ការទទួលខុសត្រូវ និងស្វ័យភាព ឱ្យ ត្រូវគ្នាផងដែរ។ បើមិនដូច្នោះ កុំផ្ដល់វាសោះ។ *If you give a title, give the matching responsibility and autonomy — otherwise don't give it at all.*
-2. **កុំប្រើការទទួលស្គាល់ ជាល្បិចបន្ធូរអារម្មណ៍ (Don't use recognition as a pacifier)៖** មនុស្សពូកែ ដឹងភ្លាមៗ។ ភាពស្មោះត្រង់ ល្អជាងងារស្អាតៗ ដែលទទេ។ *Talented people see through it instantly; honesty beats a hollow title.*
+2. **កុំប្រើការទទួលស្គាល់ ជាល្បិចបន្ធូរអារម្មណ៍ (Don't use recognition as a pacifier)៖** មនុស្សពូកែ ដឹងភ្លាម ៗ ។ ភាពស្មោះត្រង់ ល្អជាងងារស្អាត ៗ ដែលទទេ។ *Talented people see through it instantly; honesty beats a hollow title.*
 3. **ស្ដាប់ «ហេតុអ្វី» ពិត របស់គេ (Listen to their real "why")៖** ច្រើនដង មនុស្ស ចង់បាន ឥទ្ធិពលពិត ការរីកលូតលាស់ និងគោលបំណង — មិនមែនត្រឹមងារឡើយ។ *Often people want real influence, growth, and purpose — not just a title.*
 
 ---

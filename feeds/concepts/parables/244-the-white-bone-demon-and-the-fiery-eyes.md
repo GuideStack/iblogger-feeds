@@ -73,7 +73,7 @@ Knowing she cannot beat the Monkey King by force, the demon uses **shape-shiftin
 
 មុខទាំង៣សុទ្ធតែ **ស្អាត ស្លូត និងគួរឱ្យអាណិត** នៅខាងក្រៅ។ All three faces are *kind, gentle, and pitiful* on the outside.
 
-ប៉ុន្តែ ស្តេចស្វាមាន **ភ្នែកមាសភ្លើង (Fiery Golden Eyes / 火眼金睛)** — ភ្នែកដែលមើលឃើញ **ឆ្អឹងស** ដែលលាក់នៅពីក្រោយរបាំងមុខ។ គាត់មើលឃើញការពិតភ្លាមៗ ហើយវាយបិសាចនោះ។
+ប៉ុន្តែ ស្តេចស្វាមាន **ភ្នែកមាសភ្លើង (Fiery Golden Eyes / 火眼金睛)** — ភ្នែកដែលមើលឃើញ **ឆ្អឹងស** ដែលលាក់នៅពីក្រោយរបាំងមុខ។ គាត់មើលឃើញការពិតភ្លាម ៗ ហើយវាយបិសាចនោះ។
 
 But the Monkey King has **Fiery Golden Eyes (火眼金睛)** — eyes that see the **white bones** hidden behind the mask. He sees the truth instantly and strikes the demon down.
 
@@ -136,8 +136,8 @@ A relative is all sweet smiles and politeness around whoever has money or status
 }}%%
 graph TD
     A["🎭 ញញឹមផ្អែម ដាក់អ្នកមាន<br/>ត្រជាក់ដាក់អ្នកក្រ"] --> B["👁️ កុមារក្នុងគ្រួសារ<br/>មើលឃើញ 'ឆ្អឹងស'"]
-    B --> C["📉 ទំនុកចិត្តក្នុងគ្រួសារ<br/>ចុះខ្សោយបន្តិចម្តងៗ"]
-    C --> D["❌ ទំនាក់ទំនងពិតៗ<br/>ត្រូវបាត់បង់"]
+    B --> C["📉 ទំនុកចិត្តក្នុងគ្រួសារ<br/>ចុះខ្សោយបន្តិចម្តង ៗ "]
+    C --> D["❌ ទំនាក់ទំនងពិត ៗ <br/>ត្រូវបាត់បង់"]
 
     style A fill:#e74c3c,color:#fff
     style D fill:#e74c3c,color:#fff
@@ -165,7 +165,7 @@ A colleague agrees with everyone in meetings, smiles, and praises you to your fa
 graph TD
     A["🎭 ញញឹមសរសើរ ខាងមុខ<br/>និយាយដើម ខាងក្រោយ"] --> B["🤕 ដណ្តើមយកស្នាដៃ<br/>និងបង្ខូចកេរ្តិ៍ឈ្មោះ"]
     B --> C["📉 ក្រុមការងារបាត់ទំនុកចិត្ត<br/>គ្នាទៅវិញទៅមក"]
-    C --> D["❌ វប្បធម៌ការងារ Toxic<br/>និងបុគ្គលិកល្អៗលាឈប់"]
+    C --> D["❌ វប្បធម៌ការងារ Toxic<br/>និងបុគ្គលិកល្អ ៗ លាឈប់"]
 
     style A fill:#e74c3c,color:#fff
     style D fill:#e74c3c,color:#fff
@@ -193,7 +193,7 @@ This is the most insightful part of the story. An employee (like the Monkey King
 graph TD
     A["👁️ បុគ្គលិកមើលឃើញ 'ឆ្អឹងស'<br/>និងនិយាយការពិត"] --> B["🎭 អ្នកដទៃជឿតែ 'មុខស្អាត'<br/>គិតថាគាត់បង្កបញ្ហា"]
     B --> C["🤕 ដាក់ទោសអ្នកនិយាយការពិត<br/>(ដូចព្រះថាងបណ្តេញស្តេចស្វា)"]
-    C --> D["❌ បិសាចឆ្អឹងសឈ្នះ<br/>គម្រោងបរាជ័យពិតៗ"]
+    C --> D["❌ បិសាចឆ្អឹងសឈ្នះ<br/>គម្រោងបរាជ័យពិត ៗ "]
 
     style A fill:#27ae60,color:#fff
     style D fill:#e74c3c,color:#fff

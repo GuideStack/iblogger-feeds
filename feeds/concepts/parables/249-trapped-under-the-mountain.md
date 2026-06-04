@@ -105,7 +105,7 @@ The 500-years story reveals a painful truth: **talent without discipline or purp
 <a id="3-1"></a>
 ### ឧទាហរណ៍ទី ១ — អាជីព៖ បុគ្គលិកពូកែ ដែលអ្នកដទៃមិនចង់ធ្វើការជាមួយ (The Talented Person Nobody Wants to Work With)
 
-បុគ្គលិកម្នាក់ ពូកែខាងបច្ចេកទេសខ្លាំង — តែគ្មានវិន័យ មិនគោរពពេលវេលា មិនធ្វើការជាក្រុម និងគិតថា «ខ្ញុំពូកែ ដូច្នេះច្បាប់មិនពាក់ព័ន្ធនឹងខ្ញុំ»។ ទេពកោសល្យរបស់គេ ត្រូវបាន «ឃុំក្រោមភ្នំ» នៃ ឧទ្ធច្ច — គ្មាននរណាចង់ផ្ដល់ឱកាសធំៗ ឬដឹកនាំ។ លុះត្រាគេរៀន **វិន័យ និងភាពបន្ទាបខ្លួន** ទើបទេពកោសល្យនោះ ចេញផ្លែផ្កា។
+បុគ្គលិកម្នាក់ ពូកែខាងបច្ចេកទេសខ្លាំង — តែគ្មានវិន័យ មិនគោរពពេលវេលា មិនធ្វើការជាក្រុម និងគិតថា «ខ្ញុំពូកែ ដូច្នេះច្បាប់មិនពាក់ព័ន្ធនឹងខ្ញុំ»។ ទេពកោសល្យរបស់គេ ត្រូវបាន «ឃុំក្រោមភ្នំ» នៃ ឧទ្ធច្ច — គ្មាននរណាចង់ផ្ដល់ឱកាសធំ ៗ ឬដឹកនាំ។ លុះត្រាគេរៀន **វិន័យ និងភាពបន្ទាបខ្លួន** ទើបទេពកោសល្យនោះ ចេញផ្លែផ្កា។
 
 A person is brilliant technically — but undisciplined, ignores deadlines, won't work as a team, and thinks "I'm good, so rules don't apply to me." Their talent is "trapped under a mountain" of ego — no one wants to give them big opportunities or leadership. Only when they learn *discipline and humility* does the talent finally bear fruit.
 

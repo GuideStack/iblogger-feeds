@@ -57,7 +57,7 @@ The big question is: is this *fakeness*, or is it a *survival skill*? **The answ
 
 ### Goffman — ការសម្ដែងខ្លួន (The Presentation of Self)
 
-អ្នកសង្គមវិទ្យា **Erving Goffman (1959)** បាននិយាយថា ជីវិតគឺដូចជា **ល្ខោន**។ យើងម្នាក់ៗមាន «ឆាកខាងមុខ» (front stage) ដែលយើងសម្ដែងតួនាទីសម្រាប់អ្នកមើល និង «ឆាកខាងក្រោយ» (backstage) ដែលយើងអាចសម្រាក ដោះរបាំងមុខចេញ។
+អ្នកសង្គមវិទ្យា **Erving Goffman (1959)** បាននិយាយថា ជីវិតគឺដូចជា **ល្ខោន**។ យើងម្នាក់ ៗ មាន «ឆាកខាងមុខ» (front stage) ដែលយើងសម្ដែងតួនាទីសម្រាប់អ្នកមើល និង «ឆាកខាងក្រោយ» (backstage) ដែលយើងអាចសម្រាក ដោះរបាំងមុខចេញ។
 
 Sociologist **Erving Goffman (1959)** argued that life is like **theater**. Each of us has a *front stage* where we perform a role for an audience, and a *backstage* where we can relax and take the mask off. Sun Wukong's 72 faces are literally this — a different performance for each audience.
 
@@ -144,7 +144,7 @@ True Self                                          Lost Self
 
 1. **តើខ្ញុំនៅចាំ «មុខពិត» របស់ខ្ញុំទេ?** — Do I still remember my true face? *(ដូចស្ដេចស្វាដែលដឹងថាខ្លួនជាស្វា / like the monkey who knew he was a monkey)*
 2. **តើខ្ញុំប្ដូរ «របៀប» ឬ «តម្លៃ»?** — Am I changing my *style*, or my *values*?
-3. **តើខ្ញុំមានទីកន្លែង «backstage» ដែលអាចជាខ្លួនឯងពិតៗទេ?** — Do I have a *backstage* where I can be fully myself? (មិត្តពិត គ្រួសារ ឬពេលនៅម្នាក់ឯង / a true friend, family, or time alone)
+3. **តើខ្ញុំមានទីកន្លែង «backstage» ដែលអាចជាខ្លួនឯងពិត ៗ ទេ?** — Do I have a *backstage* where I can be fully myself? (មិត្តពិត គ្រួសារ ឬពេលនៅម្នាក់ឯង / a true friend, family, or time alone)
 4. **បន្ទាប់ពីប្រែខ្លួន តើខ្ញុំមានអារម្មណ៍នឿយហត់ ឬនៅរឹងមាំ?** — After shape-shifting, do I feel drained, or still grounded?
 5. **តើខ្ញុំប្រែខ្លួនដើម្បី «ការពារ» ឬដើម្បី «បោកប្រាស់»?** — Am I shifting to *protect*, or to *deceive*?
 

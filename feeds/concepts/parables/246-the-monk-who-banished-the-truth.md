@@ -126,7 +126,7 @@ An employee (like the Monkey King) sees that a project will fail or a deadline i
 graph TD
     A["👁️ បុគ្គលិកព្រមាន៖<br/>'គម្រោងនេះនឹងបរាជ័យ'"] --> B["🙉 ថ្នាក់ដឹកនាំចង់ឮតែដំណឹងល្អ<br/>ហៅគាត់ថា 'អវិជ្ជមាន'"]
     B --> C["🚪 ដកគាត់ចេញពីគម្រោង"]
-    C --> D["❌ គម្រោងបរាជ័យពិតៗ<br/>ដូចគាត់បានព្រមាន"]
+    C --> D["❌ គម្រោងបរាជ័យពិត ៗ <br/>ដូចគាត់បានព្រមាន"]
 
     style A fill:#27ae60,color:#fff
     style D fill:#e74c3c,color:#fff
@@ -165,7 +165,7 @@ graph TD
 <a id="3-3"></a>
 ### ឧទាហរណ៍ទី ៣ — ក្រុម៖ វប្បធម៌ដែលដាក់ទោសអ្នកនាំសារ (The Shoot-the-Messenger Culture)
 
-នៅពេលក្រុមមួយ ដាក់ទោសអ្នកដែលរាយការណ៍ bug, ភាពយឺតយ៉ាវ ឬហានិភ័យ — បន្តិចម្តងៗ គ្មាននរណាហ៊ានរាយការណ៍អ្វីអាក្រក់ទៀតឡើយ។ ដំណឹងអាក្រក់ត្រូវបានលាក់ រហូតដល់វាក្លាយជាមហន្តរាយ។ នេះជាការបាត់បង់ **សុវត្ថិភាពផ្លូវចិត្ត (Psychological Safety)**។
+នៅពេលក្រុមមួយ ដាក់ទោសអ្នកដែលរាយការណ៍ bug, ភាពយឺតយ៉ាវ ឬហានិភ័យ — បន្តិចម្តង ៗ គ្មាននរណាហ៊ានរាយការណ៍អ្វីអាក្រក់ទៀតឡើយ។ ដំណឹងអាក្រក់ត្រូវបានលាក់ រហូតដល់វាក្លាយជាមហន្តរាយ។ នេះជាការបាត់បង់ **សុវត្ថិភាពផ្លូវចិត្ត (Psychological Safety)**។
 
 When a team punishes whoever reports a bug, a delay, or a risk — gradually no one dares to report anything bad. Bad news gets hidden until it becomes a disaster. This is the collapse of **psychological safety**.
 

@@ -26,7 +26,7 @@
 <a id="0"></a>
 ## អន្ទាក់ផ្លូវចិត្ត (The Trap)
 
-តើអ្នកស្តាប់ឮតែពាក្យសម្តីដែលគេនិយាយចេញមកចំៗ ឬអ្នកអាចបកស្រាយ និងយល់ពីសញ្ញាបង្កប់ ឬការផ្ដល់មតិយោបល់ដោយប្រយោលបាន? នៅក្នុងការដឹកនាំ និងការទំនាក់ទំនង ការយល់តែអត្ថន័យតាមអក្សរ (low-context) ច្រើនតែធ្វើឱ្យយើងមើលរំលងព័ត៌មាន និងការព្រមានសំខាន់ៗដែលគេមិនបាននិយាយចេញមកក្រៅ។
+តើអ្នកស្តាប់ឮតែពាក្យសម្តីដែលគេនិយាយចេញមកចំ ៗ ឬអ្នកអាចបកស្រាយ និងយល់ពីសញ្ញាបង្កប់ ឬការផ្ដល់មតិយោបល់ដោយប្រយោលបាន? នៅក្នុងការដឹកនាំ និងការទំនាក់ទំនង ការយល់តែអត្ថន័យតាមអក្សរ (low-context) ច្រើនតែធ្វើឱ្យយើងមើលរំលងព័ត៌មាន និងការព្រមានសំខាន់ ៗ ដែលគេមិនបាននិយាយចេញមកក្រៅ។
 
 Do you only hear the words that are spoken literally, or are you able to read between the lines and catch the subtle feedback? In leadership and communication, focusing solely on literal speech (low-context) often causes us to miss critical insights and warnings that are left unsaid.
 
@@ -88,9 +88,9 @@ At midnight, Wukong slipped through the back door and found the master waiting f
 
 The parable of the three knocks reveals a profound communication gap:
 
-- **ការប្រាស្រ័យទាក់ទងបែបបរិបទខ្ពស់ (High-Context Communication)** — នៅក្នុងវប្បធម៌ និងស្ថាប័នខ្លះ គំនិត ឬមតិយោបល់សំខាន់ៗមិនត្រូវបាននិយាយចំៗឡើយ (ដើម្បីរក្សាមុខមាត់ ឬដើម្បីធ្វើតេស្តប្រាជ្ញា)។ ពួកគេប្រើសញ្ញាបង្កប់ កាយវិការ ឬសម្លេង។
+- **ការប្រាស្រ័យទាក់ទងបែបបរិបទខ្ពស់ (High-Context Communication)** — នៅក្នុងវប្បធម៌ និងស្ថាប័នខ្លះ គំនិត ឬមតិយោបល់សំខាន់ ៗ មិនត្រូវបាននិយាយចំ ៗ ឡើយ (ដើម្បីរក្សាមុខមាត់ ឬដើម្បីធ្វើតេស្តប្រាជ្ញា)។ ពួកគេប្រើសញ្ញាបង្កប់ កាយវិការ ឬសម្លេង។
 - **ការស្តាប់ដោយអសកម្ម (Passive/Literal Listening)** — សិស្សដទៃទៀតស្ដាប់ឮតែពាក្យខឹងសម្បាររបស់គ្រូ និងឃើញដំបងវាយក្បាល (low-context) ដូច្នេះពួកគេសន្និដ្ឋានថាគ្រូខឹងពិតប្រាកដ។ ពួកគេខកខានមិនបានយល់ពីបរិបទបង្កប់។
-- **មតិយោបល់លាក់កំបាំង (Silent Feedback Loops)** — នៅក្នុងការងារ អ្នកដឹកនាំជាន់ខ្ពស់ច្រើនតែផ្ដល់មតិយោបល់ដោយប្រយោល ឬសួរសំណួរចាក់ដោត ជំនួសឱ្យការបញ្ជាចំៗ។ បុគ្គលិកដែលយល់ពីសញ្ញាទាំងនេះ នឹងអាចកែលម្អការងារបានមុនពេលបញ្ហាកើតឡើង។
+- **មតិយោបល់លាក់កំបាំង (Silent Feedback Loops)** — នៅក្នុងការងារ អ្នកដឹកនាំជាន់ខ្ពស់ច្រើនតែផ្ដល់មតិយោបល់ដោយប្រយោល ឬសួរសំណួរចាក់ដោត ជំនួសឱ្យការបញ្ជាចំ ៗ ។ បុគ្គលិកដែលយល់ពីសញ្ញាទាំងនេះ នឹងអាចកែលម្អការងារបានមុនពេលបញ្ហាកើតឡើង។
 
 **ភាពខុសគ្នាសំខាន់៖** មនុស្សដែលមានភាពឆ្លាតវៃផ្នែកអារម្មណ៍ (EQ) ខ្ពស់ មិនត្រឹមតែស្ដាប់ឮពាក្យសម្ដីឡើយ តែពួកគេ **សង្កេតបរិបទ កាយវិការ និងបំណងបង្កប់** របស់ដៃគូសន្ទនា។
 
@@ -106,7 +106,7 @@ The parable of the three knocks reveals a profound communication gap:
 <a id="3-1"></a>
 ### ឧទាហរណ៍ទី ១ — បច្ចេកទេស៖ មតិយោបល់ក្នុង Code Review និងការព្រមានដោយប្រយោល (Subtle Code Review Comments and Warnings)
 
-នៅក្នុងការពិនិត្យកូដ (Code Review), វិស្វករជាន់ខ្ពស់ម្នាក់បានសរសេរមតិយោបល់លើកូដរបស់វិស្វករវ័យក្មេងម្នាក់ថា៖ «វិធីសាស្ត្រនេះដំណើរការល្អសម្រាប់ការផ្ទេរទិន្នន័យតូចៗ ប៉ុន្តែតើយើងមានគម្រោងប្រើប្រាស់វាជាមួយទិន្នន័យធំ ឬ concurrency ដែរឬទេ?»។ វិស្វករវ័យក្មេងដែលស្ដាប់តាមអក្សរ គិតថា៖ «គាត់និយាយថាវាដំណើរការល្អហើយ» រួចចុច merge ភ្លាមៗ ( ignore សំណួរ)។ នេះជាការខកខានមិនបានយល់ពី «ការគោះក្បាលបីដង»។ សំណួរនោះជាការព្រមានប្រយោលថា កូដនោះនឹងបណ្ដាលឱ្យប្រព័ន្ធគាំងនៅលើ Production។
+នៅក្នុងការពិនិត្យកូដ (Code Review), វិស្វករជាន់ខ្ពស់ម្នាក់បានសរសេរមតិយោបល់លើកូដរបស់វិស្វករវ័យក្មេងម្នាក់ថា៖ «វិធីសាស្ត្រនេះដំណើរការល្អសម្រាប់ការផ្ទេរទិន្នន័យតូច ៗ ប៉ុន្តែតើយើងមានគម្រោងប្រើប្រាស់វាជាមួយទិន្នន័យធំ ឬ concurrency ដែរឬទេ?»។ វិស្វករវ័យក្មេងដែលស្ដាប់តាមអក្សរ គិតថា៖ «គាត់និយាយថាវាដំណើរការល្អហើយ» រួចចុច merge ភ្លាម ៗ ( ignore សំណួរ)។ នេះជាការខកខានមិនបានយល់ពី «ការគោះក្បាលបីដង»។ សំណួរនោះជាការព្រមានប្រយោលថា កូដនោះនឹងបណ្ដាលឱ្យប្រព័ន្ធគាំងនៅលើ Production។
 
 During a code review, a senior architect comments on a junior's PR: "This approach works well for small datasets, but do we plan on running this under large loads or high concurrency?" The low-context junior reads: "It works well," merges the PR, and ignores the question. They missed the "three knocks." The question was a polite, high-context warning that the code would trigger resource starvation in production.
 
@@ -121,7 +121,7 @@ During a code review, a senior architect comments on a junior's PR: "This approa
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 } }%%
 graph TD
-    A["💬 សំណួររបស់ Senior: 'តើវាដំណើរការល្អជាមួយ load ធំទេ?' (Signal)"] --> B["❌ Junior merge ភ្លាមៗ ព្រោះគិតថាមិនអី<br/>= ប្រព័ន្ធគាំង (Missed Signal)"]
+    A["💬 សំណួររបស់ Senior: 'តើវាដំណើរការល្អជាមួយ load ធំទេ?' (Signal)"] --> B["❌ Junior merge ភ្លាម ៗ ព្រោះគិតថាមិនអី<br/>= ប្រព័ន្ធគាំង (Missed Signal)"]
     A --> C["🛠️ Junior កែសម្រួលកូដឱ្យមាន scalability<br/>= ប្រព័ន្ធមានសុវត្ថិភាព (Decoded Signal)"]
 
     style B fill:#e74c3c,color:#fff
@@ -174,9 +174,9 @@ graph LR
 ជំហាននៃការអនុវត្ត (How to apply):
 
 1. **យល់ថាពាក្យសម្តីជាចំណែកតូចមួយនៃទំនាក់ទំនង (Words are only a fraction of communication)៖** យកចិត្តទុកដាក់លើសម្លេង ល្បឿននិយាយ កាយវិការ និងបរិបទជុំវិញ។ សួរខ្លួនឯងថា «តើអារម្មណ៍បង្កប់នៅពីក្រោយពាក្យទាំងនេះជាអ្វី?» *Pay attention to tone, pacing, and systemic context. Ask: "What is the unsaid emotion or intent behind these words?"*
-2. **ស្វែងរកអត្ថន័យពីក្រោយសំណួរ ឬការព្រមានប្រយោល (Decode the subtext)៖** នៅពេលអ្នកដឹកនាំ ឬអ្នកជំនាញសួរសំណួរចម្លែកៗ ឬផ្ដល់ដំបូន្មានស្រាលៗ ចូរកុំមើលរំលង។ ភាគច្រើនពួកគេកំពុងព្យាយាមចង្អុលបង្ហាញកំហុសរបស់អ្នកដោយគួរសម។ *When seniors ask leading questions, don't dismiss them. They are likely highlighting a structural issue politely to let you fix it yourself.*
+2. **ស្វែងរកអត្ថន័យពីក្រោយសំណួរ ឬការព្រមានប្រយោល (Decode the subtext)៖** នៅពេលអ្នកដឹកនាំ ឬអ្នកជំនាញសួរសំណួរចម្លែក ៗ ឬផ្ដល់ដំបូន្មានស្រាល ៗ ចូរកុំមើលរំលង។ ភាគច្រើនពួកគេកំពុងព្យាយាមចង្អុលបង្ហាញកំហុសរបស់អ្នកដោយគួរសម។ *When seniors ask leading questions, don't dismiss them. They are likely highlighting a structural issue politely to let you fix it yourself.*
 3. **សួរសំណួរដើម្បីបញ្ជាក់អត្តសញ្ញាណនៃសញ្ញា (Verify the signals)៖** ប្រសិនបើអ្នកមិនច្បាស់ពីសញ្ញាបង្កប់ ចូរប្រើពាក្យបញ្ជាក់ថា៖ «ខ្ញុំចង់ប្រាកដថាខ្ញុំយល់ច្បាស់ តើមានន័យថា... មែនទេ?» ឬ «តើលោកមានការបារម្ភលើចំណុច... ឬ?»។ *Clarify ambiguity directly: "Just to ensure I'm on the same page, does this mean you have concerns about X?" or "Are we highlighting Y here?"*
-4. **អភិវឌ្ឍសមត្ថភាពបកស្រាយវប្បធម៌ស្ថាប័ន (Master the corporate context)៖** រៀនស្វែងយល់ពីរបៀបដែលមនុស្សនៅក្នុងក្រុមហ៊ុនបង្ហាញការយល់ស្រប ឬការមិនពេញចិត្ត។ ក្រុមហ៊ុនខ្លះចូលចិត្តការនិយាយចំៗ តែក្រុមហ៊ុនខ្លះត្រូវការការស្ដាប់ដោយយកចិត្តទុកដាក់ខ្ពស់។ *Adapt to your environment. Some teams are highly literal, while others communicate through subtle cues. Learn to read your organization's subtext.*
+4. **អភិវឌ្ឍសមត្ថភាពបកស្រាយវប្បធម៌ស្ថាប័ន (Master the corporate context)៖** រៀនស្វែងយល់ពីរបៀបដែលមនុស្សនៅក្នុងក្រុមហ៊ុនបង្ហាញការយល់ស្រប ឬការមិនពេញចិត្ត។ ក្រុមហ៊ុនខ្លះចូលចិត្តការនិយាយចំ ៗ តែក្រុមហ៊ុនខ្លះត្រូវការការស្ដាប់ដោយយកចិត្តទុកដាក់ខ្ពស់។ *Adapt to your environment. Some teams are highly literal, while others communicate through subtle cues. Learn to read your organization's subtext.*
 
 ---
 
