@@ -17,6 +17,7 @@
   - [ឧទាហរណ៍ទី ២ — ការងារ៖ មិត្តរួមការងារដែលញញឹមខាងមុខ (The Smiling Colleague)](#3-2)
   - [ឧទាហរណ៍ទី ៣ — អ្នកនិយាយការពិត តែត្រូវគេស្តីបន្ទោស (The Truth-Teller Who Gets Punished)](#3-3)
 - [៤. ដំណោះស្រាយ៖ ការចិញ្ចឹមភ្នែកមាសរបស់ខ្លួនឯង (The Solution: Growing Your Own Fiery Eyes)](#4)
+- [៥. មេរៀនជ្រៅជ្រះ៖ កុំក្លាយជាព្រះតាំង (The Deeper Lesson: Don't Be the Monk)](#deeper)
 - [សេចក្តីសន្និដ្ឋាន (Conclusion)](#5)
 - [ឯកសារយោង (References)](#6)
 - [Related Posts](#7)
@@ -59,7 +60,7 @@ graph TD
 <a id="1"></a>
 ## ១. រឿងព្រេង៖ បិសាចឆ្អឹងស និងការប្រែក្រឡា ៣ ដង (The Legend: The White Bone Demon's Three Disguises)
 
-ក្នុងដំណើរធ្វើធម្មយាត្រា ព្រះតាំងសាំងហ្សាង (Tang Sanzang) និងសិស្សរបស់លោករួមមានស្តេចស្វា **ស៊ុនអ៊ូឃុង (Sun Wukong)** បានជួបនឹងបិសាចមួយឈ្មោះ **បៃហ្គូជីង (White Bone Demon / 白骨精)** ដែលជាខ្មោចឆ្អឹងសចង់ស៊ីសាច់ព្រះតាំងដើម្បីបានអមតភាព។
+ក្នុងដំណើរធ្វើធម្មយាត្រា ព្រះថាងសានចាង (Tang Sanzang) និងសិស្សរបស់លោករួមមានស្តេចស្វា **ស៊ុនអ៊ូឃុង (Sun Wukong)** បានជួបនឹងបិសាចមួយឈ្មោះ **បៃហ្គូជីង (White Bone Demon / 白骨精)** ដែលជាខ្មោចឆ្អឹងសចង់ស៊ីសាច់ព្រះថាងដើម្បីបានអមតភាព។
 
 During the pilgrimage, the monk Tang Sanzang and his disciples — including the Monkey King **Sun Wukong** — meet a demon called the **White Bone Demon (白骨精)**, a skeleton-spirit who wants to eat the monk's flesh to gain immortality.
 
@@ -76,7 +77,7 @@ Knowing she cannot beat the Monkey King by force, the demon uses **shape-shiftin
 
 But the Monkey King has **Fiery Golden Eyes (火眼金睛)** — eyes that see the **white bones** hidden behind the mask. He sees the truth instantly and strikes the demon down.
 
-**តែនេះជាផ្នែកដ៏ឈឺចាប់៖** ព្រះតាំង និងសិស្សដទៃទៀតមើលឃើញតែ «មុខស្អាត» ខាងក្រៅ។ ពួកគេគិតថាស្តេចស្វាបានសម្លាប់មនុស្សស្លូតត្រង់ ៣ នាក់! ដូច្នេះព្រះតាំងក៏ **ដាក់ទោសស្តេចស្វា** ដោយសូត្រមន្តធ្វើឱ្យឈឺក្បាល ហើយ **បណ្តេញគាត់ចេញ**។
+**តែនេះជាផ្នែកដ៏ឈឺចាប់៖** ព្រះថាង និងសិស្សដទៃទៀតមើលឃើញតែ «មុខស្អាត» ខាងក្រៅ។ ពួកគេគិតថាស្តេចស្វាបានសម្លាប់មនុស្សស្លូតត្រង់ ៣ នាក់! ដូច្នេះព្រះថាងក៏ **ដាក់ទោសស្តេចស្វា** ដោយសូត្រមន្តធ្វើឱ្យឈឺក្បាល ហើយ **បណ្តេញគាត់ចេញ**។
 
 **But here is the painful part:** the monk and the other disciples saw only the *beautiful mask* on the outside. They thought the Monkey King had murdered three innocent people! So the monk **punished Sun Wukong** — chanting the spell that tightens the band around his head in agony — and **banished him**.
 
@@ -191,7 +192,7 @@ This is the most insightful part of the story. An employee (like the Monkey King
 }}%%
 graph TD
     A["👁️ បុគ្គលិកមើលឃើញ 'ឆ្អឹងស'<br/>និងនិយាយការពិត"] --> B["🎭 អ្នកដទៃជឿតែ 'មុខស្អាត'<br/>គិតថាគាត់បង្កបញ្ហា"]
-    B --> C["🤕 ដាក់ទោសអ្នកនិយាយការពិត<br/>(ដូចព្រះតាំងបណ្តេញស្តេចស្វា)"]
+    B --> C["🤕 ដាក់ទោសអ្នកនិយាយការពិត<br/>(ដូចព្រះថាងបណ្តេញស្តេចស្វា)"]
     C --> D["❌ បិសាចឆ្អឹងសឈ្នះ<br/>គម្រោងបរាជ័យពិតៗ"]
 
     style A fill:#27ae60,color:#fff
@@ -234,7 +235,7 @@ graph LR
 ជំហាននៃការអនុវត្ត (How to apply)៖
 
 1. **មើលឥរិយាបថ មិនមែនពាក្យ (Watch behavior, not words)៖** របាំងមុខបង្ហាញតែខាងមុខ។ ការពិតលេចចេញតាមរយៈ **ទង្វើ ដែលធ្វើម្តងហើយម្តងទៀតតាមពេលវេលា**។ *Masks show only the surface. Truth reveals itself through repeated behavior over time.*
-2. **កុំដាក់ទោសអ្នកនិយាយការពិត (Don't punish the truth-teller)៖** នៅពេលនរណាម្នាក់ប្រាប់អ្នកនូវការពិតដែលមិនពិរោះស្ដាប់ កុំក្លាយជាព្រះតាំងដែលបណ្តេញស្តេចស្វា — សួរថា «តើគាត់ឃើញឆ្អឹងសអ្វីដែលខ្ញុំមើលមិនឃើញ?» *When someone tells you an uncomfortable truth, don't be the monk who banishes the monkey — ask what bones they see that you can't.*
+2. **កុំដាក់ទោសអ្នកនិយាយការពិត (Don't punish the truth-teller)៖** នៅពេលនរណាម្នាក់ប្រាប់អ្នកនូវការពិតដែលមិនពិរោះស្ដាប់ កុំក្លាយជាព្រះថាងដែលបណ្តេញស្តេចស្វា — សួរថា «តើគាត់ឃើញឆ្អឹងសអ្វីដែលខ្ញុំមើលមិនឃើញ?» *When someone tells you an uncomfortable truth, don't be the monk who banishes the monkey — ask what bones they see that you can't.*
 3. **រក្សាមុខពិតរបស់ខ្លួនឯង (Keep your own true face)៖** ប្រែ ៧២ មុខបាន — តែកុំក្លាយជាបិសាចឆ្អឹងស។ ចូរធ្វើដូចស្តេចស្វា ដែលមិនដែលភ្លេចថាខ្លួនជាស្វា។ *Wear 72 faces — but never become the White Bone Demon. Be the monkey, who never forgot he was a monkey.*
 
 ---
