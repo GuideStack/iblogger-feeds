@@ -59,7 +59,7 @@ graph TD
 <a id="1"></a>
 ## ១. រឿងព្រេង៖ ភ្នំភ្លើង និងផ្លិតក្លែង (The Legend: The Flaming Mountains and the Fake Fan)
 
-លើផ្លូវធម្មយាត្រា ព្រះតាំង និងសិស្ស ជួប **ភ្នំភ្លើង (Flaming Mountains / 火焰山)** — ជញ្ជាំងភ្លើងដ៏ក្តៅ ដែលគ្មាននរណាឆ្លងផុតបាន។ ស្តេចស្វា ស៊ុនអ៊ូឃុង ដ៏ខ្លាំង មិនអាចប្រើកម្លាំង វាយ ឬហោះកាត់ភ្លើងនោះបានទេ។
+លើផ្លូវធម្មយាត្រា ព្រះថាងសានចាង និងសិស្ស ជួប **ភ្នំភ្លើង (Flaming Mountains / 火焰山)** — ជញ្ជាំងភ្លើងដ៏ក្តៅ ដែលគ្មាននរណាឆ្លងផុតបាន។ ស្តេចស្វា ស៊ុនអ៊ូឃុង ដ៏ខ្លាំង មិនអាចប្រើកម្លាំង វាយ ឬហោះកាត់ភ្លើងនោះបានទេ។
 
 On the pilgrimage, the monk and disciples reach the **Flaming Mountains (火焰山)** — a wall of unbearable fire that no one can cross. The mighty Monkey King could not punch or fly through the flames.
 
@@ -134,7 +134,7 @@ graph TD
 <a id="3-2"></a>
 ### ឧទាហរណ៍ទី ២ — ដំណោះស្រាយក្លែង ដែលធ្វើឱ្យអាក្រក់ជាង (The Fake Fix That Makes It Worse)
 
-ការ «បំបិទ symptom» ដោយ ដំណោះស្រាយរហ័ស (quick fix) ច្រើនតែ ជា «ផ្លិតក្លែង»៖ ការ restart server ដើម្បីលាក់ memory leak, ការខ្ចីបំណុលថ្មី ដើម្បីសងបំណុលចាស់, ឬការ លេបថ្នាំ ដោយមិនព្យាបាលមូលហេតុ។ ដំណោះស្រាយក្លែង ផ្ដល់ការធូរស្បើយ បណ្ដោះអាសន្ន — តែ ធ្វើឱ្យបញ្ហាឫសគល់ កាន់តែធំ។
+ការ «បិទបាំងរោគសញ្ញា» ដោយ ដំណោះស្រាយរហ័ស (quick fix) ច្រើនតែ ជា «ផ្លិតក្លែង»៖ ការ restart server ដើម្បីលាក់ memory leak, ការខ្ចីបំណុលថ្មី ដើម្បីសងបំណុលចាស់, ឬការ លេបថ្នាំបំបាត់ការឈឺចាប់ ដោយមិនព្យាបាលមូលហេតុ។ ដំណោះស្រាយក្លែង ផ្ដល់ការធូរស្បើយ បណ្ដោះអាសន្ន — តែ ធ្វើឱ្យបញ្ហាឫសគល់ កាន់តែធំ។
 
 "Patching the symptom" with a quick fix is often a "fake fan": restarting a server to hide a memory leak, taking new debt to pay old debt, or taking a painkiller without treating the cause. The fake fix brings temporary relief — but makes the root problem worse.
 
@@ -206,9 +206,17 @@ Next time you face your own "Flaming Mountains" and force can't get you through 
 <a id="7"></a>
 ## Related Posts
 
+
+### 🐒 The Journey to the West Series (ស៊េរីរឿងដំណើរទៅទិសខាងលិច)
+
+* **[78 The Seventy-Two Faces of Sun Wukong](../articles/78-the-seventy-two-faces-of-sun-wukong.md)** — អត្ថបទវិទ្យាសាស្ត្រ៖ ខ្លួនពិត vs ខ្លួនក្លែង (science article: true self vs false self).
+* **[244 The White Bone Demon & the Fiery Eyes](./244-the-white-bone-demon-and-the-fiery-eyes.md)** — របាំងមុខ vs ខ្លួនពិត (masks vs true self).
+* **[246 The Monk Who Banished the Truth](./246-the-monk-who-banished-the-truth.md)** — ភាពស្មោះត្រង់ ≠ ការវិនិច្ឆ័យ (sincerity ≠ discernment).
+* **[247 The Real and the Fake Monkey](./247-the-real-and-the-fake-monkey.md)** — ផ្ទៃក្រៅ vs ខ្លឹមសារ (surface vs substance).
 * **[248 The Golden Headband](./248-the-golden-headband.md)** — អំណាច ត្រូវការការទទួលខុសត្រូវ (power needs accountability).
-* **[249 Trapped Under the Mountain](./249-trapped-under-the-mountain.md)** — ទេពកោសល្យ ត្រូវការវិន័យ និងបេសកកម្ម (talent needs discipline & a mission).
-* **[247 The Real and the Fake Monkey](./247-the-real-and-the-fake-monkey.md)** — ផ្ទៃក្រៅ vs ខ្លឹមសារ (surface vs. substance).
+* **[249 Trapped Under the Mountain](./249-trapped-under-the-mountain.md)** — ទេពកោសល្យ ត្រូវការវិន័យ និងបេសកកម្ម (talent needs discipline & mission).
+* **[250 Havoc in Heaven & the Empty Title](./250-havoc-in-heaven-and-the-empty-title.md)** — ឧទ្ធច្ច និងតួនាទីទទេ (ego and empty titles).
+* **[251 The Flaming Mountains & the Banana-Leaf Fan](./251-the-flaming-mountains-and-the-banana-fan.md)** — យុទ្ធសាស្ត្រ > កម្លាំង (strategy > force).
 
 ---
 

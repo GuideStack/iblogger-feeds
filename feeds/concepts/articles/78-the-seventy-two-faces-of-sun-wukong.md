@@ -177,20 +177,20 @@ True Self                                          Lost Self
 
 ---
 
-## អត្ថបទពាក់ព័ន្ធ (Related Posts)
+## Related Posts
 
-- 📖 **[The White Bone Demon & the Fiery Eyes (បិសាចឆ្អឹងស និងភ្នែកមាស)](../parables/244-the-white-bone-demon-and-the-fiery-eyes.md)** — the companion *Journey to the West* parable for this concept.
-- 📖 **[The Monk Who Banished the Truth (ព្រះថាងដែលបណ្តេញការពិត)](../parables/246-the-monk-who-banished-the-truth.md)** — ភាពស្មោះត្រង់មិនមែនជាការវិនិច្ឆ័យ (sincerity is not discernment; the danger of punishing the truth-teller).
-- 📖 **[The Real and the Fake Monkey (ស្វាពិត និងស្វាក្លែង)](../parables/247-the-real-and-the-fake-monkey.md)** — អត្តសញ្ញាណពិត ដែលការត្រាប់តាមមិនអាចចម្លងបាន (authenticity vs. imitation).
-- 📖 **[The Golden Headband (បន្ទះមាសរឹតក្បាល)](../parables/248-the-golden-headband.md)** — អំណាច ត្រូវការការទទួលខុសត្រូវ (power needs accountability).
-- 📖 **[Trapped Under the Mountain (ជាប់ក្រោមភ្នំ)](../parables/249-trapped-under-the-mountain.md)** — ទេពកោសល្យ ត្រូវការវិន័យ និងបេសកកម្ម (talent needs discipline & a mission).
-- 📖 **[Havoc in Heaven & the Empty Title (កុបកម្មលើឋានសួគ៌)](../parables/250-havoc-in-heaven-and-the-empty-title.md)** — ងារទទេ ដើម្បីបន្ធូរមហិច្ឆតា បែរជាបង្កគ្រោះ (empty titles backfire).
-- 📖 **[The Flaming Mountains & the Banana Fan (ភ្នំភ្លើង និងផ្លិតស្លឹកចេក)](../parables/251-the-flaming-mountains-and-the-banana-fan.md)** — ឧបសគ្គខ្លះ ឈ្នះដោយយុទ្ធសាស្ត្រ មិនមែនកម្លាំង (strategy over force).
+### 🐒 The Journey to the West Series (ស៊េរីរឿងដំណើរទៅទិសខាងលិច)
+
+* **[78 The Seventy-Two Faces of Sun Wukong](./78-the-seventy-two-faces-of-sun-wukong.md)** — អត្ថបទវិទ្យាសាស្ត្រ៖ ខ្លួនពិត vs ខ្លួនក្លែង (science article: true self vs false self).
+* **[244 The White Bone Demon & the Fiery Eyes](../parables/244-the-white-bone-demon-and-the-fiery-eyes.md)** — របាំងមុខ vs ខ្លួនពិត (masks vs true self).
+* **[246 The Monk Who Banished the Truth](../parables/246-the-monk-who-banished-the-truth.md)** — ភាពស្មោះត្រង់ ≠ ការវិនិច្ឆ័យ (sincerity ≠ discernment).
+* **[247 The Real and the Fake Monkey](../parables/247-the-real-and-the-fake-monkey.md)** — ផ្ទៃក្រៅ vs ខ្លឹមសារ (surface vs substance).
+* **[248 The Golden Headband](../parables/248-the-golden-headband.md)** — អំណាច ត្រូវការការទទួលខុសត្រូវ (power needs accountability).
+* **[249 Trapped Under the Mountain](../parables/249-trapped-under-the-mountain.md)** — ទេពកោសល្យ ត្រូវការវិន័យ និងបេសកកម្ម (talent needs discipline & mission).
+* **[250 Havoc in Heaven & the Empty Title](../parables/250-havoc-in-heaven-and-the-empty-title.md)** — ឧទ្ធច្ច និងតួនាទីទទេ (ego and empty titles).
+* **[251 The Flaming Mountains & the Banana-Leaf Fan](../parables/251-the-flaming-mountains-and-the-banana-fan.md)** — យុទ្ធសាស្ត្រ > កម្លាំង (strategy > force).
+
 - [Projection Effect (បែបផែននៃការបញ្ចាំង)](04-projection-effect.md)
 - [The Science of Communication & EQ Flaws](03-science-of-communication-eq-flaws.md)
 - [Cognitive Flexibility (ភាពបត់បែននៃការគិត)](75-cognitive-flexibility.md)
 - [Information Asymmetry (វិសមភាពនៃព័ត៌មាន)](77-information-asymmetry.md)
-
----
-
-*Last updated: 2026-06-04*

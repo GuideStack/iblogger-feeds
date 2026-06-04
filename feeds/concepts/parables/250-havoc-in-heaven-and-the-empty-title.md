@@ -63,7 +63,7 @@ graph TD
 
 The Monkey King was so powerful that Heaven's army could not win. The Jade Emperor did not know what to do, so an official advised: *"Give him a title and a job to pacify him."*
 
-ដំបូង ពួកគេផ្ដល់ងារ **«អ្នកមើលថែសេះ» (Keeper of the Horses)** — ងារតូចមួយ។ នៅពេលស្តេចស្វាដឹងថា ងារនោះទាបបំផុត គាត់ខឹង និងបះបោរ។ ដូច្នេះ ពួកគេផ្ដល់ងារធំជាង **«មហាសិទ្ធិស្មើឋានសួគ៌»** — ស្ដាប់ទៅអស្ចារ្យ តែគ្មានអំណាច គ្មានការទទួលខុសត្រូវ និងគ្មានការគោរពពិត។ ពួកគេថែមទាំងឱ្យគាត់ **យាមឧទ្យានផ្លែប៉ែស** ដែលជាការងារ «បន្ធូរអារម្មណ៍» ដ៏គ្មានន័យ។
+ដំបូង ពួកគេផ្ដល់ងារ **«អ្នកមើលថែសេះ» (Keeper of the Horses)** — ងារតូចមួយ។ នៅពេលស្តេចស្វាដឹងថា ងារនោះទាបបំផុត គាត់ខឹង និងបះបោរ។ ដូច្នេះ ពួកគេផ្ដល់ងារធំជាង **«មហាសិទ្ធិស្មើឋានសួគ៌»** — ស្ដាប់ទៅអស្ចារ្យ តែគ្មានអំណាច គ្មានការទទួលខុសត្រូវ និងគ្មានការគោរពពិត។ ពួកគេថែមទាំងឱ្យគាត់ **យាមសួនផ្លែប៉េសអមតៈ** ដែលជាការងារ «បន្ធូរអារម្មណ៍» ដ៏គ្មានន័យ។
 
 First they gave him the title **"Keeper of the Horses"** — a lowly post. When the Monkey King realized it was the *lowest* rank, he was furious and rebelled. So they gave him the grander title **"Great Sage Equal to Heaven"** — impressive-sounding, but with no power, no real responsibility, and no genuine respect. They even put him in charge of *guarding the peach garden* — a meaningless "keep-him-busy" job.
 
@@ -190,9 +190,17 @@ If you lead talented, ambitious people, remember: recognition with no substance 
 <a id="7"></a>
 ## Related Posts
 
-* **[249 Trapped Under the Mountain](./249-trapped-under-the-mountain.md)** — ឧទ្ធច្ច ត្រូវការវិន័យ និងបេសកកម្ម (ego needs discipline & a mission).
+
+### 🐒 The Journey to the West Series (ស៊េរីរឿងដំណើរទៅទិសខាងលិច)
+
+* **[78 The Seventy-Two Faces of Sun Wukong](../articles/78-the-seventy-two-faces-of-sun-wukong.md)** — អត្ថបទវិទ្យាសាស្ត្រ៖ ខ្លួនពិត vs ខ្លួនក្លែង (science article: true self vs false self).
+* **[244 The White Bone Demon & the Fiery Eyes](./244-the-white-bone-demon-and-the-fiery-eyes.md)** — របាំងមុខ vs ខ្លួនពិត (masks vs true self).
+* **[246 The Monk Who Banished the Truth](./246-the-monk-who-banished-the-truth.md)** — ភាពស្មោះត្រង់ ≠ ការវិនិច្ឆ័យ (sincerity ≠ discernment).
+* **[247 The Real and the Fake Monkey](./247-the-real-and-the-fake-monkey.md)** — ផ្ទៃក្រៅ vs ខ្លឹមសារ (surface vs substance).
 * **[248 The Golden Headband](./248-the-golden-headband.md)** — អំណាច ត្រូវការការទទួលខុសត្រូវ (power needs accountability).
-* **[78 The Seventy-Two Faces of Sun Wukong](../articles/78-the-seventy-two-faces-of-sun-wukong.md)** — អត្ថបទវិទ្យាសាស្ត្រដៃគូ (the companion science article).
+* **[249 Trapped Under the Mountain](./249-trapped-under-the-mountain.md)** — ទេពកោសល្យ ត្រូវការវិន័យ និងបេសកកម្ម (talent needs discipline & mission).
+* **[250 Havoc in Heaven & the Empty Title](./250-havoc-in-heaven-and-the-empty-title.md)** — ឧទ្ធច្ច និងតួនាទីទទេ (ego and empty titles).
+* **[251 The Flaming Mountains & the Banana-Leaf Fan](./251-the-flaming-mountains-and-the-banana-fan.md)** — យុទ្ធសាស្ត្រ > កម្លាំង (strategy > force).
 
 ---
 

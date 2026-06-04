@@ -30,7 +30,7 @@
 
 Should the most talented, most powerful, or smartest person on a team be *exempt* from rules and oversight? Many think *"yes, because they're that good."* This is the trap.
 
-ស្តេចស្វា ស៊ុនអ៊ូឃុង ខ្លាំងពេក រហូតព្រះនៅឋានសួគ៌ ក៏វាយមិនឈ្នះ។ ដំណោះស្រាយមិនមែនកម្លាំងធំជាង — តែជា **បន្ទះមាសរឹតក្បាល (Golden Headband / 金箍)** ដ៏តូចមួយ ដែលផ្តល់ការទទួលខុសត្រូវ និងព្រំដែន។
+ស្តេចស្វា ស៊ុនអ៊ូឃុង ខ្លាំងពេក រហូតកងទ័ពឋានសួគ៌ ក៏វាយមិនឈ្នះ។ ដំណោះស្រាយមិនមែនកម្លាំងធំជាង — តែជា **បន្ទះមាសរឹតក្បាល (Golden Headband / 金箍)** ដ៏តូចមួយ ដែលផ្តល់ការទទួលខុសត្រូវ និងព្រំដែន។
 
 The Monkey King was so powerful that even Heaven could not defeat him. The solution was not *more force* — it was one small **Golden Headband (金箍)** that gave him accountability and limits.
 
@@ -63,7 +63,7 @@ graph TD
 
 The Monkey King had immense power — he could wreck Heaven, and no one could control him. But great power *without a check* made him a **danger**, not a hero.
 
-ដូច្នេះ ព្រះអវលោកិតេស្វរ (Guanyin) បានដាក់ **បន្ទះមាស (Golden Headband)** លើក្បាលគាត់។ នៅពេលគាត់ប្រព្រឹត្តិខុស ឬបាត់បង់ការគ្រប់គ្រងខ្លួន ព្រះតាំងសាមី (his master) អាចសូត្រ **«មន្តរឹតក្បាល»** ដែលធ្វើឱ្យបន្ទះមាសរឹតចូល បង្កការឈឺចាប់ខ្លាំង។
+ដូច្នេះ ព្រះអវលោកិតេស្វរ (Guanyin) បានដាក់ **បន្ទះមាស (Golden Headband)** លើក្បាលគាត់។ នៅពេលគាត់ប្រព្រឹត្តខុស ឬបាត់បង់ការគ្រប់គ្រងខ្លួន ព្រះថាងសានចាង (his master) អាចសូត្រ **«មន្តរឹតក្បាល»** ដែលធ្វើឱ្យបន្ទះមាសរឹតចូល បង្កការឈឺចាប់ខ្លាំង។
 
 So the Bodhisattva Guanyin placed the **Golden Headband** on his head. Whenever he acted wrongly or lost control, his master could chant the **tightening spell**, making the band constrict and causing him great pain.
 
@@ -88,7 +88,7 @@ The Golden Headband reveals a vital principle: **the most powerful person or sys
 
 - **"Power tends to corrupt" (Lord Acton)** — អំណាច ដោយគ្មានការទប់ស្កាត់ ងាយនាំទៅរកការប្រើខុស។ បន្ទះមាស គឺជា **«checks and balances»** ផ្ទាល់ខ្លួន។
 - **Accountability ≠ Distrust** — ការដាក់ព្រំដែនលើមនុស្សពូកែ មិនមែនមានន័យថា «មិនទុកចិត្ត» ឡើយ — វាជាការការពារ **ទាំងគេ និងក្រុម** ពីកំហុសដ៏ធំ។
-- **Single Point of Failure** — នៅពេលក្រុមពឹងផ្អែកលើ «ស្តេចស្វា» តែម្នាក់ ដោយគ្មានព្រំដែន នោះជា **ហានិភ័យ** ដ៏ធំ បើគេបាត់ ឬប្រព្រឹត្តិខុស។
+- **Single Point of Failure** — នៅពេលក្រុមពឹងផ្អែកលើ «ស្តេចស្វា» តែម្នាក់ ដោយគ្មានព្រំដែន នោះជា **ហានិភ័យ** ដ៏ធំ បើគេបាត់ ឬប្រព្រឹត្តខុស។
 
 **ភាពខុសគ្នាសំខាន់៖** គោលដៅរបស់បន្ទះមាស មិនមែនដើម្បី **ធ្វើឱ្យស្តេចស្វាខ្សោយ** — តែដើម្បី **ធ្វើឱ្យកម្លាំងរបស់គាត់ មានសុវត្ថិភាព និងមានប្រយោជន៍**។ ការទទួលខុសត្រូវ ល្អ មិនកាត់បន្ថយទេពកោសល្យ — វាដឹកនាំទេពកោសល្យ។
 
@@ -214,9 +214,17 @@ Whether you are a brilliant "Monkey King" or you lead a team of them, remember: 
 <a id="7"></a>
 ## Related Posts
 
-* **[249 Trapped Under the Mountain](./249-trapped-under-the-mountain.md)** — ទេពកោសល្យ ត្រូវការវិន័យ និងបេសកកម្ម (talent needs discipline & a mission).
-* **[250 Havoc in Heaven & the Empty Title](./250-havoc-in-heaven-and-the-empty-title.md)** — តួនាទីទទេ ដើម្បីបន្ធូរអំណាច បែរជាបង្កគ្រោះ (empty titles to pacify ambition backfire).
-* **[78 The Seventy-Two Faces of Sun Wukong](../articles/78-the-seventy-two-faces-of-sun-wukong.md)** — អត្ថបទវិទ្យាសាស្ត្រដៃគូ (the companion science article).
+
+### 🐒 The Journey to the West Series (ស៊េរីរឿងដំណើរទៅទិសខាងលិច)
+
+* **[78 The Seventy-Two Faces of Sun Wukong](../articles/78-the-seventy-two-faces-of-sun-wukong.md)** — អត្ថបទវិទ្យាសាស្ត្រ៖ ខ្លួនពិត vs ខ្លួនក្លែង (science article: true self vs false self).
+* **[244 The White Bone Demon & the Fiery Eyes](./244-the-white-bone-demon-and-the-fiery-eyes.md)** — របាំងមុខ vs ខ្លួនពិត (masks vs true self).
+* **[246 The Monk Who Banished the Truth](./246-the-monk-who-banished-the-truth.md)** — ភាពស្មោះត្រង់ ≠ ការវិនិច្ឆ័យ (sincerity ≠ discernment).
+* **[247 The Real and the Fake Monkey](./247-the-real-and-the-fake-monkey.md)** — ផ្ទៃក្រៅ vs ខ្លឹមសារ (surface vs substance).
+* **[248 The Golden Headband](./248-the-golden-headband.md)** — អំណាច ត្រូវការការទទួលខុសត្រូវ (power needs accountability).
+* **[249 Trapped Under the Mountain](./249-trapped-under-the-mountain.md)** — ទេពកោសល្យ ត្រូវការវិន័យ និងបេសកកម្ម (talent needs discipline & mission).
+* **[250 Havoc in Heaven & the Empty Title](./250-havoc-in-heaven-and-the-empty-title.md)** — ឧទ្ធច្ច និងតួនាទីទទេ (ego and empty titles).
+* **[251 The Flaming Mountains & the Banana-Leaf Fan](./251-the-flaming-mountains-and-the-banana-fan.md)** — យុទ្ធសាស្ត្រ > កម្លាំង (strategy > force).
 
 ---
 

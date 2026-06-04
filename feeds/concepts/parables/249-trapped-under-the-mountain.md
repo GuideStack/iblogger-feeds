@@ -68,7 +68,7 @@ Early in *Journey to the West*, the Monkey King had astonishing power — but he
 
 Finally the **Buddha** subdued him — not with greater force, but with wisdom. He imprisoned the Monkey King **under the Five-Elements Mountain for 500 years**.
 
-រយៈពេល ៥០០ ឆ្នាំនោះ មិនមែនគ្រាន់តែជាទណ្ឌកម្មឡើយ — វាជា **ពេលវេលានៃការ បន្ទាបខ្លួន និងការឆ្លុះបញ្ចាំង**។ នៅពេលគាត់ត្រូវបានដោះលែង គាត់ត្រូវបានផ្ដល់ **បេសកកម្មមួយ** (ការពារព្រះតាំង លើផ្លូវធម្មយាត្រា) និង **វិន័យ**។ មានតែពេលនោះ ដែលកម្លាំងព្រៃផ្សៃរបស់គាត់ បានក្លាយជាកម្លាំងដ៏អស្ចារ្យ ដែលមានគោលដៅ — ហើយគាត់ក្លាយជាវីរបុរសពិត។
+រយៈពេល ៥០០ ឆ្នាំនោះ មិនមែនគ្រាន់តែជាទណ្ឌកម្មឡើយ — វាជា **ពេលវេលានៃការ បន្ទាបខ្លួន និងការឆ្លុះបញ្ចាំង**។ នៅពេលគាត់ត្រូវបានដោះលែង គាត់ត្រូវបានផ្ដល់ **បេសកកម្មមួយ** (ការពារព្រះថាងសានចាង លើផ្លូវធម្មយាត្រា) និង **វិន័យ**។ មានតែពេលនោះ ដែលកម្លាំងព្រៃផ្សៃរបស់គាត់ បានក្លាយជាកម្លាំងដ៏អស្ចារ្យ ដែលមានគោលដៅ — ហើយគាត់ក្លាយជាវីរបុរសពិត។
 
 Those 500 years were not mere punishment — they were a time of *humility and reflection*. When released, he was given a *mission* (to protect the monk on the pilgrimage) and *discipline*. Only then did his wild power become great power *with purpose* — and he became a true hero.
 
@@ -87,7 +87,7 @@ The 500-years story reveals a painful truth: **talent without discipline or purp
 
 នេះភ្ជាប់នឹងគំនិតផ្លូវចិត្ត (this connects to psychology):
 
-- **Talent vs. Discipline (Angela Duckworth — Grit)** — ការស្រាវជ្រាវបង្ហាញថា **ការខិតខំ ប្រកបដោយវិន័យ (effort)** សំខាន់ជាងទេពកោសល្យឆៅ ពីរដង ក្នុងការសម្រេចជោគជ័យ។ ទេពកោសល្យ ប្រាប់ត្រឹមថា «អ្នកអាចទៅឆ្ងាយប៉ុណ្ណា» — វិន័យ ទើបនាំអ្នកទៅដល់ទីនោះ។
+- **Talent vs. Discipline (Angela Duckworth — Grit)** — ការស្រាវជ្រាវបង្ហាញថា **ការខិតខំ ប្រកបដោយវិន័យ (effort)** សំខាន់ជាងទេពកោសល្យពីធម្មជាតិ ពីរដង ក្នុងការសម្រេចជោគជ័យ។ ទេពកោសល្យ ប្រាប់ត្រឹមថា «អ្នកអាចទៅឆ្ងាយប៉ុណ្ណា» — វិន័យ ទើបនាំអ្នកទៅដល់ទីនោះ។
 - **Purpose (Viktor Frankl)** — កម្លាំង ដោយគ្មាន «ហេតុអ្វី» គឺគ្មានទិសដៅ។ បេសកកម្ម ផ្ដល់ទិសដៅ ដែលប្រែកម្លាំងព្រៃផ្សៃ ឱ្យមានន័យ។
 - **The Value of Constraint** — ភ្នំ (constraint) មិនមែនជាសត្រូវ — វាជា **គ្រូ**។ ព្រំដែន បង្ខំឱ្យមានការ ឆ្លុះបញ្ចាំង និងភាពចាស់ទុំ ដែលភាពងាយស្រួល មិនអាចផ្ដល់បាន។
 
@@ -131,7 +131,7 @@ graph TD
 ---
 
 <a id="3-2"></a>
-### ឧទាហរណ៍ទី ២ — ស្តាតអាប៖ ស្ថាបនិកដ៏ឆ្លាត ដែលគ្មានទិសដៅ (The Smart Founder With No Direction)
+### ឧទាហរណ៍ទី ២ — ក្រុមហ៊ុន Startup៖ ស្ថាបនិកដ៏ឆ្លាត ដែលគ្មានទិសដៅ (The Smart Founder With No Direction)
 
 ស្ថាបនិកម្នាក់ ឆ្លាតវៃ និងពោរពេញដោយថាមពល — តែ លោតពីគំនិតមួយ ទៅគំនិតមួយ គ្មានការផ្ដោត គ្មានបេសកកម្មច្បាស់លាស់។ កម្លាំងច្នៃប្រឌិតរបស់គេ ខ្ជះខ្ជាយ ព្រោះគ្មាន «ភ្នំ» (ការផ្ដោត និងវិន័យ) និងគ្មាន «បេសកកម្ម» ច្បាស់លាស់។ ថាមពលច្រើន ដោយគ្មានទិសដៅ មិននាំទៅរកជោគជ័យឡើយ។
 
@@ -222,9 +222,17 @@ If you have talent but feel "trapped under a mountain" right now — remember, i
 <a id="7"></a>
 ## Related Posts
 
+
+### 🐒 The Journey to the West Series (ស៊េរីរឿងដំណើរទៅទិសខាងលិច)
+
+* **[78 The Seventy-Two Faces of Sun Wukong](../articles/78-the-seventy-two-faces-of-sun-wukong.md)** — អត្ថបទវិទ្យាសាស្ត្រ៖ ខ្លួនពិត vs ខ្លួនក្លែង (science article: true self vs false self).
+* **[244 The White Bone Demon & the Fiery Eyes](./244-the-white-bone-demon-and-the-fiery-eyes.md)** — របាំងមុខ vs ខ្លួនពិត (masks vs true self).
+* **[246 The Monk Who Banished the Truth](./246-the-monk-who-banished-the-truth.md)** — ភាពស្មោះត្រង់ ≠ ការវិនិច្ឆ័យ (sincerity ≠ discernment).
+* **[247 The Real and the Fake Monkey](./247-the-real-and-the-fake-monkey.md)** — ផ្ទៃក្រៅ vs ខ្លឹមសារ (surface vs substance).
 * **[248 The Golden Headband](./248-the-golden-headband.md)** — អំណាច ត្រូវការការទទួលខុសត្រូវ (power needs accountability).
+* **[249 Trapped Under the Mountain](./249-trapped-under-the-mountain.md)** — ទេពកោសល្យ ត្រូវការវិន័យ និងបេសកកម្ម (talent needs discipline & mission).
 * **[250 Havoc in Heaven & the Empty Title](./250-havoc-in-heaven-and-the-empty-title.md)** — ឧទ្ធច្ច និងតួនាទីទទេ (ego and empty titles).
-* **[78 The Seventy-Two Faces of Sun Wukong](../articles/78-the-seventy-two-faces-of-sun-wukong.md)** — អត្ថបទវិទ្យាសាស្ត្រដៃគូ (the companion science article).
+* **[251 The Flaming Mountains & the Banana-Leaf Fan](./251-the-flaming-mountains-and-the-banana-fan.md)** — យុទ្ធសាស្ត្រ > កម្លាំង (strategy > force).
 
 ---
 

@@ -64,7 +64,7 @@ graph TD
 
 In *Journey to the West*, there is a demon called the **Six-Eared Macaque (六耳猕猴)** who can imitate the Monkey King **Sun Wukong** flawlessly — same face, same staff, same strength, even the same memories and words.
 
-ស្វាទាំងពីរ វាយតប់គ្នាមិនចេញចាញ់ឈ្នះ។ ពួកគេទៅរក **ព្រះតាំង ឆាង្គៀន (Heaven), មច្ចុរាជ (the Underworld), និងព្រះអវលោកិតេស្វរ (Guanyin)** — តែគ្មាននរណាម្នាក់ ឬឧបករណ៍ណាមួយ អាចបែងចែកស្វាពិតចេញពីស្វាក្លែងបានឡើយ។
+ស្វាទាំងពីរ វាយតប់គ្នាមិនចេញចាញ់ឈ្នះ។ ពួកគេទៅរក **ឋានសួគ៌ (Heaven), មច្ចុរាជ (the Underworld), និងព្រះអវលោកិតេស្វរ (Guanyin)** — តែគ្មាននរណាម្នាក់ ឬឧបករណ៍ណាមួយ អាចបែងចែកស្វាពិតចេញពីស្វាក្លែងបានឡើយ។
 
 The two monkeys fight to a perfect standstill. They go to **Heaven, the Underworld, and the Bodhisattva Guanyin** — but no one, and no instrument, can tell the real monkey from the fake.
 
@@ -231,9 +231,17 @@ When someone imitates you, or when you compare yourself to other "fake monkeys,"
 <a id="7"></a>
 ## Related Posts
 
-* **[78 The Seventy-Two Faces of Sun Wukong](../articles/78-the-seventy-two-faces-of-sun-wukong.md)** — អត្ថបទវិទ្យាសាស្ត្រ៖ ខ្លួនពិត vs ខ្លួនក្លែង និងខ្សែបន្ទាត់នៃការសម្របខ្លួន (the science article: true self vs. false self).
-* **[244 The White Bone Demon & the Fiery Eyes](./244-the-white-bone-demon-and-the-fiery-eyes.md)** — របាំងមុខ vs ខ្លួនពិត (masks vs. the true self).
+
+### 🐒 The Journey to the West Series (ស៊េរីរឿងដំណើរទៅទិសខាងលិច)
+
+* **[78 The Seventy-Two Faces of Sun Wukong](../articles/78-the-seventy-two-faces-of-sun-wukong.md)** — អត្ថបទវិទ្យាសាស្ត្រ៖ ខ្លួនពិត vs ខ្លួនក្លែង (science article: true self vs false self).
+* **[244 The White Bone Demon & the Fiery Eyes](./244-the-white-bone-demon-and-the-fiery-eyes.md)** — របាំងមុខ vs ខ្លួនពិត (masks vs true self).
 * **[246 The Monk Who Banished the Truth](./246-the-monk-who-banished-the-truth.md)** — ភាពស្មោះត្រង់ ≠ ការវិនិច្ឆ័យ (sincerity ≠ discernment).
+* **[247 The Real and the Fake Monkey](./247-the-real-and-the-fake-monkey.md)** — ផ្ទៃក្រៅ vs ខ្លឹមសារ (surface vs substance).
+* **[248 The Golden Headband](./248-the-golden-headband.md)** — អំណាច ត្រូវការការទទួលខុសត្រូវ (power needs accountability).
+* **[249 Trapped Under the Mountain](./249-trapped-under-the-mountain.md)** — ទេពកោសល្យ ត្រូវការវិន័យ និងបេសកកម្ម (talent needs discipline & mission).
+* **[250 Havoc in Heaven & the Empty Title](./250-havoc-in-heaven-and-the-empty-title.md)** — ឧទ្ធច្ច និងតួនាទីទទេ (ego and empty titles).
+* **[251 The Flaming Mountains & the Banana-Leaf Fan](./251-the-flaming-mountains-and-the-banana-fan.md)** — យុទ្ធសាស្ត្រ > កម្លាំង (strategy > force).
 
 ---
 
