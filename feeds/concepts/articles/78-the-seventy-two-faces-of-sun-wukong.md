@@ -45,7 +45,7 @@ We all "shape-shift" too — not by magic, but socially. We show a different fac
 - មុខមួយសម្រាប់**មនុស្សចម្លែក** 🙂 — a face for **strangers**
 - មុខមួយសម្រាប់**អ្នកដែលយើងមិនចូលចិត្ត** 😐 — a face for **people we dislike**
 
-សំណួរធំគឺ៖ តើនេះជា «ភាពក្លែងក្លាយ» (fake) ឬជា «ជំនាញរស់រាន» (survival skill)? **ចម្លើយគឺ៖ ទាំងពីរ — អាស្រ័យលើថាតើយើងនៅចាំមុខពិតរបស់យើងឬអត់។**
+សំណួរធំគឺ៖ តើនេះជា «ភាពក្លែងក្លាយ» (fake) ឬជា «ជំនាញបត់បែនដើម្បីរស់» (survival skill)? **ចម្លើយគឺ៖ ទាំងពីរ — អាស្រ័យលើថាតើយើងនៅចាំមុខពិតរបស់យើងឬអត់។**
 
 The big question is: is this *fakeness*, or is it a *survival skill*? **The answer is: both — it depends on whether you still remember your true face underneath.**
 
@@ -109,7 +109,7 @@ True Self                                          Lost Self
 |---|---|---|
 | **1. ការសម្រប (Adaptation)** | អ្នកប្ដូររបៀប តែតម្លៃ និងចិត្តពិតនៅដដែល។ You change your *style*, but your values and heart stay the same. | ✅ ស្វានៅតែជាស្វា (still the monkey) |
 | **2. ការទូត (Diplomacy)** | អ្នកជ្រើសរើសពាក្យ ដើម្បីការពារទំនាក់ទំនង។ You choose words carefully to protect relationships. | ✅ ភាគច្រើននៅគ្រប់គ្រង |
-| **3. ការផ្គាប់ចិត្ត (People-Pleasing)** | អ្នកលះបង់តម្រូវការខ្លួនឯង ដើម្បីឱ្យគេចូលចិត្ត។ You sacrifice your own needs so others will like you. | ⚠️ កន្ទុយចាប់ផ្ដើមលាក់ |
+| **3. ការផ្គាប់ចិត្ត (People-Pleasing)** | អ្នកលះបង់តម្រូវការផ្ទាល់ខ្លួន ដើម្បីផ្គាប់ចិត្តអ្នកដទៃ។ You sacrifice your own needs so others will like you. | ⚠️ កន្ទុយចាប់ផ្ដើមលាក់ |
 | **4. ការបោកប្រាស់ (Manipulation)** | អ្នកប្រែខ្លួនដើម្បីបញ្ឆោត ឬគ្រប់គ្រងគេ។ You shift form to deceive or control. | ❌ ស្វាភ្លេចខ្លួនឯង |
 | **5. ការលុបខ្លួន (Self-Erasure)** | គ្មានមុខណាមួយជាមុខពិតទៀតឡើយ។ No face is the real one anymore. | ❌ បាត់ស្វាទាំងស្រុង |
 
@@ -130,7 +130,7 @@ True Self                                          Lost Self
 
 - អ្នកយល់ស្របនឹងគ្រប់គ្នានៅចំពីមុខ តែនិយាយផ្ទុយពីនេះនៅក្រោយខ្នង។ *You agree with everyone to their face, then say the opposite behind their backs.*
 - អ្នកប្ដូរ «តម្លៃ» (values) របស់អ្នកទៅតាមអ្នកដែលមានអំណាចបំផុតក្នុងបន្ទប់។ *You change your **values** to match whoever holds the most power in the room.*
-- បន្ទាប់ពីប៉ុន្មានឆ្នាំ អ្នកលែងដឹងថា «តើខ្ញុំពិតៗជាអ្នកណា?» *After years, you no longer know: "Who am I, really?"*
+- បន្ទាប់ពីច្រើនឆ្នាំកន្លងផុតទៅ អ្នកលែងដឹងថា «តើខ្ញុំពិតប្រាកដជាអ្នកណា?» *After years, you no longer know: "Who am I, really?"*
 
 > **ភាពខុសគ្នាសំខាន់ (The crucial difference):** ការសម្របប្ដូរ **របៀប** (style) គឺមានសុខភាព។ ការសម្របប្ដូរ **តម្លៃ និងខ្លឹមសារ** (values & substance) ដើម្បីផ្គាប់ចិត្តគេ គឺជាការចាប់ផ្ដើមបាត់ខ្លួន។
 >

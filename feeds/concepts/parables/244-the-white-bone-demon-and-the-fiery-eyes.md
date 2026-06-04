@@ -234,7 +234,7 @@ graph LR
 
 ជំហាននៃការអនុវត្ត (How to apply)៖
 
-1. **មើលឥរិយាបថ មិនមែនពាក្យ (Watch behavior, not words)៖** របាំងមុខបង្ហាញតែខាងមុខ។ ការពិតលេចចេញតាមរយៈ **ទង្វើ ដែលធ្វើម្តងហើយម្តងទៀតតាមពេលវេលា**។ *Masks show only the surface. Truth reveals itself through repeated behavior over time.*
+1. **មើលឥរិយាបថ មិនមែនពាក្យ (Watch behavior, not words)៖** របាំងមុខបង្ហាញតែខាងមុខ។ ការពិតលេចចេញតាមរយៈ **ទង្វើដែលស្តែងចេញម្តងហើយម្តងទៀតតាមពេលវេលា**។ *Masks show only the surface. Truth reveals itself through repeated behavior over time.*
 2. **កុំដាក់ទោសអ្នកនិយាយការពិត (Don't punish the truth-teller)៖** នៅពេលនរណាម្នាក់ប្រាប់អ្នកនូវការពិតដែលមិនពិរោះស្ដាប់ កុំក្លាយជាព្រះថាងដែលបណ្តេញស្តេចស្វា — សួរថា «តើគាត់ឃើញឆ្អឹងសអ្វីដែលខ្ញុំមើលមិនឃើញ?» *When someone tells you an uncomfortable truth, don't be the monk who banishes the monkey — ask what bones they see that you can't.*
 3. **រក្សាមុខពិតរបស់ខ្លួនឯង (Keep your own true face)៖** ប្រែ ៧២ មុខបាន — តែកុំក្លាយជាបិសាចឆ្អឹងស។ ចូរធ្វើដូចស្តេចស្វា ដែលមិនដែលភ្លេចថាខ្លួនជាស្វា។ *Wear 72 faces — but never become the White Bone Demon. Be the monkey, who never forgot he was a monkey.*
 

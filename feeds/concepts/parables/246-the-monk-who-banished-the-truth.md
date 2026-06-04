@@ -26,7 +26,7 @@
 <a id="0"></a>
 ## អន្ទាក់ផ្លូវចិត្ត (The Trap)
 
-តើអ្នកធ្លាប់ដាក់ទោស ឬងាកចេញពីនរណាម្នាក់ ដោយសារគាត់ប្រាប់អ្នកនូវការពិតដ៏អាក្រក់ — ហើយបែរជាជឿអ្នកដែលញញឹមផ្គាប់ផ្គុនវិញដែរឬទេ?
+តើអ្នកធ្លាប់ដាក់ទោស ឬងាកចេញពីនរណាម្នាក់ ដោយសារគាត់ប្រាប់អ្នកនូវការពិតដែលពិបាកទទួលយក — ហើយបែរជាជឿអ្នកដែលញញឹមផ្គាប់ផ្គុនវិញដែរឬទេ?
 
 Have you ever punished or pushed away someone because they told you an ugly truth — while believing the one who smiled and flattered you instead?
 
@@ -90,7 +90,7 @@ Most people read this story and focus on the **demon**: *"don't be fake, and see
 >
 > **The problem was never the demon. The problem was that the group could not tell the truth-teller from the troublemaker — so they exiled the one person who could actually see.**
 
-បិសាច **ត្រូវបានគេរំពឹងទុក** ថានឹងបោកប្រាស់ — នោះជាធម្មជាតិរបស់បិសាច។ សោកនាដកម្មពិតគឺ **ព្រះថាង**៖ មនុស្សល្អ ស្មោះត្រង់ មានចេតនាល្អ ដែលបែរជា **ដាក់ទោសអ្នកនិយាយការពិត** ព្រោះការពិតវាអាក្រក់ ហើយការកុហកវាស្អាត។ ផ្នែកនេះហើយ ដែលនិយាយពី **យើង** មិនមែនពីមនុស្សអាក្រក់ឡើយ។
+បិសាច **ត្រូវបានគេរំពឹងទុក** ថានឹងបោកប្រាស់ — នោះជាធម្មជាតិរបស់បិសាច។ សោកនាដកម្មពិតគឺ **ព្រះថាង**៖ មនុស្សល្អ ស្មោះត្រង់ មានចេតនាល្អ ដែលបែរជា **ដាក់ទោសអ្នកនិយាយការពិត** ព្រោះការពិតវាជូរចត់ ហើយការកុហកវាផ្អែមល្ហែម។ ផ្នែកនេះហើយ ដែលនិយាយពី **យើង** មិនមែនពីមនុស្សអាក្រក់ឡើយ។
 
 The demon was *expected* to deceive — that is a demon's nature. The real tragedy is the **monk**: a good, sincere, well-meaning person who **punished the truth-teller** because the truth was ugly and the lie was beautiful. *That* is the part about **us**, not about villains.
 
@@ -223,7 +223,7 @@ graph LR
 បិសាចមិនដែលលេចមកជាសត្វចម្លែកគួរស្អប់ឡើយ — វាលេចមកជា **ស្ត្រីក្មេងនាំម្ហូប ម្តាយកំសត់ បុរសចំណាស់វង្វេង**។ ការបោកប្រាស់ ពាក់មុខអ្នកដែលគួរអាណិត។ *Be most careful exactly when something pulls at your sympathy.*
 
 **៤. វិនិច្ឆ័យលំនាំតាមពេលវេលា មិនមែនការសម្ដែងតែម្តង។ (Judge the pattern over time, not a single performance.)**
-ស្តេចស្វា **ត្រូវទាំង ៣ ដង** — តែការវាយម្តង មើលទៅដូចជាឃាតកម្ម។ ការពិត ច្រើនតែត្រូវការការធ្វើម្តងហើយម្តងទៀតទើបគេជឿ ហើយអ្នកដែលត្រូវមុនគេ មើលទៅអាក្រក់ជាងគេ។ *A single snapshot is where masks win; watch behavior across time.*
+ស្តេចស្វា **ធ្វើត្រូវទាំង ៣ ដង** — តែការវាយសម្លាប់បិសាចនោះ មើលទៅហាក់ដូចជាអំពើឃាតកម្ម។ ការពិត ច្រើនតែត្រូវការការធ្វើម្តងហើយម្តងទៀតទើបគេជឿ ហើយអ្នកដែលត្រូវមុនគេ មើលទៅអាក្រក់ជាងគេ។ *A single snapshot is where masks win; watch behavior across time.*
 
 **៥. ភ្នែកមាស ត្រូវបានលត់ដំក្នុងភ្លើង។ (The fiery eyes were forged in fire.)**
 ស៊ុនអ៊ូឃុង មិនបានភ្នែកមាសដោយឥតគិតថ្លៃទេ — គាត់បានវាបន្ទាប់ពីត្រូវដុតក្នុងឡ ៤៩ ថ្ងៃ។ សមត្ថភាពមើលទម្លុះរបាំងមុខ **មានតម្លៃ** — ជាធម្មតា គឺការត្រូវគេបោក ឬឈឺចាប់ជាមុនសិន។ *Your past pain is not just damage — it is how you earned your fiery eyes. Don't waste the lesson.*
@@ -233,11 +233,11 @@ graph LR
 <a id="5"></a>
 ## សេចក្តីសន្និដ្ឋាន (Conclusion)
 
-> **ការមើលឃើញបិសាច គឺងាយ។ ផ្នែកដ៏ពិបាក គឺ កុំក្លាយជាព្រះថាង — មនុស្សស្មោះត្រង់ ដែលបណ្តេញការពិតចេញ ព្រោះការកុហកវាស្អាតជាង។**
+> **ការមើលឃើញបិសាច គឺងាយ។ ផ្នែកដ៏ពិបាក គឺ កុំក្លាយជាព្រះថាង — មនុស្សស្មោះត្រង់ ដែលបណ្តេញការពិតចេញ ព្រោះការកុហកវាផ្អែមល្ហែមជាង។**
 >
 > **It's easy to spot the demon. The hard part is not becoming the monk — the sincere person who exiles the truth because the lie was prettier.**
 
-នៅពេលនរណាម្នាក់ប្រាប់អ្នកនូវការពិតដ៏អាក្រក់ កុំសួរថា «ហេតុអ្វីបានជាគាត់អវិជ្ជមានម្ល៉េះ?» — សួរថា «តើគាត់ឃើញឆ្អឹងសអ្វី ដែលខ្ញុំមើលមិនឃើញ?» នោះជាការចាប់ផ្តើមនៃការចិញ្ចឹមភ្នែកមាសរបស់ខ្លួនឯង។
+នៅពេលនរណាម្នាក់ប្រាប់អ្នកនូវការពិតដែលពិបាកទទួលយក កុំសួរថា «ហេតុអ្វីបានជាគាត់អវិជ្ជមានម្ល៉េះ?» — សួរថា «តើគាត់ឃើញឆ្អឹងសអ្វី ដែលខ្ញុំមើលមិនឃើញ?» នោះជាការចាប់ផ្តើមនៃការចិញ្ចឹមភ្នែកមាសរបស់ខ្លួនឯង។
 
 When someone tells you an ugly truth, don't ask *"why are they so negative?"* — ask *"what bones do they see that I can't?"* That is the beginning of growing your own fiery eyes.
 
