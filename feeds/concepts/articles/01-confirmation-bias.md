@@ -159,15 +159,21 @@ The developer focuses on protecting their ego, while the QA tester only focuses 
   'themeVariables': {
     'background': '#1e1e1e',
     'primaryTextColor': '#ffffff',
-    'lineColor': '#a0a0a0'
+    'lineColor': '#a0a0a0',
+    'actorBkg': '#2c3e50',
+    'actorBorder': '#34495e',
+    'actorTextColor': '#ffffff',
+    'noteBkgColor': '#2c3e50',
+    'noteTextColor': '#ffffff',
+    'noteBorderColor': '#34495e'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; } .messageText, .messageText tspan, .signalText, .signalText tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 3px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; }'
 }}%%
 sequenceDiagram
     autonumber
-    actor Dev as 💻 Developer (អ្នកអភិវឌ្ឍន៍)
-    actor QA as 🔍 QA Tester (អ្នកតេស្តប្រព័ន្ធ)
-    actor Client as 👥 Client / User (អតិថិជន)
+    participant Dev as 💻 Developer (អ្នកអភិវឌ្ឍន៍)
+    participant QA as 🔍 QA Tester (អ្នកតេស្តប្រព័ន្ធ)
+    participant Client as 👥 Client / User (អតិថិជន)
 
     Dev->>QA: Submits code (tested only on Happy Path)<br/>បញ្ជូនកូដ (តេស្តតែលើ Happy Path)
     Note over Dev: "My code is perfect"<br/>«កូដខ្ញុំល្អឥតខ្ចោះ»
@@ -219,15 +225,21 @@ Neither party is listening to the **actual end users**. The PO is chasing a tech
   'themeVariables': {
     'background': '#1e1e1e',
     'primaryTextColor': '#ffffff',
-    'lineColor': '#a0a0a0'
+    'lineColor': '#a0a0a0',
+    'actorBkg': '#2c3e50',
+    'actorBorder': '#34495e',
+    'actorTextColor': '#ffffff',
+    'noteBkgColor': '#2c3e50',
+    'noteTextColor': '#ffffff',
+    'noteBorderColor': '#34495e'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; } .messageText, .messageText tspan, .signalText, .signalText tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 3px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; }'
 }}%%
 sequenceDiagram
     autonumber
-    actor PO as 📱 Product Owner
-    actor Client as 💼 Client / Owner
-    actor Users as 👥 End Users
+    participant PO as 📱 Product Owner
+    participant Client as 💼 Client / Owner
+    participant Users as 👥 End Users
 
     PO->>Client: Recommends Feature A (Tech Preference)<br/>ណែនាំ Feature A (ចំណូលចិត្តបច្ចេកវិទ្យា)
     Client->>PO: Demands Feature B (Competitor Clone)<br/>ទាមទារ Feature B (ដេញតាមគូប្រជែង)
