@@ -15,7 +15,7 @@
 - [ហេតុអ្វីបានជាវាមានសារៈសំខាន់ (Why It Exists)](#1)
 - [KYC — ការផ្ទៀងផ្ទាត់អត្តសញ្ញាណបុគ្គល (KYC — Individual Verification)](#2)
 - [KYB — ការផ្ទៀងផ្ទាត់អត្តសញ្ញាណធុរកិច្ច (KYB — Business Verification)](#3)
-- [វិធីសាស្ត្សផ្អែកលើហានិភ័យ (Risk-Based Approach)](#4)
+- [វិធីសាស្ត្រផ្អែកលើហានិភ័យ (Risk-Based Approach)](#4)
 - [ការត្រួតពិនិត្យជាបន្តបន្ទាប់ (CDD) (Ongoing Monitoring (CDD))](#5)
 - [ការរក្សាទុកឯកសារ (Document Retention)](#6)
 - [ឯកសារទាក់ទង (Related)](#7)

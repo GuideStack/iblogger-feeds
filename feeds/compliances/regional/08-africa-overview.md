@@ -402,8 +402,8 @@ Minimum compliance for a platform serving Africa:
 
 - [ច្បាប់ការពារទិន្នន័យទូទៅ (GDPR)](../data-privacy/01-gdpr.md)
 - [GDPR](../data-privacy/01-gdpr.md)
-- [ស្វែងយល់ពី KYC/KYB (KYC/KYB Fundamentals)](../identity-and-kyc/01-kyc-kyb.md)
-- [KYC/KYB](../identity-and-kyc/01-kyc-kyb.md)
+- [ស្វែងយល់ពី KYC/KYB (KYC/KYB Fundamentals)](../identity-and-kyc/01-kyc-kyb-fundamentals.md)
+- [KYC/KYB](../identity-and-kyc/01-kyc-kyb-fundamentals.md)
 - [ការប្រឆាំងការលាងលុយកខ្វក់ (AML/CFT)](../payment-and-financial/03-aml-cft.md)
 - [AML/CFT](../payment-and-financial/03-aml-cft.md)
 - [អនុសាសន៍របស់ FATF](../identity-and-kyc/03-fatf-recommendations.md)

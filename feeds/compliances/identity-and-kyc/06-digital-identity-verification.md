@@ -103,24 +103,37 @@ eKYC is the fully digital end-to-end process:
     'primaryTextColor': '#ffffff',
     'lineColor': '#a0a0a0'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
-graph TD
-    A["📷 ថតរូបឯកសារសម្គាល់ខ្លួន ឬស្កេន NFC<br/>(Capture ID or NFC scan)"] --> B["🔍 ផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវនៃឯកសារ<br/>(Document authentication)"]
-    B --> C["📝 ទាញយកទិន្នន័យ OCR<br/>(Data extraction OCR)"]
-    C --> D["🗄️ ផ្ទៀងផ្ទាត់ជាមួយមូលដ្ឋានទិន្នន័យជាតិ<br/>(Database verification)"]
-    D --> E["🤳 ថតរូបសែលហ្វី<br/>(Selfie capture)"]
-    E --> F["🧬 ត្រួតពិនិត្យវត្តមានមនុស្សពិត<br/>(Liveness check)"]
-    F --> G["👥 ផ្គូផ្គងជីវមាត្រផ្ទៃមុខ<br/>(Biometric match)"]
-    G --> H["⚠️ វាយតម្លៃពិន្ទុហានិភ័យ<br/>(Risk scoring)"]
-    H --> I{"🎯 ការសម្រេចចិត្តចុងក្រោយ<br/>(Decision)"}
-    I -- ជោគជ័យ --> J["🟢 អនុម័ត (PASS)"]
-    I -- សង្ស័យ --> K["🟡 ត្រួតពិនិត្យដោយដៃ (REFER)"]
-    I -- បរាជ័យ --> L["🔴 បដិសេធ (FAIL)"]
+sequenceDiagram
+    autonumber
+    actor User as 👤 ម្ចាស់គណនី<br/>(User)
+    participant App as 📱 កម្មវិធីទូរស័ព្ទ<br/>(Client App)
+    participant Server as 🖥️ ម៉ាស៊ីនបម្រើ<br/>(Backend Server)
+    participant KYC as 🔍 សេវា eKYC<br/>(eKYC Provider)
+    participant DB as 🗄️ មូលដ្ឋានទិន្នន័យជាតិ<br/>(Gov Registry)
 
-    style J fill:#27ae60,color:#fff
-    style K fill:#f39c12,color:#fff
-    style L fill:#e74c3c,color:#fff
+    User->>App: ថតរូបឯកសារ & សែលហ្វី<br/>(Capture ID & Selfie)
+    App->>Server: ផ្ញើឯកសារ និងរូបថត<br/>(Upload ID & Selfie)
+    Server->>KYC: ស្នើសុំផ្ទៀងផ្ទាត់ឯកសារ & ជីវមាត្រ<br/>(Request validation & biometrics)
+    activate KYC
+    Note over KYC: ផ្ទៀងផ្ទាត់ភាពត្រឹមត្រូវនៃឯកសារ & ទាញយក OCR<br/>(Verify document & extract OCR)
+    Note over KYC: ត្រួតពិនិត្យវត្តមានមនុស្សពិត & ផ្គូផ្គងផ្ទៃមុខ<br/>(Liveness & biometric match)
+    KYC-->>Server: ផ្ញើលទ្ធផល និងទិន្នន័យ OCR<br/>(Return results & OCR data)
+    deactivate KYC
+    Server->>DB: ផ្ទៀងផ្ទាត់ទិន្នន័យជាមួយមូលដ្ឋានទិន្នន័យជាតិ<br/>(Verify OCR with Gov Registry)
+    DB-->>Server: ផ្ញើលទ្ធផលបញ្ជាក់<br/>(Return registry response)
+    Note over Server: វាយតម្លៃពិន្ទុហានិភ័យ & សម្រេចចិត្តចុងក្រោយ<br/>(Evaluate risk score & make final decision)
+    alt ជោគជ័យ (PASS)
+        Server-->>App: 🟢 អនុម័ត (PASS status)
+        App-->>User: បង្ហាញសេចក្តីជូនដំណឹងជោគជ័យ (Show success)
+    else សង្ស័យ (REFER)
+        Server-->>App: 🟡 ត្រួតពិនិត្យដោយដៃ (REFER status)
+        App-->>User: បង្ហាញការរង់ចាំការពិនិត្យ (Show pending status)
+    else បរាជ័យ (FAIL)
+        Server-->>App: 🔴 បដិសេធ (FAIL status)
+        App-->>User: បង្ហាញការបដិសេធ (Show rejection)
+    end
 ```
 
 ---

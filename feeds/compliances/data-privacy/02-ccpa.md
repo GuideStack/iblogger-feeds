@@ -102,7 +102,7 @@ This is the defining requirement of CCPA. If your business sells or shares perso
 | **ការយល់ព្រមជាមុន ឬជំទាស់តាមក្រោយ (Opt-in vs Opt-out)** | គំរូ Opt-out (ប្រមូលទិន្នន័យជាលំនាំដើម រួចទើបអនុញ្ញាតឱ្យជំទាស់តាមក្រោយ) (Opt-out model — data collected by default) | គំរូ Opt-in (តម្រូវឱ្យមានការយល់ព្រមជាមុនសិន ទើបអាចប្រមូលទិន្នន័យបាន) (Opt-in model — need consent before collection) |
 | **ទំហំសហគ្រាស (Threshold)** | អនុវត្តចំពោះតែសហគ្រាសធំៗ ឬក្រុមហ៊ុនដំណើរការទិន្នន័យទ្រង់ទ្រាយធំប៉ុណ្ណោះ (Only large/data-heavy businesses) | គ្រប់អាជីវកម្មទាំងអស់ដែលដំណើរការទិន្នន័យរបស់ពលរដ្ឋសហភាពអឺរ៉ុប (Any business processing EU resident data) |
 | **មូលដ្ឋានច្បាប់ (Legal basis)** | មិនមានតម្រូវការស្មើគ្នាទេ — យន្តការជំទាស់ Opt-out គឺជាគោល (No equivalent — opt-out is the mechanism) | ត្រូវតែមានមូលដ្ឋានផ្លូវច្បាប់ច្បាស់លាស់ជាមុន (Must have explicit legal basis) |
-| **ការផាកពិន័យ (Penalties)** | ១០០ ទៅ ៧៥០ ដុល្លារក្នុងម្នាក់ក្នុងមួយករណី (សិទ្ធិប្តឹងផ្តល់ឯកជនសម្រាប់លេចធ្លាយទិន្នន័យ); ២,៥០០ ទៅ ៧,៥០០ ដុល្លារក្នុងមួយការរំលោភ قصទ្បើយដោយចេតនា ($100–$750 per consumer per incident; $2,500–$7,500 per intentional violation) | រហូតដល់ ៤% នៃប្រាក់ចំណូលសកលប្រចាំឆ្នាំ (Up to 4% of global turnover) |
+| **ការផាកពិន័យ (Penalties)** | ១០០ ទៅ ៧៥០ ដុល្លារក្នុងម្នាក់ក្នុងមួយករណី (សិទ្ធិប្តឹងផ្តល់ឯកជនសម្រាប់លេចធ្លាយទិន្នន័យ); ២,៥០០ ទៅ ៧,៥០០ ដុល្លារក្នុងមួយការរំលោភបំពានដោយចេតនា ($100–$750 per consumer per incident; $2,500–$7,500 per intentional violation) | រហូតដល់ ៤% នៃប្រាក់ចំណូលសកលប្រចាំឆ្នាំ (Up to 4% of global turnover) |
 | **ស្ថាប័នអនុវត្តច្បាប់ (Enforcement)** | ទីភ្នាក់ងារការពារឯកជនភាពកាលីហ្វ័រញ៉ា (CPPA) (California Privacy Protection Agency) | អាជ្ញាធរត្រួតពិនិត្យជាតិរបស់សមាជិកនីមួយៗ (National supervisory authorities) |
 
 ---

@@ -476,8 +476,8 @@ Platform serving UAE + Saudi Arabia (most common entry markets):
 
 - [ច្បាប់ការពារទិន្នន័យទូទៅ (GDPR)](../data-privacy/01-gdpr.md) — ជាមូលដ្ឋានសកល ច្បាប់មជ្ឈិមបូព៌ាភាគច្រើនឆ្លុះបញ្ចាំងពីច្បាប់នេះ
 - [GDPR](../data-privacy/01-gdpr.md) — global baseline; many Middle East laws mirror it
-- [មូលដ្ឋានគ្រឹះ KYC/KYB (KYC/KYB Fundamentals)](../identity-and-kyc/01-kyc-kyb.md)
-- [KYC/KYB](../identity-and-kyc/01-kyc-kyb.md) — GCC KYC requirements
+- [មូលដ្ឋានគ្រឹះ KYC/KYB (KYC/KYB Fundamentals)](../identity-and-kyc/01-kyc-kyb-fundamentals.md)
+- [KYC/KYB](../identity-and-kyc/01-kyc-kyb-fundamentals.md) — GCC KYC requirements
 - [ការប្រឆាំងការលាងលុយកខ្វក់ (AML/CFT)](../payment-and-financial/03-aml-cft.md)
 - [AML/CFT](../payment-and-financial/03-aml-cft.md)
 - [ស្តង់ដារ ISO 27001](../security-frameworks/02-iso-27001.md) — តម្រូវដោយក្រសួងសន្តិសុខសាយប័ររបស់ SAMA

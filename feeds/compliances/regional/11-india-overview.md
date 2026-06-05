@@ -480,7 +480,7 @@ Aadhaar (12-digit biometric ID) is widely used for KYC but governed by:
 - [PCI-DSS](../payment-and-financial/01-pci-dss.md)
 - [ការប្រឆាំងការលាងលុយកខ្វក់ (AML/CFT)](../payment-and-financial/03-aml-cft.md)
 - [AML/CFT](../payment-and-financial/03-aml-cft.md)
-- [មូលដ្ឋានគ្រឹះ KYC/KYB (KYC/KYB Fundamentals)](../identity-and-kyc/01-kyc-kyb.md)
-- [KYC/KYB](../identity-and-kyc/01-kyc-kyb.md)
+- [មូលដ្ឋានគ្រឹះ KYC/KYB (KYC/KYB Fundamentals)](../identity-and-kyc/01-kyc-kyb-fundamentals.md)
+- [KYC/KYB](../identity-and-kyc/01-kyc-kyb-fundamentals.md)
 - [ស្តង់ដារ HL7 FHIR (HL7 FHIR Standards)](../healthcare/02-hl7-fhir.md) — ប្រព័ន្ធ ABDM ប្រើប្រាស់ FHIR R4
 - [HL7 FHIR](../healthcare/02-hl7-fhir.md) — ABDM uses FHIR R4
