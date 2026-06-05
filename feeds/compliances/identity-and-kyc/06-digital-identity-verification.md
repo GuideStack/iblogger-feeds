@@ -109,7 +109,7 @@ eKYC is the fully digital end-to-end process:
     'noteTextColor': '#ffffff',
     'noteBorderColor': '#34495e'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } text, tspan { fill: #ffffff !important; } @media (prefers-color-scheme: light) { text, tspan, .messageText, .signalText { fill: #1e1e1e !important; } .actor text, .actor tspan, .note text, .note tspan, .loopText, .loopText tspan { fill: #ffffff !important; } }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; } .messageText, .messageText tspan, .signalText, .signalText tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 3px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; }'
 }}%%
 sequenceDiagram
     autonumber
