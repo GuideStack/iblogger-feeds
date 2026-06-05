@@ -45,9 +45,9 @@ This is the **familiarity trap**: we give our *patience* to those who will forge
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 graph TD
-    A["🚪 អ្នកចម្លែក / ក្មេង<br/>(stranger / child)"] --> B["😊 សំឡេងទន់ភ្លន់ អត់ធ្មត់"]
-    C["🏠 ឪពុកម្ដាយ / សង្សារ<br/>(parent / partner)"] --> D["😤 សំឡេងស្រួចស្រាវ អន់ចិត្ត"]
-    B --> E["💔 ការបញ្ច្រាស់៖ អ្នកជិតបំផុត<br/>ទទួលឥរិយាបថអាក្រក់បំផុត"]
+    A["🚪 អ្នកចម្លែក / ក្មេង<br/>(stranger / child)"] --> B["😊 សំឡេងទន់ភ្លន់ អត់ធ្មត់<br/>(Gentle & Patient Voice)"]
+    C["🏠 ឪពុកម្ដាយ / សង្សារ<br/>(parent / partner)"] --> D["😤 សំឡេងស្រួចស្រាវ អន់ចិត្ត<br/>(Sharp & Irritated Voice)"]
+    B --> E["💔 ការបញ្ច្រាស់៖ អ្នកជិតបំផុត<br/>ទទួលឥរិយាបថអាក្រក់បំផុត<br/>(Paradox: Closest Get Worst Behavior)"]
     D --> E
 
     style B fill:#27ae60,color:#fff
@@ -119,9 +119,9 @@ When a 3-year-old errs, we teach: "Let's do it this way." When a partner does th
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 graph TD
-    A["🧒 ក្មេង ៣ ឆ្នាំ ធ្វើខុស"] --> B["💛 'យើងធ្វើបែបនេះវិញ'<br/>(បង្រៀន)"]
-    C["❤️ សង្សារ ធ្វើខុសដូចគ្នា"] --> D["💢 'ហេតុអ្វីអ្នកមិនដែលយល់?'<br/>(វាយប្រហារ)"]
-    B --> E["⚖️ កំហុសដូចគ្នា<br/>ប្រតិកម្មខុសគ្នា"]
+    A["🧒 ក្មេង ៣ ឆ្នាំ ធ្វើខុស<br/>(3-Year-Old Err)"] --> B["💛 'យើងធ្វើបែបនេះវិញ'<br/>(បង្រៀន)<br/>('Let's do it this way'<br/>- Teach)"]
+    C["❤️ សង្សារ ធ្វើខុសដូចគ្នា<br/>(Partner Err Same)"] --> D["💢 'ហេតុអ្វីអ្នកមិនដែលយល់?'<br/>(វាយប្រហារ)<br/>('Why don't you get it?'<br/>- Attack)"]
+    B --> E["⚖️ កំហុសដូចគ្នា<br/>ប្រតិកម្មខុសគ្នា<br/>(Same Mistake,<br/>Opposite Reaction)"]
     D --> E
 
     style B fill:#27ae60,color:#fff
@@ -162,8 +162,8 @@ Many people spend their *best energy* all day at work — smiling, patient, poli
   'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
 }}%%
 graph LR
-    A["🚪 1. សួរ៖ ខ្ញុំនិយាយបែបនេះ<br/>នឹងអ្នកចម្លែកទេ?"] --> B["🌱 2. សន្មត់ចេតនាល្អ<br/>(គេមិនបានចង់)"]
-    B --> C["💧 3. និយាយដើម្បីស្រោចទឹក<br/>មិនមែនដុតស្នេហា"]
+    A["🚪 1. សួរ៖ ខ្ញុំនិយាយបែបនេះ<br/>នឹងអ្នកចម្លែកទេ?<br/>(1. Ask: Would I say this<br/>to a stranger?)"] --> B["🌱 2. សន្មត់ចេតនាល្អ<br/>(គេមិនបានចង់)<br/>(2. Assume Good Intent<br/>- Not deliberate)"]
+    B --> C["💧 3. និយាយដើម្បីស្រោចទឹក<br/>មិនមែនដុតស្នេហា<br/>(3. Speak to Water,<br/>Not Burn Love)"]
     C --> A
 
     style A fill:#2980b9,color:#fff
