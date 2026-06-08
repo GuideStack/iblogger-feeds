@@ -68,7 +68,7 @@ graph TD
 <a id="1"></a>
 ## ១. រឿងព្រេងប្រវត្តិសាស្ត្រចិន៖ សង្គ្រាមអ៊ីលីង និងជោគវាសនានៃនគរតុងអ៊ូ (The Historic Legend: The Battle of Yiling and the Fate of Dong Wu)
 
-នៅក្នុងប្រលោមលោកប្រវត្តិសាស្ត្រ «សាមកុក» (Romance of the Three Kingdoms) បន្ទាប់ពីមេទ័ពធំ ក្វាន់ អ៊ូ (Guan Yu) ត្រូវបានកងទ័ពនគរតុងអ៊ូ (Dong Wu) ចាប់ខ្លួន និងប្រហារជីវិត លីវ ប៉ី (Liu Bei) អធិរាជនៃនគរស៊ូហាន (Shu Han) ត្រូវបានគ្របដណ្ដប់ដោយកំហឹង និងសេចក្ដីសោកសង្រេងយ៉ាងខ្លាំង។ គាត់បានបដិសេធរាល់ការទាស់ទែង និងការដាស់តឿនពីទីប្រឹក្សា ជូហ្គើ ឡាំង (Zhuge Liang) និងមេទ័ព ចៅ យុន (Zhao Yun) រួចដឹកនាំកងទ័ពធំរហូតដល់ ៧០០,០០០ នាក់ វាយលុកចូលទឹកដីតុងអ៊ូដើម្បីសងសឹក។
+នៅក្នុងប្រលោមលោកប្រវត្តិសាស្ត្រ «សាមកុក» (Romance of the Three Kingdoms) បន្ទាប់ពីមេទ័ពធំ ក្វាន់ អ៊ូ (Guan Yu) ត្រូវបានកងទ័ពនគរតុងអ៊ូ (Dong Wu) ចាប់ខ្លួន និងប្រហារជីវិត លីវ ប៉ី (Liu Bei) អធិរាជនៃនគរស៊ូហាន (Shu Han) ត្រូវបានគ្របដណ្ដប់ដោយកំហឹង និងសេចក្ដីសោកសង្រេងយ៉ាងខ្លាំង។ គាត់បានបដិសេធរាល់ការទាស់ទែង និងការដាស់តឿនពីទីប្រឹក្សា ជូកឺលៀង (ឬ ខុងបេង / Zhuge Liang) និងមេទ័ព ចៅ យុន (Zhao Yun) រួចដឹកនាំកងទ័ពធំរហូតដល់ ៧០០,០០០ នាក់ វាយលុកចូលទឹកដីតុងអ៊ូដើម្បីសងសឹក។
 
 In the historical classic *Romance of the Three Kingdoms*, after the legendary general Guan Yu was captured and executed by Dong Wu, Liu Bei, the Emperor of Shu Han, was consumed by rage and grief. Ignoring the counsel of Zhuge Liang and Zhao Yun, he launched a massive expedition of 700,000 troops to invade Dong Wu for revenge.
 
