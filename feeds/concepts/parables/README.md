@@ -64,6 +64,7 @@ Story-form explanations of software engineering concepts, cognitive biases, lead
 | 256 | [The Three Knocks & the Art of Subtle Signals](./256-the-three-knocks-and-the-art-of-subtle-signals.md) | Active Listening & High-Context Communication |
 | 257 | [The Stranger at the Door & the Voice at Home](./257-the-stranger-at-the-door-and-the-voice-at-home.md) | Familiarity · Why We're Harsh With Loved Ones |
 | 258 | [The Blind Man Riding a Blind Horse](./258-the-blind-man-riding-a-blind-horse.md) | Overconfidence · Risk Blindness · Strategic Patience |
+| 259 | [Context Collapse and the Scammer Meme](./259-context-collapse-and-the-scammer-meme.md) | Context Collapse · Spotlight Effect · Reputation Risk |
 
 ---
 
