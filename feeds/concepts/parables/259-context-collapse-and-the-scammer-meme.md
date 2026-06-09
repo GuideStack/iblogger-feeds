@@ -10,11 +10,11 @@
 
 > **« កាល យ៉ាង ប៊ូ ស្លៀកពាក់សចេញទៅក្រៅ រួចផ្លាស់ជាអាវខ្មៅត្រឡប់មកវិញ**
 > **ឆ្កែរបស់គេក៏ព្រុសដាក់ព្រោះមិនស្គាល់ម្ចាស់។**
-> **យ៉ាង ជូ បានដាស់តឿនថា៖ "កុំវាយវាអី! បើវាចេញទៅសហើយត្រឡប់មកខ្មៅវិញ តើអ្នកមិនប្លែកភ្នែកទេឬ?" »**
+> **យ៉ាង ជូ បានដាស់តឿនថា៖ "ប្អូនអើយ កុំវាយវាអី! បើវាចេញទៅសហើយត្រឡប់មកខ្មៅវិញ តើប្អូនមិនប្លែកភ្នែកទេឬ?" »**
 >
-> *"When Yang Bu went out in white clothes and returned in black,*
-> *His own dog barked at him because it did not recognize him.*
-> *Yang Zhu advised: 'Do not beat it! If your dog went out white and returned black, wouldn't you find it strange too?'"*
+> *"My brother, do not strike it! If you were in its position, you would have done the exact same thing.*
+> *Consider this: if your beloved dog went out with snow-white fur and returned covered in pitch-black mud,*
+> *would you not be startled, grow suspicious, and bark to drive it away?"*
 
 ---
 
@@ -39,13 +39,13 @@
 <a id="0"></a>
 ## អន្ទាក់ផ្លូវចិត្ត (The Trap)
 
-តើអ្នកធ្លាប់គិតថា «ទង្វើលេងសើចបន្តិចបន្តួចរបស់យើង មិនមែនជាបញ្ហាធំដុំទេ ព្រោះយើងមិនមានចេតនាអាក្រក់ ហើយការពិតយើងជាមនុស្សត្រឹមត្រូវ» ដែរឬទេ? នៅក្នុងពិភពលោកទំនើបដែលមានការតភ្ជាប់គ្នាយ៉ាងឆាប់រហ័ស ព័ត៌មាន និងរូបភាពដែលយើងបង្កើតឡើងក្នុងបរិបទឯកជន ឬការលេងសើចផ្ទៃក្នុង អាចត្រូវបានគេបកស្រាយខុសទាំងស្រុងនៅពេលវាធ្លាក់ទៅក្នុងដៃមនុស្សខាងក្រៅ។
+តើអ្នកធ្លាប់មានអារម្មណ៍ថា ក្រុមការងារតូចមួយរបស់អ្នក ដែលធ្លាប់តែជា «ជម្រកសុវត្ថិភាព» សម្រាប់ចែករំលែកចំណេះដឹង បេសកកម្មរួមគ្នា ភាពរីករាយ និងការលេងសើចបែប Meme ផ្ទៃក្នុង បែរជាត្រូវរងការគំរាមកំហែង និងយល់ច្រឡំពីពិភពខាងក្រៅដែរឬទេ? នៅក្នុងយុគសម័យបច្ចេកវិទ្យា ព្រំដែនរវាង «ការលេងសើចលក្ខណៈឯកជន» និង «ការវិនិច្ឆ័យលក្ខណៈសាធារណៈ» គឺស្តើងខ្លាំងណាស់។ នៅពេលដែលខ្លឹមសារផ្ទៃក្នុងលេចធ្លាយ ឬរងការស៊ើបអង្កេតពីអ្នកខាងក្រៅ វាអាចបង្កជាការថប់បារម្ភ និងការយល់ច្រឡំជាខ្លាំង។
 
-Have you ever thought: "A small joke we made isn't a big deal, because we have no bad intentions and in reality, we are honest people"? In our highly connected modern world, information and images created within a private context or as an internal joke can be completely misinterpreted when exposed to the outside world.
+Have you ever felt that your close-knit team—which was once a "safe haven" for sharing knowledge, missions, laughter, and inside jokes—suddenly became threatened and misunderstood by the outside world? In the digital age, the boundary between "private humor" and "public judgment" is extremely thin. When internal content leaks or faces external audits, it can trigger deep anxiety and confusion.
 
-នេះជា **អន្ទាក់នៃការដួលរលំនៃបរិបទ (Context Collapse Trap)**៖ នៅពេលដែលរូបភាព ឬអត្តសញ្ញាណដែលយើងបង្កើតឡើងសម្រាប់ការសប្បាយផ្ទៃក្នុង (អាវខ្មៅរបស់ យ៉ាង ប៊ូ) ត្រូវបានមើលឃើញដោយអ្នកខាងក្រៅដែលគ្មានព័ត៌មានពិត (ឆ្កែព្រុសដាក់) វានឹងបង្កើតឱ្យមានការយល់ច្រឡំ និងការប៉ះពាល់ដល់កេរ្តិ៍ឈ្មោះដោយជៀសមិនរួច ទោះបីជាយើងមិនមានកំហុសពិតប្រាកដក៏ដោយ។
+នេះជា **អន្ទាក់នៃការដួលរលំនៃបរិបទ (Context Collapse Trap)**៖ កើតឡើងនៅពេលដែលរហស្សនាមកំប្លែង ឬ Meme ដែលយើងបង្កើតឡើងដើម្បីភាពសប្បាយរីករាយផ្ទៃក្នុង (ប្រៀបដូចជា អាវខ្មៅរបស់ យ៉ាង ប៊ូ) ត្រូវបានមើលឃើញដោយអ្នកខាងក្រៅដែលគ្មានព័ត៌មាន និងគ្មានការយោគយល់ (ប្រៀបដូចជា ឆ្កែព្រុសដាក់)។ ពួកគេនឹងវាយតម្លៃតែលើរូបភាពខាងក្រៅ បង្កឱ្យមានការថប់បារម្ភចំពោះកេរ្តិ៍ឈ្មោះ និងការបារម្ភពីការលួចអត្តសញ្ញាណ ទោះបីជាការពិតយើងជាក្រុមហ៊ុនស្របច្បាប់ដែលមានប្រវត្តិត្រឹមត្រូវក៏ដោយ។
 
-This is the **Context Collapse Trap**: when an image or identity created for internal amusement (Yang Bu's black robe) is observed by outsiders who lack verified information (the barking dog), it inevitably causes misunderstandings and reputational damage, regardless of our actual innocence.
+This is the **Context Collapse Trap**: it occurs when a playful name or meme created for internal amusement (Yang Bu's black robe) is observed by outsiders who lack context and empathy (the barking dog). They judge solely based on outer appearances, triggering reputational anxiety and fear of identity theft, even though we are a legitimate, tax-paying entity with a clean history.
 
 ```mermaid
 %%{init: {
@@ -76,30 +76,30 @@ graph TD
 <a id="1"></a>
 ## ១. រឿងព្រេងប្រវត្តិសាស្ត្រចិន៖ យ៉ាង ប៊ូ និងឆ្កែយាមទ្វារ (The Historic Legend: Yang Bu and the Guard Dog)
 
-នៅក្នុងសៀវភៅទស្សនវិជ្ជាបុរាណរបស់ចិន «លីត្សឺ» (Liezi - 列子) មាននិទានខ្លីមួយអំពីយុវជនម្នាក់ឈ្មោះ យ៉ាង ប៊ូ (Yang Bu) ដែលត្រូវជាប្អូនប្រុសរបស់ទស្សនវិទូដ៏ល្បីល្បាញ យ៉ាង ជូ (Yang Zhu)។ ថ្ងៃមួយ យ៉ាង ប៊ូ បានរៀបចំខ្លួនស្លៀកពាក់អាវធំពណ៌សដ៏ស្អាតស្អំ ដើម្បីធ្វើដំណើរទៅបំពេញការងារនៅខាងក្រៅផ្ទះ។
+នៅក្នុងទស្សនវិជ្ជាបុរាណរបស់ចិន «លីត្សឺ» (Liezi - 列子) មានដំណើររឿងដ៏មានតម្លៃមួយអំពីយុវជនម្នាក់ឈ្មោះ យ៉ាង ប៊ូ (Yang Bu) ដែលត្រូវជាប្អូនប្រុសបង្កើតរបស់ទស្សនវិទូដ៏ល្បីល្បាញគឺលោក យ៉ាង ជូ (Yang Zhu)។ ថ្ងៃមួយ យ៉ាង ប៊ូ បានស្លៀកពាក់អាវធំពណ៌សស្អាតស្អំយ៉ាងប្រណីត ដើម្បីចេញទៅបំពេញកិច្ចការនៅខាងក្រៅផ្ទះ។
 
-In the ancient Chinese philosophical text *Liezi*, there is a short parable about a young man named Yang Bu, the younger brother of the famous philosopher Yang Zhu. One day, Yang Bu dressed in a pristine white robe and went out to attend to some affairs.
+In the ancient Chinese philosophical text *Liezi*, there is a narrative about a young man named Yang Bu, the younger brother of the renowned philosopher Yang Zhu. One day, Yang Bu put on a clean, elegant white robe and stepped out of his house to attend to his affairs.
 
-ខណៈពេលដែលគាត់កំពុងធ្វើដំណើរ ស្រាប់តែមេឃប្រែជាខ្មៅងងឹត ហើយមានភ្លៀងធ្លាក់យ៉ាងខ្លាំង។ ដោយគ្មានកន្លែងជ្រកទឹកភ្លៀង អាវធំពណ៌សរបស់ យ៉ាង ប៊ូ ត្រូវបានទទឹកជោកជាំ និងប្រឡាក់ដោយភក់ដីពណ៌ខ្មៅកខ្វក់មើលមិនយល់ឡើយ។ ដើម្បីឱ្យខ្លួនប្រាណមានភាពកក់ក្តៅ និងស្ងួតល្អ យ៉ាង ប៊ូ បានសម្រេចចិត្តដោះអាវសដែលសើមនោះចេញ រួចផ្លាស់ប្តូរទៅស្លៀកពាក់អាវធំពណ៌ខ្មៅមួយដែលគាត់បានខ្ចីពីគេជាបណ្តោះអាសន្ន រួចក៏បន្តធ្វើដំណើរត្រឡប់មកផ្ទះវិញ។
+ខណៈពេលធ្វើដំណើរ ស្រាប់តែមេឃប្រែជាអាប់អួរ ហើយភ្លៀងក៏បានធ្លាក់ចុះមកយ៉ាងគំហក។ ដោយគ្មានទ្រនំជ្រកកោន អាវធំពណ៌សរបស់ យ៉ាង ប៊ូ ត្រូវទទឹកជោកជាំ និងប្រឡាក់ប្រឡូសដោយភក់ដីកខ្វក់មើលលែងយល់។ ដើម្បីការពារខ្លួនពីភាពត្រជាក់ញាក់ញ័រ យ៉ាង ប៊ូ ក៏បានសម្រេចចិត្តដោះអាវសដែលទទឹកនោះចេញ រួចផ្លាស់មកស្លៀកអាវធំពណ៌ខ្មៅមួយដែលបានខ្ចីពីគេជាបណ្តោះអាសន្ន ហើយបន្តដំណើរត្រឡប់មកផ្ទះវិញ។
 
-While he was traveling, the sky turned dark and a heavy rainstorm broke out. With no shelter nearby, Yang Bu's clean white robe was soaked through and covered in black, dirty mud. To stay warm and dry, Yang Bu decided to take off his wet white robe and changed into a clean black robe he borrowed from a friend, and then continued his journey back home.
+While he was on the road, the sky darkened unexpectedly, and a torrential downpour swept across the land. With no shelter in sight, his beautiful white robe was instantly drenched and splattered with thick, dark mud. To escape the shivering cold, Yang Bu took off his soiled robe, changed into a black one borrowed from an acquaintance, and hastened back home.
 
 <a id="1-1"></a>
 ### ការយល់ច្រឡំដោយសារសម្លៀកបំពាក់ (The Misunderstanding of Clothes)
 
-នៅពេលដែល យ៉ាង ប៊ូ ដើរមកដល់មុខទ្វាររបងផ្ទះរបស់ខ្លួន ឆ្កែរបស់គាត់ដែលធ្លាប់តែស្គាល់ម្ចាស់យ៉ាងច្បាស់ មិនបានចំណាំសម្លៀកបំពាក់ពណ៌ខ្មៅនោះឡើយ។ វាឃើញមនុស្សចម្លែកស្លៀកពាក់អាវខ្មៅដើរចូលមកក្នុងផ្ទះ វាក៏បានស្ទុះរត់ចេញមកព្រុសដាក់ យ៉ាង ប៊ូ យ៉ាងខ្លាំងក្លា និងបម្រុងនឹងខាំគាត់ថែមទៀតផង។
+លុះពេលមកដល់មុខទ្វាររបងផ្ទះ ឆ្កែយាមទ្វារដែលធ្លាប់តែស្គាល់ និងស្រឡាញ់ម្ចាស់យ៉ាងខ្លាំង បែរជាមិនអាចចំណាំរូបរាងរបស់គាត់ក្នុងសម្លៀកបំពាក់ពណ៌ខ្មៅនោះបានឡើយ។ ដោយឃើញមនុស្សចម្លែកក្នុងអាវខ្មៅស្រអាប់ដើរចូលមក ឆ្កែនោះក៏ស្ទុះរត់ចេញមកព្រុសសន្ធប់យ៉ាងកាចសាហាវ និងបម្រុងនឹងខាំដាច់សាច់គាត់ថែមទៀត។
 
-When Yang Bu arrived back at his own house gate, his guard dog, which normally knew him very well, did not recognize him in the black robe. Seeing a figure in a black robe entering the property, the dog rushed out, barking furiously and threatening to bite Yang Bu.
+Yet, as he reached his own front gate, the family guard dog—which usually adored and protected him—failed to recognize him in the dark clothing. Seeing a stranger in a dark, unfamiliar robe entering the courtyard, the dog rushed forward, barking ferociously and snapping at his heels.
 
-យ៉ាង ប៊ូ មានការខឹងសម្បារ និងអាក់អន់ចិត្តយ៉ាងខ្លាំង ដែលឆ្កែដែលខ្លួនធ្លាប់ផ្តល់អាហារ និងចិញ្ចឹមរាល់ថ្ងៃ បែរជាមិនស្គាល់ម្ចាស់ទៅវិញ។ គាត់បានដើរទៅរើសដំបងឈើមួយយ៉ាងធំ ដើម្បីវាយប្រដៅ និងកាត់ទោសឆ្កែនោះចំពោះភាពល្ងង់ខ្លៅរបស់វា។
+យ៉ាង ប៊ូ មានការខឹងសម្បារ និងអាក់អន់ចិត្តជាពន់ពេក។ គាត់នឹកគិតក្នុងចិត្តថា ខ្លួនជាអ្នកផ្តល់អាហារ និងក្តីស្រឡាញ់ដល់វាជារៀងរាល់ថ្ងៃ បែរជាវាមិនស្គាល់រូបគាត់ទៅវិញ។ ដោយកំហឹងបាំងមុខ យ៉ាង ប៊ូ ក៏បានដើរទៅរើសដំបងឈើមួយយ៉ាងធំ ដើម្បីវាយកម្ទេចឆ្កែនោះឱ្យរាងចាលនឹងភាពល្ងង់ខ្លៅរបស់វា។
 
-Yang Bu was enraged and offended that the dog he fed and raised every day failed to recognize him. He walked over to pick up a large wooden stick, intending to beat and punish the dog for its apparent ignorance.
+Yang Bu was deeply hurt and infuriated. He thought of how he had fed, cared for, and loved this animal daily, only to be treated like an intruder. Blinded by anger, he grabbed a heavy wooden staff, determined to beat the dog to punish its ignorance.
 
-នៅពេលនោះ បងប្រុសរបស់គាត់គឺលោក យ៉ាង ជូ បានឃើញហេតុការណ៍នោះពីចម្ងាយ ក៏បានដើរមកឃាត់ដៃ យ៉ាង ប៊ូ រួចពោលពាក្យដាស់តឿនថា៖
-> **« កុំវាយវាអី! អ្នកឯងក៏នឹងធ្វើដូចជាវាដែរ ប្រសិនបើស្ថិតក្នុងស្ថានភាពបែបនេះ។ សាកគិតមើល ប្រសិនបើឆ្កែរបស់អ្នកចេញទៅក្រៅមានរោមពណ៌សស្អាត ស្រាប់តែពេលត្រឡប់មកវិញ វាមានរោមពណ៌ខ្មៅកខ្វក់ទាំងស្រុង តើអ្នកមិនប្លែកភ្នែក មិនសង្ស័យ និងមិនព្រុសដេញវាចេញពីផ្ទះទេឬ? »**
+ខណៈនោះ បងប្រុសរបស់គាត់គឺលោក យ៉ាង ជូ បានក្រឡេកឃើញហេតុការណ៍ដ៏ច្របូកច្របូលនេះ ក៏បានស្ទុះមកឃាត់ដៃរបស់ យ៉ាង ប៊ូ រួចពោលពាក្យដាស់តឿនប្រកបដោយគតិបណ្ឌិតថា៖
+> **« ប្អូនអើយ កុំវាយវាអី! បើប្អូនស្ថិតក្នុងស្ថានភាពដូចវា ប្អូនក៏នឹងធ្វើដូចវាដែរ។ សាកគិតមើល ប្រសិនបើឆ្កែរបស់ប្អូនធ្លាប់តែមានរោមពណ៌សស្អាត ចេញទៅក្រៅមួយសន្ទុះ ស្រាប់តែត្រឡប់មកវិញមានរោមពណ៌ខ្មៅស្រម៉កទាំងស្រុង តើប្អូនមិនប្លែកភ្នែក មិនសង្ស័យ ហើយព្រុសដេញវាចេញពីផ្ទះទេឬ? »**
 
-Seeing this from a distance, his older brother Yang Zhu stopped Yang Bu and advised:
-> *"Do not beat it! You would have reacted the exact same way. Think about it: if your dog went out with clean white fur, and suddenly returned looking completely black, wouldn't you find it strange, get suspicious, and bark to drive it away?"*
+Witnessing this chaotic scene, his older brother Yang Zhu rushed over, grabbed Yang Bu's hand, and offered a word of profound wisdom:
+> *"My brother, do not strike it! If you were in its position, you would have done the exact same thing. Consider this: if your beloved dog went out with snow-white fur and returned covered in pitch-black mud, would you not be startled, grow suspicious, and bark to drive it away?"*
 
 យ៉ាង ប៊ូ ឮហើយក៏ទម្លាក់ដំបងចុះ ដោយដឹងខ្លួនថា ឆ្កែមិនបានខុសឡើយ គឺវាគ្រាន់តែប្រតិកម្មទៅតាមអ្វីដែលវាឃើញពីខាងក្រៅប៉ុណ្ណោះ។
 
@@ -154,19 +154,19 @@ sequenceDiagram
 ```
 
 1. **ការដួលរលំនៃបរិបទ (Context Collapse)៖**
-   * **ស្ថានភាព៖** កើតឡើងនៅពេលដែលព័ត៌មាន ឬសកម្មភាពដែលត្រូវបានរចនាឡើងសម្រាប់ទស្សនិកជនជាក់លាក់មួយ (ដូចជា ក្រុមការងារផ្ទៃក្នុង មិត្តភក្តិជិតស្និទ្ធ ឬការលេងសើចតាម Meme) ត្រូវបានលេចធ្លាយ ឬត្រូវបានមើលឃើញដោយទស្សនិកជនផ្សេងទៀតដែលគ្មានបរិបទនោះ។
-   * **លទ្ធផល៖** អ្នកខាងក្រៅ (ដូចជា សវនករ សន្តិសុខ ឬទស្សនិកជនហ្វេសប៊ុក) មិនមាន «បរិបទខាងក្នុង» ឡើយ។ ពួកគេមើលឃើញតែ «អាវខ្មៅ» (ដូចជា ឈ្មោះក្រុមជាឈ្មោះស្កែម័រ ឬរូបភាពចម្លែកៗ) ហើយធ្វើការវិនិច្ឆ័យភ្លាមៗទៅតាមអ្វីដែលពួកគេឃើញ ដោយគ្មានការយោគយល់ ឬដឹងពីប្រវត្តិពិតឡើយ។
-   * *Context Collapse occurs when information meant for a specific audience (internal team, close friends) spills over to another audience. Outsiders judge based purely on surface appearance, lacking the historical context.*
+   * **ស្ថានភាព៖** កើតឡើងនៅពេលដែល «ជម្រកសុវត្ថិភាព» នៃក្រុមជជែកផ្ទៃក្នុងរបស់យើង ដែលធ្លាប់តែលេងសើច ប្តូរឈ្មោះក្រុមតាម Meme កំប្លែងៗរបស់ ព្រះអង្គចន្ទមនី ឬ Zhen Chi ត្រូវបានអ្នកខាងក្រៅចូលមកពិនិត្យដោយចៃដន្យ។
+   * **លទ្ធផល៖** អ្នកខាងក្រៅ ឬសវនករ មិនមានព័ត៌មាន និងប្រវត្តិការងាររបស់ក្រុមការងារឡើយ។ ពួកគេមើលឃើញតែ «រូបភាពខាងក្រៅ» ហើយសន្និដ្ឋានថា ក្រុមការងារមានគំនិតមិនល្អ ឬកំពុងធ្វើសកម្មភាពខុសច្បាប់។
+   * *Context Collapse happens when a safe, private group chat, once full of harmless memes, is audited by outsiders. Lacking internal history, they judge the team solely by their joke identities.*
 
 2. **ឥទ្ធិពលចាំងចង្កៀង (The Spotlight Effect)៖**
-   * **ស្ថានភាព៖** ជាទំនោរចិត្តសាស្ត្រដែលបុគ្គលម្នាក់ៗគិតថា អ្នកដទៃកំពុងយកចិត្តទុកដាក់ សង្កេតមើល និងវិនិច្ឆ័យរាល់ទង្វើ ឬកំហុសរបស់ខ្លួនគ្រប់ពេល។
-   * **លទ្ធផល៖** នៅពេលដែលទំព័រហ្វេសប៊ុកបង្ហោះរូបថតដែលមិនបានបិទបាំងមុខរបស់ក្រុមការងារ យើងមានអារម្មណ៍ថា «មនុស្សគ្រប់គ្នាកំពុងមើលមកយើង និងគិតថាយើងជាមនុស្សអាក្រក់»។ ប៉ុន្តែការពិត ពិភពលោកខាងក្រៅមិនបានចាប់អារម្មណ៍ខ្លាំងដូចអ្វីដែលយើងបារម្ភឡើយ។ រូបភាពនោះនឹងអណ្តែតបាត់ទៅក្នុងលំហរអ៊ីនធឺណិតក្នុងរយៈពេលដ៏ខ្លី។
-   * *The Spotlight Effect is the psychological tendency to overestimate how much others notice and judge us. In reality, public attention is short-lived, and a social media post is quickly forgotten by the public.*
+   * **ស្ថានភាព៖** ការបារម្ភ និងថប់បារម្ភយ៉ាងខ្លាំង នៅពេលដែលរូបភាពផ្ទៃក្នុងត្រូវបានគេបង្ហោះនៅលើ Facebook Page ដោយគ្មានការបិទបាំងមុខ (Blur)។ យើងខ្លាចថា «Haters» ឬសត្រូវ នឹងយករូបភាពទាំងនោះទៅបង្ខូចកេរ្តិ៍ឈ្មោះ ឬធ្វើបាបយើង។
+   * **លទ្ធផល៖** ការពិត ពិភពបណ្តាញសង្គមមានរឿងរ៉ាវរាប់លាន ព័ត៌មាននេះនឹងអណ្តែតបាត់ទៅក្នុងរយៈពេលពីរបីថ្ងៃ។ ប៉ុន្តែភាពភ័យខ្លាចផ្ទាល់ខ្លួនអាចធ្វើឱ្យយើងមានអារម្មណ៍ថា មនុស្សគ្រប់គ្នាកំពុងតាមមើល និងចង្អុលមុខយើងគ្រប់ពេល។
+   * *The Spotlight Effect causes deep anxiety when unblurred team photos are shared on social media. We fear adversaries will exploit this, but in truth, the public quickly moves on, and the post sinks into obscurity.*
 
 3. **ការគិតថាយើងមានតម្លាភាព (The Illusion of Transparency)៖**
-   * **ស្ថានភាព៖** យើងតែងតែគិតថា ចេតនា និងការពិតខាងក្នុងរបស់យើងគឺមានតម្លាភាព ដែលអ្នកដទៃអាចមើលឃើញ និងយល់បានដោយងាយ។
-   * **លទ្ធផល៖** យ៉ាង ប៊ូ គិតថា «ខ្ញុំនៅតែជាម្ចាស់ដដែល ទោះបីពាក់អាវខ្មៅក៏ដោយ»។ ក្រុមការងារគិតថា «ពួកយើងជាក្រុមហ៊ុនស្របច្បាប់តាំងពីឆ្នាំ ២០០៤ បង់ពន្ធត្រឹមត្រូវ ដូច្នេះការផ្លាស់ប្តូរឈ្មោះក្រុមលេងៗមិនមែនជាបញ្ហាធំឡើយ»។ នេះជាការរំពឹងទុកខុសពីការពិត ព្រោះពិភពខាងក្រៅវិនិច្ឆ័យយើងដោយផ្អែកលើ «សម្លៀកបំពាក់» ដែលយើងពាក់ មិនមែនផ្អែកលើ «ចិត្ត» របស់យើងឡើយ។
-   * *The Illusion of Transparency is the belief that our internal states and true nature are obvious to others. In reality, the world judges us by our covers, not by our silent compliance.*
+   * **ស្ថានភាព៖** យើងតែងយល់ថា «យើងមានភាពស្អាតស្អំ ក្រុមហ៊ុនយើងចុះបញ្ជីស្របច្បាប់តាំងពីឆ្នាំ ២០០៤ និងបង់ពន្ធត្រឹមត្រូវ ដូច្នេះការផ្លាស់ប្តូរឈ្មោះក្រុមលេងៗមិនមែនជាបញ្ហាធំឡើយ ព្រោះគ្រប់គ្នាសុទ្ធតែដឹងពីភាពស្មោះត្រង់របស់យើង»។
+   * **លទ្ធផល៖** នេះជាការរំពឹងទុកខុសពីការពិត ព្រោះពិភពខាងក្រៅមិនអាចមើលឃើញ «ចិត្តគំនិត និងភាពស្មោះត្រង់» របស់យើងភ្លាមៗឡើយ។ ពួកគេមើលឃើញតែ «អាវខ្មៅ» ដែលយើងពាក់ ហើយព្រុសដាក់យើងភ្លាមៗ។
+   * *The Illusion of Transparency is the belief that our clean history and 20-year tax compliance are obvious to everyone. However, the outside world only reacts to the immediate "black robe" we wear.*
 
 ---
 
@@ -368,7 +368,7 @@ graph LR
    * *Never adopt names or avatars of scammers or illicit elements, even as a joke. Outsiders lack internal contexts and judge by appearances.*
 
 3. **ចាត់វិធានការដោយស្ងប់ស្ងៀម និងប្រើប្រាស់ខែលច្បាប់ (Act with Calmness and Use Legal Shields)៖**
-   * នៅពេលមានការយល់ច្រឡំកើតឡើង កុំប្រតិកម្មដោយអារម្មណ៍ឆេវឆាវ ឬកំហឹង (កុំវាយឆ្កែ)។ ត្រូវបង្ហាញភស្តុតាងច្បាប់ (លិខិតចុះបញ្ជី តម្រូវការបង់ពន្ធតាំងពីឆ្នាំ ២០០៤) ដើម្បីបញ្ជាក់ភាពស្អាតស្អំ។ ប្រសិនបើមានការរំលោភឯកជនភាព ចូរទាក់ទងស្នើសុំឱ្យបិទបាំងរូបថតដោយប្រើប្រាស់ភាសាផ្លូវការ និងច្បាប់ការងារ។
+   * នៅពេលមានការយល់ច្រឡំកើតឡើង កុំប្រតិកម្មដោយអារម្មណ៍ឆេវឆាវ ឬកំហឹង (កុំវាយឆ្កែ)។ ត្រូវបង្ហាញភស្តុតាងច្បាប់ (លិខិតចុះបញ្ជី ការបង់ពន្ធតាំងពីឆ្នាំ ២០០៤ និងក្រុមហ៊ុនដែលចុះកិច្ចសន្យាតាំងពីឆ្នាំ ២០០៤) ដើម្បីបញ្ជាក់ភាពស្អាតស្អំ។ ប្រសិនបើមានការរំលោភឯកជនភាព ចូរទាក់ទងស្នើសុំឱ្យបិទបាំងរូបថតដោយប្រើប្រាស់ភាសាផ្លូវការ និងច្បាប់ការងារ។
    * *Do not react with emotion. Use your legal history and tax compliance as a shield. Request photo redactions politely but firmly based on privacy guidelines.*
 
 4. **ពង្រឹងប្រព័ន្ធឯកជនភាព និងចាក់សោគណនី (Harden Profile Security and Privacy Settings)៖**
@@ -384,9 +384,9 @@ graph LR
 > 
 > *"Yang Bu was angry at his dog because he believed he was still the same person. But the dog was not wrong; it only saw a unfamiliar black robe. Expecting the world to know your pure intentions while you dress in a thief's clothing is not the world's ignorance—it is your own negligence."*
 
-លើកក្រោយ នៅពេលអ្នកសម្រេចចិត្តរៀបចំឈ្មោះក្រុមការងារ ប្រើប្រាស់រូបតំណាងគណនី ឬលេងសើចនឹងប្រធានបទណាមួយ — ចូរគិតដល់រឿង យ៉ាង ប៊ូ ផ្លាស់អាវសទៅជាអាវខ្មៅ។ ចូរសួរខ្លួនឯងថា៖ **«តើការលេងសើចនេះ កំពុងតែផ្លាស់ប្តូរអាវរបស់ខ្ញុំទៅជាពណ៌ខ្មៅនៅចំពោះមុខឆ្កែយាមទ្វារមែនទេ? តើខ្ញុំបានការពារបរិបទការងាររបស់ខ្ញុំត្រឹមត្រូវហើយឬនៅ?»** ការរក្សាព្រំដែនព័ត៌មានឱ្យបានច្បាស់លាស់ គឺជាគន្លឹះដើម្បីគេចផុតពីវិបត្តិ reputational damage និងការថប់បារម្ភទាំងឡាយ។
+ការមាន «ជម្រកសុវត្ថិភាព» សម្រាប់ចែករំលែកអារម្មណ៍ និងការលេងសើច Meme ក្នុងក្រុមការងារ ជារឿងល្អណាស់ដើម្បីបំបាត់ភាពតានតឹង។ ប៉ុន្តែ ចូរចងចាំថា ពិភពលោកខាងក្រៅមិនស្គាល់ប្រវត្តិដ៏ល្អរបស់អ្នកតាំងពីឆ្នាំ ២០០៤ ភ្លាមៗឡើយ។ ពួកគេមើលឃើញតែឈ្មោះក្រុម «Zhen Chi (Scammer)» នៅលើអេក្រង់។ លើកក្រោយ មុននឹងប្តូរឈ្មោះក្រុម ឬរូបតំណាង ចូរនឹកគិតដល់រឿង យ៉ាង ប៊ូ ផ្លាស់អាវសទៅជាអាវខ្មៅ។ ការរក្សាព្រំដែនព័ត៌មានការងារឱ្យបានច្បាស់លាស់ គឺជាខែលការពារដ៏រឹងមាំបំផុតសម្រាប់កេរ្តិ៍ឈ្មោះក្រុមហ៊ុន និងសេចក្តីស្ងប់ក្នុងចិត្តរបស់យើងម្នាក់ៗ។
 
-Next time you configure your workspace names, select user avatars, or engage in casual team humor—remember Yang Bu changing his white robe to black. Ask yourself: *"Is this joke changing my robe to black in front of the guard dog? Have I protected my professional context properly?"* Maintaining clear boundaries is the key to escaping reputational crises and anxiety.
+Having a "safe haven" to share emotions and memes inside your team is wonderful for relieving stress. However, remember that the outside world does not instantly know your honest, tax-paying history since 2004. They only see the name "Zhen Chi (Scammer)" on the screen. Next time you change a group name or profile picture, think of Yang Bu changing his white robe to black. Keeping clean boundaries in business communication is the strongest shield for your company's reputation and your own mental peace.
 
 ---
 
