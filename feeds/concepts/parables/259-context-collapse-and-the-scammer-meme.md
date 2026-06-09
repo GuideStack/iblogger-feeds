@@ -55,7 +55,7 @@ This is the **Context Collapse Trap**: it occurs when a playful name or meme cre
     'primaryTextColor': '#ffffff',
     'lineColor': '#a0a0a0'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 2px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; }'
 }}%%
 graph TD
     A["🎭 គំនិតខាងក្នុង<br/>(Internal Intent)"] --> B1["❌ បង្ហាញរូបរាងច្រឡំ<br/>(Joking / Black Robe)"]
@@ -128,7 +128,7 @@ The story of Yang Bu and his dog illustrates two powerful phenomena in modern co
     'noteTextColor': '#ffffff',
     'noteBorderColor': '#34495e'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; } .messageText, .messageText tspan, .signalText, .signalText tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 3px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 2px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; } .messageText, .messageText tspan, .signalText, .signalText tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 3px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; }'
 }}%%
 sequenceDiagram
     participant Team as 👥 ក្រុមការងារ<br/>(Internal Team)
@@ -190,7 +190,7 @@ sequenceDiagram
     'primaryTextColor': '#ffffff',
     'lineColor': '#a0a0a0'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 2px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; }'
 }}%%
 graph TD
     A["👪 លេងសើចដាក់ឈ្មោះក្នុងក្រុម<br/>(Family Chat Joke)"] --> B1["❌ ប្រកែកគ្នាជាមួយសាច់ញាតិ<br/>និងបដិសេធមិនដូរឈ្មោះ<br/>(Defend Joke & Fight)"]
@@ -221,7 +221,7 @@ graph TD
     'primaryTextColor': '#ffffff',
     'lineColor': '#a0a0a0'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 2px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; }'
 }}%%
 graph TD
     A["💻 សរសេរកូដលេងសើចក្នុងប្រព័ន្ធ<br/>(Joking variable in code)"] --> B1["❌ ការពារខ្លួនថាគ្រាន់តែជាការលេងសើច<br/>និងមិនព្រមសម្អាតកូដ<br/>(Dismiss Security Warning)"]
@@ -252,7 +252,7 @@ graph TD
     'primaryTextColor': '#ffffff',
     'lineColor': '#a0a0a0'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 2px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; }'
 }}%%
 graph TD
     A["🏢 ឈ្មោះក្រុម Element ជាឈ្មោះស្កែម័រ<br/>(Scammer Group Name on Element)"] --> B1["❌ ប្រកែកជាមួយសវនករ<br/>ថាពួកគេគ្មានសិទ្ធិគ្រប់គ្រងក្រុម<br/>(Fight Auditors & Keep Name)"]
@@ -283,7 +283,7 @@ graph TD
     'primaryTextColor': '#ffffff',
     'lineColor': '#a0a0a0'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 2px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; }'
 }}%%
 graph TD
     A["📢 បង្ហោះរូបមិនបិទបាំងមុខលើ FB<br/>(Unblurred Facebook Post)"] --> B1["❌ ជេរតបតក្នុង Comment<br/>ឱ្យរឿងកាន់តែធំ<br/>(Angry Comment War)"]
@@ -314,7 +314,7 @@ graph TD
     'primaryTextColor': '#ffffff',
     'lineColor': '#a0a0a0'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 2px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; }'
 }}%%
 graph TD
     A["🛡️ ការបារម្ភពីការលួចរូបភាពក្លែងបន្លំ<br/>(Impersonation Anxiety)"] --> B1["❌ បិទអាជីវកម្ម ឬរស់ក្នុងភាពភ័យខ្លាច<br/>និងមិនហ៊ានប្រឈមមុខ<br/>(Panic & Operations Stalled)"]
@@ -345,7 +345,7 @@ To shield your business and team from context collapse and eliminate reputationa
     'primaryTextColor': '#ffffff',
     'lineColor': '#a0a0a0'
   },
-  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; }'
+  'themeCSS': 'svg { background-color: #1e1e1e !important; padding: 1rem !important; border-radius: 8px !important; } .edgeLabel rect { fill: #1e1e1e !important; } text, tspan { fill: #ffffff !important; stroke: #1e1e1e !important; stroke-width: 2px !important; paint-order: stroke fill !important; stroke-linejoin: round !important; }'
 }}%%
 graph LR
     A["🛡️ 1. បំបែកបរិបទ<br/>(Separate Context)"] --> B["👤 2. រក្សាភាពអាជីព<br/>(Keep Professional ID)"]
