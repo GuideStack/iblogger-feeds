@@ -6,11 +6,11 @@
 
 **A living engineering &amp; knowledge reference library** — clean code, DevOps, security, project management, compliance, curriculum, language, and the habits that hold it all together.
 
-[![Last Commit](https://img.shields.io/github/last-commit/iblogger855/iblogger-feeds)](https://github.com/iblogger855/iblogger-feeds/commits/main)
-[![License](https://img.shields.io/github/license/iblogger855/iblogger-feeds)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/GuideStack/iblogger-feeds)](https://github.com/GuideStack/iblogger-feeds/commits/main)
+[![License](https://img.shields.io/github/license/GuideStack/iblogger-feeds)](LICENSE)
 [![Docs](https://img.shields.io/badge/reference%20docs-1200%2B-0ea5e9)](INDEX.md)
 [![Languages](https://img.shields.io/badge/languages-EN%20%2B%20Khmer-34d399)](#)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/iblogger855/iblogger-feeds/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/GuideStack/iblogger-feeds/pulls)
 
 </div>
 
@@ -105,7 +105,7 @@ iblogger-feeds/
 
 ```bash
 # 1. Clone
-git clone https://github.com/iblogger855/iblogger-feeds.git
+git clone https://github.com/GuideStack/iblogger-feeds.git
 cd iblogger-feeds
 
 # 2. Branch
