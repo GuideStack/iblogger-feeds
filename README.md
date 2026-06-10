@@ -129,6 +129,6 @@ See [STRUCTURE.md](STRUCTURE.md) for style, diagram, and cross-link conventions,
 
 <div align="center">
 
-Maintained by [@ichamrong](https://github.com/ichamrong) · [@iblogger855](https://github.com/iblogger855)
+Maintained by [guidestack](https://guidestack.github.io/iblogger-player/) · [@iblogger855](https://github.com/iblogger855)
 
 </div>

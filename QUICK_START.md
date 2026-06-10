@@ -32,7 +32,7 @@ Start with this example:
 
 ```bash
 # 1. Fork the repository
-git clone https://github.com/ichamrong/iblogger-feeds.git
+git clone https://github.com/iblogger855/iblogger-feeds.git
 cd iblogger-feeds
 
 # 2. Create a new branch
